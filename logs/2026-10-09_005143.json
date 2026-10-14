@@ -1,0 +1,66 @@
+{
+  "roster": [
+    {
+      "name": "Murali Bathey Ravindran",
+      "client": "Microsoft",
+      "code": "GH-300",
+      "phone": "9840056401"
+    },
+    {
+      "name": "Prathamesh Prabhu",
+      "client": "Global Association of Risk Professionals",
+      "code": "GARPRandAI",
+      "phone": "7338757600"
+    },
+    {
+      "name": "Ranjith Kumar P",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "8939736644"
+    },
+    {
+      "name": "Keerthana Sundaresan",
+      "client": "Global Association of Risk Professionals",
+      "code": "GARPRandAI",
+      "phone": "9952908724"
+    },
+    {
+      "name": "Albin Benny Thomas",
+      "client": "Microsoft",
+      "code": "SC-200",
+      "phone": "7200731604"
+    },
+    {
+      "name": "Murugesa Pandian",
+      "client": "Microsoft",
+      "code": "AI-103",
+      "phone": "9930389195"
+    },
+    {
+      "name": "GOUTHAM S S",
+      "client": "Global Association of Risk Professionals",
+      "code": "GARPRandAI",
+      "phone": "2017197210"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/9/2026 14:23:56",
+      "phone": "8939736644",
+      "email": "ranjivinod68@gmail.com",
+      "company": "Amazon",
+      "designation": "It developer",
+      "experience": "It is very useful.",
+      "name": "Ranjith Kumar P"
+    },
+    {
+      "ts": "10/9/2026 16:46:31",
+      "phone": "0412009503",
+      "email": "albinfedrick@gmail.com",
+      "company": "EG",
+      "designation": "System engineer",
+      "experience": "All good",
+      "name": "Albin Benny Thomas"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "roster": [
+    {
+      "name": "booja Devadoss",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Yasar J",
+      "client": "ServiceNow",
+      "code": "CIS.DF",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Saimahalakshmi Venkatraman",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Logeswari Deenadayalan",
+      "client": "ServiceNow",
+      "code": "CSA",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Sakthivel Vadivel",
+      "client": "Microsoft",
+      "code": "AZ-104",
+      "phone": "8667542807"
+    },
+    {
+      "name": "YASH S",
+      "client": "Microsoft",
+      "code": "AI-901",
+      "phone": "9094555225"
+    },
+    {
+      "name": "Veeravelu Kumaravelu",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Anandakumar L",
+      "client": "ServiceNow",
+      "code": "CIS.DF",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Rojakanmani Palanikumar",
+      "client": "Microsoft",
+      "code": "SC-500",
+      "phone": "6382593006"
+    },
+    {
+      "name": "Aravind Subramanian S",
+      "client": "Splunk",
+      "code": "SPLK-1001",
+      "phone": "9962487287"
+    },
+    {
+      "name": "Abdulqadir Ratlamwala",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "J Aravind",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Arun Raj",
+      "client": "Google Cloud",
+      "code": "PR000258",
+      "phone": "7358181748"
+    },
+    {
+      "name": "Sathish Kumar Jayaraman",
+      "client": "Snowflake",
+      "code": "GES-C02",
+      "phone": "9176666077"
+    },
+    {
+      "name": "Yuvaraj Janarthanan",
+      "client": "Microsoft",
+      "code": "GH-300",
+      "phone": "9698312741"
+    },
+    {
+      "name": "Syed Ali",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/10/2026 14:58:40",
+      "phone": "9962487287",
+      "email": "aravindsubramanian77@gmail.com",
+      "company": "Cisco System Inc",
+      "designation": "Technical consulting engineer",
+      "experience": "Great",
+      "name": "Aravind Subramanian S"
+    },
+    {
+      "ts": "10/10/2026 7:59:31",
+      "phone": "9962986270",
+      "email": "yasar9019@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Developer",
+      "experience": "Sure",
+      "name": "Yasar J"
+    },
+    {
+      "ts": "10/10/2026 11:03:51",
+      "phone": "9710569217",
+      "email": "lofidaya@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Technical engineeer",
+      "experience": "Good experience",
+      "name": "Logeswari D"
+    },
+    {
+      "ts": "10/10/2026 12:26:04",
+      "phone": "9094555225",
+      "email": "yashkatariya2107@gmail.com",
+      "company": "VIT VELLORE",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "Yash S"
+    },
+    {
+      "ts": "10/10/2026 14:25:29",
+      "phone": "9941718770",
+      "email": "meetanand7@gmail.com",
+      "company": "Accenture",
+      "designation": "IT consultant",
+      "experience": "Very gooy",
+      "name": "Anandakumar"
+    },
+    {
+      "ts": "10/10/2026 18:38:53",
+      "phone": "7358181748",
+      "email": "arunraj.21cs@gmail.com",
+      "company": "Verizon",
+      "designation": "Data engineer",
+      "experience": "Good",
+      "name": "Arun Raj"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "roster": [
+    {
+      "name": "D Sarika",
+      "client": "Microsoft",
+      "code": "SC-200",
+      "phone": "6383521344"
+    },
+    {
+      "name": "KARTHIKEYAN P",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "8838553142"
+    },
+    {
+      "name": "Sathish K",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Sony Balajisingh",
+      "client": "Microsoft",
+      "code": "AZ-400",
+      "phone": "9789907035"
+    },
+    {
+      "name": "Sai Vignesh R",
+      "client": "Google Cloud",
+      "code": "PR000260",
+      "phone": "8248268870"
+    },
+    {
+      "name": "C Auslin Raj",
+      "client": "Microsoft",
+      "code": "AZ-305",
+      "phone": "9789211852"
+    },
+    {
+      "name": "Deepak Martin",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/12/2026 21:14:58",
+      "phone": "9789211852",
+      "email": "auslin90@gmail.com",
+      "company": "Capgemini",
+      "designation": "Azure Engineer",
+      "experience": "Great environment",
+      "name": "Auslin"
+    },
+    {
+      "ts": "10/12/2026 17:46:33",
+      "phone": "91 9789907035",
+      "email": "sonybalajisingh3@gmail.com",
+      "company": "Accenture",
+      "designation": "Assoc Manager",
+      "experience": "Good",
+      "name": "Sony B"
+    },
+    {
+      "ts": "10/12/2026 20:00:11",
+      "phone": "8248268870",
+      "email": "saivignesh1399@gmail.com",
+      "company": "CAMS",
+      "designation": "SRE",
+      "experience": "Excellent exp.",
+      "name": "Sai Vignesh R"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "roster": [
+    {
+      "name": "Anitha Devi Shanmugam",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "9176655828"
+    },
+    {
+      "name": "Karthic Gajendran",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": ""
+    },
+    {
+      "name": "KOSAL RAJ I",
+      "client": "Google Cloud",
+      "code": "PR000260",
+      "phone": ""
+    },
+    {
+      "name": "Nagakumar B",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": ""
+    },
+    {
+      "name": "ARISH P",
+      "client": "Microsoft",
+      "code": "AI-103",
+      "phone": ""
+    },
+    {
+      "name": "ROSLIN DAYANA K",
+      "client": "ServiceNow",
+      "code": "CAD",
+      "phone": ""
+    },
+    {
+      "name": "vimal kumar",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": ""
+    },
+    {
+      "name": "Madhan Varadharajan",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": ""
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/6/2026 6:50:14",
+      "phone": "9176655828",
+      "email": "sanithadevi@gmail.com",
+      "company": "Barclays",
+      "designation": "Test manager",
+      "experience": "Good",
+      "name": "Anitha"
+    },
+    {
+      "ts": "6/10/2026",
+      "phone": "7305475205",
+      "email": "jasaarthi.1988@gmail.com",
+      "company": "Accenture",
+      "designation": "Lead",
+      "experience": "Nothing",
+      "name": "Aarthi"
+    },
+    {
+      "ts": "6/10/2026",
+      "phone": "9361363195",
+      "email": "yuvasree71@gmail.com",
+      "company": "Athenahealth Technology Pvt Ltd",
+      "designation": "Customer care",
+      "experience": "Good",
+      "name": "Yuvashree D"
+    },
+    {
+      "ts": "10/6/2026 14:21:04",
+      "phone": "9952029706",
+      "email": "bnagakumar.2018@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Testing",
+      "experience": "Easy for the test centre process",
+      "name": "bnagakumar.2018@gmail.com"
+    },
+    {
+      "ts": "10/6/2026 16:46:23",
+      "phone": "9344196228",
+      "email": "harinew2865@gmail.com",
+      "company": "Srm",
+      "designation": "Student",
+      "experience": "Friendly teachers and better place to learn new skills",
+      "name": "Hari Priya N"
+    }
+  ]
+}

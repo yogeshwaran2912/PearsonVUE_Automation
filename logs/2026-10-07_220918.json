@@ -1,0 +1,159 @@
+{
+  "roster": [
+    {
+      "name": "Vaira Muthu Thangavel",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "HEMANTH V M",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "8939893213"
+    },
+    {
+      "name": "Sathya Narayanan P V",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Raghu Kumar",
+      "client": "Microsoft",
+      "code": "DP-600",
+      "phone": "8939530347"
+    },
+    {
+      "name": "CHANDRU K",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "8754494207"
+    },
+    {
+      "name": "Sheikh Nizamudeen Z",
+      "client": "Microsoft",
+      "code": "MS-102",
+      "phone": "7010415696"
+    },
+    {
+      "name": "UDAYA KUMAR P M",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jeeva Arumugam",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "VARSHINI S",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "6383823926"
+    },
+    {
+      "name": "HARINI S 2025-2027 MCA",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9159577017"
+    },
+    {
+      "name": "KARTHIKEYAN V T",
+      "client": "AMPP",
+      "code": "NACE-CIP2-001",
+      "phone": "6379951712"
+    },
+    {
+      "name": "Aswini V",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "917305590695"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/7/2026",
+      "phone": "9176113312",
+      "email": "vairamuthu.thangavel@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Architect",
+      "experience": "Good",
+      "name": "Vaira muthu"
+    },
+    {
+      "ts": "10/7/2026",
+      "phone": "8883069431",
+      "email": "kdillibabu91@gmail.com",
+      "company": "Progressive infovision pvt ltd",
+      "designation": "Cloud engineer",
+      "experience": "Good",
+      "name": "Dillibabu"
+    },
+    {
+      "ts": "10/7/2026 9:21:23",
+      "phone": "8939893213",
+      "email": "vmhemanth18@gmail.com",
+      "company": "College",
+      "designation": "student",
+      "experience": "-",
+      "name": "V.M.Hemanth"
+    },
+    {
+      "ts": "10/7/2026 12:50:35",
+      "phone": "8754494207",
+      "email": "chandruk2604@gmail.com",
+      "company": "S. A ENGINEERING COLLEGE",
+      "designation": "Master of Computer Applications",
+      "experience": "Good",
+      "name": "Chandru k"
+    },
+    {
+      "ts": "10/7/2026 13:32:47",
+      "phone": "8939530347",
+      "email": "raghuronaldo1@gmail.com",
+      "company": "AGS private limited",
+      "designation": "Am",
+      "experience": "Good",
+      "name": "Raghu"
+    },
+    {
+      "ts": "10/7/2026 17:34:53",
+      "phone": "63838 23926",
+      "email": "varshinimanjula236@gmail.com",
+      "company": "S.A.ENGINEERING COLLEGE",
+      "designation": "Mca",
+      "experience": "No",
+      "name": "Varshini S"
+    },
+    {
+      "ts": "10/7/2026 18:47:51",
+      "phone": "7675962550",
+      "email": "amitchowdary.d@gmail.com",
+      "company": "SRM",
+      "designation": "Student",
+      "experience": "Everything went well they are really welcoming",
+      "name": "Amit Chowdary"
+    },
+    {
+      "ts": "10/7/2026 18:57:08",
+      "phone": "9159577017",
+      "email": "harinisenthilkumar544@gmail.com",
+      "company": "Amazon",
+      "designation": "Final year student",
+      "experience": "The experience was very useful and informative",
+      "name": "Harini S"
+    },
+    {
+      "ts": "10/7/2026 20:13:41",
+      "phone": "7305590695",
+      "email": "ashwiniashwini1012@gmail.com",
+      "company": "S.A. Engineering College",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "Aswini V"
+    }
+  ]
+}
