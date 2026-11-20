@@ -1,0 +1,57 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:30:46] === LinkedIn from Outlook
+[23:30:47] Sheet NOV: 6 person(s) without a LinkedIn Id on 02-Nov-2026
+[23:30:47]   row 6: Krithika Pandy | (no email) | (no company)
+[23:30:47]   row 7: Srinivasaraghavan PR | srinivasaraghavan.pr@gmail.com | Bounteous
+[23:30:47]   row 8: Karthick Venkatraman | (no email) | (no company)
+[23:30:47]   row 9: P A Venkat | (no email) | (no company)
+[23:30:47]   row 10: Nirththanan K | nirththanan@gmail.com | Tata Consultancy Services (TCS)
+[23:30:47]   row 11: Karthick Haribabu | (no email) | (no company)
+[23:30:51] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:30:53] Waking up Chrome tabs
+[23:31:10] Connected to Chrome
+[23:31:11] Clicked New mail
+[23:31:16] [1/6] Krithika Pandy: no email - left for the Google search
+[23:31:16] [2/6] Srinivasaraghavan PR | srinivasaraghavan.pr@gmail.com
+[23:31:35]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[23:31:35]     LinkedIn: (not found)
+[23:31:37] [3/6] Karthick Venkatraman: no email - left for the Google search
+[23:31:37] [4/6] P A Venkat: no email - left for the Google search
+[23:31:37] [5/6] Nirththanan K | nirththanan@gmail.com
+[23:31:53]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[23:31:53]     LinkedIn: (not found)
+[23:31:55] [6/6] Karthick Haribabu: no email - left for the Google search
+[23:31:56] --- Google search for 6 person(s) still without a LinkedIn Id
+[23:31:56] [Google 1/6] Krithika Pandy: no usable company name in the sheet ('') - skipped
+[23:31:56] [Google 2/6] Srinivasaraghavan PR: Srinivasaraghavan PR @ Bounteous linkedin profile
+[23:32:47]     match: 'Srinivasaraghavan PR' at Bounteous -> https://www.linkedin.com/in/srinivasaraghavanpr/
+[23:32:55] [Google 3/6] Karthick Venkatraman: no usable company name in the sheet ('') - skipped
+[23:32:55] [Google 4/6] P A Venkat: no usable company name in the sheet ('') - skipped
+[23:32:55] [Google 5/6] Nirththanan K: Nirththanan K @ Tata Consultancy Services (TCS) linkedin profile
+[23:33:46]     not a match - profile 'Niranjan Kanthappan': name different, company found - skipped
+[23:33:54] [Google 6/6] Karthick Haribabu: no usable company name in the sheet ('') - skipped
+[23:33:59] Draft discarded
+[23:33:59] LinkedIn found for 1 of 6 person(s) (1 by Google search)
+[23:33:59]   ! not found: Krithika Pandy | (no email) | (no company)
+[23:33:59]   ! not found: Karthick Venkatraman | (no email) | (no company)
+[23:33:59]   ! not found: P A Venkat | (no email) | (no company)
+[23:33:59]   ! not found: Nirththanan K | nirththanan@gmail.com | Tata Consultancy Services (TCS)
+[23:33:59]   ! not found: Karthick Haribabu | (no email) | (no company)
+[23:33:59] Dry run - Excel file NOT saved
+[23:33:59] LinkedIn part done
+[23:33:59] Done

@@ -1,0 +1,60 @@
+{
+  "roster": [
+    {
+      "name": "Jackson J",
+      "client": "Amazon Web Services",
+      "code": "SAP-C02",
+      "phone": "09790728399"
+    },
+    {
+      "name": "Sabareesh S",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Nagarajan R",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Divya Manikandan",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Dhanvanth V.S",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Mantej Singh",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/3/2026 12:18:23",
+      "phone": "9791071886",
+      "email": "sabareesh1625@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Programmer analyst trainee",
+      "experience": "Good exam experience",
+      "name": "Sabareesh S"
+    },
+    {
+      "ts": "11/3/2026 13:06:55",
+      "phone": "9790728399",
+      "email": "jacky3190@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Senior engineer",
+      "experience": "Gold place to grow your career",
+      "name": "Jackson"
+    }
+  ]
+}

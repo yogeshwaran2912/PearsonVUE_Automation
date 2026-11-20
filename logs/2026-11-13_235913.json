@@ -1,0 +1,83 @@
+{
+  "roster": [
+    {
+      "name": "HARI VARDHAN JAYARAMAN",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Akshay J P",
+      "client": "Salesforce",
+      "code": "Plat-Admn-202",
+      "phone": "9884679445"
+    },
+    {
+      "name": "Priyadharshini Arulvel",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "8072691939"
+    },
+    {
+      "name": "Austin Daniel Rajasekaran",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Aravindhan Shanmugam",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "STEPHENRAJ J",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Varunkumar Dhanasekar",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Kranthi Kantamneni",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Sarah Priyadharshini Sampath Kantharaj",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Rajagopal Rengarajan",
+      "client": "Amazon Web Services",
+      "code": "SAA-C03",
+      "phone": "9952228047"
+    },
+    {
+      "name": "Ramesh Kumar Srisrimal",
+      "client": "Microsoft",
+      "code": "PL-300",
+      "phone": "9962095576"
+    },
+    {
+      "name": "Shabrin Taj",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Preethi Muralikrishnan",
+      "client": "Indian Testing Board",
+      "code": "ISTQB-CTFL_V4",
+      "phone": "9840770313"
+    }
+  ],
+  "feedback": []
+}

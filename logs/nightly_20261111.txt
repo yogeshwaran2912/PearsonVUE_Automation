@@ -1,0 +1,786 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:57:40] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:57:42] Pearson VUE extension turned off
+[23:57:42] ========== Step 1/5: Roster + feedback ==========
+[23:57:42] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:57:46] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:57:47] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[23:57:49] Connected to Chrome
+[23:57:49] Opening Pearson VUE login page
+[23:58:20] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[23:58:20]    details saved in logs\error_20261111_235820.txt
+[23:58:20] ========== Step 2/5: LinkedIn ==========
+[23:58:20] === LinkedIn from Outlook
+[23:58:22] Sheet NOV: 0 email(s) without a LinkedIn Id on 11-Nov-2026
+[23:58:22] ========== Step 3/5: Our Student ==========
+[23:58:22] === Our Student check in Adv Pro
+[23:58:23] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 11-Nov-2026
+[23:58:23] ========== Step 4/5: Certifications ==========
+[23:58:23] === Certifications from LinkedIn
+[23:58:25] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 11-Nov-2026
+[23:58:25] ========== Step 5/5: Excel check ==========
+[23:58:27] Excel complete for 11-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[23:58:27] ========== Summary ==========
+[23:58:27]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[23:58:27]   LinkedIn: OK
+[23:58:27]   Our Student: OK
+[23:58:27]   Certifications: OK
+[23:58:27]   Excel check: OK
+[23:58:30] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:58:31] Pearson VUE extension turned on
+[23:58:31] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:15:19] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:20] Pearson VUE extension turned off
+[00:15:20] ========== Step 1/5: Roster + feedback ==========
+[00:15:20] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:15:26] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:27] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[00:15:29] Connected to Chrome
+[00:15:29] Opening Pearson VUE login page
+[00:15:59] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:15:59]    details saved in logs\error_20261112_001559.txt
+[00:15:59] ========== Step 2/5: LinkedIn ==========
+[00:15:59] === LinkedIn from Outlook
+[00:16:01] Sheet NOV: 0 email(s) without a LinkedIn Id on 11-Nov-2026
+[00:16:01] ========== Step 3/5: Our Student ==========
+[00:16:01] === Our Student check in Adv Pro
+[00:16:03] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 11-Nov-2026
+[00:16:03] ========== Step 4/5: Certifications ==========
+[00:16:03] === Certifications from LinkedIn
+[00:16:05] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 11-Nov-2026
+[00:16:05] ========== Step 5/5: Excel check ==========
+[00:16:06] Excel complete for 11-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:16:06] ========== Summary ==========
+[00:16:06]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:16:06]   LinkedIn: OK
+[00:16:06]   Our Student: OK
+[00:16:06]   Certifications: OK
+[00:16:06]   Excel check: OK
+[00:16:10] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:16:11] Pearson VUE extension turned on
+[00:16:11] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:22:57] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:22:59] Pearson VUE extension turned off
+[00:22:59] ========== Step 1/5: Roster + feedback ==========
+[00:22:59] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:23:02] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:23:03] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[00:23:06] Connected to Chrome
+[00:23:06] Opening Pearson VUE login page
+[00:23:39] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:23:39]    details saved in logs\error_20261112_002339.txt
+[00:23:39] ========== Step 2/5: LinkedIn ==========
+[00:23:39] === LinkedIn from Outlook
+[00:23:42] Sheet NOV: 0 email(s) without a LinkedIn Id on 11-Nov-2026
+[00:23:42] ========== Step 3/5: Our Student ==========
+[00:23:42] === Our Student check in Adv Pro
+[00:23:43] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 11-Nov-2026
+[00:23:43] ========== Step 4/5: Certifications ==========
+[00:23:43] === Certifications from LinkedIn
+[00:23:45] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 11-Nov-2026
+[00:23:45] ========== Step 5/5: Excel check ==========
+[00:23:46] Excel complete for 11-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:23:46] ========== Summary ==========
+[00:23:46]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:23:46]   LinkedIn: OK
+[00:23:46]   Our Student: OK
+[00:23:46]   Certifications: OK
+[00:23:46]   Excel check: OK
+[00:23:49] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:23:51] Pearson VUE extension turned on
+[00:23:51] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:39:38] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:39:40] Pearson VUE extension turned off
+[00:39:40] ========== Step 1/5: Roster + feedback ==========
+[00:39:40] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:40:17] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:40:18] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[00:40:37] Connected to Chrome
+[00:40:37] Opening Pearson VUE login page
+[00:41:08] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:41:08]    details saved in logs\error_20261112_004108.txt
+[00:41:08] ========== Step 2/5: LinkedIn ==========
+[00:41:08] === LinkedIn from Outlook
+[00:41:10] Sheet NOV: 0 email(s) without a LinkedIn Id on 11-Nov-2026
+[00:41:10] ========== Step 3/5: Our Student ==========
+[00:41:10] === Our Student check in Adv Pro
+[00:41:12] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 11-Nov-2026
+[00:41:12] ========== Step 4/5: Certifications ==========
+[00:41:12] === Certifications from LinkedIn
+[00:41:13] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 11-Nov-2026
+[00:41:13] ========== Step 5/5: Excel check ==========
+[00:41:15] Excel complete for 11-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:41:15] ========== Summary ==========
+[00:41:15]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:41:15]   LinkedIn: OK
+[00:41:15]   Our Student: OK
+[00:41:15]   Certifications: OK
+[00:41:15]   Excel check: OK
+[00:41:18] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:41:19] Pearson VUE extension turned on
+[00:41:19] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:00:50] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:00:52] Pearson VUE extension turned off
+[01:00:52] ========== Step 1/5: Roster + feedback ==========
+[01:00:52] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:00:52] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]    details saved in logs\error_20261112_010052.txt
+[01:00:52] ========== Step 2/5: LinkedIn ==========
+[01:00:52] === LinkedIn from Outlook
+[01:00:52] !! Step 2 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]    details saved in logs\error_20261112_010052.txt
+[01:00:52] ========== Step 3/5: Our Student ==========
+[01:00:52] === Our Student check in Adv Pro
+[01:00:52] !! Step 3 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]    details saved in logs\error_20261112_010052.txt
+[01:00:52] ========== Step 4/5: Certifications ==========
+[01:00:52] === Certifications from LinkedIn
+[01:00:52] !! Step 4 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]    details saved in logs\error_20261112_010052.txt
+[01:00:52] ========== Step 5/5: Excel check ==========
+[01:00:52] !! Step 5 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]    details saved in logs\error_20261112_010052.txt
+[01:00:52] ========== Summary ==========
+[01:00:52]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]   LinkedIn: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]   Our Student: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]   Certifications: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:52]   Excel check: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:00:55] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:00:57] Pearson VUE extension turned on
+[01:00:57] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:33:24] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:33:25] Pearson VUE extension turned off
+[01:33:25] ========== Step 1/5: Roster + feedback ==========
+[01:33:25] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:33:27] !! Step 1 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]    details saved in logs\error_20261112_013327.txt
+[01:33:27] ========== Step 2/5: LinkedIn ==========
+[01:33:27] === LinkedIn from Outlook
+[01:33:27] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]    details saved in logs\error_20261112_013327.txt
+[01:33:27] ========== Step 3/5: Our Student ==========
+[01:33:27] === Our Student check in Adv Pro
+[01:33:27] !! Step 3 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]    details saved in logs\error_20261112_013327.txt
+[01:33:27] ========== Step 4/5: Certifications ==========
+[01:33:27] === Certifications from LinkedIn
+[01:33:27] !! Step 4 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]    details saved in logs\error_20261112_013327.txt
+[01:33:27] ========== Step 5/5: Excel check ==========
+[01:33:27] !! Step 5 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]    details saved in logs\error_20261112_013327.txt
+[01:33:27] ========== Summary ==========
+[01:33:27]   Roster + feedback: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]   Our Student: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]   Certifications: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:27]   Excel check: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[01:33:30] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:33:33] Pearson VUE extension turned on
+[01:33:33] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[02:05:37] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:05:40] Pearson VUE extension turned off
+[02:05:40] ========== Step 1/5: Roster + feedback ==========
+[02:05:40] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[02:06:01] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:06:01]    details saved in logs\error_20261112_020601.txt
+[02:06:01] ========== Step 2/5: LinkedIn ==========
+[02:06:01] === LinkedIn from Outlook
+[02:06:33] !! Step 2 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:06:33]    details saved in logs\error_20261112_020633.txt
+[02:06:33] ========== Step 3/5: Our Student ==========
+[02:06:33] === Our Student check in Adv Pro
+[02:07:23] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:07:23]    details saved in logs\error_20261112_020723.txt
+[02:07:23] ========== Step 4/5: Certifications ==========
+[02:07:23] === Certifications from LinkedIn
+[02:07:56] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:07:56]    details saved in logs\error_20261112_020756.txt
+[02:07:56] ========== Step 5/5: Excel check ==========
+[02:08:29] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:08:29]    details saved in logs\error_20261112_020829.txt
+[02:08:29] ========== Summary ==========
+[02:08:29]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:08:29]   LinkedIn: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:08:29]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:08:29]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:08:29]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:08:33] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:08:35] Pearson VUE extension turned on
+[02:08:35] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[02:38:40] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:38:42] Pearson VUE extension turned off
+[02:38:42] ========== Step 1/5: Roster + feedback ==========
+[02:38:42] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[02:39:20] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:39:20]    details saved in logs\error_20261112_023920.txt
+[02:39:20] ========== Step 2/5: LinkedIn ==========
+[02:39:20] === LinkedIn from Outlook
+[02:40:08] !! Step 2 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:40:08]    details saved in logs\error_20261112_024008.txt
+[02:40:08] ========== Step 3/5: Our Student ==========
+[02:40:08] === Our Student check in Adv Pro
+[02:40:56] !! Step 3 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:40:56]    details saved in logs\error_20261112_024056.txt
+[02:40:56] ========== Step 4/5: Certifications ==========
+[02:40:56] === Certifications from LinkedIn
+[02:41:28] !! Step 4 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:41:28]    details saved in logs\error_20261112_024128.txt
+[02:41:28] ========== Step 5/5: Excel check ==========
+[02:42:01] !! Step 5 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:42:01]    details saved in logs\error_20261112_024201.txt
+[02:42:01] ========== Summary ==========
+[02:42:01]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:42:01]   LinkedIn: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:42:01]   Our Student: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:42:01]   Certifications: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:42:01]   Excel check: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[02:42:07] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:42:11] Pearson VUE extension turned on
+[02:42:11] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:12:17] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:12:19] Pearson VUE extension turned off
+[03:12:19] ========== Step 1/5: Roster + feedback ==========
+[03:12:19] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:13:09] !! Step 1 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:13:09]    details saved in logs\error_20261112_031309.txt
+[03:13:09] ========== Step 2/5: LinkedIn ==========
+[03:13:09] === LinkedIn from Outlook
+[03:13:42] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:13:42]    details saved in logs\error_20261112_031342.txt
+[03:13:42] ========== Step 3/5: Our Student ==========
+[03:13:42] === Our Student check in Adv Pro
+[03:14:15] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:14:15]    details saved in logs\error_20261112_031415.txt
+[03:14:15] ========== Step 4/5: Certifications ==========
+[03:14:15] === Certifications from LinkedIn
+[03:14:48] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:14:48]    details saved in logs\error_20261112_031448.txt
+[03:14:48] ========== Step 5/5: Excel check ==========
+[03:15:21] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:15:21]    details saved in logs\error_20261112_031521.txt
+[03:15:21] ========== Summary ==========
+[03:15:21]   Roster + feedback: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:15:21]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:15:21]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:15:21]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:15:21]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:15:25] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:15:26] Pearson VUE extension turned on
+[03:15:26] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:45:32] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:45:35] Pearson VUE extension turned off
+[03:45:35] ========== Step 1/5: Roster + feedback ==========
+[03:45:35] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:46:41] !! Step 1 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:46:41]    details saved in logs\error_20261112_034641.txt
+[03:46:41] ========== Step 2/5: LinkedIn ==========
+[03:46:41] === LinkedIn from Outlook
+[03:47:14] !! Step 2 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:47:14]    details saved in logs\error_20261112_034714.txt
+[03:47:14] ========== Step 3/5: Our Student ==========
+[03:47:14] === Our Student check in Adv Pro
+[03:47:47] !! Step 3 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:47:47]    details saved in logs\error_20261112_034747.txt
+[03:47:47] ========== Step 4/5: Certifications ==========
+[03:47:47] === Certifications from LinkedIn
+[03:48:20] !! Step 4 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:20]    details saved in logs\error_20261112_034820.txt
+[03:48:20] ========== Step 5/5: Excel check ==========
+[03:48:53] !! Step 5 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:53]    details saved in logs\error_20261112_034853.txt
+[03:48:53] ========== Summary ==========
+[03:48:53]   Roster + feedback: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:53]   LinkedIn: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:53]   Our Student: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:53]   Certifications: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:53]   Excel check: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[03:48:56] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:48:58] Pearson VUE extension turned on
+[03:48:58] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[04:19:03] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:19:05] Pearson VUE extension turned off
+[04:19:05] ========== Step 1/5: Roster + feedback ==========
+[04:19:05] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[04:19:38] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:19:38]    details saved in logs\error_20261112_041938.txt
+[04:19:38] ========== Step 2/5: LinkedIn ==========
+[04:19:38] === LinkedIn from Outlook
+[04:20:11] !! Step 2 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:20:11]    details saved in logs\error_20261112_042011.txt
+[04:20:11] ========== Step 3/5: Our Student ==========
+[04:20:11] === Our Student check in Adv Pro
+[04:21:01] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:21:01]    details saved in logs\error_20261112_042101.txt
+[04:21:01] ========== Step 4/5: Certifications ==========
+[04:21:01] === Certifications from LinkedIn
+[04:21:34] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:21:34]    details saved in logs\error_20261112_042134.txt
+[04:21:34] ========== Step 5/5: Excel check ==========
+[04:22:07] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:22:07]    details saved in logs\error_20261112_042207.txt
+[04:22:07] ========== Summary ==========
+[04:22:07]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:22:07]   LinkedIn: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:22:07]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:22:07]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:22:07]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:22:11] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:22:12] Pearson VUE extension turned on
+[04:22:12] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[04:52:19] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:52:22] Pearson VUE extension turned off
+[04:52:22] ========== Step 1/5: Roster + feedback ==========
+[04:52:22] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[04:53:11] !! Step 1 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:53:11]    details saved in logs\error_20261112_045311.txt
+[04:53:11] ========== Step 2/5: LinkedIn ==========
+[04:53:11] === LinkedIn from Outlook
+[04:53:44] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:53:44]    details saved in logs\error_20261112_045344.txt
+[04:53:44] ========== Step 3/5: Our Student ==========
+[04:53:44] === Our Student check in Adv Pro
+[04:54:17] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:54:17]    details saved in logs\error_20261112_045417.txt
+[04:54:17] ========== Step 4/5: Certifications ==========
+[04:54:17] === Certifications from LinkedIn
+[04:54:50] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:54:50]    details saved in logs\error_20261112_045450.txt
+[04:54:50] ========== Step 5/5: Excel check ==========
+[04:55:23] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:55:23]    details saved in logs\error_20261112_045523.txt
+[04:55:23] ========== Summary ==========
+[04:55:23]   Roster + feedback: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:55:23]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:55:23]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:55:23]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:55:23]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[04:55:27] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:55:28] Pearson VUE extension turned on
+[04:55:28] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[05:25:33] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:25:36] Pearson VUE extension turned off
+[05:25:36] ========== Step 1/5: Roster + feedback ==========
+[05:25:36] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[05:26:25] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:26:25]    details saved in logs\error_20261112_052625.txt
+[05:26:25] ========== Step 2/5: LinkedIn ==========
+[05:26:25] === LinkedIn from Outlook
+[05:26:57] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:26:57]    details saved in logs\error_20261112_052657.txt
+[05:26:57] ========== Step 3/5: Our Student ==========
+[05:26:57] === Our Student check in Adv Pro
+[05:27:30] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:27:30]    details saved in logs\error_20261112_052730.txt
+[05:27:30] ========== Step 4/5: Certifications ==========
+[05:27:30] === Certifications from LinkedIn
+[05:28:03] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:03]    details saved in logs\error_20261112_052803.txt
+[05:28:03] ========== Step 5/5: Excel check ==========
+[05:28:36] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:36]    details saved in logs\error_20261112_052836.txt
+[05:28:36] ========== Summary ==========
+[05:28:36]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:36]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:36]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:36]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:36]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:28:39] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:28:41] Pearson VUE extension turned on
+[05:28:41] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[05:58:47] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:58:49] Pearson VUE extension turned off
+[05:58:49] ========== Step 1/5: Roster + feedback ==========
+[05:58:49] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[05:59:39] !! Step 1 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[05:59:39]    details saved in logs\error_20261112_055939.txt
+[05:59:39] ========== Step 2/5: LinkedIn ==========
+[05:59:39] === LinkedIn from Outlook
+[06:00:12] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:00:12]    details saved in logs\error_20261112_060012.txt
+[06:00:12] ========== Step 3/5: Our Student ==========
+[06:00:12] === Our Student check in Adv Pro
+[06:00:45] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:00:45]    details saved in logs\error_20261112_060045.txt
+[06:00:45] ========== Step 4/5: Certifications ==========
+[06:00:45] === Certifications from LinkedIn
+[06:01:18] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:18]    details saved in logs\error_20261112_060118.txt
+[06:01:18] ========== Step 5/5: Excel check ==========
+[06:01:51] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:51]    details saved in logs\error_20261112_060151.txt
+[06:01:51] ========== Summary ==========
+[06:01:51]   Roster + feedback: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:51]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:51]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:51]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:51]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:01:55] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[06:01:57] Pearson VUE extension turned on
+[06:01:57] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[06:32:03] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[06:32:06] Pearson VUE extension turned off
+[06:32:06] ========== Step 1/5: Roster + feedback ==========
+[06:32:06] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[06:32:39] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:32:39]    details saved in logs\error_20261112_063239.txt
+[06:32:39] ========== Step 2/5: LinkedIn ==========
+[06:32:39] === LinkedIn from Outlook
+[06:33:45] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:33:45]    details saved in logs\error_20261112_063345.txt
+[06:33:45] ========== Step 3/5: Our Student ==========
+[06:33:45] === Our Student check in Adv Pro
+[06:34:02] !! Step 3 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:34:02]    details saved in logs\error_20261112_063402.txt
+[06:34:02] ========== Step 4/5: Certifications ==========
+[06:34:02] === Certifications from LinkedIn
+[06:34:35] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:34:35]    details saved in logs\error_20261112_063435.txt
+[06:34:35] ========== Step 5/5: Excel check ==========
+[06:35:08] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:35:08]    details saved in logs\error_20261112_063508.txt
+[06:35:08] ========== Summary ==========
+[06:35:08]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:35:08]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:35:08]   Our Student: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:35:08]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:35:08]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[06:35:11] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[06:35:13] Pearson VUE extension turned on
+[06:35:13] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[07:05:18] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:05:20] Pearson VUE extension turned off
+[07:05:20] ========== Step 1/5: Roster + feedback ==========
+[07:05:20] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[07:06:20] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:06:20]    details saved in logs\error_20261112_070620.txt
+[07:06:20] ========== Step 2/5: LinkedIn ==========
+[07:06:20] === LinkedIn from Outlook
+[07:09:27] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:09:27]    details saved in logs\error_20261112_070927.txt
+[07:09:27] ========== Step 3/5: Our Student ==========
+[07:09:27] === Our Student check in Adv Pro
+[07:11:01] !! Step 3 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:11:01]    details saved in logs\error_20261112_071101.txt
+[07:11:01] ========== Step 4/5: Certifications ==========
+[07:11:01] === Certifications from LinkedIn
+[07:14:09] !! Step 4 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:14:09]    details saved in logs\error_20261112_071409.txt
+[07:14:09] ========== Step 5/5: Excel check ==========
+[07:16:18] !! Step 5 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:16:18]    details saved in logs\error_20261112_071618.txt
+[07:16:18] ========== Summary ==========
+[07:16:18]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:16:18]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:16:18]   Our Student: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:16:18]   Certifications: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:16:18]   Excel check: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:16:22] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:16:23] Pearson VUE extension turned on
+[07:16:23] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[07:46:30] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:46:33] Pearson VUE extension turned off
+[07:46:33] ========== Step 1/5: Roster + feedback ==========
+[07:46:33] === Pearson VUE roster + feedback | Date: 11-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[07:49:13] !! Step 1 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:49:13]    details saved in logs\error_20261112_074913.txt
+[07:49:13] ========== Step 2/5: LinkedIn ==========
+[07:49:13] === LinkedIn from Outlook
+[07:51:09] !! Step 2 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:51:09]    details saved in logs\error_20261112_075109.txt
+[07:51:09] ========== Step 3/5: Our Student ==========
+[07:51:09] === Our Student check in Adv Pro
+[07:53:30] !! Step 3 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:53:30]    details saved in logs\error_20261112_075330.txt
+[07:53:30] ========== Step 4/5: Certifications ==========
+[07:53:30] === Certifications from LinkedIn
+[07:55:51] !! Step 4 failed: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:55:51]    details saved in logs\error_20261112_075551.txt
+[07:55:51] ========== Step 5/5: Excel check ==========
+[07:57:28] !! Step 5 failed: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:57:28]    details saved in logs\error_20261112_075724.txt
+[07:57:28] ========== Summary ==========
+[07:57:28]   Roster + feedback: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:57:28]   LinkedIn: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:57:28]   Our Student: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:57:28]   Certifications: FAILED: FileNotFoundError: [Errno 2] No such file or directory: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:57:28]   Excel check: FAILED: OSError: [Errno 22] Invalid argument: '\\\\192.168.0.129\\Test\\Exam count\\Pearson VUE Exam new 2026.xlsx'
+[07:57:34] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:57:36] Pearson VUE extension turned on
+[07:57:36] Done

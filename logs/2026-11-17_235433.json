@@ -1,0 +1,153 @@
+{
+  "roster": [
+    {
+      "name": "karthikeyan R",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "SHUBASHINI THYAGARAJAN",
+      "client": "ServiceNow",
+      "code": "CIS.ITSM",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Theertha Shree R",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Yugendran Sunder",
+      "client": "Palo Alto Networks, Inc.",
+      "code": "XDR-Engineer",
+      "phone": "9500577046"
+    },
+    {
+      "name": "NEERAJ P H",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "8825982895"
+    },
+    {
+      "name": "Vaishnavi R",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "7358584904"
+    },
+    {
+      "name": "S Shanthakumar",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "7904593204"
+    },
+    {
+      "name": "Gowsalya Ganesan",
+      "client": "Anthropic",
+      "code": "CCAR-P",
+      "phone": "7339621183"
+    },
+    {
+      "name": "Jeeva Arumugam",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "7708253119"
+    },
+    {
+      "name": "Shyamkrishnan Balasubramanian",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9884003826"
+    },
+    {
+      "name": "BARANITHARAN K C",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9840126076"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/17/2026 6:20:53",
+      "phone": "7402353712",
+      "email": "monishaparamasivam95@gmail.com",
+      "company": "PSU",
+      "designation": "SCALE 2",
+      "experience": "OVERALL NICE",
+      "name": "Monisha"
+    },
+    {
+      "ts": "11/17/2026 7:59:40",
+      "phone": "7845816699",
+      "email": "tshuba90@gmail.com",
+      "company": "Natwest Group",
+      "designation": "Se",
+      "experience": "Timing is the problem",
+      "name": "Shuba T"
+    },
+    {
+      "ts": "11/17/2026 12:43:29",
+      "phone": "9500577046",
+      "email": "yugendran.sunder@gmail.com",
+      "company": "Presidio Inc",
+      "designation": "Associate Engineer",
+      "experience": "Very low ventilation, starts suffocating",
+      "name": "Yugendran Sunder"
+    },
+    {
+      "ts": "11/17/2026 13:09:40",
+      "phone": "9789940448",
+      "email": "theesan829@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Talent Development Specialist- HR",
+      "experience": "The staff were kind and assisted appropriately",
+      "name": "Theertha Shree R"
+    },
+    {
+      "ts": "11/17/2026 13:33:03",
+      "phone": "8825982895",
+      "email": "phneeraj18@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Business Analyst",
+      "experience": "None",
+      "name": "Neeraj"
+    },
+    {
+      "ts": "11/17/2026 17:22:31",
+      "phone": "7904593204",
+      "email": "skshanthakumar181004@gmail.com",
+      "company": "Genworx.ai",
+      "designation": "SDE 1",
+      "experience": "Good",
+      "name": "Shanthakumar S"
+    },
+    {
+      "ts": "11/17/2026 18:37:17",
+      "phone": "7339621183",
+      "email": "gowsalya23g@gmail.com",
+      "company": "UST Global",
+      "designation": "Cloud engineer",
+      "experience": "Best place to attempt exam",
+      "name": "Gowsalya Ganesan"
+    },
+    {
+      "ts": "11/17/2026 20:48:47",
+      "phone": "9344214661",
+      "email": "badbomb@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Associate Director",
+      "experience": "Very good experience. Smoothly handled by the team.",
+      "name": "Shyamkrishnan B"
+    },
+    {
+      "ts": "11/17/2026 22:56:40",
+      "phone": "9840126076",
+      "email": "barani.kc@gmail.com",
+      "company": "Servion Global Solutions",
+      "designation": "Technical Lead",
+      "experience": "Good",
+      "name": "Baranitharan K C"
+    }
+  ]
+}

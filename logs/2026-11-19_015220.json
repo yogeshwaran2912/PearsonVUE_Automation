@@ -1,0 +1,102 @@
+{
+  "roster": [
+    {
+      "name": "Mullai Arasu",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Bharath Krishna",
+      "client": "Salesforce",
+      "code": "Plat-Dev-301",
+      "phone": "9941556413"
+    },
+    {
+      "name": "PARAMESHVARAN Chandran",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jubin James",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Gunavazhagan B",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "6381864628"
+    },
+    {
+      "name": "Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL",
+      "client": "Microsoft",
+      "code": "MD-102",
+      "phone": "9894505024"
+    },
+    {
+      "name": "Subramaniam R",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9884349009"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/19/2026 11:05:35",
+      "phone": "9941556413",
+      "email": "barat.krishv@gmail.com",
+      "company": "Option AstraZeneca",
+      "designation": "Assistant Manager",
+      "experience": "Good",
+      "name": "Bharath Krishna"
+    },
+    {
+      "ts": "11/19/2026 11:59:29",
+      "phone": "9952026861",
+      "email": "rajeshm.it2003@gmail.com",
+      "company": "Hewlett-Packard ( HP )",
+      "designation": "Resident Engineer",
+      "experience": "Good atmosphere for exam",
+      "name": "Rajesh M"
+    },
+    {
+      "ts": "11/19/2026 14:48:15",
+      "phone": "9884495639",
+      "email": "paramesh.mba@gmail.com",
+      "company": "Accenture",
+      "designation": "Associate manager",
+      "experience": "Good environment",
+      "name": "C Parameshvaran"
+    },
+    {
+      "ts": "11/19/2026 19:49:36",
+      "phone": "6381864628",
+      "email": "bgunavazhagan3@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "Gunavazhagan B"
+    },
+    {
+      "ts": "11/19/2026 20:58:45",
+      "phone": "9894505024",
+      "email": "md.gnanaraj@gmail.com",
+      "company": "BNP Parivar Bank",
+      "designation": "Team lead",
+      "experience": "Good",
+      "name": "Gnanaraj"
+    },
+    {
+      "ts": "11/19/2026 22:51:12",
+      "phone": "9884349009",
+      "email": "subbunique39@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Project Manager",
+      "experience": "Exam duration was less",
+      "name": "Subramaniam Ravishankar"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 @echo off
+@rem Created by YOGESHWARAN TL
 cd /d "%~dp0"
-python main.py %*
+if exist main.py (python main.py %*) else (python main.pyc %*)
 pause

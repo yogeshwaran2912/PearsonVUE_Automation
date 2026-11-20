@@ -1,0 +1,89 @@
+{
+  "roster": [
+    {
+      "name": "P M Rajeshkumar",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Mohammad Najeebuddin Mohammad Fazluddin",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9884662200"
+    },
+    {
+      "name": "ANAND GOPALAN",
+      "client": "Google Cloud",
+      "code": "PR000258",
+      "phone": "9444785621"
+    },
+    {
+      "name": "Preethi V",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Shabaz Khan Y",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Sivashankaran Manickam",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Mithill Jain M",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "917358423595"
+    },
+    {
+      "name": "Dewakaran Sagayaraj",
+      "client": "Microsoft",
+      "code": "DP-600",
+      "phone": "9841983315"
+    },
+    {
+      "name": "Hema A",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Nagarani Ramaraj",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "9047907239"
+    },
+    {
+      "name": "subramanyam gurajala",
+      "client": "Microsoft",
+      "code": "DP-600",
+      "phone": "7095724910"
+    },
+    {
+      "name": "Preethi V",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Vijayakumar Ramachandran",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "christy .",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9962504501"
+    }
+  ],
+  "feedback": []
+}

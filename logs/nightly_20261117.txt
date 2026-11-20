@@ -1,0 +1,310 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:52:10] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:15] Pearson VUE extension turned off
+[23:52:15] ========== Step 1/5: Roster + feedback ==========
+[23:52:15] === Pearson VUE roster + feedback | Date: 17-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:52:20] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:22] Waking up Chrome tabs
+[23:52:30] Connected to Chrome
+[23:52:30] Opening Pearson VUE login page
+[23:52:32] Login submitted
+[23:52:54] Clicked Site Manager
+[23:52:57] Clicked Availability
+[23:53:02] Clicked Roster
+[23:53:13] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:53:15] 11 exam(s) on the roster
+[23:53:18]   karthikeyan R: 415-326-6303
+[23:53:23]   SHUBASHINI THYAGARAJAN: 555-555-5555
+[23:53:26]   Theertha Shree R: 415-326-6303
+[23:53:31]   Yugendran Sunder: 9500577046
+[23:53:35]   NEERAJ P H: 8825982895
+[23:53:38]   Vaishnavi R: 7358584904
+[23:53:43]   S Shanthakumar: 7904593204
+[23:53:46]   Gowsalya Ganesan: 7339621183
+[23:53:51]   Jeeva Arumugam: 7708253119
+[23:53:56]   Shyamkrishnan Balasubramanian: 9884003826
+[23:54:02]   BARANITHARAN K C: 9840126076
+[23:54:08] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[23:54:10] Waking up Chrome tabs
+[23:54:33] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[23:54:33] Feedback timestamps are month/day
+[23:54:33] 9 feedback response(s) on 2026-11-17
+[23:54:34]   added: karthikeyan R | Anthropic | CCAO-F | 415-326-6303
+[23:54:34]   added: SHUBASHINI THYAGARAJAN | ServiceNow | CIS.ITSM | 555-555-5555
+[23:54:34]   added: Theertha Shree R | Anthropic | CCAO-F | 415-326-6303
+[23:54:34]   added: Yugendran Sunder | Palo Alto Networks, Inc. | XDR-Engineer | 9500577046
+[23:54:34]   added: NEERAJ P H | Microsoft | AZ-900 | 8825982895
+[23:54:34]   added: Vaishnavi R | Anthropic | CCAR-F | 7358584904
+[23:54:34]   added: S Shanthakumar | Anthropic | CCDV-F | 7904593204
+[23:54:34]   added: Gowsalya Ganesan | Anthropic | CCAR-P | 7339621183
+[23:54:34]   added: Jeeva Arumugam | Anthropic | CCDV-F | 7708253119
+[23:54:34]   added: Shyamkrishnan Balasubramanian | Anthropic | CCAO-F | 9884003826
+[23:54:34]   added: BARANITHARAN K C | Amazon Web Services | AIF-C01 | 9840126076
+[23:54:34]   feedback 'Monisha' -> row 103: MONISHA PARAMASIVAM (matched by phone) | phone 7402353712 | monishaparamasivam95@gmail.com
+[23:54:34]   feedback 'Shuba T' -> row 106: SHUBASHINI THYAGARAJAN (matched by name) | phone 7845816699 | tshuba90@gmail.com
+[23:54:34]   feedback 'Yugendran Sunder' -> row 108: Yugendran Sunder (matched by phone) | phone 9500577046 | yugendran.sunder@gmail.com
+[23:54:34]   feedback 'Theertha Shree R' -> row 107: Theertha Shree R (matched by name) | phone 9789940448 | theesan829@gmail.com
+[23:54:34]   feedback 'Neeraj' -> row 109: NEERAJ P H (matched by phone) | phone 8825982895 | phneeraj18@gmail.com
+[23:54:34]   feedback 'Shanthakumar S' -> row 111: S Shanthakumar (matched by phone) | phone 7904593204 | skshanthakumar181004@gmail.com
+[23:54:34]   feedback 'Gowsalya Ganesan' -> row 112: Gowsalya Ganesan (matched by phone) | phone 7339621183 | gowsalya23g@gmail.com
+[23:54:34]   feedback 'Shyamkrishnan B' -> row 114: Shyamkrishnan Balasubramanian (matched by name) | phone 9344214661 | badbomb@gmail.com
+[23:54:34]   feedback 'Baranitharan K C' -> row 115: BARANITHARAN K C (matched by phone) | phone 9840126076 | barani.kc@gmail.com
+[23:54:34] Sheet NOV: 11 row(s) added, 9 row(s) updated with feedback
+[23:54:34] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261117_235434.xlsx
+[23:54:46] Excel file saved
+[23:54:46] Pearson VUE part done
+[23:54:46] ========== Step 2/5: LinkedIn ==========
+[23:54:46] === LinkedIn from Outlook
+[23:54:47] Sheet NOV: 8 email(s) without a LinkedIn Id on 17-Nov-2026
+[23:54:47]   row 106: SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[23:54:47]   row 107: Theertha Shree R | theesan829@gmail.com
+[23:54:47]   row 108: Yugendran Sunder | yugendran.sunder@gmail.com
+[23:54:47]   row 109: NEERAJ P H | phneeraj18@gmail.com
+[23:54:47]   row 111: S Shanthakumar | skshanthakumar181004@gmail.com
+[23:54:47]   row 112: Gowsalya Ganesan | gowsalya23g@gmail.com
+[23:54:47]   row 114: Shyamkrishnan Balasubramanian | badbomb@gmail.com
+[23:54:47]   row 115: BARANITHARAN K C | barani.kc@gmail.com
+[23:54:52] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:54:56] Waking up Chrome tabs
+[23:55:16] Clicked New mail
+[23:55:20] [1/8] SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[23:55:28]     error: StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+[23:55:28]     LinkedIn: (not found)
+[23:55:29] [2/8] Theertha Shree R | theesan829@gmail.com
+[23:56:11]     LinkedIn: https://www.linkedin.com/in/theertha-shree/
+[23:56:14] [3/8] Yugendran Sunder | yugendran.sunder@gmail.com
+[23:56:47]     LinkedIn: https://www.linkedin.com/in/yugendran-sunder/
+[23:56:49] [4/8] NEERAJ P H | phneeraj18@gmail.com
+[23:56:59]     LinkedIn: https://www.linkedin.com/in/neeraj-p-h-3b757a183/
+[23:57:01] [5/8] S Shanthakumar | skshanthakumar181004@gmail.com
+[23:57:10]     LinkedIn: https://www.linkedin.com/in/shanthakumar-chennai/
+[23:57:12] [6/8] Gowsalya Ganesan | gowsalya23g@gmail.com
+[23:57:21]     LinkedIn: https://www.linkedin.com/in/igowsalya/
+[23:57:23] [7/8] Shyamkrishnan Balasubramanian | badbomb@gmail.com
+[23:57:31]     LinkedIn: https://www.linkedin.com/in/shyamkrishnanb/
+[23:57:33] [8/8] BARANITHARAN K C | barani.kc@gmail.com
+[23:57:42]     LinkedIn: https://www.linkedin.com/in/baranitharankc/
+[23:57:47] Draft discarded
+[23:57:47] LinkedIn found for 7 of 8 email(s)
+[23:57:47]   ! not found: SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[23:57:50]   row 107: Theertha Shree R -> https://www.linkedin.com/in/theertha-shree/
+[23:57:50]   row 108: Yugendran Sunder -> https://www.linkedin.com/in/yugendran-sunder/
+[23:57:50]   row 109: NEERAJ P H -> https://www.linkedin.com/in/neeraj-p-h-3b757a183/
+[23:57:50]   row 111: S Shanthakumar -> https://www.linkedin.com/in/shanthakumar-chennai/
+[23:57:50]   row 112: Gowsalya Ganesan -> https://www.linkedin.com/in/igowsalya/
+[23:57:50]   row 114: Shyamkrishnan Balasubramanian -> https://www.linkedin.com/in/shyamkrishnanb/
+[23:57:50]   row 115: BARANITHARAN K C -> https://www.linkedin.com/in/baranitharankc/
+[23:57:50] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261117_235750.xlsx
+[23:58:03] Excel file saved - 7 LinkedIn URL(s) written to sheet NOV
+[23:58:07] !! Step 2 failed: RuntimeError: 1 email(s) could not be looked up
+[23:58:07]    details saved in logs\error_20261117_235803.txt
+[23:58:07] ========== Step 3/5: Our Student ==========
+[23:58:07] === Our Student check in Adv Pro
+[23:58:09]   karthikeyan R: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:58:09] Sheet NOV: 10 phone number(s) without 'Our Student Y/N' on 17-Nov-2026
+[23:58:15] Opening Adv Pro
+[23:58:21] Adv Pro: logged in
+[23:58:22] Adv Pro: Master > Registration > Display
+[23:58:25] Adv Pro: Filter By = PresentPhoneNo
+[23:58:29] [1/10] 7845816699 SHUBASHINI THYAGARAJAN: n
+[23:58:33] [2/10] 9789940448 Theertha Shree R: n
+[23:58:36] [3/10] 9500577046 Yugendran Sunder: n
+[23:58:39] [4/10] 8825982895 NEERAJ P H: n
+[23:58:42] [5/10] 7358584904 Vaishnavi R: n
+[23:58:45] [6/10] 7904593204 S Shanthakumar: n
+[23:58:48] [7/10] 7339621183 Gowsalya Ganesan: y
+[23:58:51] [8/10] 7708253119 Jeeva Arumugam: n
+[23:58:54] [9/10] 9344214661 Shyamkrishnan Balasubramanian: n
+[23:58:57] [10/10] 9840126076 BARANITHARAN K C: n
+[23:59:00]   row 106: SHUBASHINI THYAGARAJAN | 7845816699 -> n
+[23:59:00]   row 107: Theertha Shree R | 9789940448 -> n
+[23:59:00]   row 108: Yugendran Sunder | 9500577046 -> n
+[23:59:00]   row 109: NEERAJ P H | 8825982895 -> n
+[23:59:00]   row 110: Vaishnavi R | 7358584904 -> n
+[23:59:00]   row 111: S Shanthakumar | 7904593204 -> n
+[23:59:00]   row 112: Gowsalya Ganesan | 7339621183 -> y
+[23:59:00]   row 113: Jeeva Arumugam | 7708253119 -> n
+[23:59:00]   row 114: Shyamkrishnan Balasubramanian | 9344214661 -> n
+[23:59:00]   row 115: BARANITHARAN K C | 9840126076 -> n
+[23:59:00] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261117_235900.xlsx
+[23:59:16] Excel file saved - 'Our Student Y/N' written for 10 row(s) in sheet NOV
+[23:59:16] Our Student part done
+[23:59:16] ========== Step 4/5: Certifications ==========
+[23:59:16] === Certifications from LinkedIn
+[23:59:19] Sheet NOV: 7 LinkedIn profile(s) not checked yet on 17-Nov-2026
+[23:59:26] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:59:28] Waking up Chrome tabs
+[00:01:35] [1/7] Theertha Shree R | https://www.linkedin.com/in/theertha-shree/
+[00:03:25]     certifications: ANTHROPIC
+[00:03:30] [2/7] Yugendran Sunder | https://www.linkedin.com/in/yugendran-sunder/
+[00:03:55]     certifications: AZURE
+[00:04:02] [3/7] NEERAJ P H | https://www.linkedin.com/in/neeraj-p-h-3b757a183/
+[00:04:51]     certifications: AZURE, PYTHON
+[00:04:56] [4/7] S Shanthakumar | https://www.linkedin.com/in/shanthakumar-chennai/
+[00:05:29]     certifications: PYTHON
+[00:05:34] [5/7] Gowsalya Ganesan | https://www.linkedin.com/in/igowsalya/
+[00:06:09]     certifications: (none of ours)
+[00:06:15] [6/7] Shyamkrishnan Balasubramanian | https://www.linkedin.com/in/shyamkrishnanb/
+[00:07:01]     certifications: (none of ours)
+[00:07:08] [7/7] BARANITHARAN K C | https://www.linkedin.com/in/baranitharankc/
+[00:07:58]     certifications: AWS
+[00:08:41]   row 107: Theertha Shree R -> ANTHROPIC
+[00:08:41]   row 108: Yugendran Sunder -> AZURE
+[00:08:41]   row 109: NEERAJ P H -> AZURE, PYTHON
+[00:08:41]   row 111: S Shanthakumar -> PYTHON
+[00:08:41]   row 115: BARANITHARAN K C -> AWS
+[00:08:42] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261118_000841.xlsx
+[00:09:12] Excel file saved - certifications written for 5 row(s) in sheet NOV
+[00:09:12] Certifications part done
+[00:09:12] ========== Step 5/5: Excel check ==========
+[00:09:36] Excel complete for 17-Nov-2026: 11 row(s) in sheet NOV, 11 on the roster
+[00:09:36] ========== Summary ==========
+[00:09:36]   Roster + feedback: OK
+[00:09:36]   LinkedIn: FAILED: RuntimeError: 1 email(s) could not be looked up
+[00:09:36]   Our Student: OK
+[00:09:36]   Certifications: OK
+[00:09:36]   Excel check: OK
+[00:10:31] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:11:05] WARNING: could not turn the Pearson VUE extension on (Needs a person at the computer: Could not find the new Chrome tab (#pvue-extension). Click on it in Chrome.). Do it by hand in chrome://extensions
+[00:11:05] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:15:27] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:29] Pearson VUE extension turned off
+[00:15:30] Step 1/5: Roster + feedback - already finished
+[00:15:30] ========== Step 2/5: LinkedIn ==========
+[00:15:30] === LinkedIn from Outlook
+[00:15:33] Sheet NOV: 1 email(s) without a LinkedIn Id on 17-Nov-2026
+[00:15:33]   row 106: SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[00:15:36] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:15:37] Waking up Chrome tabs
+[00:15:47] Connected to Chrome
+[00:15:47] Clicked New mail
+[00:15:50] [1/1] SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[00:15:58]     error: StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+[00:15:58]     LinkedIn: (not found)
+[00:16:09] Draft discarded
+[00:16:09] LinkedIn found for 0 of 1 email(s)
+[00:16:09]   ! not found: SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[00:16:10] No LinkedIn URLs found - Excel file not changed
+[00:16:11] !! Step 2 failed: RuntimeError: 1 email(s) could not be looked up
+[00:16:11]    details saved in logs\error_20261118_001610.txt
+[00:16:11] ========== Step 3/5: Our Student ==========
+[00:16:11] === Our Student check in Adv Pro
+[00:16:14]   karthikeyan R: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:16:14] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 17-Nov-2026
+[00:16:14] ========== Step 4/5: Certifications ==========
+[00:16:14] === Certifications from LinkedIn
+[00:16:16] Sheet NOV: 2 LinkedIn profile(s) not checked yet on 17-Nov-2026
+[00:16:19] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:16:20] Waking up Chrome tabs
+[00:16:42] [1/2] Gowsalya Ganesan | https://www.linkedin.com/in/igowsalya/
+[00:17:08]     certifications: (none of ours)
+[00:17:13] [2/2] Shyamkrishnan Balasubramanian | https://www.linkedin.com/in/shyamkrishnanb/
+[00:17:46]     certifications: (none of ours)
+[00:17:51] No certifications to write - Excel file not changed
+[00:17:51] Certifications part done
+[00:17:51] ========== Step 5/5: Excel check ==========
+[00:17:57] Excel complete for 17-Nov-2026: 11 row(s) in sheet NOV, 11 on the roster
+[00:17:57] ========== Summary ==========
+[00:17:57]   Roster + feedback: already finished
+[00:17:57]   LinkedIn: FAILED: RuntimeError: 1 email(s) could not be looked up
+[00:17:57]   Our Student: OK
+[00:17:57]   Certifications: OK
+[00:17:57]   Excel check: OK
+[00:18:11] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:18:14] Pearson VUE extension turned on
+[00:18:14] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:23:37] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:23:41] Pearson VUE extension turned off
+[00:23:41] Step 1/5: Roster + feedback - already finished
+[00:23:41] ========== Step 2/5: LinkedIn ==========
+[00:23:41] === LinkedIn from Outlook
+[00:23:43] Sheet NOV: 1 email(s) without a LinkedIn Id on 17-Nov-2026
+[00:23:43]   row 106: SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[00:23:49] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:23:52] Waking up Chrome tabs
+[00:24:04] Connected to Chrome
+[00:24:04] Clicked New mail
+[00:24:07] [1/1] SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[00:24:33]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:24:33]     LinkedIn: (not found)
+[00:24:38] Draft discarded
+[00:24:38] LinkedIn found for 0 of 1 email(s)
+[00:24:38]   ! not found: SHUBASHINI THYAGARAJAN | tshuba90@gmail.com
+[00:24:38] No LinkedIn URLs found - Excel file not changed
+[00:24:38] LinkedIn part done
+[00:24:38] ========== Step 3/5: Our Student ==========
+[00:24:39] === Our Student check in Adv Pro
+[00:24:43]   karthikeyan R: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:24:43] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 17-Nov-2026
+[00:24:43] ========== Step 4/5: Certifications ==========
+[00:24:43] === Certifications from LinkedIn
+[00:24:45] Sheet NOV: 2 LinkedIn profile(s) not checked yet on 17-Nov-2026
+[00:24:50] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:24:52] Waking up Chrome tabs
+[00:24:57] [1/2] Gowsalya Ganesan | https://www.linkedin.com/in/igowsalya/
+[00:25:19]     error: TypeError: argument of type 'NoneType' is not a container or iterable
+[00:25:19]     could not open the profile - skipped
+[00:25:25] [2/2] Shyamkrishnan Balasubramanian | https://www.linkedin.com/in/shyamkrishnanb/
+[00:25:25]     error: NoSuchWindowException: Message: no such window: target window already closed
+[00:25:25]     could not open the profile - skipped
+[00:25:30] No certifications to write - Excel file not changed
+[00:25:30] !! Step 4 failed: RuntimeError: 2 LinkedIn profile(s) could not be opened
+[00:25:30]    details saved in logs\error_20261118_002530.txt
+[00:25:30] ========== Step 5/5: Excel check ==========
+[00:25:32] Excel complete for 17-Nov-2026: 11 row(s) in sheet NOV, 11 on the roster
+[00:25:32] ========== Summary ==========
+[00:25:32]   Roster + feedback: already finished
+[00:25:32]   LinkedIn: OK
+[00:25:32]   Our Student: OK
+[00:25:32]   Certifications: FAILED: RuntimeError: 2 LinkedIn profile(s) could not be opened
+[00:25:32]   Excel check: OK
+[00:25:35] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:25:37] Pearson VUE extension turned on
+[00:25:37] Done

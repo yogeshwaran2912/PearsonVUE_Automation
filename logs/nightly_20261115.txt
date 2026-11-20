@@ -1,0 +1,58 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:52:08] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:12] Pearson VUE extension turned off
+[23:52:12] ========== Step 1/5: Roster + feedback ==========
+[23:52:12] === Pearson VUE roster + feedback | Date: 15-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:52:17] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:18] Waking up Chrome tabs
+[23:52:30] Connected to Chrome
+[23:52:30] Opening Pearson VUE login page
+[23:52:34] Login submitted
+[23:53:12] Clicked Site Manager
+[23:53:14] Clicked Availability
+[23:53:19] Clicked Roster
+[23:53:24] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:53:24] 0 exam(s) on the roster
+[23:53:28] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[23:53:29] Waking up Chrome tabs
+[23:53:56] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[23:53:56] Feedback timestamps are month/day
+[23:53:56] 0 feedback response(s) on 2026-11-15
+[23:53:59] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[23:53:59] Nothing changed - Excel file not saved
+[23:53:59] Pearson VUE part done
+[23:53:59] ========== Step 2/5: LinkedIn ==========
+[23:53:59] === LinkedIn from Outlook
+[23:54:01] Sheet NOV: 0 email(s) without a LinkedIn Id on 15-Nov-2026
+[23:54:01] ========== Step 3/5: Our Student ==========
+[23:54:01] === Our Student check in Adv Pro
+[23:54:03] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 15-Nov-2026
+[23:54:03] ========== Step 4/5: Certifications ==========
+[23:54:03] === Certifications from LinkedIn
+[23:54:06] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 15-Nov-2026
+[23:54:06] ========== Step 5/5: Excel check ==========
+[23:54:17] Excel complete for 15-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[23:54:17] ========== Summary ==========
+[23:54:17]   Roster + feedback: OK
+[23:54:17]   LinkedIn: OK
+[23:54:17]   Our Student: OK
+[23:54:17]   Certifications: OK
+[23:54:17]   Excel check: OK
+[23:54:21] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:54:31] Pearson VUE extension turned on
+[23:54:31] Done

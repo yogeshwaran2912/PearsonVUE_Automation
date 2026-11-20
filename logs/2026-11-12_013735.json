@@ -1,0 +1,144 @@
+{
+  "roster": [
+    {
+      "name": "Aarthi G",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "6382521771"
+    },
+    {
+      "name": "M K Ashik Rahuman",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9025883202"
+    },
+    {
+      "name": "Britto Nazarius Louis",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "9901002135"
+    },
+    {
+      "name": "Sripriya S",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "M Magesh",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Premsagar Rao",
+      "client": "HPE Certification and Learning",
+      "code": "HPE6-A78",
+      "phone": "8369876492"
+    },
+    {
+      "name": "Amrutha A",
+      "client": "Chartered Institute of Management Accountants",
+      "code": "CGMAXPRO19-CS2-1-ENG",
+      "phone": "8124065055"
+    },
+    {
+      "name": "SATHYANARAYANAN THIRUVENGADAM",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "919940055009"
+    },
+    {
+      "name": "Bashyam Tirumalai Vinjamoor",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Bharathwajan Sairam",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9944879770"
+    },
+    {
+      "name": "Akshay Ravi",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9840880261"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/12/2026 6:58:53",
+      "phone": "6382521771",
+      "email": "aarthigopinath08@gmail.com",
+      "company": "Accenture",
+      "designation": "Developer",
+      "experience": "None",
+      "name": "Aarthi"
+    },
+    {
+      "ts": "11/12/2026 9:12:57",
+      "phone": "9025883202",
+      "email": "reachmkashik@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Product Manager",
+      "experience": "Good support",
+      "name": "M K Ashik Rahuman"
+    },
+    {
+      "ts": "11/12/2026 10:13:40",
+      "phone": "9901002135",
+      "email": "britto.louis@gmail.com",
+      "company": "Virtusa",
+      "designation": "Senior Systems Architect",
+      "experience": "Good",
+      "name": "Britto Louis"
+    },
+    {
+      "ts": "11/12/2026 11:33:37",
+      "phone": "9994182557",
+      "email": "sriswt9@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "ASOC",
+      "experience": "Sure",
+      "name": "Sripriya S"
+    },
+    {
+      "ts": "11/12/2026 12:46:26",
+      "phone": "9840646579",
+      "email": "magesh.manohar.1982@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Assistant Manager",
+      "experience": "Its professional",
+      "name": "M Magesh"
+    },
+    {
+      "ts": "11/12/2026 13:03:57",
+      "phone": "9597523527",
+      "email": "shemavathy2611@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Tech lead",
+      "experience": "Good",
+      "name": "Hema"
+    },
+    {
+      "ts": "11/12/2026 20:48:46",
+      "phone": "7550165993",
+      "email": "btvforpm@gmail.com",
+      "company": "Hexaware Technologies",
+      "designation": "Project Director",
+      "experience": "A centrally located testing center in the heart of the city and well connected",
+      "name": "Bashyam Tirumalai Vinjamoor"
+    },
+    {
+      "ts": "11/12/2026 22:05:19",
+      "phone": "9944879770",
+      "email": "bharath0290@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Sr. Manager",
+      "experience": "Good experience",
+      "name": "Bharath"
+    }
+  ]
+}

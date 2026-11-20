@@ -1,0 +1,97 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:53:49] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:53:51] Pearson VUE extension turned off
+[03:53:51] ========== 18-Nov-2026  Step 1/6: Roster + feedback ==========
+[03:53:51] === Pearson VUE roster + feedback | Date: 18-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:53:55] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:53:56] Waking up Chrome tabs
+[03:53:58] Connected to Chrome
+[03:53:58] Opening Pearson VUE login page
+[03:53:59] Login submitted
+[03:54:20] Clicked Site Manager
+[03:54:22] Clicked Availability
+[03:54:26] Clicked Roster
+[03:54:31] Set roster date 2026-11-18
+[03:54:34] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[03:54:34] 9 exam(s) on the roster
+[03:54:35]   Aruna N: 8939150095
+[03:54:39] !! Step 1 failed: ElementClickInterceptedException: Message: element click intercepted: Element <input _ngcontent-ng-c1105192097="" autocomplete="off" matinput="" id="examDate" name="examDate" required="" class="mat-datepicker-input form-control ng-untouched ng-pristine ng-valid" placeholder="MM/DD/YYYY" aria-haspopup="dialog" data-mat-calendar="mat-datepicker-1"> is not clickable at point (554, 226). Other element would receive the click: <div _ngcontent-ng-c1362865467="" class="loading-screen-block"></div>
+  (Session info: chrome=130.0.6723.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF691F538A5+3004357]
+	(No symbol) [0x00007FF691BE9970]
+	(No symbol) [0x00007FF691A9582A]
+	(No symbol) [0x00007FF691AED80E]
+	(No symbol) [0x00007FF691AEB2AC]
+	(No symbol) [0x00007FF691AE8778]
+	(No symbol) [0x00007FF691AE798C]
+	(No symbol) [0x00007FF691AD996E]
+	(No symbol) [0x00007FF691B0BBDA]
+	(No symbol) [0x00007FF691AD92A6]
+	(No symbol) [0x00007FF691B0BDF0]
+	(No symbol) [0x00007FF691B2BA4C]
+	(No symbol) [0x00007FF691B0B983]
+	(No symbol) [0x00007FF691AD7628]
+	(No symbol) [0x00007FF691AD8791]
+	GetHandleVerifier [0x00007FF691F7A00D+3161901]
+	GetHandleVerifier [0x00007FF691FCE060+3506048]
+	GetHandleVerifier [0x00007FF691FC400D+3465005]
+	GetHandleVerifier [0x00007FF691D40EEB+830987]
+	(No symbol) [0x00007FF691BF467F]
+	(No symbol) [0x00007FF691BF09D4]
+	(No symbol) [0x00007FF691BF0B6D]
+	(No symbol) [0x00007FF691BE0149]
+	BaseThreadInitThunk [0x00007FFED25D7374+20]
+	RtlUserThreadStart [0x00007FFED395CC91+33]
+
+[03:54:39]    details saved in logs\error_20261119_035439.txt
+[03:54:39] Closed 2 Chrome tab(s) this step opened
+[03:54:39] ========== 18-Nov-2026  Step 2/6: LinkedIn ==========
+[03:54:39] === LinkedIn from Outlook
+[03:54:41] Sheet NOV: 0 person(s) without a LinkedIn Id on 18-Nov-2026
+[03:54:41] ========== 18-Nov-2026  Step 3/6: Our Student ==========
+[03:54:41] === Our Student check in Adv Pro
+[03:54:42] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 18-Nov-2026
+[03:54:42] ========== 18-Nov-2026  Step 4/6: Certifications ==========
+[03:54:42] === Certifications from LinkedIn
+[03:54:44] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 18-Nov-2026
+[03:54:44] ========== 18-Nov-2026  Step 5/6: Google reviews ==========
+[03:54:48] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:54:49] Waking up Chrome tabs
+[03:55:03] Google Maps: Reviews -> Sort -> Newest
+[03:55:09] 2 Google review(s) in the last 29 hours
+[03:55:09]   Madhuri Gopal | 5 star | 12 hours ago | Test started on time. Good ventilation , lighting overall excellent
+[03:55:09]   Aruna Nainappan | 5 star | Edited 17 hours ago | Technical glitch while submitting
+[03:55:11] 2 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[03:55:11]     - Madhuri Gopal | 5 star | 12 hours ago
+[03:55:11]     - Aruna Nainappan | 5 star | Edited 17 hours ago
+[03:55:11] Nothing new to write - Excel file not changed
+[03:55:11] Closed 1 Chrome tab(s) this step opened
+[03:55:11] ========== 18-Nov-2026  Step 6/6: Excel check ==========
+[03:55:13] !! Step 6 failed: RuntimeError: Excel not complete for 18-Nov-2026 - not on the sheet: Aruna N, Hari Kishore M, Banupriya R, Jeevitha Gajendran, Madhavan R, Madhuri Gopal, Duvvuri Avinash, Saicharan P B, Abdul Rahman A
+[03:55:13]    details saved in logs\error_20261119_035513.txt
+[03:55:13] ========== Summary ==========
+[03:55:13]   Roster + feedback: FAILED: ElementClickInterceptedException: Message: element click intercepted: Element <input _ngcontent-ng-c1105192097="" autocomplete="off" matinput="" id="examDate" name="examDate" required=
+[03:55:13]   LinkedIn: OK
+[03:55:13]   Our Student: OK
+[03:55:13]   Certifications: OK
+[03:55:13]   Google reviews: OK
+[03:55:13]   Excel check: FAILED: RuntimeError: Excel not complete for 18-Nov-2026 - not on the sheet: Aruna N, Hari Kishore M, Banupriya R, Jeevitha Gajendran, Madhavan R, Madhuri Gopal, Duvvuri Av
+[03:55:18] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:55:20] Pearson VUE extension turned on
+[03:55:20] Done

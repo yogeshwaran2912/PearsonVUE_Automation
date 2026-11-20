@@ -1,0 +1,105 @@
+{
+  "roster": [
+    {
+      "name": "Krithika Pandy",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Srinivasaraghavan PR",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Karthick Venkatraman",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "P A Venkat",
+      "client": "ServiceNow",
+      "code": "CAD",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Nirththanan K",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Karthick Haribabu",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Manish Manual M",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "919962864115"
+    },
+    {
+      "name": "ANAND S",
+      "client": "Pegasystems Inc",
+      "code": "PEGACPDS25V1",
+      "phone": "8148998720"
+    },
+    {
+      "name": "Harihara Navin S",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "9791077201"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/2/2026 23:21:24",
+      "phone": "9791077201",
+      "email": "shnavinpro@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "It was good since I cleared the exam",
+      "name": "Harihara Navin S"
+    },
+    {
+      "ts": "11/2/2026 22:09:20",
+      "phone": "9962864115",
+      "email": "manish.manual@gmail.com",
+      "company": "Amazon",
+      "designation": "ML Data Associate",
+      "experience": "NA",
+      "name": "Manish Manual M"
+    },
+    {
+      "ts": "11/2/2026 13:03:38",
+      "phone": "9176473653",
+      "email": "srinivasaraghavan.pr@gmail.com",
+      "company": "Bounteous",
+      "designation": "Technical Manager",
+      "experience": "Good",
+      "name": "Srinivasaraghavan PR"
+    },
+    {
+      "ts": "11/2/2026 17:10:26",
+      "phone": "9840709775",
+      "email": "nirththanan@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Team lead",
+      "experience": "Instructions and clear and centre is without any distractions",
+      "name": "Nirththanan"
+    },
+    {
+      "ts": "11/2/2026 22:57:11",
+      "phone": "8148998720",
+      "email": "anand.arone@gmail.com",
+      "company": "Instellars",
+      "designation": "Software eng",
+      "experience": "Nil",
+      "name": "Anand s"
+    }
+  ]
+}

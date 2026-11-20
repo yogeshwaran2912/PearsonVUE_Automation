@@ -1,0 +1,123 @@
+{
+  "roster": [
+    {
+      "name": "Aruna N",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "8939150095"
+    },
+    {
+      "name": "Hari Kishore M",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "9585833202"
+    },
+    {
+      "name": "Banupriya R",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jeevitha Gajendran",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "9884850111"
+    },
+    {
+      "name": "Madhavan R",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "6383413857"
+    },
+    {
+      "name": "Madhuri Gopal",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Duvvuri Avinash",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "6380258120"
+    },
+    {
+      "name": "Saicharan P B",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Abdul Rahman A",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/18/2026 10:09:55",
+      "phone": "8939150095",
+      "email": "nagalakshmi.nainappan@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Engineer",
+      "experience": "Moderate",
+      "name": "Aruna N"
+    },
+    {
+      "ts": "11/18/2026 12:11:58",
+      "phone": "9585833202",
+      "email": "kishorehari228@gmail.com",
+      "company": "EPAM India",
+      "designation": "Senior Data engineer",
+      "experience": "Good",
+      "name": "Hari Kishore M"
+    },
+    {
+      "ts": "11/18/2026 14:07:20",
+      "phone": "9884850111",
+      "email": "gjeevitha89@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "AST",
+      "experience": "Good and environment safe",
+      "name": "jeevitha"
+    },
+    {
+      "ts": "11/18/2026 15:22:46",
+      "phone": "988492257",
+      "email": "gopal.madhuri@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "COE Lead , Technology",
+      "experience": "Yes good place",
+      "name": "Madhuri gopal"
+    },
+    {
+      "ts": "11/18/2026 16:21:27",
+      "phone": "6383413857",
+      "email": "rangansubamadhavan@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "System engineer",
+      "experience": "Nil",
+      "name": "Madhavan R"
+    },
+    {
+      "ts": "11/18/2026 18:48:37",
+      "phone": "6380258120",
+      "email": "avinashhazarathbabu@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Processor Associate",
+      "experience": "None",
+      "name": "Duvvuri Avinash"
+    },
+    {
+      "ts": "11/18/2026 22:02:15",
+      "phone": "9791094468",
+      "email": "abdulasifrahman94@gmail.com",
+      "company": "Hexaware Technologies",
+      "designation": "Senior Software Engineer",
+      "experience": "Nice",
+      "name": "Abdul Rahman"
+    }
+  ]
+}

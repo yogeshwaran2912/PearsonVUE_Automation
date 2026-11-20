@@ -1,0 +1,132 @@
+{
+  "roster": [
+    {
+      "name": "Murugaperumal Ramasamy",
+      "client": "Anthropic",
+      "code": "CCAR-P",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jayachandiran T V",
+      "client": "Microsoft",
+      "code": "AI-901",
+      "phone": "9345809974"
+    },
+    {
+      "name": "Jenish Praveen Kumar G",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Rajkumar Elangovan",
+      "client": "Snowflake",
+      "code": "GES-C02",
+      "phone": "8056286854"
+    },
+    {
+      "name": "Sabarinathan venkatachalam",
+      "client": "IBM Corporation",
+      "code": "C1000-196",
+      "phone": "9840272899"
+    },
+    {
+      "name": "VIGNESH B",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "ANAND GOPALAN",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Dhinesh R",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "James Binny R",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Syed Nadeem Ahmed S",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Arun Raj",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Saquib Mohammed",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/24/2026 12:42:14",
+      "phone": "7010337171",
+      "email": "jenishpraveenkumar2911@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Programmer Analyst Trainee",
+      "experience": "Everything was good",
+      "name": "Jenish Praveen Kumar G"
+    },
+    {
+      "ts": "10/24/2026 20:15:55",
+      "phone": "7358181748",
+      "email": "arunraj.21cs@gmail.com",
+      "company": "Verizon",
+      "designation": "Data engineer",
+      "experience": "Good",
+      "name": "Arun Raj"
+    },
+    {
+      "ts": "10/24/2026 10:51:19",
+      "phone": "9345809974",
+      "email": "jayachandirantv@gmail.com",
+      "company": "St joseph's institute of technology",
+      "designation": "Student",
+      "experience": "Nice test center calm and peaceful",
+      "name": "Jayachandiran T V"
+    },
+    {
+      "ts": "10/24/2026 13:44:17",
+      "phone": "9840272899",
+      "email": "sabarivenkat21@gmail.com",
+      "company": "NSEIT Limited",
+      "designation": "LEAD consultant",
+      "experience": "Good",
+      "name": "Sabarinathan"
+    },
+    {
+      "ts": "10/24/2026 15:29:20",
+      "phone": "7358235027",
+      "email": "vignesh.bphv@gmail.com",
+      "company": "Virtusa",
+      "designation": "AI Developer",
+      "experience": "Very good experience",
+      "name": "Vignesh B"
+    },
+    {
+      "ts": "10/24/2026 20:22:16",
+      "phone": "8056074122",
+      "email": "syednadeem.ece@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Architect",
+      "experience": "Good",
+      "name": "Syed Nadeem Ahmed S"
+    }
+  ]
+}

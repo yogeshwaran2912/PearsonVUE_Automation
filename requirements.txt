@@ -16,3 +16,4 @@ pywinauto>=0.6.8,<0.7
 
 # Screenshot of the Adv Pro result list (backup check)
 pillow>=10
+websocket-client

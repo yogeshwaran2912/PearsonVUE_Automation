@@ -1,0 +1,141 @@
+{
+  "roster": [
+    {
+      "name": "Sadhana Ganesh",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "R Vignesh",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Sathiyamoorthy Paramanantham",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Sridharraj A",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Arun Madhavan",
+      "client": "UiPath",
+      "code": "UiPath-ADPv1",
+      "phone": "944-405-2653"
+    },
+    {
+      "name": "Vaishnave PH",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Varshaa Manoj",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Binoy Sebastain",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Swarnika T",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9176602324"
+    },
+    {
+      "name": "Kalaiselvan M",
+      "client": "Salesforce",
+      "code": "Plat-Admn-201",
+      "phone": "9943373361"
+    },
+    {
+      "name": "Vinothini R",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9092553661"
+    },
+    {
+      "name": "Arun ID",
+      "client": "Salesforce",
+      "code": "JS-Dev-101",
+      "phone": "9094044833"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/15/2026 13:24:45",
+      "phone": "9952728234",
+      "email": "asridharraj@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Tech lead",
+      "experience": "Good",
+      "name": "Sridharraj A"
+    },
+    {
+      "ts": "10/15/2026 15:28:31",
+      "phone": "9498403291",
+      "email": "varshaa.m.0620@gmail.com",
+      "company": "Capgemini",
+      "designation": "Analyst",
+      "experience": "Great test environment",
+      "name": "Varshaa Manoj"
+    },
+    {
+      "ts": "10/15/2026 15:57:41",
+      "phone": "9821011518",
+      "email": "lehanvats@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "Lehan Vats"
+    },
+    {
+      "ts": "10/15/2026 16:01:33",
+      "phone": "6374975083",
+      "email": "vaishnaveph@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "HR",
+      "experience": "Nil",
+      "name": "Vaishnave PH"
+    },
+    {
+      "ts": "10/15/2026 18:39:34",
+      "phone": "9176602324",
+      "email": "swarnikat2007@gmail.com",
+      "company": "Vectra Technosoft",
+      "designation": "Student",
+      "experience": "Amaxing",
+      "name": "Swarnika T"
+    },
+    {
+      "ts": "10/15/2026 20:02:42",
+      "phone": "9092553661",
+      "email": "310625243248@eec.srmrmp.edu.in",
+      "company": "Easwari engineering college",
+      "designation": "VECTRA TECHNOSOFT PVT. LTD",
+      "experience": "Yes",
+      "name": "Vinothini R"
+    },
+    {
+      "ts": "10/15/2026 23:18:04",
+      "phone": "9094044833",
+      "email": "aruni.d74@gmail.com",
+      "company": "Msi",
+      "designation": "Developer",
+      "experience": "Great and Good experience",
+      "name": "Arun I D"
+    }
+  ]
+}

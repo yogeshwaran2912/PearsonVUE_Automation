@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2186, in run_all
+    step()
+    ~~~~^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2166, in <lambda>
+    steps = [("Roster + feedback", lambda: run_pvue(cfg, date, args)),
+                                           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 1878, in run_pvue
+    people = scrape_roster(driver, cfg, date)
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 757, in scrape_roster
+    open_roster(driver, date, cfg)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 610, in open_roster
+    set_roster_date(driver, date)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 646, in set_roster_date
+    ask_user(f"Could not find the date box. Please pick {date:%d-%b-%Y} on the roster.")
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 113, in ask_user
+    input(f"\n>>> {msg}\n    Press Enter when done... ")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line

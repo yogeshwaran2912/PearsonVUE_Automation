@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 2219, in run_all
+    step()
+    ~~~~^^
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 2201, in <lambda>
+    ("Our Student", lambda: run_student(cfg, date, date, args)),
+                            ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 2065, in run_student
+    adv = AdvPro(cfg)
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1717, in __init__
+    self.grid = self.form.child_window(class_name=self.GRID).wrapper_object()
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\pywinauto\application.py", line 267, in wrapper_object
+    ctrls = self.__resolve_control(self.criteria)
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\pywinauto\application.py", line 250, in __resolve_control
+    ctrl = wait_until_passes(
+        timeout,
+    ...<5 lines>...
+         controls.InvalidElement),
+        criteria)
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}

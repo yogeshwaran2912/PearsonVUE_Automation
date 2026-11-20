@@ -1,0 +1,96 @@
+{
+  "roster": [
+    {
+      "name": "Rajesh S S",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Manoj Praveen Thiagarajan",
+      "client": "Microsoft",
+      "code": "AB-731",
+      "phone": "7358207104"
+    },
+    {
+      "name": "Rajesh Bharathy Prabhakaran",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jeet Thakur",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Rizwan Ali",
+      "client": "Microsoft",
+      "code": "AB-731",
+      "phone": "9841411552"
+    },
+    {
+      "name": "Sathyanarayanan Thiruvengadam",
+      "client": "Microsoft",
+      "code": "AB-731",
+      "phone": "9940055009"
+    },
+    {
+      "name": "Pavithra Velumani",
+      "client": "Salesforce",
+      "code": "AI-201",
+      "phone": "9941615054"
+    },
+    {
+      "name": "Dhanush Kumar S",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "9176062439"
+    },
+    {
+      "name": "Uma R",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/5/2026 9:01:59",
+      "phone": "7358207104",
+      "email": "manojpraveen.t.8.96@gmail.com",
+      "company": "Infosys",
+      "designation": "Consultant",
+      "experience": "Good Technician and made process smooth",
+      "name": "Manoj Praveen Thiagarajan"
+    },
+    {
+      "ts": "11/5/2026 9:33:52",
+      "phone": "9342841242",
+      "email": "senthilrajesh33in@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Senior management",
+      "experience": "Thanks for the prompt support and helping me woothe early morning slot",
+      "name": "Rajesh.S.S"
+    },
+    {
+      "ts": "11/5/2026 11:02:53",
+      "phone": "6381009192",
+      "email": "vigneshsssivakumar@gmail.com",
+      "company": "Lebara",
+      "designation": "Junior Data Ops",
+      "experience": "No",
+      "name": "Vignesh"
+    },
+    {
+      "ts": "11/5/2026 17:16:49",
+      "phone": "9176062439",
+      "email": "dhanushkumar36@gmail.com",
+      "company": "Tech Mahindra Ltd",
+      "designation": "Tech Lead",
+      "experience": "No spare components exam delayed 20 minutes be ause of mouse repair",
+      "name": "Dhanush"
+    }
+  ]
+}

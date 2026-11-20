@@ -1,0 +1,147 @@
+{
+  "roster": [
+    {
+      "name": "Rakesh Anumala",
+      "client": "HPE Certification and Learning",
+      "code": "HPE7-A02",
+      "phone": "8015612987"
+    },
+    {
+      "name": "Kiran Kumar",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Manoj Praveen Thiagarajan",
+      "client": "Microsoft",
+      "code": "AB-730",
+      "phone": "7358207104"
+    },
+    {
+      "name": "Ajaymohan P",
+      "client": "Microsoft",
+      "code": "AI-300",
+      "phone": "7338998373"
+    },
+    {
+      "name": "Gokul Sri M",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "9551101196"
+    },
+    {
+      "name": "S Sharmila",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jai Akash M",
+      "client": "Microsoft",
+      "code": "SC-900",
+      "phone": "9791654426"
+    },
+    {
+      "name": "Vaseem Khan",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Prazila Pearl J",
+      "client": "Microsoft",
+      "code": "AI-901",
+      "phone": "6383587393"
+    },
+    {
+      "name": "Prakash Sundaram",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/21/2026 20:41:40",
+      "phone": "9841265723",
+      "email": "prakash.sun2976@gmail.com",
+      "company": "Infosys",
+      "designation": "Project manager",
+      "experience": "Yes",
+      "name": "Prakash sundaram"
+    },
+    {
+      "ts": "10/21/2026 15:08:15",
+      "phone": "9940322278",
+      "email": "vaseem4731@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Team Lead",
+      "experience": "Very good",
+      "name": "Vaseem Khan"
+    },
+    {
+      "ts": "10/21/2026 7:20:03",
+      "phone": "8015612987",
+      "email": "anumalarakesha@gmail.com",
+      "company": "Hewlett-Packard ( HP )",
+      "designation": "L2 network engineer",
+      "experience": "Good",
+      "name": "Rakesh"
+    },
+    {
+      "ts": "10/21/2026 8:52:30",
+      "phone": "7358207104",
+      "email": "manojpraveen.t.8.96@gmail.com",
+      "company": "Infosys",
+      "designation": "Consultant",
+      "experience": "Good Technician and made process smooth",
+      "name": "Manoj Praveen Thiagarajan"
+    },
+    {
+      "ts": "10/21/2026 10:16:32",
+      "phone": "7401460231",
+      "email": "vemuruk1981@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Senior Manager",
+      "experience": "Good experience",
+      "name": "Kiran kumar"
+    },
+    {
+      "ts": "10/21/2026 11:26:52",
+      "phone": "7338998373",
+      "email": "ajaymohan1257@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Senior Associate",
+      "experience": "Quiet and near exam atmosphere",
+      "name": "Ajaymohan P"
+    },
+    {
+      "ts": "10/21/2026 12:25:05",
+      "phone": "9551101196",
+      "email": "gokulmarch2005@gmail.com",
+      "company": "College",
+      "designation": "Student",
+      "experience": "All good",
+      "name": "GOKUL SRI M"
+    },
+    {
+      "ts": "10/21/2026 14:34:29",
+      "phone": "9087206694",
+      "email": "sharmilavasan1297@gmail.com",
+      "company": "Infosys",
+      "designation": "Consultant",
+      "experience": "Very good place for taking your test peacefully",
+      "name": "Sharmila"
+    },
+    {
+      "ts": "10/21/2026 14:36:36",
+      "phone": "9791654426",
+      "email": "jaiakash2006mala@gmail.com",
+      "company": "Microsoft",
+      "designation": "Gummidipoondi",
+      "experience": "Easy to locate and no issues",
+      "name": "Jai Akash M"
+    }
+  ]
+}

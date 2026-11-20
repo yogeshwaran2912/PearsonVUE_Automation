@@ -1,0 +1,177 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:52:08] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:10] Pearson VUE extension turned off
+[23:52:10] === Pearson VUE roster + feedback | Date: 31-Oct-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:52:16] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:16] Waking up Chrome tabs
+[23:52:23] Connected to Chrome
+[23:52:23] Opening Pearson VUE login page
+[23:52:23] Already logged in
+[23:52:23] Clicked Site Manager
+[23:52:25] Clicked Availability
+[23:52:28] Clicked Roster
+[23:52:31] Set roster date 2026-10-31
+
+>>> Check the roster is showing 31-Oct-2026 (fix it in Chrome if not).
+    Press Enter when done... [23:52:34] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:52:34] 13 exam(s) on the roster
+[23:52:35]   Bala Siva B: 415-326-6303
+[23:52:39]   Ashwin Leonard: 415-326-6303
+[23:52:43]   Prasanna Sridharan: 415-326-6303
+[23:52:47]   Aiswarya Ganesan: 415-326-6303
+[23:52:51]   Barath Kumar S: 8248067482
+[23:52:54]   Vijay Pradeep Raj: 415-326-6303
+[23:52:57]   Shyam Baskar: 415-326-6303
+[23:53:01]   Saravanakumar D: 415-326-6303
+[23:53:04]   Shabaz Khan Y: 415-326-6303
+[23:53:09]   Ramkumar K: 415-326-6303
+[23:53:13]   Sekar Kaliappan: 9840298799
+[23:53:19]   Karthickeyan M: 415-326-6303
+[23:53:27]   Gohul Krishnan: 9884221051
+[23:53:34] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[23:53:34] Waking up Chrome tabs
+[23:53:44] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[23:53:44] Feedback timestamps are month/day
+[23:53:44] 8 feedback response(s) on 2026-10-31
+[23:53:47]   added: Bala Siva B | Anthropic | CCAR-F | 415-326-6303
+[23:53:47]   added: Ashwin Leonard | Anthropic | CCAO-F | 415-326-6303
+[23:53:47]   added: Prasanna Sridharan | Anthropic | CCAR-F | 415-326-6303
+[23:53:47]   added: Aiswarya Ganesan | Anthropic | CCAR-F | 415-326-6303
+[23:53:47]   added: Barath Kumar S | Splunk | SPLK-5003 | 8248067482
+[23:53:47]   added: Vijay Pradeep Raj | Anthropic | CCAO-F | 415-326-6303
+[23:53:47]   added: Shyam Baskar | Anthropic | CCAO-F | 415-326-6303
+[23:53:47]   added: Saravanakumar D | Anthropic | CCAR-F | 415-326-6303
+[23:53:47]   added: Shabaz Khan Y | Anthropic | CCAO-F | 415-326-6303
+[23:53:47]   added: Ramkumar K | Anthropic | CCAR-F | 415-326-6303
+[23:53:47]   added: Sekar Kaliappan | HPE Certification and Learning | HPE7-A10 | 9840298799
+[23:53:47]   added: Karthickeyan M | Anthropic | CCDV-F | 415-326-6303
+[23:53:47]   added: Gohul Krishnan | Microsoft | GH-300 | 9884221051
+[23:53:47]   feedback 'Bala Siva B' -> row 242: Bala Siva B (matched by name) | phone 7401029221 | bbalashiva@gmail.com
+[23:53:47]   feedback 'Prasanna Sridharan' -> row 244: Prasanna Sridharan (matched by name) | phone 9884081711 | prasannasridhar@gmail.com
+[23:53:47]   feedback 'Vijay pradeep raj' -> row 247: Vijay Pradeep Raj (matched by name) | phone 9677230820 | vijaypradeepraj@gmail.com
+[23:53:47]   feedback 'Shyam' -> row 248: Shyam Baskar (matched by name) | phone Test | shyambaskar1994@gmail.com
+[23:53:47]   feedback 'Saravanakumar' -> row 249: Saravanakumar D (matched by name) | phone 9003083839 | saravanakumard21@gmail.com
+[23:53:47]   feedback 'Shabaz khan' -> row 250: Shabaz Khan Y (matched by name) | phone 9789902428 | shabazkhansk03@gmail.com
+[23:53:47]   feedback 'Ramkumar K' -> row 251: Ramkumar K (matched by name) | phone 9790903594 | ramkumarkandan02@gmail.com
+[23:53:47]   feedback 'Sekar Kaliappan' -> row 252: Sekar Kaliappan (matched by phone) | phone 9840298799 | shkutty@gmail.com
+[23:53:47] Sheet OCT: 13 row(s) added, 8 row(s) updated with feedback
+[23:53:47] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261031_235347.xlsx
+[23:53:50] Excel file saved
+[23:53:50] Pearson VUE part done
+[23:53:50] === LinkedIn from Outlook
+[23:53:54] Sheet OCT: 8 email(s) without a LinkedIn Id on 31-Oct-2026
+[23:53:54]   row 242: Bala Siva B | bbalashiva@gmail.com
+[23:53:54]   row 244: Prasanna Sridharan | prasannasridhar@gmail.com
+[23:53:54]   row 247: Vijay Pradeep Raj | vijaypradeepraj@gmail.com
+[23:53:54]   row 248: Shyam Baskar | shyambaskar1994@gmail.com
+[23:53:54]   row 249: Saravanakumar D | saravanakumard21@gmail.com
+[23:53:54]   row 250: Shabaz Khan Y | shabazkhansk03@gmail.com
+[23:53:54]   row 251: Ramkumar K | ramkumarkandan02@gmail.com
+[23:53:54]   row 252: Sekar Kaliappan | shkutty@gmail.com
+[23:53:58] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:54:01] Waking up Chrome tabs
+[23:54:20] Clicked New mail
+[23:54:44] [1/8] Bala Siva B | bbalashiva@gmail.com
+[23:54:56]     LinkedIn: https://www.linkedin.com/in/bala-siva-b-/
+[23:54:58] [2/8] Prasanna Sridharan | prasannasridhar@gmail.com
+[23:55:07]     LinkedIn: https://www.linkedin.com/in/prasanna-sridharan-ba1697177/
+[23:55:09] [3/8] Vijay Pradeep Raj | vijaypradeepraj@gmail.com
+[23:55:19]     LinkedIn: https://www.linkedin.com/in/vijaypradeepraj/
+[23:55:25] [4/8] Shyam Baskar | shyambaskar1994@gmail.com
+[23:55:40]     LinkedIn: https://www.linkedin.com/in/shyam-baskar/
+[23:55:42] [5/8] Saravanakumar D | saravanakumard21@gmail.com
+[23:55:58]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[23:55:58]     LinkedIn: (not found)
+[23:56:00] [6/8] Shabaz Khan Y | shabazkhansk03@gmail.com
+[23:56:08]     LinkedIn: https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[23:56:10] [7/8] Ramkumar K | ramkumarkandan02@gmail.com
+[23:56:19]     LinkedIn: https://www.linkedin.com/in/ramkumar-k-707031236/
+[23:56:21] [8/8] Sekar Kaliappan | shkutty@gmail.com
+[23:56:29]     LinkedIn: https://www.linkedin.com/in/sekar-kaliappan-01b01810/
+[23:56:34] Draft discarded
+[23:56:34] LinkedIn found for 7 of 8 email(s)
+[23:56:34]   ! not found: Saravanakumar D | saravanakumard21@gmail.com
+[23:56:43]   row 242: Bala Siva B -> https://www.linkedin.com/in/bala-siva-b-/
+[23:56:43]   row 244: Prasanna Sridharan -> https://www.linkedin.com/in/prasanna-sridharan-ba1697177/
+[23:56:43]   row 247: Vijay Pradeep Raj -> https://www.linkedin.com/in/vijaypradeepraj/
+[23:56:43]   row 248: Shyam Baskar -> https://www.linkedin.com/in/shyam-baskar/
+[23:56:43]   row 250: Shabaz Khan Y -> https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[23:56:43]   row 251: Ramkumar K -> https://www.linkedin.com/in/ramkumar-k-707031236/
+[23:56:43]   row 252: Sekar Kaliappan -> https://www.linkedin.com/in/sekar-kaliappan-01b01810/
+[23:56:43] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261031_235643.xlsx
+[23:56:45] Excel file saved - 7 LinkedIn URL(s) written to sheet OCT
+[23:56:45] LinkedIn part done
+[23:56:45] === Our Student check in Adv Pro
+[23:56:49] Sheet OCT: 12 phone number(s) without 'Our Student Y/N' on 31-Oct-2026
+[23:56:58] Opening Adv Pro
+[23:57:00] Adv Pro: logged in
+[23:57:02] Adv Pro: Master > Registration > Display
+[23:57:03] Adv Pro: Filter By = PresentPhoneNo
+[23:57:06] [1/12] 7401029221 Bala Siva B: n
+[23:57:09] [2/12] 4153266303 Ashwin Leonard: n
+[23:57:12] [3/12] 9884081711 Prasanna Sridharan: n
+[23:57:15] [4/12] 4153266303 Aiswarya Ganesan: n
+[23:57:18] [5/12] 8248067482 Barath Kumar S: n
+[23:57:21] [6/12] 9677230820 Vijay Pradeep Raj: n
+[23:57:24] [7/12] 9003083839 Saravanakumar D: n
+[23:57:27] [8/12] 9789902428 Shabaz Khan Y: n
+[23:57:30] [9/12] 9790903594 Ramkumar K: n
+[23:57:33] [10/12] 9840298799 Sekar Kaliappan: n
+[23:57:35] [11/12] 4153266303 Karthickeyan M: n
+[23:57:38] [12/12] 9884221051 Gohul Krishnan: n
+[23:57:40]   row 242: Bala Siva B | 7401029221 -> n
+[23:57:40]   row 243: Ashwin Leonard | 4153266303 -> n
+[23:57:40]   row 244: Prasanna Sridharan | 9884081711 -> n
+[23:57:40]   row 245: Aiswarya Ganesan | 4153266303 -> n
+[23:57:40]   row 246: Barath Kumar S | 8248067482 -> n
+[23:57:40]   row 247: Vijay Pradeep Raj | 9677230820 -> n
+[23:57:40]   row 249: Saravanakumar D | 9003083839 -> n
+[23:57:40]   row 250: Shabaz Khan Y | 9789902428 -> n
+[23:57:40]   row 251: Ramkumar K | 9790903594 -> n
+[23:57:40]   row 252: Sekar Kaliappan | 9840298799 -> n
+[23:57:40]   row 253: Karthickeyan M | 4153266303 -> n
+[23:57:40]   row 254: Gohul Krishnan | 9884221051 -> n
+[23:57:40] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261031_235740.xlsx
+[23:57:42] Excel file saved - 'Our Student Y/N' written for 12 row(s) in sheet OCT
+[23:57:42] Our Student part done
+[23:57:42] === Certifications from LinkedIn
+[23:57:46] Sheet OCT: 7 LinkedIn profile(s) not checked yet on 31-Oct-2026
+[23:57:51] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:57:52] Waking up Chrome tabs
+[23:58:52] [1/7] Bala Siva B | https://www.linkedin.com/in/bala-siva-b-/
+[23:59:33]     certifications: (none of ours)
+[23:59:38] [2/7] Prasanna Sridharan | https://www.linkedin.com/in/prasanna-sridharan-ba1697177/
+[00:00:42]     certifications: AWS
+[00:00:49] [3/7] Vijay Pradeep Raj | https://www.linkedin.com/in/vijaypradeepraj/
+[00:01:34]     certifications: (none of ours)
+[00:01:40] [4/7] Shyam Baskar | https://www.linkedin.com/in/shyam-baskar/
+[00:03:18]     certifications: (none of ours)
+[00:03:24] [5/7] Shabaz Khan Y | https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[00:03:48]     certifications: (none of ours)
+[00:03:53] [6/7] Ramkumar K | https://www.linkedin.com/in/ramkumar-k-707031236/
+[00:04:36]     certifications: PYTHON, ANTHROPIC
+[00:04:45] [7/7] Sekar Kaliappan | https://www.linkedin.com/in/sekar-kaliappan-01b01810/
+[00:05:41]     certifications: (none of ours)
+[00:05:50]   row 244: Prasanna Sridharan -> AWS
+[00:05:50]   row 251: Ramkumar K -> PYTHON, ANTHROPIC
+[00:05:50] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261101_000550.xlsx
+[00:05:52] Excel file saved - certifications written for 2 row(s) in sheet OCT
+[00:05:52] Certifications part done
+[00:05:58] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:06:01] Pearson VUE extension turned on
+[00:06:01] Done

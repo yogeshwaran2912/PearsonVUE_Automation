@@ -1,0 +1,72 @@
+{
+  "roster": [
+    {
+      "name": "Kannan T U",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Badri Naraayanan M",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Purushothaman Kumar",
+      "client": "Broadcom",
+      "code": "2V0-17.25",
+      "phone": "9381133447"
+    },
+    {
+      "name": "chithrathara Pattabiram",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Lokesh S",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "9345730553"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/26/2026 14:42:04",
+      "phone": "9488019019",
+      "email": "badrionlion@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Associate Consultant",
+      "experience": "Nice",
+      "name": "Badri Naraayanan M"
+    },
+    {
+      "ts": "10/26/2026 17:30:15",
+      "phone": "9381133447",
+      "email": "purushoth.k.u@gmail.com",
+      "company": "JIO",
+      "designation": "SME Operations",
+      "experience": "Thank you",
+      "name": "Purushothaman Kumar"
+    },
+    {
+      "ts": "10/26/2026 19:49:58",
+      "phone": "9345730553",
+      "email": "lokeshsankar37@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Systems Engineer",
+      "experience": "Good",
+      "name": "lokeshsankar37@gmail.com"
+    },
+    {
+      "ts": "10/26/2026 21:14:47",
+      "phone": "9843944452",
+      "email": "saravanansaro337@gmail.com",
+      "company": "BNP Parivar Bank",
+      "designation": "Senior Software Engineer",
+      "experience": "Be very prepared about the concepts in exam the pattern is 90% same but it'll trick you",
+      "name": "Saravanan S"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 @echo off
+@rem Created by YOGESHWARAN TL
 cd /d "%~dp0"
-python linkedin_from_outlook.py %*
+if exist main.py (python main.py linkedin %*) else (python main.pyc linkedin %*)
 pause

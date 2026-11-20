@@ -1,0 +1,108 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:52:14] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:20] Pearson VUE extension turned off
+[23:52:20] === Pearson VUE roster + feedback | Date: 03-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:52:25] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:26] Waking up Chrome tabs
+[23:52:29] Connected to Chrome
+[23:52:29] Opening Pearson VUE login page
+[23:52:33] Login submitted
+[23:52:53] Clicked Site Manager
+[23:52:55] Clicked Availability
+[23:53:00] Clicked Roster
+
+>>> Check the roster is showing 03-Nov-2026 (fix it in Chrome if not).
+    Press Enter when done... [23:53:05] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:53:05] 6 exam(s) on the roster
+[23:53:06]   Jackson J: 09790728399
+[23:53:09]   Sabareesh S: 415-326-6303
+[23:53:13]   Nagarajan R: 415-326-6303
+[23:53:16]   Divya Manikandan: 415-326-6303
+[23:53:20]   Dhanvanth V.S: 415-326-6303
+[23:53:24]   Mantej Singh: 415-326-6303
+[23:53:31] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[23:53:31] Waking up Chrome tabs
+[23:53:41] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[23:53:41] Feedback timestamps are month/day
+[23:53:42] 2 feedback response(s) on 2026-11-03
+[23:53:49]   added: Jackson J | Amazon Web Services | SAP-C02 | 09790728399
+[23:53:49]   added: Sabareesh S | Anthropic | CCAO-F | 415-326-6303
+[23:53:49]   added: Nagarajan R | Anthropic | CCDV-F | 415-326-6303
+[23:53:49]   added: Divya Manikandan | Anthropic | CCAO-F | 415-326-6303
+[23:53:49]   added: Dhanvanth V.S | Anthropic | CCAO-F | 415-326-6303
+[23:53:49]   added: Mantej Singh | Anthropic | CCAR-F | 415-326-6303
+[23:53:49]   feedback 'Sabareesh S' -> row 16: Sabareesh S (matched by name) | phone 9791071886 | sabareesh1625@gmail.com
+[23:53:49]   feedback 'Jackson' -> row 15: Jackson J (matched by phone) | phone 9790728399 | jacky3190@gmail.com
+[23:53:49] Sheet NOV: 6 row(s) added, 2 row(s) updated with feedback
+[23:53:49] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261103_235349.xlsx
+[23:53:52] Excel file saved
+[23:53:52] Pearson VUE part done
+[23:53:52] === LinkedIn from Outlook
+[23:54:01] Sheet NOV: 2 email(s) without a LinkedIn Id on 03-Nov-2026
+[23:54:01]   row 15: Jackson J | jacky3190@gmail.com
+[23:54:01]   row 16: Sabareesh S | sabareesh1625@gmail.com
+[23:54:06] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:54:08] Waking up Chrome tabs
+[23:54:32] Clicked New mail
+[23:54:37] [1/2] Jackson J | jacky3190@gmail.com
+[23:54:48]     LinkedIn: https://www.linkedin.com/in/jackson-j-9191671a6/
+[23:54:50] [2/2] Sabareesh S | sabareesh1625@gmail.com
+[23:54:59]     LinkedIn: https://www.linkedin.com/in/sabareesh-s-/
+[23:55:03] Draft discarded
+[23:55:03] LinkedIn found for 2 of 2 email(s)
+[23:55:07]   row 15: Jackson J -> https://www.linkedin.com/in/jackson-j-9191671a6/
+[23:55:07]   row 16: Sabareesh S -> https://www.linkedin.com/in/sabareesh-s-/
+[23:55:07] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261103_235507.xlsx
+[23:55:09] Excel file saved - 2 LinkedIn URL(s) written to sheet NOV
+[23:55:09] LinkedIn part done
+[23:55:09] === Our Student check in Adv Pro
+[23:55:14] Sheet NOV: 6 phone number(s) without 'Our Student Y/N' on 03-Nov-2026
+[23:55:20] Opening Adv Pro
+[23:55:22] Adv Pro: logged in
+[23:55:24] Adv Pro: Master > Registration > Display
+[23:55:25] Adv Pro: Filter By = PresentPhoneNo
+[23:55:29] [1/6] 9790728399 Jackson J: y
+[23:55:32] [2/6] 9791071886 Sabareesh S: n
+[23:55:35] [3/6] 4153266303 Nagarajan R: n
+[23:55:38] [4/6] 4153266303 Divya Manikandan: n
+[23:55:41] [5/6] 4153266303 Dhanvanth V.S: n
+[23:55:44] [6/6] 4153266303 Mantej Singh: n
+[23:55:46]   row 15: Jackson J | 9790728399 -> y
+[23:55:46]   row 16: Sabareesh S | 9791071886 -> n
+[23:55:46]   row 17: Nagarajan R | 4153266303 -> n
+[23:55:46]   row 18: Divya Manikandan | 4153266303 -> n
+[23:55:46]   row 19: Dhanvanth V.S | 4153266303 -> n
+[23:55:46]   row 20: Mantej Singh | 4153266303 -> n
+[23:55:46] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261103_235546.xlsx
+[23:55:47] Excel file saved - 'Our Student Y/N' written for 6 row(s) in sheet NOV
+[23:55:47] Our Student part done
+[23:55:47] === Certifications from LinkedIn
+[23:55:51] Sheet NOV: 2 LinkedIn profile(s) not checked yet on 03-Nov-2026
+[23:55:55] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:55:56] Waking up Chrome tabs
+[23:57:13] [1/2] Jackson J | https://www.linkedin.com/in/jackson-j-9191671a6/
+[23:58:15]     certifications: (none of ours)
+[23:58:21] [2/2] Sabareesh S | https://www.linkedin.com/in/sabareesh-s-/
+[23:58:42]     certifications: AZURE, ANTHROPIC
+[23:58:58]   row 16: Sabareesh S -> AZURE, ANTHROPIC
+[23:58:58] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261103_235858.xlsx
+[23:58:59] Excel file saved - certifications written for 1 row(s) in sheet NOV
+[23:58:59] Certifications part done
+[23:59:04] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:59:07] Pearson VUE extension turned on
+[23:59:07] Done

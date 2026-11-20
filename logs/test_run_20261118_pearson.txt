@@ -1,0 +1,68 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:49:06] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:49:09] Pearson VUE extension turned off
+[03:49:09] ========== 18-Nov-2026  Step 1/6: Roster + feedback ==========
+[03:49:09] === Pearson VUE roster + feedback | Date: 18-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:49:16] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:49:17] Waking up Chrome tabs
+[03:49:30] Connected to Chrome
+[03:49:30] Opening Pearson VUE login page
+[03:49:32] Login submitted
+[03:49:53] Clicked Site Manager
+[03:49:55] Clicked Availability
+[03:49:59] Clicked Roster
+
+>>> Could not find the date box. Please pick 18-Nov-2026 on the roster.
+    Press Enter when done... [03:50:01] !! Step 1 failed: EOFError: EOF when reading a line
+[03:50:01]    details saved in logs\error_20261119_035001.txt
+[03:50:01] Closed 1 Chrome tab(s) this step opened
+[03:50:01] ========== 18-Nov-2026  Step 2/6: LinkedIn ==========
+[03:50:01] === LinkedIn from Outlook
+[03:50:03] Sheet NOV: 0 person(s) without a LinkedIn Id on 18-Nov-2026
+[03:50:03] ========== 18-Nov-2026  Step 3/6: Our Student ==========
+[03:50:03] === Our Student check in Adv Pro
+[03:50:04] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 18-Nov-2026
+[03:50:04] ========== 18-Nov-2026  Step 4/6: Certifications ==========
+[03:50:04] === Certifications from LinkedIn
+[03:50:05] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 18-Nov-2026
+[03:50:05] ========== 18-Nov-2026  Step 5/6: Google reviews ==========
+[03:50:13] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:50:17] Waking up Chrome tabs
+[03:50:30] Google Maps: Reviews -> Sort -> Newest
+[03:50:35] 2 Google review(s) in the last 29 hours
+[03:50:35]   Madhuri Gopal | 5 star | 12 hours ago | Test started on time. Good ventilation , lighting overall excellent
+[03:50:35]   Aruna Nainappan | 5 star | Edited 17 hours ago | Technical glitch while submitting
+[03:50:36]   row 102 Arun N (16-Nov) <- review by 'Aruna Nainappan': y | Technical glitch while submitting
+[03:50:36] 1 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[03:50:36]     - Madhuri Gopal | 5 star | 12 hours ago
+[03:50:37] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261119_035036.xlsx
+[03:50:40] Excel file saved - Google Review filled for 1 row(s) in sheet NOV
+[03:50:40] Closed 1 Chrome tab(s) this step opened
+[03:50:40] ========== 18-Nov-2026  Step 6/6: Excel check ==========
+[03:50:42] !! Step 6 failed: RuntimeError: Excel not complete for 18-Nov-2026 - not on the sheet: Aruna N, Hari Kishore M, Banupriya R, Jeevitha Gajendran, Madhavan R, Madhuri Gopal, Duvvuri Avinash, Saicharan P B, Abdul Rahman A
+[03:50:42]    details saved in logs\error_20261119_035042.txt
+[03:50:42] ========== Summary ==========
+[03:50:42]   Roster + feedback: FAILED: EOFError: EOF when reading a line
+[03:50:42]   LinkedIn: OK
+[03:50:42]   Our Student: OK
+[03:50:42]   Certifications: OK
+[03:50:42]   Google reviews: OK
+[03:50:42]   Excel check: FAILED: RuntimeError: Excel not complete for 18-Nov-2026 - not on the sheet: Aruna N, Hari Kishore M, Banupriya R, Jeevitha Gajendran, Madhavan R, Madhuri Gopal, Duvvuri Av
+[03:50:50] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:50:58] Pearson VUE extension turned on
+[03:50:58] Done

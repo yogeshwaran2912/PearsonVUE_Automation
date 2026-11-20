@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2186, in run_all
+    step()
+    ~~~~^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2172, in <lambda>
+    steps.append((check_name, lambda: check_day_complete(cfg, date)))
+                                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2141, in check_day_complete
+    raise RuntimeError(f"Excel not complete for {date:%d-%b-%Y} - " + "; ".join(problems))
+RuntimeError: Excel not complete for 18-Nov-2026 - not on the sheet: Aruna N, Hari Kishore M, Banupriya R, Jeevitha Gajendran, Madhavan R, Madhuri Gopal, Duvvuri Avinash, Saicharan P B, Abdul Rahman A

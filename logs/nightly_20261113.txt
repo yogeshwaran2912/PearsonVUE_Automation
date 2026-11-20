@@ -1,0 +1,156 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:54:08] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:54:10] Pearson VUE extension turned off
+[23:54:10] ========== Step 1/5: Roster + feedback ==========
+[23:54:10] === Pearson VUE roster + feedback | Date: 13-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:54:14] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:54:15] Waking up Chrome tabs
+[23:54:17] Connected to Chrome
+[23:54:17] Opening Pearson VUE login page
+[23:54:48] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[23:54:48]    details saved in logs\error_20261113_235448.txt
+[23:54:48] ========== Step 2/5: LinkedIn ==========
+[23:54:48] === LinkedIn from Outlook
+[23:54:49] Sheet NOV: 0 email(s) without a LinkedIn Id on 13-Nov-2026
+[23:54:49] ========== Step 3/5: Our Student ==========
+[23:54:49] === Our Student check in Adv Pro
+[23:54:51] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 13-Nov-2026
+[23:54:51] ========== Step 4/5: Certifications ==========
+[23:54:51] === Certifications from LinkedIn
+[23:54:53] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 13-Nov-2026
+[23:54:53] ========== Step 5/5: Excel check ==========
+[23:54:54] Excel complete for 13-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[23:54:54] ========== Summary ==========
+[23:54:54]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[23:54:54]   LinkedIn: OK
+[23:54:54]   Our Student: OK
+[23:54:54]   Certifications: OK
+[23:54:54]   Excel check: OK
+[23:54:57] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:54:59] Pearson VUE extension turned on
+[23:54:59] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:57:07] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:57:09] Pearson VUE extension turned off
+[23:57:09] ========== Step 1/5: Roster + feedback ==========
+[23:57:09] === Pearson VUE roster + feedback | Date: 13-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:57:12] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:57:13] Waking up Chrome tabs
+[23:57:16] Connected to Chrome
+[23:57:16] Opening Pearson VUE login page
+[23:57:19] Login submitted
+[23:57:40] Clicked Site Manager
+[23:57:42] Clicked Availability
+[23:57:47] Clicked Roster
+[23:57:52] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:57:52] 13 exam(s) on the roster
+[23:57:55]   HARI VARDHAN JAYARAMAN: 415-326-6303
+[23:58:01]   Akshay J P: 9884679445
+[23:58:05]   Priyadharshini Arulvel: 8072691939
+[23:58:10]   Austin Daniel Rajasekaran: 415-326-6303
+[23:58:15]   Aravindhan Shanmugam: 415-326-6303
+[23:58:20]   STEPHENRAJ J: 415-326-6303
+[23:58:25]   Varunkumar Dhanasekar: 415-326-6303
+[23:58:29]   Kranthi Kantamneni: 415-326-6303
+[23:58:35]   Sarah Priyadharshini Sampath Kantharaj: 415-326-6303
+[23:58:40]   Rajagopal Rengarajan: 9952228047
+[23:58:46]   Ramesh Kumar Srisrimal: 9962095576
+[23:58:50]   Shabrin Taj: 415-326-6303
+[23:58:56]   Preethi Muralikrishnan: 9840770313
+[23:59:01] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[23:59:02] Waking up Chrome tabs
+[23:59:13] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[23:59:13] Feedback timestamps are month/day
+[23:59:13] 0 feedback response(s) on 2026-11-13
+[23:59:15]   added: HARI VARDHAN JAYARAMAN | Anthropic | CCAO-F | 415-326-6303
+[23:59:15]   added: Akshay J P | Salesforce | Plat-Admn-202 | 9884679445
+[23:59:15]   added: Priyadharshini Arulvel | Anthropic | CCAR-F | 8072691939
+[23:59:15]   added: Austin Daniel Rajasekaran | Anthropic | CCAR-F | 415-326-6303
+[23:59:15]   added: Aravindhan Shanmugam | Anthropic | CCAR-F | 415-326-6303
+[23:59:15]   added: STEPHENRAJ J | Anthropic | CCDV-F | 415-326-6303
+[23:59:15]   added: Varunkumar Dhanasekar | Anthropic | CCAO-F | 415-326-6303
+[23:59:15]   added: Kranthi Kantamneni | Anthropic | CCDV-F | 415-326-6303
+[23:59:15]   added: Sarah Priyadharshini Sampath Kantharaj | Anthropic | CCAO-F | 415-326-6303
+[23:59:15]   added: Rajagopal Rengarajan | Amazon Web Services | SAA-C03 | 9952228047
+[23:59:15]   added: Ramesh Kumar Srisrimal | Microsoft | PL-300 | 9962095576
+[23:59:15]   added: Shabrin Taj | Anthropic | CCAO-F | 415-326-6303
+[23:59:15]   added: Preethi Muralikrishnan | Indian Testing Board | ISTQB-CTFL_V4 | 9840770313
+[23:59:15] Sheet NOV: 13 row(s) added, 0 row(s) updated with feedback
+[23:59:15] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261113_235915.xlsx
+[23:59:19] Excel file saved
+[23:59:19] Pearson VUE part done
+[23:59:19] ========== Step 2/5: LinkedIn ==========
+[23:59:19] === LinkedIn from Outlook
+[23:59:21] Sheet NOV: 0 email(s) without a LinkedIn Id on 13-Nov-2026
+[23:59:21] ========== Step 3/5: Our Student ==========
+[23:59:21] === Our Student check in Adv Pro
+[23:59:24]   HARI VARDHAN JAYARAMAN: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   Austin Daniel Rajasekaran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   Aravindhan Shanmugam: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   STEPHENRAJ J: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   Varunkumar Dhanasekar: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   Kranthi Kantamneni: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   Sarah Priyadharshini Sampath Kantharaj: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24]   Shabrin Taj: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:59:24] Sheet NOV: 5 phone number(s) without 'Our Student Y/N' on 13-Nov-2026
+[23:59:28] Opening Adv Pro
+[23:59:31] Adv Pro: logged in
+[23:59:32] Adv Pro: Master > Registration > Display
+[23:59:35] Adv Pro: Filter By = PresentPhoneNo
+[23:59:38] [1/5] 9884679445 Akshay J P: n
+[23:59:41] [2/5] 8072691939 Priyadharshini Arulvel: n
+[23:59:44] [3/5] 9952228047 Rajagopal Rengarajan: n
+[23:59:47] [4/5] 9962095576 Ramesh Kumar Srisrimal: n
+[23:59:50] [5/5] 9840770313 Preethi Muralikrishnan: n
+[23:59:52]   row 37: Akshay J P | 9884679445 -> n
+[23:59:52]   row 38: Priyadharshini Arulvel | 8072691939 -> n
+[23:59:52]   row 45: Rajagopal Rengarajan | 9952228047 -> n
+[23:59:52]   row 46: Ramesh Kumar Srisrimal | 9962095576 -> n
+[23:59:52]   row 48: Preethi Muralikrishnan | 9840770313 -> n
+[23:59:52] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261113_235952.xlsx
+[23:59:56] Excel file saved - 'Our Student Y/N' written for 5 row(s) in sheet NOV
+[23:59:56] Our Student part done
+[23:59:56] ========== Step 4/5: Certifications ==========
+[23:59:56] === Certifications from LinkedIn
+[23:59:57] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 13-Nov-2026
+[23:59:57] ========== Step 5/5: Excel check ==========
+[23:59:59] Excel complete for 13-Nov-2026: 13 row(s) in sheet NOV, 13 on the roster
+[23:59:59] ========== Summary ==========
+[23:59:59]   Roster + feedback: OK
+[23:59:59]   LinkedIn: OK
+[23:59:59]   Our Student: OK
+[23:59:59]   Certifications: OK
+[23:59:59]   Excel check: OK
+[00:00:04] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:00:08] Pearson VUE extension turned on
+[00:00:08] Done

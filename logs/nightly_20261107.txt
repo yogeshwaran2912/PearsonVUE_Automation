@@ -1,0 +1,607 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:15:19] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:21] Pearson VUE extension turned off
+[00:15:22] ========== Step 1/5: Roster + feedback ==========
+[00:15:22] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:15:31] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:32] Waking up Chrome tabs
+[00:16:04] Connected to Chrome
+[00:16:04] Opening Pearson VUE login page
+[00:16:35] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:16:35]    details saved in logs\error_20261108_001635.txt
+[00:16:35] ========== Step 2/5: LinkedIn ==========
+[00:16:35] === LinkedIn from Outlook
+[00:16:56] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[00:16:56] ========== Step 3/5: Our Student ==========
+[00:16:56] === Our Student check in Adv Pro
+[00:17:16] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[00:17:16] ========== Step 4/5: Certifications ==========
+[00:17:16] === Certifications from LinkedIn
+[00:17:36] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[00:17:36] ========== Step 5/5: Excel check ==========
+[00:17:56] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:17:56] ========== Summary ==========
+[00:17:56]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:17:56]   LinkedIn: OK
+[00:17:56]   Our Student: OK
+[00:17:56]   Certifications: OK
+[00:17:56]   Excel check: OK
+[00:18:14] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:18:16] Pearson VUE extension turned on
+[00:18:16] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:25:13] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:25:16] Pearson VUE extension turned off
+[00:25:16] ========== Step 1/5: Roster + feedback ==========
+[00:25:16] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:25:25] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:25:26] Waking up Chrome tabs
+[00:26:10] Connected to Chrome
+[00:26:10] Opening Pearson VUE login page
+[00:26:40] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:26:40]    details saved in logs\error_20261108_002640.txt
+[00:26:40] ========== Step 2/5: LinkedIn ==========
+[00:26:40] === LinkedIn from Outlook
+[00:27:07] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[00:27:07] ========== Step 3/5: Our Student ==========
+[00:27:07] === Our Student check in Adv Pro
+[00:27:26] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[00:27:26] ========== Step 4/5: Certifications ==========
+[00:27:26] === Certifications from LinkedIn
+[00:27:41] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[00:27:41] ========== Step 5/5: Excel check ==========
+[00:28:03] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:28:03] ========== Summary ==========
+[00:28:03]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:28:03]   LinkedIn: OK
+[00:28:03]   Our Student: OK
+[00:28:03]   Certifications: OK
+[00:28:03]   Excel check: OK
+[00:28:10] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:28:11] Pearson VUE extension turned on
+[00:28:11] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:33:26] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:33:29] Pearson VUE extension turned off
+[00:33:29] ========== Step 1/5: Roster + feedback ==========
+[00:33:29] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:33:38] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:33:39] Waking up Chrome tabs
+[00:34:21] Connected to Chrome
+[00:34:21] Opening Pearson VUE login page
+[00:34:51] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:34:51]    details saved in logs\error_20261108_003451.txt
+[00:34:51] ========== Step 2/5: LinkedIn ==========
+[00:34:51] === LinkedIn from Outlook
+[00:35:28] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[00:35:28] ========== Step 3/5: Our Student ==========
+[00:35:28] === Our Student check in Adv Pro
+[00:35:49] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[00:35:49] ========== Step 4/5: Certifications ==========
+[00:35:49] === Certifications from LinkedIn
+[00:36:11] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[00:36:11] ========== Step 5/5: Excel check ==========
+[00:36:27] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:36:27] ========== Summary ==========
+[00:36:27]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:36:27]   LinkedIn: OK
+[00:36:27]   Our Student: OK
+[00:36:27]   Certifications: OK
+[00:36:27]   Excel check: OK
+[00:36:33] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:36:36] Pearson VUE extension turned on
+[00:36:36] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:48:07] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:48:13] Pearson VUE extension turned off
+[00:48:13] ========== Step 1/5: Roster + feedback ==========
+[00:48:13] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:48:24] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:48:25] Waking up Chrome tabs
+[00:49:00] Connected to Chrome
+[00:49:00] Opening Pearson VUE login page
+[00:49:32] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:49:32]    details saved in logs\error_20261108_004932.txt
+[00:49:32] ========== Step 2/5: LinkedIn ==========
+[00:49:32] === LinkedIn from Outlook
+[00:50:03] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[00:50:03] ========== Step 3/5: Our Student ==========
+[00:50:03] === Our Student check in Adv Pro
+[00:50:07] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[00:50:07] ========== Step 4/5: Certifications ==========
+[00:50:07] === Certifications from LinkedIn
+[00:50:10] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[00:50:10] ========== Step 5/5: Excel check ==========
+[00:50:12] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[00:50:12] ========== Summary ==========
+[00:50:12]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:50:12]   LinkedIn: OK
+[00:50:12]   Our Student: OK
+[00:50:12]   Certifications: OK
+[00:50:12]   Excel check: OK
+[00:50:17] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:50:20] Pearson VUE extension turned on
+[00:50:20] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:15:18] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:15:22] Pearson VUE extension turned off
+[01:15:22] ========== Step 1/5: Roster + feedback ==========
+[01:15:22] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:15:32] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:15:33] Waking up Chrome tabs
+[01:16:28] Connected to Chrome
+[01:16:28] Opening Pearson VUE login page
+[01:17:11] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[01:17:11]    details saved in logs\error_20261108_011710.txt
+[01:17:11] ========== Step 2/5: LinkedIn ==========
+[01:17:11] === LinkedIn from Outlook
+[01:17:34] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[01:17:34] ========== Step 3/5: Our Student ==========
+[01:17:34] === Our Student check in Adv Pro
+[01:17:38] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[01:17:38] ========== Step 4/5: Certifications ==========
+[01:17:38] === Certifications from LinkedIn
+[01:17:42] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[01:17:42] ========== Step 5/5: Excel check ==========
+[01:17:45] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[01:17:45] ========== Summary ==========
+[01:17:45]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[01:17:45]   LinkedIn: OK
+[01:17:45]   Our Student: OK
+[01:17:45]   Certifications: OK
+[01:17:45]   Excel check: OK
+[01:17:51] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:17:53] Pearson VUE extension turned on
+[01:17:53] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[02:21:58] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:22:02] Pearson VUE extension turned off
+[02:22:02] ========== Step 1/5: Roster + feedback ==========
+[02:22:02] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[02:22:12] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:22:14] Waking up Chrome tabs
+[02:24:41] Could not connect to Chrome (try 1 of 3): no answer in 60 seconds
+[02:27:45] Connected to Chrome
+[02:27:46] Opening Pearson VUE login page
+[02:28:16] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[02:28:16]    details saved in logs\error_20261108_022816.txt
+[02:28:16] ========== Step 2/5: LinkedIn ==========
+[02:28:16] === LinkedIn from Outlook
+[02:29:26] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[02:29:26] ========== Step 3/5: Our Student ==========
+[02:29:26] === Our Student check in Adv Pro
+[02:29:45] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[02:29:45] ========== Step 4/5: Certifications ==========
+[02:29:45] === Certifications from LinkedIn
+[02:29:48] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[02:29:48] ========== Step 5/5: Excel check ==========
+[02:29:51] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[02:29:51] ========== Summary ==========
+[02:29:51]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[02:29:51]   LinkedIn: OK
+[02:29:51]   Our Student: OK
+[02:29:51]   Certifications: OK
+[02:29:51]   Excel check: OK
+[02:29:57] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:30:01] Pearson VUE extension turned on
+[02:30:01] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:11:27] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:11:30] Pearson VUE extension turned off
+[03:11:30] ========== Step 1/5: Roster + feedback ==========
+[03:11:30] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:11:39] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:11:40] Waking up Chrome tabs
+[03:12:52] Connected to Chrome
+[03:12:52] Opening Pearson VUE login page
+[03:15:28] !! Step 1 failed: ReadTimeoutError: HTTPConnectionPool(host='localhost', port=62639): Read timed out. (read timeout=120)
+[03:15:28]    details saved in logs\error_20261108_031525.txt
+[03:15:28] ========== Step 2/5: LinkedIn ==========
+[03:15:28] === LinkedIn from Outlook
+[03:15:57] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[03:15:57] ========== Step 3/5: Our Student ==========
+[03:15:57] === Our Student check in Adv Pro
+[03:16:01] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[03:16:01] ========== Step 4/5: Certifications ==========
+[03:16:01] === Certifications from LinkedIn
+[03:16:04] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[03:16:04] ========== Step 5/5: Excel check ==========
+[03:16:23] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[03:16:23] ========== Summary ==========
+[03:16:23]   Roster + feedback: FAILED: ReadTimeoutError: HTTPConnectionPool(host='localhost', port=62639): Read timed out. (read timeout=120)
+[03:16:23]   LinkedIn: OK
+[03:16:23]   Our Student: OK
+[03:16:23]   Certifications: OK
+[03:16:23]   Excel check: OK
+[03:16:31] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:16:34] Pearson VUE extension turned on
+[03:16:34] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:55:16] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:55:21] Pearson VUE extension turned off
+[03:55:21] ========== Step 1/5: Roster + feedback ==========
+[03:55:21] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:55:36] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:55:39] Waking up Chrome tabs
+[03:56:20] Connected to Chrome
+[03:56:20] Opening Pearson VUE login page
+[03:56:50] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[03:56:50]    details saved in logs\error_20261108_035650.txt
+[03:56:50] ========== Step 2/5: LinkedIn ==========
+[03:56:50] === LinkedIn from Outlook
+[03:57:30] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[03:57:30] ========== Step 3/5: Our Student ==========
+[03:57:30] === Our Student check in Adv Pro
+[03:57:33] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[03:57:33] ========== Step 4/5: Certifications ==========
+[03:57:33] === Certifications from LinkedIn
+[03:57:36] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[03:57:36] ========== Step 5/5: Excel check ==========
+[03:57:39] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[03:57:39] ========== Summary ==========
+[03:57:39]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[03:57:39]   LinkedIn: OK
+[03:57:39]   Our Student: OK
+[03:57:39]   Certifications: OK
+[03:57:39]   Excel check: OK
+[03:57:44] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:57:48] Pearson VUE extension turned on
+[03:57:48] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[04:53:34] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:53:44] Pearson VUE extension turned off
+[04:53:44] ========== Step 1/5: Roster + feedback ==========
+[04:53:44] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[04:54:03] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:54:05] Waking up Chrome tabs
+[04:56:00] Could not connect to Chrome (try 1 of 3): no answer in 60 seconds
+[04:57:32] Could not connect to Chrome (try 2 of 3): no answer in 60 seconds
+[04:58:19] Connected to Chrome
+[04:58:19] Opening Pearson VUE login page
+[04:58:52] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[04:58:52]    details saved in logs\error_20261108_045851.txt
+[04:58:52] ========== Step 2/5: LinkedIn ==========
+[04:58:52] === LinkedIn from Outlook
+[04:59:49] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[04:59:49] ========== Step 3/5: Our Student ==========
+[04:59:49] === Our Student check in Adv Pro
+[05:00:28] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[05:00:28] ========== Step 4/5: Certifications ==========
+[05:00:28] === Certifications from LinkedIn
+[05:01:05] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[05:01:05] ========== Step 5/5: Excel check ==========
+[05:01:35] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[05:01:35] ========== Summary ==========
+[05:01:35]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[05:01:35]   LinkedIn: OK
+[05:01:35]   Our Student: OK
+[05:01:35]   Certifications: OK
+[05:01:35]   Excel check: OK
+[05:02:36] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:02:57] Pearson VUE extension turned on
+[05:02:57] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[05:40:38] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:40:42] Pearson VUE extension turned off
+[05:40:42] ========== Step 1/5: Roster + feedback ==========
+[05:40:42] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[05:40:52] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:40:53] Waking up Chrome tabs
+[05:42:01] Connected to Chrome
+[05:42:01] Opening Pearson VUE login page
+[05:42:34] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[05:42:37]    details saved in logs\error_20261108_054233.txt
+[05:42:37] ========== Step 2/5: LinkedIn ==========
+[05:42:37] === LinkedIn from Outlook
+[05:43:04] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[05:43:04] ========== Step 3/5: Our Student ==========
+[05:43:04] === Our Student check in Adv Pro
+[05:43:24] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[05:43:24] ========== Step 4/5: Certifications ==========
+[05:43:24] === Certifications from LinkedIn
+[05:43:30] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[05:43:30] ========== Step 5/5: Excel check ==========
+[05:43:36] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[05:43:36] ========== Summary ==========
+[05:43:36]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[05:43:36]   LinkedIn: OK
+[05:43:36]   Our Student: OK
+[05:43:36]   Certifications: OK
+[05:43:36]   Excel check: OK
+[05:43:42] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[05:43:44] Pearson VUE extension turned on
+[05:43:44] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[06:13:56] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[06:13:59] Pearson VUE extension turned off
+[06:13:59] ========== Step 1/5: Roster + feedback ==========
+[06:13:59] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[06:14:13] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[06:14:14] Waking up Chrome tabs
+[06:23:39] Could not connect to Chrome (try 1 of 3): no answer in 60 seconds
+[06:28:19] Could not connect to Chrome (try 2 of 3): no answer in 60 seconds
+[06:37:01] Could not connect to Chrome (try 3 of 3): no answer in 60 seconds
+[06:37:07] !! Step 1 failed: RuntimeError: Could not connect to Chrome after 3 tries: no answer in 60 seconds
+[06:37:07]    details saved in logs\error_20261108_063704.txt
+[06:37:08] ========== Step 2/5: LinkedIn ==========
+[06:37:10] === LinkedIn from Outlook
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+[06:39:51] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[06:39:52] ========== Step 3/5: Our Student ==========
+[06:39:52] === Our Student check in Adv Pro
+[06:42:48] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[06:42:48] ========== Step 4/5: Certifications ==========
+[06:42:48] === Certifications from LinkedIn
+[06:43:21] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[06:43:21] ========== Step 5/5: Excel check ==========
+[06:43:24] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[06:43:24] ========== Summary ==========
+[06:43:24]   Roster + feedback: FAILED: RuntimeError: Could not connect to Chrome after 3 tries: no answer in 60 seconds
+[06:43:24]   LinkedIn: OK
+[06:43:24]   Our Student: OK
+[06:43:24]   Certifications: OK
+[06:43:24]   Excel check: OK
+[06:43:29] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[06:43:31] Pearson VUE extension turned on
+[06:43:31] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[07:13:38] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:13:40] Pearson VUE extension turned off
+[07:13:40] ========== Step 1/5: Roster + feedback ==========
+[07:13:40] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[07:13:50] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:13:51] Waking up Chrome tabs
+[07:23:17] Connected to Chrome
+[07:23:17] Opening Pearson VUE login page
+[07:24:40] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[07:24:40]    details saved in logs\error_20261108_072432.txt
+[07:24:40] ========== Step 2/5: LinkedIn ==========
+[07:24:41] === LinkedIn from Outlook
+[07:26:24] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[07:26:24] ========== Step 3/5: Our Student ==========
+[07:26:24] === Our Student check in Adv Pro
+[07:27:15] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[07:27:15] ========== Step 4/5: Certifications ==========
+[07:27:15] === Certifications from LinkedIn
+[07:27:39] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[07:27:39] ========== Step 5/5: Excel check ==========
+[07:28:05] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[07:28:05] ========== Summary ==========
+[07:28:05]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[07:28:05]   LinkedIn: OK
+[07:28:05]   Our Student: OK
+[07:28:05]   Certifications: OK
+[07:28:05]   Excel check: OK
+[07:28:12] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:28:15] Pearson VUE extension turned on
+[07:28:15] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[07:58:30] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:58:31] Pearson VUE extension turned off
+[07:58:31] ========== Step 1/5: Roster + feedback ==========
+[07:58:31] === Pearson VUE roster + feedback | Date: 07-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[07:58:40] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[07:58:41] Waking up Chrome tabs
+[08:06:13] Could not connect to Chrome (try 1 of 3): no answer in 60 seconds
+[08:12:16] Could not connect to Chrome (try 2 of 3): no answer in 60 seconds
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+[08:21:13] Connected to Chrome
+[08:21:13] Opening Pearson VUE login page
+[08:21:48] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[08:21:48]    details saved in logs\error_20261108_082145.txt
+[08:21:48] ========== Step 2/5: LinkedIn ==========
+[08:21:48] === LinkedIn from Outlook
+[08:24:21] Sheet NOV: 0 email(s) without a LinkedIn Id on 07-Nov-2026
+[08:24:21] ========== Step 3/5: Our Student ==========
+[08:24:21] === Our Student check in Adv Pro
+[08:24:43] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 07-Nov-2026
+[08:24:43] ========== Step 4/5: Certifications ==========
+[08:24:43] === Certifications from LinkedIn
+[08:25:03] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 07-Nov-2026
+[08:25:03] ========== Step 5/5: Excel check ==========
+[08:25:15] Excel complete for 07-Nov-2026: 0 row(s) in sheet NOV, 0 on the roster
+[08:25:15] ========== Summary ==========
+[08:25:15]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[08:25:15]   LinkedIn: OK
+[08:25:15]   Our Student: OK
+[08:25:15]   Certifications: OK
+[08:25:15]   Excel check: OK
+[08:26:45] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[08:26:52] Pearson VUE extension turned on
+[08:26:52] Done

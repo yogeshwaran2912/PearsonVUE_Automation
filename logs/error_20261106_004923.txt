@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1952, in run_all
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1939, in <lambda>
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1909, in check_day_complete
+RuntimeError: Excel not complete for 05-Nov-2026 - no 'Our Student Y/N': Rajesh Bharathy Prabhakaran, Jeet Thakur

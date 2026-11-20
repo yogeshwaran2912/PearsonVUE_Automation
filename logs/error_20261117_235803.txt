@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1952, in run_all
+    step()
+    ~~~~^^
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1935, in <lambda>
+    ("LinkedIn", lambda: run_linkedin(cfg, date, date, args)),
+                         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1776, in run_linkedin
+    raise RuntimeError(f"{errors} email(s) could not be looked up")
+RuntimeError: 1 email(s) could not be looked up

@@ -26,9 +26,18 @@ Advantage Pro exam-centre automation - everything in one program.
        - Chrome ("Arish - Chrome" profile): open the profile's
          "Licenses & certifications" list; "y" in every column it shows.
 
-  5. All: 1, 2, 3, 4 for the same date.
+  5. All: 1, 2, 3, 4, 7 for the same date. First, the 7 days before it ([catchup] days)
+     are checked: a step not finished there is done first. After every step the
+     Chrome tabs it opened are closed, and Adv Pro is closed when the check is done.
 
   6. Test: offline check of the Excel step with sample data (never saves).
+
+  7. Google reviews (last 24 hours)  ->  Excel "Google Review" + its "Remark"
+       - Chrome ("Advantage pro - Chrome" profile): Google advantagepro.in ->
+         Google Maps -> Reviews -> Sort -> Newest.
+       - Reviewer name matched to that day's candidates (then the 7 days before):
+         "y" + their message, or "5 star" (the stars given) when there is no message.
+         Only real reviews are written (google_reviews.py).
 
 Usage
   python main.py                              # menu
@@ -36,23 +45,30 @@ Usage
   python main.py linkedin [--date 07-10-2026 | --month 2026-10] [--limit 3] [--ask] [--dry-run]
   python main.py student  [--date 07-10-2026 | --month 2026-10] [--limit 3] [--dry-run]
   python main.py certs    [--date 07-10-2026 | --month 2026-10] [--limit 3] [--dry-run]
+  python main.py reviews [--date 06-10-2026] [--dry-run]
   python main.py all     [--date 06-10-2026] [--dry-run]
   python main.py test
 
   Dates can be typed as DD-MM-YYYY or YYYY-MM-DD.
+
+run_all.bat and the 11:52 PM task start "all" through keep_running.py, which starts
+it again if it is stopped, until the Excel file is complete for the date.
 """
 import argparse
 import configparser
 import csv
 import datetime as dt
 import json
+import os
 import re
 import shutil
 import socket
 import subprocess
 import sys
 import tempfile
+import threading
 import time
+import traceback
 import urllib.parse
 import urllib.request
 import warnings
@@ -61,8 +77,10 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 import openpyxl
+import websocket
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -72,6 +90,9 @@ CONFIG_PATH = HERE / "config.ini"
 MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 UPPER, LOWER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[a-z]{2,}$", re.I)
+# Not the candidate's number: the roster shows these for many different people (415-326-6303
+# for every Anthropic exam). Searching Adv Pro for them would say "n" about the wrong number.
+FAKE_PHONES = {"4153266303", "5555555555"}
 
 
 # ================================================================ helpers
@@ -80,7 +101,15 @@ def log(msg):
     print(f"[{dt.datetime.now():%H:%M:%S}] {msg}", flush=True)
 
 
+def nobody_at_keyboard():
+    return not sys.stdin or not sys.stdin.isatty()
+
+
 def ask_user(msg):
+    # In the nightly run nobody can do what is asked, and the Enter key presses fed
+    # from a file would make the script carry on as if it had been done.
+    if nobody_at_keyboard():
+        raise RuntimeError(f"Needs a person at the computer: {msg}")
     input(f"\n>>> {msg}\n    Press Enter when done... ")
 
 
@@ -230,13 +259,15 @@ def shortcut_profile(name):
     for desktop in (Path.home() / "Desktop", Path(r"C:\Users\Public\Desktop")):
         lnk = desktop / name
         if lnk.exists():
-            args = subprocess.run(
-                ["powershell", "-NoProfile", "-Command",
-                 f"(New-Object -ComObject WScript.Shell).CreateShortcut('{lnk}').Arguments"],
-                capture_output=True, text=True).stdout
-            m = re.search(r'--profile-directory=(?:"([^"]+)"|(\S+))', args)
-            if m:
-                return m.group(1) or m.group(2)
+            for attempt in range(3):  # PowerShell sometimes comes back empty; the next try works
+                args = subprocess.run(
+                    ["powershell", "-NoProfile", "-Command",
+                     f"(New-Object -ComObject WScript.Shell).CreateShortcut('{lnk}').Arguments"],
+                    capture_output=True, text=True).stdout
+                m = re.search(r'--profile-directory=(?:"([^"]+)"|(\S+))', args)
+                if m:
+                    return m.group(1) or m.group(2)
+                time.sleep(2)
             raise RuntimeError(f"No --profile-directory in shortcut {lnk}")
     raise RuntimeError(f"Shortcut not found on the Desktop: {name}")
 
@@ -287,14 +318,13 @@ def wake_tabs(port):
             time.sleep(0.3)
 
 
-def open_chrome(cfg, section, start_url, match):
-    """Open start_url in the Chrome profile of the section's Desktop shortcut and
-    return the Selenium driver switched to that window.
+def launch_tab(cfg, section, start_url, match):
+    """Open start_url in the Chrome profile of the section's Desktop shortcut.
+    Returns (port, new tab, ids of the tabs that were open before).
 
     All profiles run in one Chrome, started with a debug port so the script can
     control it. That only works if Chrome was fully closed before the first launch.
     """
-    global _driver
     port = cfg.getint("chrome", "debug_port")
     profile = shortcut_profile(cfg.get(section, "shortcut"))
     if not port_open(port) and chrome_running():
@@ -324,11 +354,13 @@ def open_chrome(cfg, section, start_url, match):
 
     # find the tab that just opened start_url (newest first) without touching the others
     target = None
-    end = time.time() + 30
+    start = time.time()
+    end = start + 30
     while time.time() < end and not target:
         pages = [t for t in chrome_pages(port) if match in t["url"]]
         new = [t for t in pages if t["id"] not in before]
-        target = (new or pages or [None])[0]
+        # give the new tab time to show its address before settling for an old one
+        target = (new or (pages if time.time() - start > 10 else []) or [None])[0]
         if not target:
             time.sleep(1)
     if not target:
@@ -336,14 +368,118 @@ def open_chrome(cfg, section, start_url, match):
         target = next((t for t in chrome_pages(port) if match in t["url"]), None)
         if not target:
             raise RuntimeError(f"No Chrome tab with {match}")
+    return port, target, before
+
+
+def set_extension(cfg, enabled):
+    """Turn the Pearson VUE auto-login extension off (start) or back on (end).
+    It logs in and clicks through Connect by itself, which fights with the script.
+
+    Done in chrome://extensions of the [pearson] profile (extensions are per
+    profile), straight over DevTools - ChromeDriver can hang attaching to Chrome.
+    """
+    ext = cfg.get("chrome", "pearson_extension", fallback="").strip()
+    if not ext:
+        return
+    state = "on" if enabled else "off"
+    js = """new Promise(r => chrome.management.setEnabled(%s, %s, () => {
+        if (chrome.runtime.lastError) return r('ERR ' + chrome.runtime.lastError.message);
+        chrome.management.get(%s, e => r(e.enabled === %s ? 'ok' : 'still enabled=' + e.enabled));
+    }))""" % (json.dumps(ext), json.dumps(enabled), json.dumps(ext), json.dumps(enabled))
+    def cdp(ws, i, method, **params):
+        ws.send(json.dumps({"id": i, "method": method, "params": params}))
+        reply = json.loads(ws.recv())
+        while reply.get("id") != i:
+            reply = json.loads(ws.recv())
+        return reply
+
+    try:
+        # Chrome won't open chrome:// (or about:blank) from the command line, so open
+        # a harmless local page in the right profile and send that tab to chrome://extensions
+        port = cfg.getint("chrome", "debug_port")
+        port, target, _ = launch_tab(cfg, "pearson", f"http://127.0.0.1:{port}/json/version#pvue-extension",
+                                     "#pvue-extension")
+        result = "page did not load"
+        ws = websocket.create_connection(target["webSocketDebuggerUrl"], timeout=20, suppress_origin=True)
+        try:
+            cdp(ws, 0, "Page.navigate", url="chrome://extensions/")
+            for i in range(1, 21):  # chrome.management exists once the page has loaded
+                time.sleep(0.5)
+                reply = cdp(ws, i, "Runtime.evaluate", expression=js, awaitPromise=True, returnByValue=True)
+                value = reply.get("result", {}).get("result", {}).get("value")
+                if value:
+                    result = value
+                    break
+        finally:
+            ws.close()
+            close_tab(port, target["id"])
+        if result != "ok":
+            raise RuntimeError(result)
+        log(f"Pearson VUE extension turned {state}")
+    except Exception as e:
+        log(f"WARNING: could not turn the Pearson VUE extension {state} ({e})."
+            f" Do it by hand in chrome://extensions")
+
+
+def try_attach(port, wait):
+    """One try at connecting ChromeDriver -> (driver, None) or (None, why it failed)."""
+    opts = Options()
+    opts.add_experimental_option("debuggerAddress", f"127.0.0.1:{port}")
+    service = Service()
+    result = {}
+
+    def connect():
+        try:
+            result["driver"] = webdriver.Chrome(service=service, options=opts)
+        except Exception as e:
+            result["error"] = f"{type(e).__name__}: {(str(e).splitlines() or [''])[0][:120]}"
+
+    thread = threading.Thread(target=connect, daemon=True)
+    thread.start()
+    thread.join(wait)
+    if "driver" in result:
+        return result["driver"], None
+    process = getattr(service, "process", None)
+    if process:
+        try:
+            process.kill()  # also frees the thread if it is stuck
+        except Exception:
+            pass
+    return None, result.get("error") or f"no answer in {wait} seconds"
+
+
+def attach_driver(port, target_id, tries=3, wait=60):
+    """ChromeDriver can hang on a frozen tab and Selenium would only give up after
+    120 seconds, failing the step - so give up sooner, wake the tabs and try again."""
+    for attempt in range(1, tries + 1):
+        driver, why = try_attach(port, wait)
+        if driver:
+            return driver
+        log(f"Could not connect to Chrome (try {attempt} of {tries}): {why}")
+        if attempt < tries:
+            wake_tabs(port)
+            activate_tab(port, target_id)
+            time.sleep(2)
+    raise RuntimeError(f"Could not connect to Chrome after {tries} tries: {why}")
+
+
+def open_chrome(cfg, section, start_url, match):
+    """Open start_url in the Chrome profile of the section's Desktop shortcut and
+    return the Selenium driver switched to that window."""
+    global _driver
+    port, target, before = launch_tab(cfg, section, start_url, match)
 
     log("Waking up Chrome tabs")
     wake_tabs(port)
     activate_tab(port, target["id"])
+    if _driver:  # Chrome may have been closed and opened again since the last step
+        try:
+            _driver.window_handles
+        except Exception:
+            log("Lost the connection to Chrome - connecting again")
+            _driver = None
     if not _driver:
-        opts = Options()
-        opts.add_experimental_option("debuggerAddress", f"127.0.0.1:{port}")
-        _driver = webdriver.Chrome(options=opts)
+        _driver = attach_driver(port, target["id"])
         log("Connected to Chrome")
     # ChromeDriver window handle = Chrome tab id. The tab can be replaced while a
     # site redirects (e.g. Outlook sign-in), so look it up again if it's gone.
@@ -473,14 +609,34 @@ def open_roster(driver, date, cfg):
             ask_user(f"Could not find '{step}'. Please click it in the Pearson VUE window.")
     set_roster_date(driver, date)
     time.sleep(3)
-    if cfg.get("pearson", "confirm_roster", fallback="yes").lower().startswith("y"):
+    if cfg.get("pearson", "confirm_roster", fallback="yes").lower().startswith("y") and not nobody_at_keyboard():
         ask_user(f"Check the roster is showing {date:%d-%b-%Y} (fix it in Chrome if not).")
 
 
+def wait_not_loading(driver, timeout=30):
+    """Pearson VUE puts a "loading" screen over the page while it fetches; a click then fails."""
+    end = time.time() + timeout
+    while time.time() < end:
+        if not [e for e in driver.find_elements(By.CSS_SELECTOR, ".loading-screen-block") if visible(e)]:
+            return True
+        time.sleep(0.5)
+    return False
+
+
+def roster_date_boxes(driver):
+    boxes = [el for el in driver.find_elements(By.CSS_SELECTOR, "#examDate, input[name=examDate]") if visible(el)]
+    return boxes or [el for el in driver.find_elements(By.CSS_SELECTOR, "input") if visible(el)]
+
+
 def set_roster_date(driver, date):
-    """Best effort: fill the date box in the format it already uses, then Search."""
+    """Fill the "Exam date" box (MM/DD/YYYY) and click Search. The box shows a moment
+    after the roster opens, so wait for it."""
     today = dt.date.today()
-    for el in driver.find_elements(By.CSS_SELECTOR, "input"):
+    end = time.time() + 20
+    while time.time() < end and not driver.find_elements(By.CSS_SELECTOR, "#examDate, input[name=examDate]"):
+        time.sleep(1)
+    wait_not_loading(driver)
+    for el in roster_date_boxes(driver):
         if not visible(el):
             continue
         attrs = " ".join((el.get_attribute(a) or "") for a in
@@ -495,7 +651,12 @@ def set_roster_date(driver, date):
                 el, date.isoformat())
         else:
             current = el.get_attribute("value") or ""
-            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", current):
+            placeholder = (el.get_attribute("placeholder") or "").upper()
+            if placeholder == "MM/DD/YYYY":
+                text = date.strftime("%m/%d/%Y")
+            elif placeholder == "DD/MM/YYYY":
+                text = date.strftime("%d/%m/%Y")
+            elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", current):
                 text = date.strftime("%Y-%m-%d")
             elif current == today.strftime("%d/%m/%Y") and today.day != today.month:
                 text = date.strftime("%d/%m/%Y")
@@ -504,7 +665,14 @@ def set_roster_date(driver, date):
             type_into(el, text)
             el.send_keys(Keys.TAB)
         log(f"Set roster date {date}")
-        click_text(driver, "Search", "Go", "Apply", "View", timeout=3)
+        button = [b for b in driver.find_elements(By.CSS_SELECTOR, "#vueSearch-AdvSearchButton") if visible(b)]
+        wait_not_loading(driver)
+        if button:
+            click(driver, button[0])
+        else:
+            click_text(driver, "Search", "Go", "Apply", "View", timeout=3)
+        time.sleep(1)
+        wait_not_loading(driver)
         return True
     if date != today:
         ask_user(f"Could not find the date box. Please pick {date:%d-%b-%Y} on the roster.")
@@ -607,6 +775,7 @@ def back_to_roster(driver, date):
     """After reading a phone number: click the 'Roster' button to return to the list."""
     if click_text(driver, "Roster", timeout=5):
         time.sleep(2)
+        wait_not_loading(driver)
         if date != dt.date.today():  # roster may reset to today
             set_roster_date(driver, date)
             time.sleep(2)
@@ -675,7 +844,7 @@ def find_feedback_sheet(driver, cfg):
     if "accounts.google.com" in driver.current_url:
         ask_user("Sign in to advpromktg@gmail.com in the Chrome window (only needed once).")
         driver.get("https://drive.google.com/drive/search?q=ADV%20PRO%20FEEDBACK%20(Responses)")
-    ask_user("Double-click 'ADV PRO FEEDBACK (Responses)' in Google Drive so the sheet opens.")
+    ask_user("Double-click 'ADV PRO FEEDBACK from nov 2026 (Responses)' in Google Drive so the sheet opens.")
     port = cfg.getint("chrome", "debug_port")
     for tab in chrome_pages(port):
         if "/spreadsheets/d/" in tab["url"]:
@@ -707,8 +876,33 @@ def download_feedback_csv(driver, sheet_url):
         files = [f for f in dl.glob("*.csv")]
         if files and not list(dl.glob("*.crdownload")):
             return files[0]
+        if "denied" in (driver.title or "").lower():  # Google sometimes refuses the export link
+            break
         time.sleep(1)
-    raise RuntimeError("Feedback CSV did not download (are you signed in to advpromktg@gmail.com?)")
+    return fetch_feedback_csv(driver, sheet_url, m.group(1), gid.group(1) if gid else "", dl)
+
+
+FETCH_JS = """const cb = arguments[arguments.length - 1];
+fetch(arguments[0], {credentials: 'include'})
+  .then(async r => cb({status: r.status, type: r.headers.get('content-type') || '', text: await r.text()}))
+  .catch(e => cb({error: String(e)}));"""
+
+
+def fetch_feedback_csv(driver, sheet_url, sheet_id, gid, dl):
+    """Fallback: read the CSV from inside the open sheet (Google's 'gviz' link)."""
+    log("Export link refused - reading the sheet another way "
+        "(phone numbers typed with spaces come out blank; email and name still match)")
+    driver.get(sheet_url)
+    time.sleep(3)
+    url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv" + (f"&gid={gid}" if gid else "")
+    driver.set_script_timeout(60)
+    r = driver.execute_async_script(FETCH_JS, url)
+    if r.get("error") or r.get("status") != 200 or "csv" not in r.get("type", ""):
+        raise RuntimeError("Feedback sheet could not be read (is Chrome signed in to advpromktg@gmail.com?) "
+                           f"- {r.get('error') or r.get('status')}")
+    path = dl / "feedback.csv"
+    path.write_text(r["text"], encoding="utf-8")
+    return path
 
 
 def timestamp_dates(text, formats=None):
@@ -788,12 +982,36 @@ def fetch_feedback(cfg, date):
 
 # ================================================================ excel
 
-def check_excel_closed(path):
+def check_excel_closed(path, wait_seconds=300):
+    """Wait a while for the Excel file to be closed."""
+    end = time.time() + wait_seconds
+    told = False
+    while True:
+        try:
+            with open(path, "r+b"):
+                return
+        except PermissionError:
+            if time.time() >= end:
+                sys.exit(f"The Excel file is open on some computer. Close it and run again:\n  {path}")
+            if not told:
+                log(f"The Excel file is open on some computer - close it. Waiting up to {wait_seconds // 60} minutes...")
+                told = True
+            time.sleep(15)
+
+
+def safe_save(wb, path):
+    """Save to a new file, check it, then swap it in: being stopped halfway
+    through a save can't damage the real Excel file."""
+    path = Path(path)
+    for stale in path.parent.glob(f"~tmp_{path.stem}_*.xlsx"):  # left by a run that was stopped
+        stale.unlink(missing_ok=True)
+    tmp = path.with_name(f"~tmp_{path.stem}_{os.getpid()}.xlsx")
     try:
-        with open(path, "r+b"):
-            pass
-    except PermissionError:
-        sys.exit(f"The Excel file is open on some computer. Close it and run again:\n  {path}")
+        wb.save(tmp)
+        openpyxl.load_workbook(tmp, read_only=True).close()
+        os.replace(tmp, path)
+    finally:
+        tmp.unlink(missing_ok=True)
 
 
 def month_sheet(wb, date):
@@ -805,13 +1023,26 @@ def month_sheet(wb, date):
     prev = [ws for ws in wb.worksheets if ws.title.strip().upper()[:3] in MONTHS][-1]
     ws = wb.copy_worksheet(prev)
     ws.title = abbr
+    ws.freeze_panes = prev.freeze_panes
     hr = header_row(ws)
-    if ws.max_row > hr:
-        ws.delete_rows(hr + 1, ws.max_row - hr)
+    ws.auto_filter.ref = f"A{hr}:{openpyxl.utils.get_column_letter(ws.max_column)}{hr + 1}" if prev.auto_filter.ref else None
+    if ws.max_row > hr + 1:
+        ws.delete_rows(hr + 2, ws.max_row - hr - 1)
+    for c in range(1, ws.max_column + 1):  # this empty row keeps the formatting for the first new row
+        ws.cell(hr + 1, c).value = None
     if isinstance(ws["A1"].value, str):
         ws["A1"].value = re.sub(r"for\s+.*$", f"for  {date:%B %Y}", ws["A1"].value)
     log(f"Created new sheet {abbr}")
     return ws
+
+
+def check_workbook_year(path, date):
+    """The sheets are only named by month: a January 2027 run would add its rows to
+    January 2026 in the 2026 file."""
+    m = re.search(r"20\d\d", Path(path).stem)
+    if m and int(m.group(0)) != date.year:
+        raise RuntimeError(f"The Excel file is for {m.group(0)} but the date is {date:%d-%b-%Y} - "
+                           "start the new year's file and change [excel] path in config.ini")
 
 
 def header_row(ws):
@@ -869,12 +1100,26 @@ def update_excel(path, date, people, feedback, backup_dir, dry_run=False):
     last = last_data_row(ws, hr)
 
     # --- roster: add people not already on the sheet for this date
-    existing = {norm_name(ws.cell(r, cols["name"]).value)
-                for r in range(hr + 1, last + 1) if cell_date(ws.cell(r, cols["date"]).value) == date}
-    added = 0
+    def exam(value):
+        return str(value or "").strip().upper()
+
+    existing = {}  # name -> that day's rows of this person
+    for r in range(hr + 1, last + 1):
+        if cell_date(ws.cell(r, cols["date"]).value) == date:
+            existing.setdefault(norm_name(ws.cell(r, cols["name"]).value), []).append(r)
+    added = phones_filled = 0
     for p in people:
-        if norm_name(p["name"]) in existing:
+        # the same person can take two different exams on one day: those are two rows
+        same = [r for r in existing.get(norm_name(p["name"]), [])
+                if not exam(ws.cell(r, cols["exam code"]).value) or not exam(p["code"])
+                or exam(ws.cell(r, cols["exam code"]).value) == exam(p["code"])]
+        if same:
             log(f"  already in sheet: {p['name']}")
+            phone_cell = ws.cell(same[0], cols["phone no"])
+            if p["phone"] and is_blank(phone_cell.value):  # the last run could not read it
+                phone_cell.value = clean_phone(p["phone"])
+                phones_filled += 1
+                log(f"  row {same[0]}: {p['name']} phone {p['phone']}")
             continue
         last += 1
         style_row = last - 1 if last - 1 > hr else None
@@ -886,9 +1131,12 @@ def update_excel(path, date, people, feedback, backup_dir, dry_run=False):
         ws.cell(last, cols["phone no"]).value = clean_phone(p["phone"])
         ws.cell(last, cols["client"]).value = p["client"]
         ws.cell(last, cols["exam code"]).value = p["code"]
-        existing.add(norm_name(p["name"]))
+        existing.setdefault(norm_name(p["name"]), []).append(last)
         added += 1
         log(f"  added: {p['name']} | {p['client']} | {p['code']} | {p['phone']}")
+
+    if added and ws.auto_filter.ref:  # rows outside the filter are left out when someone filters
+        ws.auto_filter.ref = re.sub(r"\d+$", str(last), ws.auto_filter.ref)
 
     # --- feedback: match by phone or email (that day first, then the month), else by name (that day)
     updated, unmatched = 0, []
@@ -898,11 +1146,13 @@ def update_excel(path, date, people, feedback, backup_dir, dry_run=False):
     def contact_match(fb, rows):
         p = phone10(fb["phone"])
         email = fb["email"].strip().lower()
+        # email first: a phone number can be shared, so it could find the wrong person
+        for r in rows:
+            if email and email == str(ws.cell(r, cols["emailid"]).value or "").strip().lower():
+                return r, "email"
         for r in rows:
             if p and p == phone10(ws.cell(r, cols["phone no"]).value):
                 return r, "phone"
-            if email and email == str(ws.cell(r, cols["emailid"]).value or "").strip().lower():
-                return r, "email"
         return None, ""
 
     def name_match(fb):
@@ -926,9 +1176,13 @@ def update_excel(path, date, people, feedback, backup_dir, dry_run=False):
             unmatched.append(fb)
             continue
 
+        changed = []
+
         def fill(col, value, overwrite=False):
-            if value and (overwrite or is_blank(ws.cell(row, cols[col]).value)):
-                ws.cell(row, cols[col]).value = value
+            cell = ws.cell(row, cols[col])
+            if value and (is_blank(cell.value) or (overwrite and cell.value != value)):
+                cell.value = value
+                changed.append(col)
 
         # the phone the candidate typed in the Google form wins over the Pearson one
         fill("phone no", clean_phone(fb["phone"]), overwrite=True)
@@ -937,7 +1191,7 @@ def update_excel(path, date, people, feedback, backup_dir, dry_run=False):
         fill("designation", clean_cell_text(fb["designation"]))
         fill("feedback remark", clean_cell_text(fb["experience"]))
         fill("adv pro feedback", "y")
-        updated += 1
+        updated += bool(changed)  # a run started again must not save and back up for nothing
         log(f"  feedback '{fb['name']}' -> row {row}: {clean_cell_text(ws.cell(row, cols['name']).value)}"
             f" (matched by {how}) | phone {fb['phone']} | {fb['email']}")
 
@@ -949,11 +1203,11 @@ def update_excel(path, date, people, feedback, backup_dir, dry_run=False):
     if dry_run:
         log("Dry run - Excel file NOT saved")
         return
-    if not added and not updated:
+    if not added and not updated and not phones_filled:
         log("Nothing changed - Excel file not saved")
         return
     save_backup(path, backup_dir)
-    wb.save(path)
+    safe_save(wb, path)
     log("Excel file saved")
 
 
@@ -964,15 +1218,24 @@ def linkedin_rows_to_do(path, date, month_day):
     cols = sheet_columns(ws, hr)
     li = linkedin_col(ws, hr)
     todo = []
+    # profiles already in the sheet (any day), to catch a stale contact card
+    taken = {}
+    for r in range(hr + 1, last_data_row(ws, hr) + 1):
+        url = linkedin_profile(str(ws.cell(r, li).value or ""))
+        if url:
+            taken[url.lower()] = clean_cell_text(ws.cell(r, cols["name"]).value)
     for r in range(hr + 1, last_data_row(ws, hr) + 1):
         if date and cell_date(ws.cell(r, cols["date"]).value) != date:
             continue
-        email = str(ws.cell(r, cols["emailid"]).value or "").strip()
-        if not EMAIL_RE.match(email) or not is_blank(ws.cell(r, li).value):
+        name = clean_cell_text(ws.cell(r, cols["name"]).value)
+        if not name or not is_blank(ws.cell(r, li).value):
             continue
-        todo.append({"row": r, "name": clean_cell_text(ws.cell(r, cols["name"]).value),
-                     "email": email, "linkedin": ""})
-    return ws.title, todo
+        email = str(ws.cell(r, cols["emailid"]).value or "").strip()
+        # no (valid) email: Outlook can't help, but the Google search can
+        todo.append({"row": r, "name": name, "email": email if EMAIL_RE.match(email) else "",
+                     "company": clean_cell_text(ws.cell(r, cols["company name"]).value),
+                     "linkedin": ""})
+    return ws.title, todo, taken
 
 
 def save_linkedin_results(path, sheet, results, backup_dir):
@@ -980,24 +1243,24 @@ def save_linkedin_results(path, sheet, results, backup_dir):
     if not found:
         log("No LinkedIn URLs found - Excel file not changed")
         return
-    while True:
-        try:
-            with open(path, "r+b"):
-                break
-        except PermissionError:
-            ask_user(f"The Excel file is open somewhere. Close it so the {len(found)} LinkedIn URL(s) can be saved.")
+    check_excel_closed(path)
     wb = openpyxl.load_workbook(path)
     ws = wb[sheet]
     hr = header_row(ws)
     cols = sheet_columns(ws, hr)
     li = linkedin_col(ws, hr)
     written = 0
+
+    def is_row(r, x):
+        if x["email"]:
+            return str(ws.cell(r, cols["emailid"]).value or "").strip().lower() == x["email"].lower()
+        return norm_name(ws.cell(r, cols["name"]).value) == norm_name(x["name"])
+
     for x in found:
         row = x["row"]
-        # the row may have moved if someone edited the file meanwhile -> find it by email
-        if str(ws.cell(row, cols["emailid"]).value or "").strip().lower() != x["email"].lower():
-            row = next((r for r in range(hr + 1, ws.max_row + 1)
-                        if str(ws.cell(r, cols["emailid"]).value or "").strip().lower() == x["email"].lower()), None)
+        # the row may have moved if someone edited the file meanwhile -> find it by email (or name)
+        if not is_row(row, x):
+            row = next((r for r in range(hr + 1, ws.max_row + 1) if is_row(r, x)), None)
         if not row or not is_blank(ws.cell(row, li).value):
             continue
         cell = ws.cell(row, li)
@@ -1006,12 +1269,12 @@ def save_linkedin_results(path, sheet, results, backup_dir):
             cell._style = copy(above._style)
         cell.value = x["linkedin"]
         written += 1
-        log(f"  row {row}: {x['name']} -> {x['linkedin']}")
+        log(f"  row {row}: {x['name']} -> {x['linkedin']}" + ("  (Google)" if x.get("source") == "google" else ""))
     if not written:
         log("Nothing to write - Excel file not changed")
         return
     save_backup(path, backup_dir)
-    wb.save(path)
+    safe_save(wb, path)
     log(f"Excel file saved - {written} LinkedIn URL(s) written to sheet {sheet}")
 
 
@@ -1203,6 +1466,360 @@ def discard_draft(driver):
     log("Draft discarded")
 
 
+# ================================================================ google search -> linkedin
+# For the people Outlook had no LinkedIn for: search Google (Arish Chrome) for
+#   "<name> @ <company> linkedin profile"
+# open the first LinkedIn profile in the results, and keep its URL only when the
+# profile's name AND the company from the Excel row match. Otherwise skip the person.
+
+# words that say nothing about which company it is
+COMPANY_SKIP = {"pvt", "private", "ltd", "limited", "inc", "llp", "llc", "corp", "corporation",
+                "company", "the", "and", "india", "indian", "solutions", "solution", "services",
+                "service", "technologies", "technology", "tech", "software", "systems", "group",
+                "global", "consulting", "consultancy", "infotech", "info", "enterprises",
+                "international", "student", "fresher", "working", "unemployed", "self", "employed",
+                "nil", "none", "not", "applicable", "chennai", "bangalore", "bengaluru"}
+
+GOOGLE_RESULTS_JS = r"""
+const out = [];
+for (const h of document.querySelectorAll('#search a h3, #rso a h3')) {
+  const a = h.closest('a');
+  if (!a || !a.href) continue;
+  let box = a;  // the result block, for the snippet text under the title
+  for (let i = 0; i < 6 && box.parentElement; i++) {
+    box = box.parentElement;
+    if (box.innerText.length > h.innerText.length + 60) break;
+  }
+  out.push({url: a.href, title: h.innerText, text: box.innerText});
+  if (out.length >= 8) break;
+}
+return out;
+"""
+
+PROFILE_NAME_JS = """const h = document.querySelector('main h1') || document.querySelector('h1');
+return h ? h.innerText : '';"""
+
+
+def company_words(company):
+    return [w for w in re.findall(r"[a-z0-9]+", str(company or "").lower())
+            if len(w) >= 3 and w not in COMPANY_SKIP]
+
+
+def company_match(words, text):
+    hits = sum(1 for w in words if re.search(rf"\b{re.escape(w)}\b", text or "", re.I))
+    return hits >= max(1, (len(words) + 1) // 2)  # at least half of the company's words
+
+
+def names_match(excel_name, profile_name):
+    """Every part of the Excel name must be on the profile ("YOGESHWARAN T L" = "Yogeshwaran TL, RHCSA").
+    A shorter profile name is OK only when what it leaves out is there as an initial
+    ("Karthikeyan R" = "Karthikeyan Rajan", but "Paul Raj" is NOT "Paul Jonathan Raj A")."""
+    if name_score(excel_name, profile_name) >= 90:
+        return True
+    if name_score(profile_name, excel_name) < 100:
+        return False
+    p = name_tokens(profile_name)
+
+    def covered(t):
+        return any(t == x or (len(x) >= 3 and (x.startswith(t) or t.startswith(x)))
+                   or (len(x) == 1 and t.startswith(x)) for x in p)
+
+    return all(covered(t) for t in name_tokens(excel_name) if len(t) >= 3)
+
+
+def google_captcha(driver):
+    if "/sorry/" in driver.current_url:
+        return True
+    body = driver.execute_script("return document.body ? document.body.innerText : ''") or ""
+    return bool(re.search(r"unusual traffic|not a robot", body, re.I))
+
+
+def google_search(driver, query):
+    """-> the first results [{url, title, text}], or None when Google wants a CAPTCHA solved."""
+    driver.get("https://www.google.com/search?hl=en&q=" + urllib.parse.quote_plus(query))
+    for _ in range(2):
+        end = time.time() + 15
+        while time.time() < end:
+            if google_captcha(driver):
+                break
+            results = driver.execute_script(GOOGLE_RESULTS_JS)
+            if results:
+                return results
+            time.sleep(1)
+        else:
+            return []  # page loaded, no results
+        if nobody_at_keyboard():
+            return None
+        ask_user("Google shows \"I'm not a robot\" in the Arish Chrome window - solve it there.")
+        driver.get("https://www.google.com/search?hl=en&q=" + urllib.parse.quote_plus(query))
+    return None
+
+
+def read_profile(driver, url):
+    """-> (name on the profile, page text), or None when LinkedIn wants a sign-in."""
+    for _ in range(2):
+        driver.get(url)
+        time.sleep(3)
+        if not any(k in driver.current_url for k in LINKEDIN_LOGIN):
+            break
+        if nobody_at_keyboard():
+            return None
+        ask_user("Sign in to LinkedIn in the Arish Chrome window.")
+    else:
+        return None
+    name, end = "", time.time() + 15
+    while not name and time.time() < end:
+        name = (driver.execute_script(PROFILE_NAME_JS) or "").strip()
+        if not name:
+            time.sleep(1)
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")  # loads Experience
+    time.sleep(1.5)
+    return name, main_text(driver)
+
+
+def _close(a, b):
+    """Two name/company words that are the same word with a spelling difference:
+    "parameshvaran" = "parameshwaran", "subramaniam" = "subramanyam", "chandran" in "ramachandran"."""
+    if a == b:
+        return True
+    if min(len(a), len(b)) >= 3 and (a.startswith(b) or b.startswith(a)):
+        return True
+    if min(len(a), len(b)) >= 5 and (a.endswith(b) or b.endswith(a)):
+        return True
+    if min(len(a), len(b)) >= 5 and abs(len(a) - len(b)) <= 2:
+        return SequenceMatcher(None, a, b).ratio() >= 0.8
+    return False
+
+
+def names_close(excel_name, profile_name):
+    """Looser than names_match - only used when the company on the profile matches too.
+    Every real part (3+ letters) of the Excel name has a close word on the profile, and every
+    initial is there as an initial or as the first letter of a word."""
+    ex = list(dict.fromkeys(name_tokens(excel_name)))  # "Gnanaraj DHANAPAL Gnanaraj DHANAPAL" -> once
+    pr = list(dict.fromkeys(name_tokens(re.split(r"[,(|]", profile_name or "")[0])))  # drop ", RHCSA"
+    parts = [t for t in ex if len(t) >= 3]
+    if not parts or not pr:
+        return False
+    # no extra full name on the profile: "Paul Raj" is NOT "Paul Jonathan Raj A"
+    if any(len(x) >= 3 and not any(_close(x, t) for t in parts) for x in pr):
+        return False
+    for t in ex:
+        if len(t) >= 3:
+            if not any(_close(t, x) for x in pr):
+                return False
+        elif not any(x.startswith(t[0]) for x in pr):
+            return False
+    return True
+
+
+def company_close(words, text):
+    """Like company_match, but a long company word may have a small typo ("Parivar" = "Paribas")."""
+    seen = set(re.findall(r"[a-z0-9]+", (text or "").lower()))
+    hits = 0
+    for w in words:
+        if w in seen:
+            hits += 1
+        elif len(w) >= 6 and any(abs(len(w) - len(s)) <= 2 and SequenceMatcher(None, w, s).ratio() >= 0.7
+                                 for s in seen if len(s) >= 5):
+            hits += 1
+        elif len(w) >= 4 and any(abs(len(w) - len(s)) <= 1 and SequenceMatcher(None, w, s).ratio() >= 0.8
+                                 for s in seen if len(s) >= 4):
+            hits += 1
+    return hits >= max(1, (len(words) + 1) // 2)
+
+
+def names_exact(excel_name, profile_name):
+    """Strict, for the search WITHOUT a company: each name part on one side is a whole word (or its
+    start, or an initial) on the other side, both ways. "paramesh varan" is NOT "PARAMESHVARAN Chandran"."""
+    ex = list(dict.fromkeys(name_tokens(excel_name)))
+    pr = list(dict.fromkeys(name_tokens(re.split(r"[,(|]", profile_name or "")[0])))
+    if not [t for t in ex if len(t) >= 3] or not pr:
+        return False
+
+    def covered(t, other):
+        if len(t) <= 2:  # an initial
+            return any(o.startswith(t[0]) for o in other)
+        return any(o == t or (len(o) >= 3 and (o.startswith(t) or t.startswith(o))) or
+                   (len(o) <= 2 and t.startswith(o[0])) for o in other)
+
+    return all(covered(t, pr) for t in ex) and all(covered(t, ex) for t in pr if len(t) >= 3)
+
+
+def name_distinctive(name):
+    """Enough name to find the right person without a company: 2+ different words of 3+ letters
+    and 10+ letters in them ("Karthikeyan Rajan" yes, "Kavya D" / "Nithya R" no)."""
+    parts = [t for t in dict.fromkeys(name_tokens(name)) if len(t) >= 3]
+    return len(parts) >= 2 and sum(len(t) for t in parts) >= 10
+
+
+def profile_title_name(title):
+    return re.split(r"\s+[-|–—]\s+", title or "")[0].strip()
+
+
+FREE_MAIL = {"gmail", "googlemail", "yahoo", "ymail", "rediffmail", "outlook", "hotmail", "live", "msn",
+             "icloud", "me", "aol", "protonmail", "proton", "zoho", "gmx", "mail", "yandex", "inbox"}
+
+
+def company_from_email(email):
+    """Work email -> its company: "senthil.s_p@nokia.com" -> "nokia". Free mail (gmail...) -> ""."""
+    m = re.search(r"@([a-z0-9.-]+)", str(email or "").lower())
+    if not m:
+        return ""
+    parts = [p for p in m.group(1).split(".") if p]
+    # drop the endings: .com .co.in .ac.in .org ...
+    endings = {"com", "co", "in", "org", "net", "edu", "ac", "gov", "nic", "io", "biz", "info", "us", "uk",
+               "sg", "ae", "au", "ca", "de", "jp", "res", "ind"}
+    while len(parts) > 1 and parts[-1] in endings:
+        parts.pop()
+    name = parts[-1] if parts else ""
+    return "" if name in FREE_MAIL or len(name) < 3 else name
+
+
+def email_conflict(email, excel_name, profile_name):
+    """A name part the email shows but the Excel name does not ("suresh.1.sankar@" -> "sankar")
+    must be on the profile too. -> that missing word, or "" when there is no conflict."""
+    if not company_from_email(email):
+        return ""  # gmail etc.: often a nickname ("subbunique39@"), says nothing about the name
+    local = str(email or "").split("@")[0].lower()
+    ex = name_tokens(excel_name)
+    pr = name_tokens(profile_name)
+    extra = [w for w in re.findall(r"[a-z]+", local)
+             if len(w) >= 4 and not any(_close(w, t) for t in ex if len(t) >= 3)
+             and not any(w.startswith(t) or t.startswith(w) for t in ex if len(t) >= 3)]
+    if not extra:
+        return ""
+    return "" if any(_close(w, p) for w in extra for p in pr if len(p) >= 3) else extra[0]
+
+
+def google_lookup(driver, cfg, people, taken):
+    """Fills x['linkedin'] from a Google search, for the people Outlook had no LinkedIn for.
+      With a company in the sheet: "<name> @ <company> linkedin profile"; a profile is kept when
+        its company matches and its name matches (spelling differences allowed).
+      No company (or it did not match): "<name> linkedin profile <place>"; kept only when the name
+        matches exactly, the profile is in one of [linkedin] google_locations, and only ONE profile
+        in the results has that name (two = can't tell which, skipped)."""
+    delay = cfg.getfloat("linkedin", "google_delay", fallback=8)
+    no_company = cfg.getboolean("linkedin", "google_no_company", fallback=True)
+    places = [p.strip().lower() for p in
+              cfg.get("linkedin", "google_locations", fallback="chennai, tamil nadu, tamilnadu").split(",")
+              if p.strip()]
+    log(f"--- Google search for {len(people)} person(s) still without a LinkedIn Id")
+    stopped = False
+
+    def search(query):
+        nonlocal stopped
+        log(f"    search: {query}")
+        results = google_search(driver, query)
+        if results is None:
+            log("    Google wants \"I'm not a robot\" solved - Google search stopped for now")
+            stopped = True
+            return []
+        seen, out = set(), []
+        for r in results:
+            url = linkedin_profile(r["url"])
+            if url and url.lower() not in seen:
+                seen.add(url.lower())
+                out.append(dict(r, url=url))
+        return out
+
+    def free(url, x):
+        owner = taken.get(url.lower())
+        if owner and norm_name(owner) != norm_name(x["name"]):
+            log(f"    {url} is already {owner}'s LinkedIn Id in the sheet - skipped")
+            return False
+        return True
+
+    def read(url):
+        nonlocal stopped
+        prof = read_profile(driver, url)
+        if prof is None:
+            log("    LinkedIn wants a sign-in - Google search stopped for now")
+            stopped = True
+        return prof
+
+    def keep(x, url, name, how):
+        x["linkedin"], x["source"] = url, "google"
+        person["linkedin"], person["source"] = url, "google"  # the real row (x may be a copy)
+        taken[url.lower()] = x["name"]
+        log(f"    match ({how}): '{name}' -> {url}")
+
+    for i, x in enumerate(people, 1):
+        if stopped:
+            return
+        tag = f"[Google {i}/{len(people)}] {x['name']}"
+        person = x
+        if not company_words(x.get("company")) and company_from_email(x.get("email")):
+            x = dict(x)  # the sheet's Company Name stays as it is; only used for the search
+            x["company"] = company_from_email(x.get("email"))
+            log(f"{tag} | company from the email: '{x['company']}'")
+        else:
+            log(f"{tag} | company: '{x.get('company') or ''}'")
+        words = company_words(x.get("company"))
+        try:
+            # 1) with the company
+            if words:
+                hits = search(f"{x['name']} @ {x['company']} linkedin profile")
+                # open the results whose title already has the right name first ("Rajesh M - HP | LinkedIn")
+                hits.sort(key=lambda r: not (names_match(x["name"], profile_title_name(r["title"]))
+                                             or names_close(x["name"], profile_title_name(r["title"]))))
+                for hit in hits[:3]:
+                    if stopped or not free(hit["url"], x):
+                        continue
+                    prof = read(hit["url"])
+                    if prof is None:
+                        break
+                    name, text = prof
+                    name = name or profile_title_name(hit["title"])
+                    ok_name = names_match(x["name"], name) or names_close(x["name"], name)
+                    ok_company = company_close(words, text + "\n" + hit["title"] + "\n" + hit["text"])
+                    clash = email_conflict(x.get("email"), x["name"], name) if ok_name and ok_company else ""
+                    if clash:
+                        log(f"    not this one - '{name}': the email has '{clash}', the profile does not")
+                        continue
+                    if ok_name and ok_company:
+                        keep(x, hit["url"], name, f"name + company {x['company']}")
+                        break
+                    log(f"    not this one - '{name}': name {'ok' if ok_name else 'different'}, "
+                        f"company {'found' if ok_company else 'not found'}")
+                if x.get("linkedin") or stopped:
+                    time.sleep(delay)
+                    continue
+                time.sleep(delay)
+
+            # 2) without the company: exact name + place + only one such profile
+            if not no_company:
+                log("    no match ([linkedin] google_no_company = no) - skipped")
+                continue
+            if not name_distinctive(x["name"]):
+                log("    name too short to search without a company (could be anyone) - skipped")
+                continue
+            hits = search(f"{x['name']} linkedin profile {places[0] if places else ''}".strip())
+            same = [h for h in hits if names_exact(x["name"], profile_title_name(h["title"]))]
+            if not same:
+                log("    no LinkedIn profile with this name in the results - skipped")
+            elif len(same) > 1:
+                log(f"    {len(same)} profiles with this name - can't tell which one, skipped")
+            elif free(same[0]["url"], x):
+                prof = read(same[0]["url"])
+                if prof is not None:
+                    name, text = prof
+                    name = name or profile_title_name(same[0]["title"])
+                    where = (text + "\n" + same[0]["text"]).lower()
+                    place = next((p for p in places if p in where), None)
+                    clash = email_conflict(x.get("email"), x["name"], name)
+                    if not names_exact(x["name"], name):
+                        log(f"    not a match - profile name '{name}' - skipped")
+                    elif clash:
+                        log(f"    not a match - the email has '{clash}', profile '{name}' does not - skipped")
+                    elif places and not place:
+                        log(f"    '{name}' is not in {', '.join(places)} - skipped")
+                    else:
+                        keep(x, same[0]["url"], name, f"name + {place or 'only result'}, no company")
+        except Exception as e:
+            log(f"    error: {type(e).__name__}: {str(e).splitlines()[0][:150] if str(e) else ''} - skipped")
+        time.sleep(delay)
+
+
 # ================================================================ excel: rows to check / write back
 
 def month_rows(path, date, month_day, need):
@@ -1230,12 +1847,7 @@ def save_cells(path, sheet, updates, backup_dir, what):
     if not updates:
         log(f"No {what} to write - Excel file not changed")
         return
-    while True:
-        try:
-            with open(path, "r+b"):
-                break
-        except PermissionError:
-            ask_user(f"The Excel file is open somewhere. Close it so the {what} can be saved.")
+    check_excel_closed(path)
     wb = openpyxl.load_workbook(path)
     ws = wb[sheet]
     hr = header_row(ws)
@@ -1268,7 +1880,7 @@ def save_cells(path, sheet, updates, backup_dir, what):
         log(f"No {what} to write - Excel file not changed")
         return
     save_backup(path, backup_dir)
-    wb.save(path)
+    safe_save(wb, path)
     log(f"Excel file saved - {what} written for {written} row(s) in sheet {sheet}")
 
 
@@ -1288,14 +1900,16 @@ class AdvPro:
         exe = cfg.get("advpro", "exe")
         try:
             self.app = Application(backend="win32").connect(path=Path(exe).name, timeout=2)
+            self.opened = False
             log("Adv Pro is already open")
         except Exception:
             log("Opening Adv Pro")
             self.app = Application(backend="win32").start(f'"{exe}"', work_dir=str(Path(exe).parent))
+            self.opened = True
         self.main = self.app.window(class_name="ThunderRT6MDIForm")
         self.login()
         self.form = self.open_display()
-        self.grid = self.form.child_window(class_name=self.GRID).wrapper_object()
+        self.grid = self.find_grid()
         self.search = self.form.child_window(class_name="ThunderRT6TextBox", control_id=51).wrapper_object()
         combo = self.form.child_window(class_name="ThunderRT6ComboBox", control_id=52).wrapper_object()
         combo.select("PresentPhoneNo")
@@ -1327,10 +1941,27 @@ class AdvPro:
         log("Adv Pro: logged in")
 
     def display_form(self):
+        """The Registration > Display screen: it has the search box (51), Filter By (52) and
+        a list. Another screen left open by someone (it may have many lists on hidden tabs)
+        is not it - then Display is opened from the menu next to it."""
         for child in self.main.children(class_name="ThunderRT6FormDC"):
-            if child.is_visible() and child.children(class_name=self.GRID):
+            if not child.is_visible():
+                continue
+            kinds = {(c.class_name(), c.control_id()) for c in child.children()}
+            if (("ThunderRT6TextBox", 51) in kinds and ("ThunderRT6ComboBox", 52) in kinds
+                    and any(k == self.GRID for k, _ in kinds)):
                 return self.main.child_window(handle=child.handle)
         return None
+
+    def find_grid(self):
+        """The list that is really on the screen (hidden tabs move theirs far off to the left)."""
+        form = self.form.wrapper_object()
+        fr = form.rectangle()
+        grids = [g for g in form.children() if g.class_name() == self.GRID and g.is_visible()]
+        shown = [g for g in grids if g.rectangle().left >= fr.left and g.rectangle().right <= fr.right + 5]
+        if not (shown or grids):
+            raise RuntimeError("Adv Pro: no list found on the Registration Display screen")
+        return (shown or grids)[0]
 
     def open_display(self):
         form = self.display_form()
@@ -1378,6 +2009,26 @@ class AdvPro:
             pixels = None
         return uia, pixels
 
+    def close(self):
+        """Close Adv Pro when this program opened it (left open if someone had it open)."""
+        if not getattr(self, "opened", False):
+            log("Adv Pro was already open before - left open")
+            return
+        try:
+            self.main.close()
+            for _ in range(10):
+                time.sleep(0.5)
+                if not self.app.is_process_running():
+                    break
+            else:
+                self.app.kill()  # an "exit?" question or a stuck window
+        except Exception:
+            try:
+                self.app.kill()
+            except Exception:
+                pass
+        log("Adv Pro closed")
+
     def is_student(self, phone):
         p = phone10(phone)
         if not p:
@@ -1395,6 +2046,9 @@ class AdvPro:
         if uia is not None and pixels is not None and uia != pixels:
             log(f"  ? Adv Pro {p}: unsure (list check {uia}, screen check {pixels}) - check by hand")
         found = uia if uia is not None else pixels
+        if found is None:  # neither check worked - that is not the same as "not our student"
+            log(f"  ? Adv Pro {p}: could not read the list - 'Our Student' left blank")
+            return ""
         return "y" if found else "n"
 
 
@@ -1460,6 +2114,7 @@ def run_pvue(cfg, date, args):
     """Pearson VUE roster + Google Sheet feedback -> Excel."""
     excel = cfg.get("excel", "path")
     log(f"=== Pearson VUE roster + feedback | Date: {date:%d-%b-%Y}   Excel: {excel}")
+    check_workbook_year(excel, date)
     check_excel_closed(excel)
 
     people, feedback = [], []
@@ -1485,15 +2140,15 @@ def run_linkedin(cfg, date, month_day, args):
     log("=== LinkedIn from Outlook")
     check_excel_closed(excel)
 
-    sheet, todo = linkedin_rows_to_do(excel, date, month_day)
+    sheet, todo, taken = linkedin_rows_to_do(excel, date, month_day)
     if args.limit:
         todo = todo[:args.limit]
-    log(f"Sheet {sheet}: {len(todo)} email(s) without a LinkedIn Id"
+    log(f"Sheet {sheet}: {len(todo)} person(s) without a LinkedIn Id"
         + (f" on {date:%d-%b-%Y}" if date else ""))
     if not todo:
         return
     for x in todo:
-        log(f"  row {x['row']}: {x['name']} | {x['email']}")
+        log(f"  row {x['row']}: {x['name']} | {x['email'] or '(no email)'} | {x['company'] or '(no company)'}")
 
     port = cfg.getint("chrome", "debug_port")
 
@@ -1519,14 +2174,30 @@ def run_linkedin(cfg, date, month_day, args):
     progress = logs / f"linkedin_{dt.datetime.now():%Y%m%d_%H%M%S}.json"
     try:
         for i, x in enumerate(todo, 1):
+            if not x["email"]:
+                log(f"[{i}/{len(todo)}] {x['name']}: no email - left for the Google search")
+                continue
             log(f"[{i}/{len(todo)}] {x['name']} | {x['email']}")
-            try:
-                x["linkedin"] = lookup(driver, port, outlook_tab, x["email"])
-            except Exception as e:
-                log(f"    error: {type(e).__name__}: {str(e).splitlines()[0][:150]}")
-                back_to_outlook()
+            for attempt in (1, 2):  # Outlook sometimes redraws the card mid-read: try once more
+                try:
+                    x["linkedin"] = lookup(driver, port, outlook_tab, x["email"])
+                    break
+                except Exception as e:
+                    log(f"    error: {type(e).__name__}: {str(e).splitlines()[0][:150]}" + (" - trying again" if attempt == 1 else ""))
+                    back_to_outlook()
+                    if attempt == 2:
+                        x["error"] = True
+                    else:
+                        time.sleep(3)
             if not x["linkedin"] and args.ask:
                 x["linkedin"] = manual_lookup(driver, port, outlook_tab, x)
+            owner = taken.get(x["linkedin"].lower()) if x["linkedin"] else None
+            if owner and norm_name(owner) != norm_name(x["name"]):  # same name = a retake, same person
+                # Outlook kept showing the card of an earlier person
+                log(f"    ! got {x['linkedin']} which is {owner}'s profile - stale contact card, skipped")
+                x["linkedin"] = ""
+            elif x["linkedin"]:
+                taken[x["linkedin"].lower()] = x["name"]
             log(f"    LinkedIn: {x['linkedin'] or '(not found)'}")
             try:
                 close_card(driver)
@@ -1534,23 +2205,54 @@ def run_linkedin(cfg, date, month_day, args):
                 back_to_outlook()
             progress.write_text(json.dumps(todo, indent=2), encoding="utf-8")
             time.sleep(1)
+
+        # people Outlook had nothing for -> Google "<name> @ <company> linkedin profile"
+        rest = [x for x in todo if not x["linkedin"]]
+        if rest and cfg.getboolean("linkedin", "google_search", fallback=True):
+            try:
+                driver.switch_to.new_window("tab")  # keep the Outlook draft tab as it is
+                google_lookup(driver, cfg, rest, taken)
+            except KeyboardInterrupt:
+                raise
+            except Exception as e:
+                log(f"Google search stopped: {type(e).__name__}: {str(e).splitlines()[0][:150] if str(e) else ''}")
+            finally:
+                try:
+                    if driver.current_window_handle != outlook_tab:
+                        driver.close()
+                except Exception:
+                    pass
+                back_to_outlook()
+            progress.write_text(json.dumps(todo, indent=2), encoding="utf-8")
     except KeyboardInterrupt:
         log("Stopped - saving what was found so far")
+        if args.resume:  # not finished: this step must run again
+            raise
     finally:
         try:
             discard_draft(driver)
         except Exception:
             log("Could not discard the draft - delete it from Outlook Drafts")
         found = sum(1 for x in todo if x["linkedin"])
-        log(f"LinkedIn found for {found} of {len(todo)} email(s)")
+        by_google = sum(1 for x in todo if x.get("source") == "google")
+        log(f"LinkedIn found for {found} of {len(todo)} person(s)"
+            + (f" ({by_google} by Google search)" if by_google else ""))
         for x in todo:
             if not x["linkedin"]:
-                log(f"  ! not found: {x['name']} | {x['email']}")
+                log(f"  ! not found: {x['name']} | {x['email'] or '(no email)'} | {x['company'] or '(no company)'}")
         if args.dry_run:
             log("Dry run - Excel file NOT saved")
         else:
             save_linkedin_results(excel, sheet, todo, cfg.get("excel", "backup_dir"))
+    errors = sum(1 for x in todo if x.get("error") and not x["linkedin"])
+    if errors and args.resume:
+        raise RuntimeError(f"{errors} email(s) could not be looked up")
     log("LinkedIn part done")
+
+
+def real_phone(value):
+    p = phone10(value)
+    return p if p not in FAKE_PHONES else ""
 
 
 def run_student(cfg, date, month_day, args):
@@ -1563,7 +2265,11 @@ def run_student(cfg, date, month_day, args):
     todo = [{"row": r, "name": clean_cell_text(ws.cell(r, cols["name"]).value),
              "phone": phone10(ws.cell(r, cols["phone no"]).value), "our_student": ""}
             for r in rows
-            if phone10(ws.cell(r, cols["phone no"]).value) and is_blank(ws.cell(r, cols["our student y/n"]).value)]
+            if real_phone(ws.cell(r, cols["phone no"]).value) and is_blank(ws.cell(r, cols["our student y/n"]).value)]
+    for r in rows:
+        if phone10(ws.cell(r, cols["phone no"]).value) in FAKE_PHONES and is_blank(ws.cell(r, cols["our student y/n"]).value):
+            log(f"  {clean_cell_text(ws.cell(r, cols['name']).value)}: the roster has no real phone number "
+                "- 'Our Student' left blank until feedback gives one")
     if args.limit:
         todo = todo[:args.limit]
     log(f"Sheet {ws.title}: {len(todo)} phone number(s) without 'Our Student Y/N'"
@@ -1571,6 +2277,7 @@ def run_student(cfg, date, month_day, args):
     if not todo:
         return
 
+    adv = None
     try:
         adv = AdvPro(cfg)
         adv.main.set_focus()  # keep it in front for the screen check
@@ -1579,7 +2286,11 @@ def run_student(cfg, date, month_day, args):
             log(f"[{i}/{len(todo)}] {x['phone']} {x['name']}: {x['our_student']}")
     except KeyboardInterrupt:
         log("Stopped - saving what was checked so far")
+        if args.resume:  # not finished: this step must run again
+            raise
     finally:
+        if adv:
+            adv.close()  # done with Adv Pro: close it before the next step
         updates = [{"row": x["row"], "key": ("phone no", x["phone"]),
                     "values": {"our student y/n": x["our_student"]},
                     "label": f"{x['name']} | {x['phone']} -> {x['our_student']}"}
@@ -1635,6 +2346,8 @@ def run_certs(cfg, date, month_day, args):
             time.sleep(delay)
     except KeyboardInterrupt:
         log("Stopped - saving what was found so far")
+        if args.resume:  # not finished: this step must run again
+            raise
     finally:
         updates = [{"row": x["row"], "key": ("linkedin id", x["linkedin"]),
                     "values": {c: "y" for c in x["certs"]},
@@ -1644,7 +2357,180 @@ def run_certs(cfg, date, month_day, args):
             log(f"Dry run - Excel file NOT saved ({len(updates)} profile(s) with certifications)")
         else:
             save_cells(excel, ws.title, updates, cfg.get("excel", "backup_dir"), "certifications")
+    skipped = sum(1 for x in todo if x["certs"] is None)
+    if skipped and args.resume:
+        raise RuntimeError(f"{skipped} LinkedIn profile(s) could not be opened")
     log("Certifications part done")
+
+
+def run_reviews(cfg, date, args):
+    """Google reviews of the last 24 hours -> Google Review y + Remark (google_reviews.py)."""
+    import google_reviews
+    google_reviews.run(cfg, date, sys.modules[__name__], dry_run=args.dry_run)
+
+
+def check_day_complete(cfg, date):
+    """Read the saved Excel file back: everyone on the roster has a row for the date,
+    and every row with a phone number has 'Our Student Y/N'. Raises if not.
+    An empty Linkedin Id or certification cell is normal (nothing found on LinkedIn)."""
+    excel = cfg.get("excel", "path")
+    ws, cols, rows = month_rows(excel, date, date, ["our student y/n"])
+    on_sheet = {norm_name(ws.cell(r, cols["name"]).value) for r in rows}
+    saved = sorted((HERE / "logs").glob(f"{date}_*.json"), key=lambda p: p.stat().st_mtime)
+    roster = json.loads(saved[-1].read_text(encoding="utf-8"))["roster"] if saved else []
+    missing = [p["name"] for p in roster if norm_name(p["name"]) not in on_sheet]
+    unchecked = [clean_cell_text(ws.cell(r, cols["name"]).value) for r in rows
+                 if real_phone(ws.cell(r, cols["phone no"]).value)
+                 and is_blank(ws.cell(r, cols["our student y/n"]).value)]
+    problems = []
+    if missing:
+        problems.append(f"not on the sheet: {', '.join(missing)}")
+    if unchecked:
+        problems.append(f"no 'Our Student Y/N': {', '.join(unchecked)}")
+    if problems:
+        raise RuntimeError(f"Excel not complete for {date:%d-%b-%Y} - " + "; ".join(problems))
+    log(f"Excel complete for {date:%d-%b-%Y}: {len(rows)} row(s) in sheet {ws.title}, {len(roster)} on the roster")
+
+
+EXIT_STEP_FAILED = 3  # keep_running.py tries again later
+
+
+def load_done(path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+
+
+def save_done(path, done):
+    path.parent.mkdir(exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(done), encoding="utf-8")
+    os.replace(tmp, path)
+
+
+def run_all(cfg, date, args):
+    """Every step for the date. -> True if all of them finished.
+    With --resume, the steps already finished for this date are skipped."""
+    check_name = "Excel check"
+    steps = [("Roster + feedback", lambda: run_pvue(cfg, date, args)),
+             ("LinkedIn", lambda: run_linkedin(cfg, date, date, args)),
+             ("Our Student", lambda: run_student(cfg, date, date, args)),
+             ("Certifications", lambda: run_certs(cfg, date, date, args)),
+             ("Google reviews", lambda: run_reviews(cfg, date, args))]
+    if not args.dry_run:
+        steps.append((check_name, lambda: check_day_complete(cfg, date)))
+
+    progress = HERE / "logs" / f"progress_{date}.json"
+    done = load_done(progress) if args.resume else []
+    results = []
+    failed = False
+    for i, (name, step) in enumerate(steps, 1):
+        if name in done:
+            results.append((name, "already finished"))
+            log(f"Step {i}/{len(steps)}: {name} - already finished")
+            continue
+        log(f"========== {date:%d-%b-%Y}  Step {i}/{len(steps)}: {name} ==========")
+        tabs_before = chrome_tab_ids(cfg)
+        try:
+            step()
+            results.append((name, "OK"))
+            # Each step uses what the steps before it wrote. After a failure the later
+            # ones still do what they can, but must run again once it has been fixed.
+            if not failed and not args.dry_run:
+                done.append(name)
+                save_done(progress, done)
+        except KeyboardInterrupt:
+            log("Stopped")
+            sys.exit(130)
+        except (Exception, SystemExit) as e:
+            failed = True
+            first_line = str(e).splitlines()[0][:150] if str(e) else ""
+            results.append((name, f"FAILED: {type(e).__name__}: {first_line}"))
+            logs = HERE / "logs"
+            logs.mkdir(exist_ok=True)
+            err = logs / f"error_{dt.datetime.now():%Y%m%d_%H%M%S}.txt"
+            err.write_text(traceback.format_exc(), encoding="utf-8")
+            log(f"!! Step {i} failed: {type(e).__name__}: {e}")
+            log(f"   details saved in logs\\{err.name}")
+            if name == check_name:  # something was lost or changed: do every step again
+                done = []
+                save_done(progress, done)
+        finally:
+            try:
+                step_cleanup(cfg, tabs_before)
+            except Exception as e:
+                log(f"  (could not close everything: {type(e).__name__}: {e})")
+    log("========== Summary ==========")
+    for name, result in results:
+        log(f"  {name}: {result}")
+    return not failed
+
+
+STEP_NAMES = ["Roster + feedback", "LinkedIn", "Our Student", "Certifications", "Google reviews", "Excel check"]
+
+
+def catch_up(cfg, date, args):
+    """Before the date itself: the days before it with a step not finished
+    (logs/progress_<date>.json) are done first. A failure there never stops tonight's run."""
+    days = args.catch_up if args.catch_up is not None else cfg.getint("catchup", "days", fallback=7)
+    if days <= 0 or args.dry_run:
+        return
+    resume, any_done = args.resume, False
+    args.resume = True
+    try:
+        for back in range(days, 0, -1):
+            d = date - dt.timedelta(days=back)
+            if d.year != date.year:  # the Excel file is for one year
+                continue
+            done = load_done(HERE / "logs" / f"progress_{d}.json")
+            todo = [n for n in STEP_NAMES if n not in done]
+            if not todo:
+                continue
+            any_done = True
+            log(f"########## Catching up {d:%d-%b-%Y}: not finished - {', '.join(todo)}")
+            try:
+                ok = run_all(cfg, d, args)
+                log(f"########## {d:%d-%b-%Y}: " + ("complete" if ok else "still not complete - tried again next time"))
+            except KeyboardInterrupt:
+                raise
+            except BaseException as e:
+                log(f"########## {d:%d-%b-%Y}: stopped - {type(e).__name__}: {e}")
+    finally:
+        args.resume = resume
+    if not any_done:
+        log(f"The {days} day(s) before are complete")
+
+
+def chrome_tab_ids(cfg):
+    port = cfg.getint("chrome", "debug_port")
+    return {t["id"] for t in chrome_pages(port)} if port_open(port) else set()
+
+
+def step_cleanup(cfg, tabs_before):
+    """After a step: close the Chrome tabs it opened (tabs open before are left alone)."""
+    port = cfg.getint("chrome", "debug_port")
+    if not port_open(port):
+        return
+    pages = chrome_pages(port)
+    new = [t for t in pages if t["id"] not in tabs_before]
+    if new and len(new) == len(pages):
+        new = new[:-1]  # never close the last tab: that would close Chrome
+    for t in new:
+        close_tab(port, t["id"])
+    if new:
+        log(f"Closed {len(new)} Chrome tab(s) this step opened")
+
+
+def release_driver():
+    """At the end: stop ChromeDriver (Chrome itself stays open)."""
+    global _driver
+    if _driver:
+        try:
+            _driver.service.stop()
+        except Exception:
+            pass
+        _driver = None
 
 
 def run_test(cfg):
@@ -1668,6 +2554,31 @@ def run_test(cfg):
 
 # ================================================================ main
 
+VERSION = "0.1"
+AUTHOR = "YOGESHWARAN TL"
+
+BANNER = r"""
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+"""
+
+
+def print_banner():
+    print(BANNER)
+    print("=" * 78)
+    print(f"By {AUTHOR}".center(78))
+    print(f"Version {VERSION}".center(78))
+    print("=" * 78)
+
+
 MENU = """
 ==============================================
    Advantage Pro - Exam Automation
@@ -1676,17 +2587,18 @@ MENU = """
    2. LinkedIn from Outlook          -> Excel
    3. Our Student check in Adv Pro   -> Excel
    4. Certifications from LinkedIn   -> Excel
-   5. All (1, 2, 3, 4 - same date)
+   5. All (1, 2, 3, 4, 7 - same date)
    6. Test (sample data, nothing saved)
+   7. Google reviews (last 24 hours) -> Excel
    0. Exit
 """
-TASKS = {"1": "pvue", "2": "linkedin", "3": "student", "4": "certs", "5": "all", "6": "test", "0": "exit"}
+TASKS = {"1": "pvue", "2": "linkedin", "3": "student", "4": "certs", "5": "all", "6": "test", "7": "reviews", "0": "exit"}
 
 
 def ask_task():
     print(MENU)
     while True:
-        task = TASKS.get(input(">>> Choose 1-6 or 0: ").strip())
+        task = TASKS.get(input(">>> Choose 1-7 or 0: ").strip())
         if task:
             return task
         print("    Please type a number from the menu")
@@ -1704,7 +2616,7 @@ def ask_or_parse_scope(args):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("task", nargs="?", choices=["pvue", "linkedin", "student", "certs", "all", "test"],
+    ap.add_argument("task", nargs="?", choices=["pvue", "linkedin", "student", "certs", "reviews", "all", "test"],
                     help="what to run (no task = show the menu)")
     ap.add_argument("--date", help="DD-MM-YYYY or YYYY-MM-DD (default: ask)")
     ap.add_argument("--month", help="linkedin/student/certs: YYYY-MM, every row of that month")
@@ -1713,37 +2625,63 @@ def main():
     ap.add_argument("--limit", type=int, help="linkedin/student/certs: only the first N rows")
     ap.add_argument("--ask", action="store_true", help="linkedin: wait for you when a profile isn't found")
     ap.add_argument("--dry-run", action="store_true", help="do everything except saving the Excel file")
+    ap.add_argument("--resume", action="store_true",
+                    help="all: skip the steps already finished for this date (used by keep_running.py)")
+    ap.add_argument("--catch-up", type=int, metavar="DAYS",
+                    help="all: first finish what is missing from the DAYS days before "
+                         "(default: [catchup] days in config.ini, 0 = off)")
+    ap.add_argument("--restore-extension", action="store_true", help=argparse.SUPPRESS)
     args = ap.parse_args()
 
+    if args.restore_extension:  # keep_running.py: the program was stopped before it could do this
+        set_extension(load_config(), True)
+        return
+
+    print_banner()
     task = args.task or ask_task()
     if task == "exit":
         return
     cfg = load_config()
 
-    if task == "test":
-        run_test(cfg)
+    # first thing: the auto-login extension off; back on when everything is done
+    # (also after an error, so Chrome is left the way it was)
+    extension_off = task in ("pvue", "all") and not args.skip_roster
+    if extension_off:
+        set_extension(cfg, False)
+    complete = True
+    try:
+        if task == "test":
+            run_test(cfg)
 
-    elif task == "pvue":
-        date = parse_date(args.date) if args.date else ask_date()
-        run_pvue(cfg, date, args)
+        elif task == "pvue":
+            date = parse_date(args.date) if args.date else ask_date()
+            run_pvue(cfg, date, args)
 
-    elif task == "linkedin":
-        run_linkedin(cfg, *ask_or_parse_scope(args), args)
+        elif task == "linkedin":
+            run_linkedin(cfg, *ask_or_parse_scope(args), args)
 
-    elif task == "student":
-        run_student(cfg, *ask_or_parse_scope(args), args)
+        elif task == "student":
+            run_student(cfg, *ask_or_parse_scope(args), args)
 
-    elif task == "certs":
-        run_certs(cfg, *ask_or_parse_scope(args), args)
+        elif task == "certs":
+            run_certs(cfg, *ask_or_parse_scope(args), args)
 
-    elif task == "all":
-        date = parse_date(args.date) if args.date else ask_date()
-        run_pvue(cfg, date, args)
-        run_linkedin(cfg, date, date, args)
-        run_student(cfg, date, date, args)
-        run_certs(cfg, date, date, args)
+        elif task == "reviews":
+            date = parse_date(args.date) if args.date else ask_date()
+            run_reviews(cfg, date, args)
+
+        elif task == "all":
+            date = parse_date(args.date) if args.date else ask_date()
+            catch_up(cfg, date, args)
+            complete = run_all(cfg, date, args)
+    finally:
+        release_driver()
+        if extension_off:
+            set_extension(cfg, True)
 
     log("Done")
+    if not complete:
+        sys.exit(EXIT_STEP_FAILED)
 
 
 if __name__ == "__main__":

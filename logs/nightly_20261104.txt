@@ -1,0 +1,114 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:52:34] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:37] Pearson VUE extension turned off
+[23:52:37] ========== Step 1/5: Roster + feedback ==========
+[23:52:37] === Pearson VUE roster + feedback | Date: 04-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:52:41] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:42] Waking up Chrome tabs
+[23:53:01] Connected to Chrome
+[23:53:01] Opening Pearson VUE login page
+[23:53:03] Login submitted
+[23:53:23] Clicked Site Manager
+[23:53:26] Clicked Availability
+[23:53:31] Clicked Roster
+[23:53:36] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:53:36] 6 exam(s) on the roster
+[23:53:37]   Bhavani Srinivasan: 415-326-6303
+[23:53:40]   Tamilarasan K: 415-326-6303
+[23:53:45]   Santhosh C: 8122292738
+[23:53:50]   Ineavan M: 9566197617
+[23:53:54]   Ajay Rajan: 6383809338
+[23:53:57]   VARATHA RAJU SKV: 9042999662
+[23:54:05] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[23:54:07] Waking up Chrome tabs
+[23:54:28] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[23:54:28] Feedback timestamps are month/day
+[23:54:28] 4 feedback response(s) on 2026-11-04
+[23:54:38]   added: Bhavani Srinivasan | Anthropic | CCAR-F | 415-326-6303
+[23:54:38]   added: Tamilarasan K | Anthropic | CCAO-F | 415-326-6303
+[23:54:38]   added: Santhosh C | Microsoft | AI-103 | 8122292738
+[23:54:38]   added: Ineavan M | Amazon Web Services | AIF-C01 | 9566197617
+[23:54:38]   added: Ajay Rajan | Microsoft | GH-300 | 6383809338
+[23:54:38]   added: VARATHA RAJU SKV | Microsoft | AI-300 | 9042999662
+[23:54:38]   feedback 'Tamilarasan' -> row 22: Tamilarasan K (matched by name) | phone 7092080318 | arasu348@gmail.com
+[23:54:38]   feedback 'Ineavan M' -> row 24: Ineavan M (matched by phone) | phone 9566197617 | ineavancnd@gmail.com
+[23:54:38]   ! feedback not matched to any row (not on the roster?): Yesuraja s | 9566820572 | yryesuraja@gmail.com
+[23:54:38]   ! feedback not matched to any row (not on the roster?): Pooja | 9043179871 | pujac2820@gmail.com
+[23:54:38] Sheet NOV: 6 row(s) added, 2 row(s) updated with feedback
+[23:54:38] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261104_235438.xlsx
+[23:54:42] Excel file saved
+[23:54:42] Pearson VUE part done
+[23:54:42] ========== Step 2/5: LinkedIn ==========
+[23:54:42] === LinkedIn from Outlook
+[23:54:44] Sheet NOV: 2 email(s) without a LinkedIn Id on 04-Nov-2026
+[23:54:44]   row 22: Tamilarasan K | arasu348@gmail.com
+[23:54:44]   row 24: Ineavan M | ineavancnd@gmail.com
+[23:54:48] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:54:51] Waking up Chrome tabs
+[23:55:08] Clicked New mail
+[23:55:13] [1/2] Tamilarasan K | arasu348@gmail.com
+[23:55:31]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[23:55:31]     LinkedIn: (not found)
+[23:55:33] [2/2] Ineavan M | ineavancnd@gmail.com
+[23:55:41]     LinkedIn: https://www.linkedin.com/in/ineavan-m-07a677156/
+[23:55:46] Draft discarded
+[23:55:46] LinkedIn found for 1 of 2 email(s)
+[23:55:46]   ! not found: Tamilarasan K | arasu348@gmail.com
+[23:55:49]   row 24: Ineavan M -> https://www.linkedin.com/in/ineavan-m-07a677156/
+[23:55:49] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261104_235549.xlsx
+[23:55:53] Excel file saved - 1 LinkedIn URL(s) written to sheet NOV
+[23:55:53] LinkedIn part done
+[23:55:53] ========== Step 3/5: Our Student ==========
+[23:55:53] === Our Student check in Adv Pro
+[23:55:56]   Bhavani Srinivasan: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:55:56] Sheet NOV: 5 phone number(s) without 'Our Student Y/N' on 04-Nov-2026
+[23:56:02] Adv Pro is already open
+[23:56:02] Adv Pro: Filter By = PresentPhoneNo
+[23:56:15] [1/5] 7092080318 Tamilarasan K: n
+[23:56:18] [2/5] 8122292738 Santhosh C: n
+[23:56:21] [3/5] 9566197617 Ineavan M: n
+[23:56:24] [4/5] 6383809338 Ajay Rajan: n
+[23:56:27] [5/5] 9042999662 VARATHA RAJU SKV: n
+[23:56:30]   row 22: Tamilarasan K | 7092080318 -> n
+[23:56:30]   row 23: Santhosh C | 8122292738 -> n
+[23:56:30]   row 24: Ineavan M | 9566197617 -> n
+[23:56:30]   row 25: Ajay Rajan | 6383809338 -> n
+[23:56:30]   row 26: VARATHA RAJU SKV | 9042999662 -> n
+[23:56:30] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261104_235630.xlsx
+[23:56:33] Excel file saved - 'Our Student Y/N' written for 5 row(s) in sheet NOV
+[23:56:33] Our Student part done
+[23:56:33] ========== Step 4/5: Certifications ==========
+[23:56:33] === Certifications from LinkedIn
+[23:56:36] Sheet NOV: 1 LinkedIn profile(s) not checked yet on 04-Nov-2026
+[23:56:42] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:56:44] Waking up Chrome tabs
+[23:57:39] [1/1] Ineavan M | https://www.linkedin.com/in/ineavan-m-07a677156/
+[23:58:14]     certifications: (none of ours)
+[23:58:25] No certifications to write - Excel file not changed
+[23:58:25] Certifications part done
+[23:58:26] ========== Step 5/5: Excel check ==========
+[23:58:35] Excel complete for 04-Nov-2026: 6 row(s) in sheet NOV, 6 on the roster
+[23:58:35] ========== Summary ==========
+[23:58:35]   Roster + feedback: OK
+[23:58:35]   LinkedIn: OK
+[23:58:35]   Our Student: OK
+[23:58:35]   Certifications: OK
+[23:58:35]   Excel check: OK
+[23:58:42] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:58:55] Pearson VUE extension turned on
+[23:58:56] Done

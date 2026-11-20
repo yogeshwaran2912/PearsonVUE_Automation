@@ -1,0 +1,754 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:52:08] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:10] Pearson VUE extension turned off
+[23:52:10] ========== Step 1/5: Roster + feedback ==========
+[23:52:10] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:52:13] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:52:14] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[23:52:16] Connected to Chrome
+[23:52:16] Opening Pearson VUE login page
+[23:52:54] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[23:52:54]    details saved in logs\error_20261114_235254.txt
+[23:52:54] ========== Step 2/5: LinkedIn ==========
+[23:52:54] === LinkedIn from Outlook
+[23:52:55] Sheet NOV: 7 email(s) without a LinkedIn Id on 14-Nov-2026
+[23:52:55]   row 85: ANAND GOPALAN | agopala@gmail.com
+[23:52:55]   row 86: Preethi V | preethi.231528@gmail.com
+[23:52:55]   row 87: Shabaz Khan Y | shabazkhansk03@gmail.com
+[23:52:55]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[23:52:55]   row 90: Dewakaran Sagayaraj | daimen35@gmail.com
+[23:52:55]   row 92: Nagarani Ramaraj | ranireddy137@gmail.com
+[23:52:55]   row 93: subramanyam gurajala | subramanyamgurijala@gmail.com
+[23:52:59] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[23:53:00] Waking up Chrome tabs
+[23:53:48] !! Step 2 failed: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[23:53:48]    details saved in logs\error_20261114_235348.txt
+[23:53:48] ========== Step 3/5: Our Student ==========
+[23:53:48] === Our Student check in Adv Pro
+[23:53:50]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:53:50]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:53:50]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:53:50]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[23:53:50] Sheet NOV: 10 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[23:53:55] Opening Adv Pro
+[23:53:58] Adv Pro: logged in
+[23:53:59] Adv Pro: Master > Registration > Display
+[23:54:02] Adv Pro: Filter By = PresentPhoneNo
+[23:54:05] [1/10] 9940205550 P M Rajeshkumar: n
+[23:54:08] [2/10] 9884662200 Mohammad Najeebuddin Mohammad Fazluddin: y
+[23:54:11] [3/10] 9444785621 ANAND GOPALAN: n
+[23:54:14] [4/10] 9600183832 Preethi V: n
+[23:54:17] [5/10] 7789902428 Shabaz Khan Y: n
+[23:54:20] [6/10] 9841409841 Sivashankaran Manickam: n
+[23:54:23] [7/10] 7358423595 Mithill Jain M: n
+[23:54:25] [8/10] 9841983315 Dewakaran Sagayaraj: n
+[23:54:28] [9/10] 9047907239 Nagarani Ramaraj: n
+[23:54:31] [10/10] 7095724910 subramanyam gurajala: n
+[23:54:33]   row 83: P M Rajeshkumar | 9940205550 -> n
+[23:54:33]   row 84: Mohammad Najeebuddin Mohammad Fazluddin | 9884662200 -> y
+[23:54:33]   row 85: ANAND GOPALAN | 9444785621 -> n
+[23:54:33]   row 86: Preethi V | 9600183832 -> n
+[23:54:33]   row 87: Shabaz Khan Y | 7789902428 -> n
+[23:54:33]   row 88: Sivashankaran Manickam | 9841409841 -> n
+[23:54:33]   row 89: Mithill Jain M | 7358423595 -> n
+[23:54:33]   row 90: Dewakaran Sagayaraj | 9841983315 -> n
+[23:54:33]   row 92: Nagarani Ramaraj | 9047907239 -> n
+[23:54:33]   row 93: subramanyam gurajala | 7095724910 -> n
+[23:54:33] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261114_235433.xlsx
+[23:54:36] Excel file saved - 'Our Student Y/N' written for 10 row(s) in sheet NOV
+[23:54:36] Our Student part done
+[23:54:36] ========== Step 4/5: Certifications ==========
+[23:54:36] === Certifications from LinkedIn
+[23:54:38] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[23:54:38] ========== Step 5/5: Excel check ==========
+[23:54:40] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[23:54:40] ========== Summary ==========
+[23:54:40]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[23:54:40]   LinkedIn: FAILED: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[23:54:40]   Our Student: OK
+[23:54:40]   Certifications: OK
+[23:54:40]   Excel check: OK
+[23:54:44] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:54:45] Pearson VUE extension turned on
+[23:54:45] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:15:10] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:12] Pearson VUE extension turned off
+[00:15:12] ========== Step 1/5: Roster + feedback ==========
+[00:15:12] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:15:15] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:15:16] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[00:15:19] Connected to Chrome
+[00:15:19] Opening Pearson VUE login page
+[00:15:58] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:15:58]    details saved in logs\error_20261115_001558.txt
+[00:15:58] ========== Step 2/5: LinkedIn ==========
+[00:15:58] === LinkedIn from Outlook
+[00:16:01] Sheet NOV: 7 email(s) without a LinkedIn Id on 14-Nov-2026
+[00:16:01]   row 85: ANAND GOPALAN | agopala@gmail.com
+[00:16:01]   row 86: Preethi V | preethi.231528@gmail.com
+[00:16:01]   row 87: Shabaz Khan Y | shabazkhansk03@gmail.com
+[00:16:01]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[00:16:01]   row 90: Dewakaran Sagayaraj | daimen35@gmail.com
+[00:16:01]   row 92: Nagarani Ramaraj | ranireddy137@gmail.com
+[00:16:01]   row 93: subramanyam gurajala | subramanyamgurijala@gmail.com
+[00:16:04] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:16:05] Waking up Chrome tabs
+[00:16:31] !! Step 2 failed: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[00:16:31]    details saved in logs\error_20261115_001631.txt
+[00:16:31] ========== Step 3/5: Our Student ==========
+[00:16:31] === Our Student check in Adv Pro
+[00:16:33]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:16:33]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:16:33]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:16:33]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:16:33] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[00:16:33] ========== Step 4/5: Certifications ==========
+[00:16:33] === Certifications from LinkedIn
+[00:16:35] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[00:16:35] ========== Step 5/5: Excel check ==========
+[00:16:37] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[00:16:37] ========== Summary ==========
+[00:16:37]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:16:37]   LinkedIn: FAILED: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[00:16:37]   Our Student: OK
+[00:16:37]   Certifications: OK
+[00:16:37]   Excel check: OK
+[00:16:42] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:16:44] Pearson VUE extension turned on
+[00:16:44] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:24:15] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:24:16] Pearson VUE extension turned off
+[00:24:16] ========== Step 1/5: Roster + feedback ==========
+[00:24:16] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:24:20] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:24:21] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[00:24:38] Connected to Chrome
+[00:24:38] Opening Pearson VUE login page
+[00:25:08] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:25:08]    details saved in logs\error_20261115_002508.txt
+[00:25:08] ========== Step 2/5: LinkedIn ==========
+[00:25:08] === LinkedIn from Outlook
+[00:25:10] Sheet NOV: 7 email(s) without a LinkedIn Id on 14-Nov-2026
+[00:25:10]   row 85: ANAND GOPALAN | agopala@gmail.com
+[00:25:10]   row 86: Preethi V | preethi.231528@gmail.com
+[00:25:10]   row 87: Shabaz Khan Y | shabazkhansk03@gmail.com
+[00:25:10]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[00:25:10]   row 90: Dewakaran Sagayaraj | daimen35@gmail.com
+[00:25:10]   row 92: Nagarani Ramaraj | ranireddy137@gmail.com
+[00:25:10]   row 93: subramanyam gurajala | subramanyamgurijala@gmail.com
+[00:25:13] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:25:14] Waking up Chrome tabs
+[00:26:00] !! Step 2 failed: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[00:26:00]    details saved in logs\error_20261115_002600.txt
+[00:26:00] ========== Step 3/5: Our Student ==========
+[00:26:00] === Our Student check in Adv Pro
+[00:26:02]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:26:02]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:26:02]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:26:02]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:26:02] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[00:26:02] ========== Step 4/5: Certifications ==========
+[00:26:02] === Certifications from LinkedIn
+[00:26:04] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[00:26:04] ========== Step 5/5: Excel check ==========
+[00:26:06] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[00:26:06] ========== Summary ==========
+[00:26:06]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:26:06]   LinkedIn: FAILED: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[00:26:06]   Our Student: OK
+[00:26:06]   Certifications: OK
+[00:26:06]   Excel check: OK
+[00:26:09] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:26:11] Pearson VUE extension turned on
+[00:26:11] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:41:12] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:41:14] Pearson VUE extension turned off
+[00:41:14] ========== Step 1/5: Roster + feedback ==========
+[00:41:14] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:41:18] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:41:19] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[00:41:25] Connected to Chrome
+[00:41:25] Opening Pearson VUE login page
+[00:41:56] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:41:56]    details saved in logs\error_20261115_004156.txt
+[00:41:56] ========== Step 2/5: LinkedIn ==========
+[00:41:56] === LinkedIn from Outlook
+[00:41:58] Sheet NOV: 7 email(s) without a LinkedIn Id on 14-Nov-2026
+[00:41:58]   row 85: ANAND GOPALAN | agopala@gmail.com
+[00:41:58]   row 86: Preethi V | preethi.231528@gmail.com
+[00:41:58]   row 87: Shabaz Khan Y | shabazkhansk03@gmail.com
+[00:41:58]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[00:41:58]   row 90: Dewakaran Sagayaraj | daimen35@gmail.com
+[00:41:58]   row 92: Nagarani Ramaraj | ranireddy137@gmail.com
+[00:41:58]   row 93: subramanyam gurajala | subramanyamgurijala@gmail.com
+[00:42:02] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:42:03] Waking up Chrome tabs
+[00:42:43] !! Step 2 failed: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[00:42:43]    details saved in logs\error_20261115_004243.txt
+[00:42:43] ========== Step 3/5: Our Student ==========
+[00:42:43] === Our Student check in Adv Pro
+[00:42:45]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:42:45]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:42:45]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:42:45]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:42:45] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[00:42:45] ========== Step 4/5: Certifications ==========
+[00:42:45] === Certifications from LinkedIn
+[00:42:47] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[00:42:47] ========== Step 5/5: Excel check ==========
+[00:42:49] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[00:42:49] ========== Summary ==========
+[00:42:49]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[00:42:49]   LinkedIn: FAILED: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[00:42:49]   Our Student: OK
+[00:42:49]   Certifications: OK
+[00:42:49]   Excel check: OK
+[00:42:54] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:42:56] Pearson VUE extension turned on
+[00:42:56] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:03:28] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:03:29] Pearson VUE extension turned off
+[01:03:29] ========== Step 1/5: Roster + feedback ==========
+[01:03:29] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:03:33] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:03:34] Waking up Chrome tabs
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+[01:03:53] Connected to Chrome
+[01:03:53] Opening Pearson VUE login page
+[01:04:24] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[01:04:24]    details saved in logs\error_20261115_010424.txt
+[01:04:24] ========== Step 2/5: LinkedIn ==========
+[01:04:24] === LinkedIn from Outlook
+[01:04:26] Sheet NOV: 7 email(s) without a LinkedIn Id on 14-Nov-2026
+[01:04:26]   row 85: ANAND GOPALAN | agopala@gmail.com
+[01:04:26]   row 86: Preethi V | preethi.231528@gmail.com
+[01:04:26]   row 87: Shabaz Khan Y | shabazkhansk03@gmail.com
+[01:04:26]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[01:04:26]   row 90: Dewakaran Sagayaraj | daimen35@gmail.com
+[01:04:26]   row 92: Nagarani Ramaraj | ranireddy137@gmail.com
+[01:04:26]   row 93: subramanyam gurajala | subramanyamgurijala@gmail.com
+[01:04:30] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:04:31] Waking up Chrome tabs
+[01:05:12] !! Step 2 failed: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[01:05:12]    details saved in logs\error_20261115_010512.txt
+[01:05:12] ========== Step 3/5: Our Student ==========
+[01:05:12] === Our Student check in Adv Pro
+[01:05:14]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:05:14]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:05:14]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:05:14]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:05:14] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[01:05:14] ========== Step 4/5: Certifications ==========
+[01:05:14] === Certifications from LinkedIn
+[01:05:16] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[01:05:16] ========== Step 5/5: Excel check ==========
+[01:05:18] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[01:05:18] ========== Summary ==========
+[01:05:18]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the login form. Please log in manually in the Chrome window.
+[01:05:18]   LinkedIn: FAILED: RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.
+[01:05:18]   Our Student: OK
+[01:05:18]   Certifications: OK
+[01:05:18]   Excel check: OK
+[01:05:22] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:05:24] Pearson VUE extension turned on
+[01:05:24] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:37:39] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:37:42] Pearson VUE extension turned off
+[01:37:42] ========== Step 1/5: Roster + feedback ==========
+[01:37:42] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:37:47] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:37:48] Waking up Chrome tabs
+[01:37:57] Connected to Chrome
+[01:37:57] Opening Pearson VUE login page
+[01:37:59] Login submitted
+[01:38:20] Clicked Site Manager
+[01:38:22] Clicked Availability
+[01:38:26] Clicked Roster
+[01:38:29] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the date box. Please pick 14-Nov-2026 on the roster.
+[01:38:29]    details saved in logs\error_20261115_013829.txt
+[01:38:29] ========== Step 2/5: LinkedIn ==========
+[01:38:29] === LinkedIn from Outlook
+[01:38:32] Sheet NOV: 7 email(s) without a LinkedIn Id on 14-Nov-2026
+[01:38:32]   row 85: ANAND GOPALAN | agopala@gmail.com
+[01:38:32]   row 86: Preethi V | preethi.231528@gmail.com
+[01:38:32]   row 87: Shabaz Khan Y | shabazkhansk03@gmail.com
+[01:38:32]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[01:38:32]   row 90: Dewakaran Sagayaraj | daimen35@gmail.com
+[01:38:32]   row 92: Nagarani Ramaraj | ranireddy137@gmail.com
+[01:38:32]   row 93: subramanyam gurajala | subramanyamgurijala@gmail.com
+[01:38:37] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:38:39] Waking up Chrome tabs
+[01:39:40] Clicked New mail
+[01:39:43] [1/7] ANAND GOPALAN | agopala@gmail.com
+[01:40:03]     LinkedIn: https://www.linkedin.com/in/gopalananand/
+[01:40:06] [2/7] Preethi V | preethi.231528@gmail.com
+[01:40:29]     contact card has no LinkedIn logo
+[01:40:29]     LinkedIn: (not found)
+[01:40:31] [3/7] Shabaz Khan Y | shabazkhansk03@gmail.com
+[01:40:39]     LinkedIn: https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[01:40:41] [4/7] Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[01:40:57]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:40:57]     LinkedIn: (not found)
+[01:40:59] [5/7] Dewakaran Sagayaraj | daimen35@gmail.com
+[01:41:07]     LinkedIn: https://www.linkedin.com/in/dewakaran-sagayaraj-b10703103/
+[01:41:09] [6/7] Nagarani Ramaraj | ranireddy137@gmail.com
+[01:41:17]     LinkedIn: https://www.linkedin.com/in/nagarani-r/
+[01:41:19] [7/7] subramanyam gurajala | subramanyamgurijala@gmail.com
+[01:41:27]     LinkedIn: https://www.linkedin.com/in/subramanyam-g04/
+[01:41:32] Draft discarded
+[01:41:32] LinkedIn found for 5 of 7 email(s)
+[01:41:32]   ! not found: Preethi V | preethi.231528@gmail.com
+[01:41:32]   ! not found: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[01:41:35]   row 85: ANAND GOPALAN -> https://www.linkedin.com/in/gopalananand/
+[01:41:35]   row 87: Shabaz Khan Y -> https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[01:41:35]   row 90: Dewakaran Sagayaraj -> https://www.linkedin.com/in/dewakaran-sagayaraj-b10703103/
+[01:41:35]   row 92: Nagarani Ramaraj -> https://www.linkedin.com/in/nagarani-r/
+[01:41:35]   row 93: subramanyam gurajala -> https://www.linkedin.com/in/subramanyam-g04/
+[01:41:35] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261115_014135.xlsx
+[01:41:39] Excel file saved - 5 LinkedIn URL(s) written to sheet NOV
+[01:41:39] LinkedIn part done
+[01:41:39] ========== Step 3/5: Our Student ==========
+[01:41:39] === Our Student check in Adv Pro
+[01:41:41]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:41:41]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:41:41]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:41:41]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:41:41] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[01:41:41] ========== Step 4/5: Certifications ==========
+[01:41:41] === Certifications from LinkedIn
+[01:41:43] Sheet NOV: 5 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[01:41:47] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:41:48] Waking up Chrome tabs
+[01:42:34] [1/5] ANAND GOPALAN | https://www.linkedin.com/in/gopalananand/
+[01:43:46]     certifications: ANTHROPIC
+[01:43:52] [2/5] Shabaz Khan Y | https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[01:44:29]     certifications: (none of ours)
+[01:44:35] [3/5] Dewakaran Sagayaraj | https://www.linkedin.com/in/dewakaran-sagayaraj-b10703103/
+[01:44:57]     certifications: AWS, ANTHROPIC
+[01:45:02] [4/5] Nagarani Ramaraj | https://www.linkedin.com/in/nagarani-r/
+[01:45:24]     certifications: (none of ours)
+[01:45:29] [5/5] subramanyam gurajala | https://www.linkedin.com/in/subramanyam-g04/
+[01:45:53]     certifications: AZURE, PYTHON
+[01:46:01]   row 85: ANAND GOPALAN -> ANTHROPIC
+[01:46:01]   row 90: Dewakaran Sagayaraj -> AWS, ANTHROPIC
+[01:46:01]   row 93: subramanyam gurajala -> AZURE, PYTHON
+[01:46:01] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261115_014601.xlsx
+[01:46:04] Excel file saved - certifications written for 3 row(s) in sheet NOV
+[01:46:04] Certifications part done
+[01:46:04] ========== Step 5/5: Excel check ==========
+[01:46:07] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[01:46:07] ========== Summary ==========
+[01:46:07]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the date box. Please pick 14-Nov-2026 on the roster.
+[01:46:07]   LinkedIn: OK
+[01:46:07]   Our Student: OK
+[01:46:07]   Certifications: OK
+[01:46:07]   Excel check: OK
+[01:46:12] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:46:14] Pearson VUE extension turned on
+[01:46:14] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+
+>>> Chrome is already running (maybe in the background).
+    The script must restart it. Close Chrome now? Open tabs come back
+    with Ctrl+Shift+T. [Y/n]: [02:12:21] Chrome closed
+[02:12:23] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:12:26] Pearson VUE extension turned off
+[02:12:26] ========== Step 1/5: Roster + feedback ==========
+[02:12:26] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[02:12:30] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:12:31] Waking up Chrome tabs
+[02:12:34] Connected to Chrome
+[02:12:34] Opening Pearson VUE login page
+[02:12:37] Login submitted
+[02:12:57] Clicked Site Manager
+[02:12:59] Clicked Availability
+[02:13:04] Clicked Roster
+[02:13:06] !! Step 1 failed: RuntimeError: Needs a person at the computer: Could not find the date box. Please pick 14-Nov-2026 on the roster.
+[02:13:06]    details saved in logs\error_20261115_021306.txt
+[02:13:06] ========== Step 2/5: LinkedIn ==========
+[02:13:06] === LinkedIn from Outlook
+[02:13:08] Sheet NOV: 2 email(s) without a LinkedIn Id on 14-Nov-2026
+[02:13:08]   row 86: Preethi V | preethi.231528@gmail.com
+[02:13:08]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[02:13:11] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[02:13:12] Waking up Chrome tabs
+[02:13:25] Clicked New mail
+[02:13:31] [1/2] Preethi V | preethi.231528@gmail.com
+[02:13:43]     error: StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+[02:13:43]     LinkedIn: (not found)
+[02:13:44] [2/2] Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[02:14:00]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[02:14:00]     LinkedIn: (not found)
+[02:14:05] Draft discarded
+[02:14:05] LinkedIn found for 0 of 2 email(s)
+[02:14:05]   ! not found: Preethi V | preethi.231528@gmail.com
+[02:14:05]   ! not found: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[02:14:05] No LinkedIn URLs found - Excel file not changed
+[02:14:05] !! Step 2 failed: RuntimeError: 1 email(s) could not be looked up
+[02:14:05]    details saved in logs\error_20261115_021405.txt
+[02:14:05] ========== Step 3/5: Our Student ==========
+[02:14:05] === Our Student check in Adv Pro
+[02:14:07]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:14:07]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:14:07]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:14:07]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:14:07] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[02:14:07] ========== Step 4/5: Certifications ==========
+[02:14:07] === Certifications from LinkedIn
+[02:14:09] Sheet NOV: 2 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[02:14:13] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[02:14:14] Waking up Chrome tabs
+[02:14:16] [1/2] Shabaz Khan Y | https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[02:15:50]     certifications: (none of ours)
+[02:15:55] [2/2] Nagarani Ramaraj | https://www.linkedin.com/in/nagarani-r/
+[02:16:43]     certifications: (none of ours)
+[02:16:48] No certifications to write - Excel file not changed
+[02:16:48] Certifications part done
+[02:16:48] ========== Step 5/5: Excel check ==========
+[02:16:50] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[02:16:50] ========== Summary ==========
+[02:16:50]   Roster + feedback: FAILED: RuntimeError: Needs a person at the computer: Could not find the date box. Please pick 14-Nov-2026 on the roster.
+[02:16:50]   LinkedIn: FAILED: RuntimeError: 1 email(s) could not be looked up
+[02:16:50]   Our Student: OK
+[02:16:50]   Certifications: OK
+[02:16:50]   Excel check: OK
+[02:16:53] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:16:58] Pearson VUE extension turned on
+[02:16:58] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[02:23:00] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:23:03] Pearson VUE extension turned off
+[02:23:03] ========== Step 1/5: Roster + feedback ==========
+[02:23:03] === Pearson VUE roster + feedback | Date: 14-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[02:23:13] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:23:17] Waking up Chrome tabs
+[02:24:09] Connected to Chrome
+[02:24:09] Opening Pearson VUE login page
+[02:24:12] Login submitted
+[02:24:32] Clicked Site Manager
+[02:24:34] Clicked Availability
+[02:24:41] Clicked Roster
+[02:24:43] Set roster date 2026-11-14
+[02:24:47] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[02:24:47] 14 exam(s) on the roster
+[02:24:48]   P M Rajeshkumar: 415-326-6303
+[02:24:51] Set roster date 2026-11-14
+[02:24:55]   Mohammad Najeebuddin Mohammad Fazluddin: 9884662200
+[02:24:58] Set roster date 2026-11-14
+[02:25:02]   ANAND GOPALAN: 9444785621
+[02:25:05] Set roster date 2026-11-14
+[02:25:10]   Preethi V: 415-326-6303
+[02:25:13] Set roster date 2026-11-14
+[02:25:16]   Shabaz Khan Y: 415-326-6303
+[02:25:20] Set roster date 2026-11-14
+[02:25:23]   Sivashankaran Manickam: 415-326-6303
+[02:25:26] Set roster date 2026-11-14
+[02:25:31]   Mithill Jain M: 917358423595
+[02:25:34] Set roster date 2026-11-14
+[02:25:37]   Dewakaran Sagayaraj: 9841983315
+[02:25:41] Set roster date 2026-11-14
+[02:25:45]   Hema A: 415-326-6303
+[02:25:48] Set roster date 2026-11-14
+[02:25:52]   Nagarani Ramaraj: 9047907239
+[02:25:56] Set roster date 2026-11-14
+[02:26:02]   subramanyam gurajala: 7095724910
+[02:26:05] Set roster date 2026-11-14
+[02:26:10]   Preethi V: 415-326-6303
+[02:26:12] Set roster date 2026-11-14
+[02:26:17]   Vijayakumar Ramachandran: 9994855566
+[02:26:20] Set roster date 2026-11-14
+[02:26:25]   christy .: 9962504501
+[02:26:28] Set roster date 2026-11-14
+[02:26:33] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[02:26:34] Waking up Chrome tabs
+[02:26:57] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[02:26:57] Feedback timestamps are month/day
+[02:26:58] 0 feedback response(s) on 2026-11-14
+[02:27:00]   already in sheet: P M Rajeshkumar
+[02:27:00]   already in sheet: Mohammad Najeebuddin Mohammad Fazluddin
+[02:27:00]   already in sheet: ANAND GOPALAN
+[02:27:00]   already in sheet: Preethi V
+[02:27:00]   already in sheet: Shabaz Khan Y
+[02:27:00]   already in sheet: Sivashankaran Manickam
+[02:27:00]   already in sheet: Mithill Jain M
+[02:27:00]   already in sheet: Dewakaran Sagayaraj
+[02:27:00]   already in sheet: Hema A
+[02:27:00]   already in sheet: Nagarani Ramaraj
+[02:27:00]   already in sheet: subramanyam gurajala
+[02:27:00]   already in sheet: Preethi V
+[02:27:00]   already in sheet: Vijayakumar Ramachandran
+[02:27:00]   already in sheet: christy .
+[02:27:00] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[02:27:00] Nothing changed - Excel file not saved
+[02:27:00] Pearson VUE part done
+[02:27:00] ========== Step 2/5: LinkedIn ==========
+[02:27:00] === LinkedIn from Outlook
+[02:27:02] Sheet NOV: 2 email(s) without a LinkedIn Id on 14-Nov-2026
+[02:27:02]   row 86: Preethi V | preethi.231528@gmail.com
+[02:27:02]   row 88: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[02:27:06] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[02:27:09] Waking up Chrome tabs
+[02:27:35] Clicked New mail
+[02:27:45] [1/2] Preethi V | preethi.231528@gmail.com
+[02:28:21]     LinkedIn: https://www.linkedin.com/in/preethi-vinayayagamoorthy-03b10591/
+[02:28:28] [2/2] Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[02:29:04]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[02:29:04]     LinkedIn: (not found)
+[02:29:09] Draft discarded
+[02:29:09] LinkedIn found for 1 of 2 email(s)
+[02:29:09]   ! not found: Sivashankaran Manickam | shiva.shankaran19@gmail.com
+[02:29:12]   row 86: Preethi V -> https://www.linkedin.com/in/preethi-vinayayagamoorthy-03b10591/
+[02:29:12] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261115_022912.xlsx
+[02:29:16] Excel file saved - 1 LinkedIn URL(s) written to sheet NOV
+[02:29:16] LinkedIn part done
+[02:29:16] ========== Step 3/5: Our Student ==========
+[02:29:16] === Our Student check in Adv Pro
+[02:29:18]   Hema A: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:29:18]   Preethi V: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:29:18]   Vijayakumar Ramachandran: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:29:18]   christy .: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[02:29:18] Sheet NOV: 0 phone number(s) without 'Our Student Y/N' on 14-Nov-2026
+[02:29:18] ========== Step 4/5: Certifications ==========
+[02:29:18] === Certifications from LinkedIn
+[02:29:20] Sheet NOV: 3 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[02:29:24] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[02:29:25] Waking up Chrome tabs
+[02:29:43] [1/3] Preethi V | https://www.linkedin.com/in/preethi-vinayayagamoorthy-03b10591/
+[02:31:43]     error: ReadTimeoutError: HTTPConnectionPool(host='localhost', port=51233): Read timed out. (read timeout=120)
+[02:31:43]     could not open the profile - skipped
+[02:31:48] [2/3] Shabaz Khan Y | https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[02:33:48]     error: ReadTimeoutError: HTTPConnectionPool(host='localhost', port=51233): Read timed out. (read timeout=120)
+[02:33:48]     could not open the profile - skipped
+[02:33:53] [3/3] Nagarani Ramaraj | https://www.linkedin.com/in/nagarani-r/
+[02:35:53]     error: ReadTimeoutError: HTTPConnectionPool(host='localhost', port=51233): Read timed out. (read timeout=120)
+[02:35:53]     could not open the profile - skipped
+[02:35:58] No certifications to write - Excel file not changed
+[02:35:59] !! Step 4 failed: RuntimeError: 3 LinkedIn profile(s) could not be opened
+[02:35:59]    details saved in logs\error_20261115_023559.txt
+[02:35:59] ========== Step 5/5: Excel check ==========
+[02:36:18] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[02:36:18] ========== Summary ==========
+[02:36:18]   Roster + feedback: OK
+[02:36:18]   LinkedIn: OK
+[02:36:18]   Our Student: OK
+[02:36:18]   Certifications: FAILED: RuntimeError: 3 LinkedIn profile(s) could not be opened
+[02:36:18]   Excel check: OK
+[02:36:28] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:36:49] Pearson VUE extension turned on
+[02:36:49] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[02:43:14] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:43:22] Pearson VUE extension turned off
+[02:43:22] Step 1/5: Roster + feedback - already finished
+[02:43:22] Step 2/5: LinkedIn - already finished
+[02:43:22] Step 3/5: Our Student - already finished
+[02:43:22] ========== Step 4/5: Certifications ==========
+[02:43:22] === Certifications from LinkedIn
+[02:43:24] Sheet NOV: 3 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[02:43:31] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[02:43:34] Waking up Chrome tabs
+[02:44:20] Connected to Chrome
+[02:44:20] No certifications to write - Excel file not changed
+[02:44:20] !! Step 4 failed: RuntimeError: Needs a person at the computer: The linkedin.com tab was closed. Open https://www.linkedin.com/feed/ in the right Chrome profile.
+[02:44:20]    details saved in logs\error_20261115_024420.txt
+[02:44:20] ========== Step 5/5: Excel check ==========
+[02:44:23] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[02:44:23] ========== Summary ==========
+[02:44:23]   Roster + feedback: already finished
+[02:44:23]   LinkedIn: already finished
+[02:44:23]   Our Student: already finished
+[02:44:23]   Certifications: FAILED: RuntimeError: Needs a person at the computer: The linkedin.com tab was closed. Open https://www.linkedin.com/feed/ in the right Chrome profile.
+[02:44:23]   Excel check: OK
+[02:44:27] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:44:28] Pearson VUE extension turned on
+[02:44:28] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[02:54:36] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:54:38] Pearson VUE extension turned off
+[02:54:38] Step 1/5: Roster + feedback - already finished
+[02:54:38] Step 2/5: LinkedIn - already finished
+[02:54:38] Step 3/5: Our Student - already finished
+[02:54:38] ========== Step 4/5: Certifications ==========
+[02:54:38] === Certifications from LinkedIn
+[02:54:40] Sheet NOV: 3 LinkedIn profile(s) not checked yet on 14-Nov-2026
+[02:54:43] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[02:54:44] Waking up Chrome tabs
+[02:54:46] Connected to Chrome
+[02:54:46] [1/3] Preethi V | https://www.linkedin.com/in/preethi-vinayayagamoorthy-03b10591/
+[02:55:25]     certifications: (none of ours)
+[02:55:30] [2/3] Shabaz Khan Y | https://www.linkedin.com/in/shabaz-khan-b46b29159/
+[02:55:59]     certifications: (none of ours)
+[02:56:04] [3/3] Nagarani Ramaraj | https://www.linkedin.com/in/nagarani-r/
+[02:56:54]     certifications: (none of ours)
+[02:56:59] No certifications to write - Excel file not changed
+[02:56:59] Certifications part done
+[02:56:59] ========== Step 5/5: Excel check ==========
+[02:57:03] Excel complete for 14-Nov-2026: 14 row(s) in sheet NOV, 14 on the roster
+[02:57:03] ========== Summary ==========
+[02:57:03]   Roster + feedback: already finished
+[02:57:03]   LinkedIn: already finished
+[02:57:03]   Our Student: already finished
+[02:57:03]   Certifications: OK
+[02:57:03]   Excel check: OK
+[02:57:07] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[02:57:10] Pearson VUE extension turned on
+[02:57:10] Done

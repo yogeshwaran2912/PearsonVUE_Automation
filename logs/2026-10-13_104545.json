@@ -1,0 +1,84 @@
+{
+  "roster": [
+    {
+      "name": "Deepak Vijayakumar",
+      "client": "Microsoft",
+      "code": "AZ-104",
+      "phone": "7550181155"
+    },
+    {
+      "name": "Manikandan G",
+      "client": "Microsoft",
+      "code": "SC-900",
+      "phone": "9150245233"
+    },
+    {
+      "name": "HARINARAAYAN SRIMALAZHAGAN LOGANAYAGI",
+      "client": "Undergraduate Admissions Test UK (UAT UK)",
+      "code": "TMUA",
+      "phone": "9444218311"
+    },
+    {
+      "name": "Santhosh S",
+      "client": "Amazon Web Services",
+      "code": "CLF-C02",
+      "phone": "9514058730"
+    },
+    {
+      "name": "Annamalai Swamy",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Mohamed Abdul Kareem",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Srinivasan Rengan",
+      "client": "Google Cloud",
+      "code": "PR000309",
+      "phone": "9840767891"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/13/2026 11:43:49",
+      "phone": "9150245233",
+      "email": "manikandan18oct@gmail.com",
+      "company": "St.joseph's institute of technology",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "Manikandan G"
+    },
+    {
+      "ts": "10/13/2026 14:33:01",
+      "phone": "9025317905",
+      "email": "harinaraayan1234@gmail.com",
+      "company": "Red Hat",
+      "designation": "VECTRA TECH",
+      "experience": "Good exam environment and staff",
+      "name": "HARINARAAYAN"
+    },
+    {
+      "ts": "10/13/2026 17:37:38",
+      "phone": "9840313134",
+      "email": "swamy.annamalai@gmail.com",
+      "company": "Infosys",
+      "designation": "ARCHITECT",
+      "experience": "Good",
+      "name": "Annamalai Swamy"
+    },
+    {
+      "ts": "10/13/2026 18:50:04",
+      "phone": "8838878688",
+      "email": "priyaanand2029@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "A Priyadarshini"
+    }
+  ]
+}

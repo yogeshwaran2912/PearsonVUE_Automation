@@ -1,0 +1,99 @@
+{
+  "roster": [
+    {
+      "name": "Kavya D",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Karthikeyan Rajan",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Manoj Kumar B",
+      "client": "Anthropic",
+      "code": "CCAR-P",
+      "phone": "7299892570"
+    },
+    {
+      "name": "Nithya R",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "6381129951"
+    },
+    {
+      "name": "Poornima Kannuchamy",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9566024347"
+    },
+    {
+      "name": "Arun N",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9884980929"
+    },
+    {
+      "name": "MONISHA PARAMASIVAM",
+      "client": "Global Association of Risk Professionals",
+      "code": "FRR_Series",
+      "phone": "7402353712"
+    },
+    {
+      "name": "Sadhan Kumar K",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/16/2026 16:19:00",
+      "phone": "6381129951",
+      "email": "nithyaramanathan1133@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Associate",
+      "experience": "It's good",
+      "name": "Nithya.R"
+    },
+    {
+      "ts": "11/16/2026 17:38:42",
+      "phone": "9566024347",
+      "email": "pooriuntamedbluemoon@gmail.com",
+      "company": "Denodo",
+      "designation": "TC",
+      "experience": "Good",
+      "name": "Poornima Kannuchamy"
+    },
+    {
+      "ts": "11/16/2026 17:54:56",
+      "phone": "7879860107",
+      "email": "bartysrujan@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "Barty Srujan"
+    },
+    {
+      "ts": "11/16/2026 20:04:33",
+      "phone": "9884980929",
+      "email": "yournura@gmail.com",
+      "company": "Orange Business Services",
+      "designation": "OT Cybersecurity",
+      "experience": "good support",
+      "name": "Arun N"
+    },
+    {
+      "ts": "11/16/2026 21:41:15",
+      "phone": "9677247728",
+      "email": "sadhankkumar@gmail.com",
+      "company": "Deloitte",
+      "designation": "Data Engineer",
+      "experience": "Great",
+      "name": "Sadhan Kumar K"
+    }
+  ]
+}

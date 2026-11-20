@@ -1,0 +1,78 @@
+{
+  "roster": [
+    {
+      "name": "Bhavani Srinivasan",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Tamilarasan K",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Santhosh C",
+      "client": "Microsoft",
+      "code": "AI-103",
+      "phone": "8122292738"
+    },
+    {
+      "name": "Ineavan M",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9566197617"
+    },
+    {
+      "name": "Ajay Rajan",
+      "client": "Microsoft",
+      "code": "GH-300",
+      "phone": "6383809338"
+    },
+    {
+      "name": "VARATHA RAJU SKV",
+      "client": "Microsoft",
+      "code": "AI-300",
+      "phone": "9042999662"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "11/4/2026 11:37:33",
+      "phone": "9566820572",
+      "email": "yryesuraja@gmail.com",
+      "company": "Capgemini",
+      "designation": "Linux admin",
+      "experience": "Really good thank you",
+      "name": "Yesuraja s"
+    },
+    {
+      "ts": "11/4/2026 13:21:21",
+      "phone": "7092080318",
+      "email": "arasu348@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Senior analyst",
+      "experience": "Yes",
+      "name": "Tamilarasan"
+    },
+    {
+      "ts": "11/4/2026 17:14:20",
+      "phone": "9566197617",
+      "email": "ineavancnd@gmail.com",
+      "company": "Movate Technology",
+      "designation": "Team Lead",
+      "experience": "Clear and responsible staffs. Excellent.",
+      "name": "Ineavan M"
+    },
+    {
+      "ts": "11/4/2026 21:13:32",
+      "phone": "9043179871",
+      "email": "pujac2820@gmail.com",
+      "company": "Voya",
+      "designation": "Senior software engineer",
+      "experience": "Its good",
+      "name": "Pooja"
+    }
+  ]
+}

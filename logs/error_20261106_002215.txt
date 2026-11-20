@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1952, in run_all
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1937, in <lambda>
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1855, in run_certs
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 472, in open_chrome
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 453, in attach_driver
+RuntimeError: Could not connect to Chrome after 3 tries: no answer in 60 seconds

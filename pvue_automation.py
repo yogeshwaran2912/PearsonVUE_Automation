@@ -1,3 +1,4 @@
+# Created by YOGESHWARAN TL
 """
 Pearson VUE roster + ADV PRO feedback  ->  "Pearson VUE Exam new 2026.xlsx"
 
@@ -35,6 +36,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 import openpyxl
+import websocket
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -216,6 +218,13 @@ def activate_tab(port, tab_id):
         pass
 
 
+def close_tab(port, tab_id):
+    try:
+        urllib.request.urlopen(f"http://127.0.0.1:{port}/json/close/{tab_id}", timeout=10).close()
+    except Exception:
+        pass
+
+
 def wake_tabs(port):
     """Chrome freezes tabs left in the background, and ChromeDriver hangs forever
     on a frozen tab (the script then stops on the login page). Bringing each tab
@@ -226,14 +235,13 @@ def wake_tabs(port):
             time.sleep(0.3)
 
 
-def open_chrome(cfg, section, start_url, match):
-    """Open start_url in the Chrome profile of the section's Desktop shortcut and
-    return the Selenium driver switched to that window.
+def launch_tab(cfg, section, start_url, match):
+    """Open start_url in the Chrome profile of the section's Desktop shortcut.
+    Returns (port, new tab, ids of the tabs that were open before).
 
     Both profiles run in one Chrome, started with a debug port so the script can
     control it. That only works if Chrome was fully closed before the first launch.
     """
-    global _driver
     port = cfg.getint("chrome", "debug_port")
     profile = shortcut_profile(cfg.get(section, "shortcut"))
     if not port_open(port) and chrome_running():
@@ -275,6 +283,64 @@ def open_chrome(cfg, section, start_url, match):
         target = next((t for t in chrome_pages(port) if match in t["url"]), None)
         if not target:
             raise RuntimeError(f"No Chrome tab with {match}")
+    return port, target, before
+
+
+def set_extension(cfg, enabled):
+    """Turn the Pearson VUE auto-login extension off (start) or back on (end).
+    It logs in and clicks through Connect by itself, which fights with the script.
+
+    Done in chrome://extensions of the [pearson] profile (extensions are per
+    profile), straight over DevTools - ChromeDriver can hang attaching to Chrome.
+    """
+    ext = cfg.get("chrome", "pearson_extension", fallback="").strip()
+    if not ext:
+        return
+    state = "on" if enabled else "off"
+    js = """new Promise(r => chrome.management.setEnabled(%s, %s, () => {
+        if (chrome.runtime.lastError) return r('ERR ' + chrome.runtime.lastError.message);
+        chrome.management.get(%s, e => r(e.enabled === %s ? 'ok' : 'still enabled=' + e.enabled));
+    }))""" % (json.dumps(ext), json.dumps(enabled), json.dumps(ext), json.dumps(enabled))
+    def cdp(ws, i, method, **params):
+        ws.send(json.dumps({"id": i, "method": method, "params": params}))
+        reply = json.loads(ws.recv())
+        while reply.get("id") != i:
+            reply = json.loads(ws.recv())
+        return reply
+
+    try:
+        # Chrome won't open chrome:// (or about:blank) from the command line, so open
+        # a harmless local page in the right profile and send that tab to chrome://extensions
+        port = cfg.getint("chrome", "debug_port")
+        port, target, _ = launch_tab(cfg, "pearson", f"http://127.0.0.1:{port}/json/version#pvue-extension",
+                                     "#pvue-extension")
+        result = "page did not load"
+        ws = websocket.create_connection(target["webSocketDebuggerUrl"], timeout=20, suppress_origin=True)
+        try:
+            cdp(ws, 0, "Page.navigate", url="chrome://extensions/")
+            for i in range(1, 21):  # chrome.management exists once the page has loaded
+                time.sleep(0.5)
+                reply = cdp(ws, i, "Runtime.evaluate", expression=js, awaitPromise=True, returnByValue=True)
+                value = reply.get("result", {}).get("result", {}).get("value")
+                if value:
+                    result = value
+                    break
+        finally:
+            ws.close()
+            close_tab(port, target["id"])
+        if result != "ok":
+            raise RuntimeError(result)
+        log(f"Pearson VUE extension turned {state}")
+    except Exception as e:
+        log(f"WARNING: could not turn the Pearson VUE extension {state} ({e})."
+            f" Do it by hand in chrome://extensions")
+
+
+def open_chrome(cfg, section, start_url, match):
+    """Open start_url in the Chrome profile of the section's Desktop shortcut and
+    return the Selenium driver switched to that window."""
+    global _driver
+    port, target, before = launch_tab(cfg, section, start_url, match)
 
     log("Waking up Chrome tabs")
     wake_tabs(port)
@@ -895,25 +961,34 @@ def main():
     args = ap.parse_args()
 
     cfg = load_config()
-    date = dt.date.fromisoformat(args.date) if args.date else ask_date()
-    excel = cfg.get("excel", "path")
-    log(f"Date: {date:%d-%b-%Y}   Excel: {excel}")
-    check_excel_closed(excel)
 
-    people, feedback = [], []
+    # first thing: the auto-login extension off; back on when everything is done
+    # (also after an error, so Chrome is left the way it was)
     if not args.skip_roster:
-        driver = open_chrome(cfg, "pearson", cfg.get("pearson", "url"), "pearsonvue.com")
-        people = scrape_roster(driver, cfg, date)
-    if not args.skip_feedback:
-        feedback = fetch_feedback(cfg, date)
+        set_extension(cfg, False)
+    try:
+        date = dt.date.fromisoformat(args.date) if args.date else ask_date()
+        excel = cfg.get("excel", "path")
+        log(f"Date: {date:%d-%b-%Y}   Excel: {excel}")
+        check_excel_closed(excel)
 
-    logs = HERE / "logs"
-    logs.mkdir(exist_ok=True)
-    (logs / f"{date}_{dt.datetime.now():%H%M%S}.json").write_text(
-        json.dumps({"roster": people, "feedback": feedback}, indent=2, ensure_ascii=False), encoding="utf-8")
+        people, feedback = [], []
+        if not args.skip_roster:
+            driver = open_chrome(cfg, "pearson", cfg.get("pearson", "url"), "pearsonvue.com")
+            people = scrape_roster(driver, cfg, date)
+        if not args.skip_feedback:
+            feedback = fetch_feedback(cfg, date)
 
-    check_excel_closed(excel)
-    update_excel(excel, date, people, feedback, cfg.get("excel", "backup_dir"), dry_run=args.dry_run)
+        logs = HERE / "logs"
+        logs.mkdir(exist_ok=True)
+        (logs / f"{date}_{dt.datetime.now():%H%M%S}.json").write_text(
+            json.dumps({"roster": people, "feedback": feedback}, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        check_excel_closed(excel)
+        update_excel(excel, date, people, feedback, cfg.get("excel", "backup_dir"), dry_run=args.dry_run)
+    finally:
+        if not args.skip_roster:
+            set_extension(cfg, True)
     log("Done")
 
 

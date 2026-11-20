@@ -1,0 +1,90 @@
+{
+  "roster": [
+    {
+      "name": "PRIYANKA MUKHERJEE",
+      "client": "Data Security Council of India (DSCI)",
+      "code": "DCPP-01",
+      "phone": "9500069280"
+    },
+    {
+      "name": "Arokya Dass K",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Vijay Gokulakrishnan",
+      "client": "HPE Certification and Learning",
+      "code": "HPE6-A78",
+      "phone": "9940122784"
+    },
+    {
+      "name": "Syed Zabiullah k",
+      "client": "ServiceNow",
+      "code": "CIS.CSM",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Dhanya mitra Periyasamy",
+      "client": "CyberArk",
+      "code": "PAM-DEF",
+      "phone": "9025178631"
+    },
+    {
+      "name": "Priyadarshini Murugan",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9739797900"
+    },
+    {
+      "name": "EJAY RJ",
+      "client": "Salesforce",
+      "code": "Data-Con-101",
+      "phone": "9940239821"
+    },
+    {
+      "name": "SUBRAMANYAM R",
+      "client": "Google Cloud",
+      "code": "PR000309",
+      "phone": "8754480605"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/29/2026 16:37:18",
+      "phone": "9739797900",
+      "email": "priyadarshinimurugan2911@gmail.com",
+      "company": "Infosys",
+      "designation": "Technology analyst",
+      "experience": "Good",
+      "name": "Priyadarshini"
+    },
+    {
+      "ts": "10/29/2026 12:14:10",
+      "phone": "8825553612",
+      "email": "syed.syedzabiullah9543@gmail.com",
+      "company": "Hexaware Technologies",
+      "designation": "Technical analyst",
+      "experience": "GOOD",
+      "name": "Syed Zabiullah k"
+    },
+    {
+      "ts": "10/29/2026 12:02:04",
+      "phone": "9940122784",
+      "email": "vijayviju2193@gmail.com",
+      "company": "Hewlett-Packard ( HP )",
+      "designation": "Network Engineer",
+      "experience": "Good",
+      "name": "Vijay"
+    },
+    {
+      "ts": "10/29/2026 14:35:13",
+      "phone": "9025178631",
+      "email": "dhanyamitra1971997@gmail.com",
+      "company": "Kyndryl Solutions Pvt Ltd",
+      "designation": "Cyberark admin",
+      "experience": "It was good",
+      "name": "Dhanya mitra P"
+    }
+  ]
+}

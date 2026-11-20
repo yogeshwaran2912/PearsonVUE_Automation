@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2204, in run_all
+    step()
+    ~~~~^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2184, in <lambda>
+    steps = [("Roster + feedback", lambda: run_pvue(cfg, date, args)),
+                                           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 1896, in run_pvue
+    people = scrape_roster(driver, cfg, date)
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 817, in scrape_roster
+    back_to_roster(driver, date)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 765, in back_to_roster
+    set_roster_date(driver, date)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 654, in set_roster_date
+    type_into(el, text)
+    ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 551, in type_into
+    el.click()
+    ~~~~~~~~^^
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\selenium\webdriver\remote\webelement.py", line 112, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\selenium\webdriver\remote\webelement.py", line 505, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\selenium\webdriver\remote\webdriver.py", line 566, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADV PRO\AppData\Roaming\Python\Python315\site-packages\selenium\webdriver\remote\errorhandler.py", line 234, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input _ngcontent-ng-c1105192097="" autocomplete="off" matinput="" id="examDate" name="examDate" required="" class="mat-datepicker-input form-control ng-untouched ng-pristine ng-valid" placeholder="MM/DD/YYYY" aria-haspopup="dialog" data-mat-calendar="mat-datepicker-1"> is not clickable at point (554, 226). Other element would receive the click: <div _ngcontent-ng-c1362865467="" class="loading-screen-block"></div>
+  (Session info: chrome=130.0.6723.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF691F538A5+3004357]
+	(No symbol) [0x00007FF691BE9970]
+	(No symbol) [0x00007FF691A9582A]
+	(No symbol) [0x00007FF691AED80E]
+	(No symbol) [0x00007FF691AEB2AC]
+	(No symbol) [0x00007FF691AE8778]
+	(No symbol) [0x00007FF691AE798C]
+	(No symbol) [0x00007FF691AD996E]
+	(No symbol) [0x00007FF691B0BBDA]
+	(No symbol) [0x00007FF691AD92A6]
+	(No symbol) [0x00007FF691B0BDF0]
+	(No symbol) [0x00007FF691B2BA4C]
+	(No symbol) [0x00007FF691B0B983]
+	(No symbol) [0x00007FF691AD7628]
+	(No symbol) [0x00007FF691AD8791]
+	GetHandleVerifier [0x00007FF691F7A00D+3161901]
+	GetHandleVerifier [0x00007FF691FCE060+3506048]
+	GetHandleVerifier [0x00007FF691FC400D+3465005]
+	GetHandleVerifier [0x00007FF691D40EEB+830987]
+	(No symbol) [0x00007FF691BF467F]
+	(No symbol) [0x00007FF691BF09D4]
+	(No symbol) [0x00007FF691BF0B6D]
+	(No symbol) [0x00007FF691BE0149]
+	BaseThreadInitThunk [0x00007FFED25D7374+20]
+	RtlUserThreadStart [0x00007FFED395CC91+33]
+

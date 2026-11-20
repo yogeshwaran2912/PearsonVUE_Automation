@@ -1,0 +1,123 @@
+{
+  "roster": [
+    {
+      "name": "Bhavani Srinivasan",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Swarnalakshmi N",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "9840282416"
+    },
+    {
+      "name": "Aruna N",
+      "client": "Microsoft",
+      "code": "AB-730",
+      "phone": "8939150095"
+    },
+    {
+      "name": "MOHAMMED IMTHIYAS KAMAL BASHA",
+      "client": "Microsoft",
+      "code": "AI-103",
+      "phone": "9551053344"
+    },
+    {
+      "name": "Deepiga Nagaiah",
+      "client": "Microsoft",
+      "code": "AB-730",
+      "phone": "9600314655"
+    },
+    {
+      "name": "Karthikeyan Rajendran",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Abubacker Siddhique",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Anandhraj D",
+      "client": "Nokia",
+      "code": "4A0-103",
+      "phone": "770-896-9895"
+    },
+    {
+      "name": "Sampath Kumar",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Guru Sankar",
+      "client": "Nokia",
+      "code": "4A0-114",
+      "phone": "9943087726"
+    },
+    {
+      "name": "Kedarnath Gurumurthy",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Aruvi Packiam",
+      "client": "ServiceNow",
+      "code": "CSA",
+      "phone": "555-555-5555"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/23/2026 10:14:44",
+      "phone": "8939150095",
+      "email": "nagalakshmi.nainappan@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Automation engineer",
+      "experience": "Yeah it was a good experience here.",
+      "name": "Aruna"
+    },
+    {
+      "ts": "10/23/2026 8:02:15",
+      "phone": "9841323120",
+      "email": "sbhavani1705@gmail.com",
+      "company": "Accenture",
+      "designation": "TL",
+      "experience": "Good",
+      "name": "Bhavani"
+    },
+    {
+      "ts": "10/23/2026 9:00:11",
+      "phone": "9840282416",
+      "email": "swarna.aus@gmail.com",
+      "company": "Infosys",
+      "designation": "Senior Project manager",
+      "experience": "Very conducive for writing exam",
+      "name": "Swarnalakshmi"
+    },
+    {
+      "ts": "10/23/2026 17:43:56",
+      "phone": "8667434685",
+      "email": "abubacker3299@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Data analyst",
+      "experience": ".",
+      "name": "Abubacker"
+    },
+    {
+      "ts": "10/23/2026 22:46:31",
+      "phone": "9962127071",
+      "email": "aruvip@gmail.com",
+      "company": "EY",
+      "designation": "Sr.Consultant",
+      "experience": "Good",
+      "name": "Aruvi"
+    }
+  ]
+}

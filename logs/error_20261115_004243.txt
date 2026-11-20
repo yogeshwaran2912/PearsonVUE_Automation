@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1952, in run_all
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1935, in <lambda>
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1726, in run_linkedin
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1713, in start_outlook
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 1250, in open_compose
+  File "C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\main.py", line 102, in ask_user
+RuntimeError: Needs a person at the computer: Sign in to Outlook in the Arish Chrome window.

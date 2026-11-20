@@ -1,0 +1,126 @@
+{
+  "roster": [
+    {
+      "name": "ANAND GOPALAN",
+      "client": "Anthropic",
+      "code": "CCAR-P",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Hari Vignesh Padmanaban",
+      "client": "Microsoft",
+      "code": "GH-200",
+      "phone": "9176967459"
+    },
+    {
+      "name": "Goutham Shakthi Saravanan",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Robert Antony A",
+      "client": "Microsoft",
+      "code": "AI-200",
+      "phone": "9894916566"
+    },
+    {
+      "name": "Abilash S",
+      "client": "ServiceNow",
+      "code": "CIS.DF",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Deepak Madhiyazhagan",
+      "client": "Microsoft",
+      "code": "DP-600",
+      "phone": "9840361787"
+    },
+    {
+      "name": "DINESH J DAVEY",
+      "client": "Microsoft",
+      "code": "AB-731",
+      "phone": "8939980641"
+    },
+    {
+      "name": "Sneha S",
+      "client": "Microsoft",
+      "code": "DP-600",
+      "phone": "9790985570"
+    },
+    {
+      "name": "Ashwin Sagayaraj",
+      "client": "Salesforce",
+      "code": "Plat-Arch-205",
+      "phone": "9962826491"
+    },
+    {
+      "name": "Jenifer B",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Pavithra Rajan",
+      "client": "Microsoft",
+      "code": "AI-200",
+      "phone": "9025471312"
+    },
+    {
+      "name": "Alvin Roy A",
+      "client": "Microsoft",
+      "code": "AI-103",
+      "phone": "9444953270"
+    },
+    {
+      "name": "Harikishanth R",
+      "client": "Microsoft",
+      "code": "AI-103",
+      "phone": "7200569796"
+    },
+    {
+      "name": "VIJAYAKANTH KANNIAPPAN",
+      "client": "Microsoft",
+      "code": "AI-901",
+      "phone": "9840152260"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/17/2026 11:35:48",
+      "phone": "9940553838",
+      "email": "abilashs4ever@gmail.com",
+      "company": "Standard Chartered Bank",
+      "designation": "Senior Technical Manger",
+      "experience": "NA",
+      "name": "Abilash"
+    },
+    {
+      "ts": "10/17/2026 10:34:16",
+      "phone": "9962902545",
+      "email": "gouthamss007@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Systems Engineer",
+      "experience": "Sure",
+      "name": "Goutham Shakthi Saravanan"
+    },
+    {
+      "ts": "10/17/2026 16:07:47",
+      "phone": "9962826491",
+      "email": "cena.ashwin@gmail.com",
+      "company": "Cube84",
+      "designation": "Salesforce Lead Developer",
+      "experience": "Good gesture",
+      "name": "Ashwin Sagayaraj A"
+    },
+    {
+      "ts": "10/17/2026 19:24:58",
+      "phone": "9025471312",
+      "email": "pavithra.rajann@gmail.com",
+      "company": "Geakminds",
+      "designation": "Associate software engineer",
+      "experience": "NA",
+      "name": "Pavithra Rajan"
+    }
+  ]
+}

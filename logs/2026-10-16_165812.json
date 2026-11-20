@@ -1,0 +1,129 @@
+{
+  "roster": [
+    {
+      "name": "Jenani E",
+      "client": "Amazon Web Services",
+      "code": "AIF-C01",
+      "phone": "7810008718"
+    },
+    {
+      "name": "Madhavan R",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Stanley Mantle",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Reshma Annie",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "kishore Kumar A",
+      "client": "American Academy of Financial Management India",
+      "code": "CWM_LEVEL_1",
+      "phone": "8610246346"
+    },
+    {
+      "name": "Balaji S",
+      "client": "Microsoft",
+      "code": "AI-901",
+      "phone": "9790726503"
+    },
+    {
+      "name": "Prabhuram Devaraj",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Sudhish Raghavendhar",
+      "client": "Microsoft",
+      "code": "AZ-700",
+      "phone": "9080463535"
+    },
+    {
+      "name": "Praveen Raj G",
+      "client": "Microsoft",
+      "code": "AB-900",
+      "phone": "9710251301"
+    },
+    {
+      "name": "Srinivasan Venkatachari",
+      "client": "HPE Certification and Learning",
+      "code": "HPE7-A01",
+      "phone": "09952054021"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/16/2026 12:03:37",
+      "phone": "9444881125",
+      "email": "stanleymantle@gmail.com",
+      "company": "Bounteous",
+      "designation": "Associate",
+      "experience": "Good",
+      "name": "Stanley"
+    },
+    {
+      "ts": "10/16/2026 18:58:27",
+      "phone": "9080463535",
+      "email": "sudhishraghavendhar@gmail.com",
+      "company": "Rajalakshmi Engineering college",
+      "designation": "Student",
+      "experience": "Ok",
+      "name": "Sudhish Raghavendhar"
+    },
+    {
+      "ts": "10/16/2026 11:52:41",
+      "phone": "6383413857",
+      "email": "rangansubamadhavan@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Assistant System Engineer",
+      "experience": "It is well isolated environment",
+      "name": "R Madhavan"
+    },
+    {
+      "ts": "10/16/2026 12:16:16",
+      "phone": "6290661886",
+      "email": "sbdeep903@gmail.com",
+      "company": "L&T Infotech",
+      "designation": "Tech lead",
+      "experience": "Good",
+      "name": "Subhadeep Bhattacharya"
+    },
+    {
+      "ts": "10/16/2026 16:25:03",
+      "phone": "9790726503",
+      "email": "sbalaji272006@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "Sure",
+      "name": "Balaji S"
+    },
+    {
+      "ts": "10/16/2026 18:04:10",
+      "phone": "9176609234",
+      "email": "monkeymonkarts@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Project manager",
+      "experience": "Excellent",
+      "name": "Prabhuram Devaraj"
+    },
+    {
+      "ts": "10/16/2026 19:41:29",
+      "phone": "9710251301",
+      "email": "praveen7652g@gmail.com",
+      "company": "IDP",
+      "designation": "Cyber IAM",
+      "experience": "NA",
+      "name": "Praveen Raj.G"
+    }
+  ]
+}

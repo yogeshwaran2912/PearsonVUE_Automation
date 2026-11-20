@@ -1,0 +1,205 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[03:55:28] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:55:30] Pearson VUE extension turned off
+[03:55:30] ========== 18-Nov-2026  Step 1/6: Roster + feedback ==========
+[03:55:30] === Pearson VUE roster + feedback | Date: 18-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[03:55:33] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[03:55:35] Waking up Chrome tabs
+[03:55:36] Connected to Chrome
+[03:55:36] Opening Pearson VUE login page
+[03:55:38] Login submitted
+[03:55:58] Clicked Site Manager
+[03:56:00] Clicked Availability
+[03:56:05] Clicked Roster
+[03:56:09] Set roster date 2026-11-18
+[03:56:13] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[03:56:13] 9 exam(s) on the roster
+[03:56:14]   Aruna N: 8939150095
+[03:56:17] Set roster date 2026-11-18
+[03:56:21]   Hari Kishore M: 9585833202
+[03:56:25] Set roster date 2026-11-18
+[03:56:29]   Banupriya R: 415-326-6303
+[03:56:32] Set roster date 2026-11-18
+[03:56:38]   Jeevitha Gajendran: 9884850111
+[03:56:41] Set roster date 2026-11-18
+[03:56:45]   Madhavan R: 6383413857
+[03:56:50] Set roster date 2026-11-18
+[03:56:54]   Madhuri Gopal: 415-326-6303
+[03:56:57] Set roster date 2026-11-18
+[03:57:01]   Duvvuri Avinash: 6380258120
+[03:57:04] Set roster date 2026-11-18
+[03:57:10]   Saicharan P B: 415-326-6303
+[03:57:13] Set roster date 2026-11-18
+[03:57:18]   Abdul Rahman A: 415-326-6303
+[03:57:22] Set roster date 2026-11-18
+[03:57:28] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[03:57:29] Waking up Chrome tabs
+[03:57:45] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[03:57:45] Feedback timestamps are month/day
+[03:57:46] 7 feedback response(s) on 2026-11-18
+[03:57:47]   added: Aruna N | Anthropic | CCAO-F | 8939150095
+[03:57:47]   added: Hari Kishore M | Anthropic | CCAR-F | 9585833202
+[03:57:47]   added: Banupriya R | Anthropic | CCAO-F | 415-326-6303
+[03:57:47]   added: Jeevitha Gajendran | Anthropic | CCAO-F | 9884850111
+[03:57:47]   added: Madhavan R | Anthropic | CCAR-F | 6383413857
+[03:57:47]   added: Madhuri Gopal | Anthropic | CCAO-F | 415-326-6303
+[03:57:47]   added: Duvvuri Avinash | Anthropic | CCAO-F | 6380258120
+[03:57:47]   added: Saicharan P B | Anthropic | CCAR-F | 415-326-6303
+[03:57:47]   added: Abdul Rahman A | Anthropic | CCAO-F | 415-326-6303
+[03:57:47]   feedback 'Aruna N' -> row 116: Aruna N (matched by phone) | phone 8939150095 | nagalakshmi.nainappan@gmail.com
+[03:57:47]   feedback 'Hari Kishore M' -> row 117: Hari Kishore M (matched by phone) | phone 9585833202 | kishorehari228@gmail.com
+[03:57:47]   feedback 'jeevitha' -> row 119: Jeevitha Gajendran (matched by phone) | phone 9884850111 | gjeevitha89@gmail.com
+[03:57:47]   feedback 'Madhuri gopal' -> row 121: Madhuri Gopal (matched by name) | phone 988492257 | gopal.madhuri@gmail.com
+[03:57:47]   feedback 'Madhavan R' -> row 120: Madhavan R (matched by phone) | phone 6383413857 | rangansubamadhavan@gmail.com
+[03:57:47]   feedback 'Duvvuri Avinash' -> row 122: Duvvuri Avinash (matched by phone) | phone 6380258120 | avinashhazarathbabu@gmail.com
+[03:57:47]   feedback 'Abdul Rahman' -> row 124: Abdul Rahman A (matched by name) | phone 9791094468 | abdulasifrahman94@gmail.com
+[03:57:47] Sheet NOV: 9 row(s) added, 7 row(s) updated with feedback
+[03:57:48] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261119_035747.xlsx
+[03:57:53] Excel file saved
+[03:57:53] Pearson VUE part done
+[03:57:53] Closed 4 Chrome tab(s) this step opened
+[03:57:53] ========== 18-Nov-2026  Step 2/6: LinkedIn ==========
+[03:57:53] === LinkedIn from Outlook
+[03:57:55] Sheet NOV: 9 person(s) without a LinkedIn Id on 18-Nov-2026
+[03:57:55]   row 116: Aruna N | nagalakshmi.nainappan@gmail.com | Tata Consultancy Services (TCS)
+[03:57:55]   row 117: Hari Kishore M | kishorehari228@gmail.com | EPAM India
+[03:57:55]   row 118: Banupriya R | (no email) | (no company)
+[03:57:55]   row 119: Jeevitha Gajendran | gjeevitha89@gmail.com | Tata Consultancy Services (TCS)
+[03:57:55]   row 120: Madhavan R | rangansubamadhavan@gmail.com | Tata Consultancy Services (TCS)
+[03:57:55]   row 121: Madhuri Gopal | gopal.madhuri@gmail.com | Cognizant Technology Solutions
+[03:57:55]   row 122: Duvvuri Avinash | avinashhazarathbabu@gmail.com | Tata Consultancy Services (TCS)
+[03:57:55]   row 123: Saicharan P B | (no email) | (no company)
+[03:57:55]   row 124: Abdul Rahman A | abdulasifrahman94@gmail.com | Hexaware Technologies
+[03:57:58] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[03:57:59] Waking up Chrome tabs
+[03:58:07] Clicked New mail
+[03:58:10] [1/9] Aruna N | nagalakshmi.nainappan@gmail.com
+[03:58:29]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[03:58:29]     LinkedIn: (not found)
+[03:58:36] [2/9] Hari Kishore M | kishorehari228@gmail.com
+[03:58:48]     LinkedIn: https://www.linkedin.com/in/harik-learner/
+[03:58:51] [3/9] Banupriya R: no email - left for the Google search
+[03:58:51] [4/9] Jeevitha Gajendran | gjeevitha89@gmail.com
+[03:59:00]     LinkedIn: https://www.linkedin.com/in/jeevitha-gajendran-b189593b/
+[03:59:02] [5/9] Madhavan R | rangansubamadhavan@gmail.com
+[03:59:11]     LinkedIn: https://www.linkedin.com/in/madhavan-ranganathan-1835921b3/
+[03:59:13] [6/9] Madhuri Gopal | gopal.madhuri@gmail.com
+[03:59:22]     LinkedIn: https://www.linkedin.com/in/madhuri-gopal-9b9511278/
+[03:59:24] [7/9] Duvvuri Avinash | avinashhazarathbabu@gmail.com
+[03:59:41]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[03:59:41]     LinkedIn: (not found)
+[03:59:43] [8/9] Saicharan P B: no email - left for the Google search
+[03:59:43] [9/9] Abdul Rahman A | abdulasifrahman94@gmail.com
+[03:59:51]     LinkedIn: https://www.linkedin.com/in/abdul-rahman94/
+[03:59:54] --- Google search for 4 person(s) still without a LinkedIn Id
+[03:59:54] [Google 1/4] Aruna N: Aruna N @ Tata Consultancy Services (TCS) linkedin profile
+[04:00:27]     match: 'Aruna N' at Tata Consultancy Services (TCS) -> https://www.linkedin.com/in/aruna-n-2527b8304/
+[04:00:35] [Google 2/4] Banupriya R: no usable company name in the sheet ('') - skipped
+[04:00:35] [Google 3/4] Duvvuri Avinash: Duvvuri Avinash @ Tata Consultancy Services (TCS) linkedin profile
+[04:01:09]     match: 'Avinash Duvvuri' at Tata Consultancy Services (TCS) -> https://www.linkedin.com/in/avinash-duvvuri-08ba1b1b2/
+[04:01:17] [Google 4/4] Saicharan P B: no usable company name in the sheet ('') - skipped
+[04:01:21] Draft discarded
+[04:01:21] LinkedIn found for 7 of 9 person(s) (2 by Google search)
+[04:01:21]   ! not found: Banupriya R | (no email) | (no company)
+[04:01:21]   ! not found: Saicharan P B | (no email) | (no company)
+[04:01:24]   row 116: Aruna N -> https://www.linkedin.com/in/aruna-n-2527b8304/  (Google)
+[04:01:24]   row 117: Hari Kishore M -> https://www.linkedin.com/in/harik-learner/
+[04:01:24]   row 119: Jeevitha Gajendran -> https://www.linkedin.com/in/jeevitha-gajendran-b189593b/
+[04:01:24]   row 120: Madhavan R -> https://www.linkedin.com/in/madhavan-ranganathan-1835921b3/
+[04:01:24]   row 121: Madhuri Gopal -> https://www.linkedin.com/in/madhuri-gopal-9b9511278/
+[04:01:24]   row 122: Duvvuri Avinash -> https://www.linkedin.com/in/avinash-duvvuri-08ba1b1b2/  (Google)
+[04:01:24]   row 124: Abdul Rahman A -> https://www.linkedin.com/in/abdul-rahman94/
+[04:01:24] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261119_040124.xlsx
+[04:01:29] Excel file saved - 7 LinkedIn URL(s) written to sheet NOV
+[04:01:29] LinkedIn part done
+[04:01:29] Closed 1 Chrome tab(s) this step opened
+[04:01:29] ========== 18-Nov-2026  Step 3/6: Our Student ==========
+[04:01:29] === Our Student check in Adv Pro
+[04:01:32]   Banupriya R: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[04:01:32]   Saicharan P B: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[04:01:32] Sheet NOV: 6 phone number(s) without 'Our Student Y/N' on 18-Nov-2026
+[04:01:41] Opening Adv Pro
+[04:01:43] Adv Pro: logged in
+[04:01:45] Adv Pro: Master > Registration > Display
+[04:01:48] Adv Pro: Filter By = PresentPhoneNo
+[04:01:54] [1/6] 8939150095 Aruna N: n
+[04:01:57] [2/6] 9585833202 Hari Kishore M: n
+[04:02:00] [3/6] 9884850111 Jeevitha Gajendran: n
+[04:02:03] [4/6] 6383413857 Madhavan R: n
+[04:02:06] [5/6] 6380258120 Duvvuri Avinash: n
+[04:02:09] [6/6] 9791094468 Abdul Rahman A: n
+[04:02:09] Adv Pro closed
+[04:02:11]   row 116: Aruna N | 8939150095 -> n
+[04:02:11]   row 117: Hari Kishore M | 9585833202 -> n
+[04:02:11]   row 119: Jeevitha Gajendran | 9884850111 -> n
+[04:02:11]   row 120: Madhavan R | 6383413857 -> n
+[04:02:11]   row 122: Duvvuri Avinash | 6380258120 -> n
+[04:02:11]   row 124: Abdul Rahman A | 9791094468 -> n
+[04:02:11] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261119_040211.xlsx
+[04:02:14] Excel file saved - 'Our Student Y/N' written for 6 row(s) in sheet NOV
+[04:02:14] Our Student part done
+[04:02:14] ========== 18-Nov-2026  Step 4/6: Certifications ==========
+[04:02:14] === Certifications from LinkedIn
+[04:02:17] Sheet NOV: 7 LinkedIn profile(s) not checked yet on 18-Nov-2026
+[04:02:20] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[04:02:21] Waking up Chrome tabs
+[04:02:22] [1/7] Aruna N | https://www.linkedin.com/in/aruna-n-2527b8304/
+[04:02:44]     certifications: (none of ours)
+[04:02:49] [2/7] Hari Kishore M | https://www.linkedin.com/in/harik-learner/
+[04:03:13]     certifications: PYTHON
+[04:03:18] [3/7] Jeevitha Gajendran | https://www.linkedin.com/in/jeevitha-gajendran-b189593b/
+[04:03:56]     certifications: (none of ours)
+[04:04:05] [4/7] Madhavan R | https://www.linkedin.com/in/madhavan-ranganathan-1835921b3/
+[04:04:32]     certifications: ANTHROPIC
+[04:04:37] [5/7] Madhuri Gopal | https://www.linkedin.com/in/madhuri-gopal-9b9511278/
+[04:05:08]     certifications: (none of ours)
+[04:05:15] [6/7] Duvvuri Avinash | https://www.linkedin.com/in/avinash-duvvuri-08ba1b1b2/
+[04:05:41]     certifications: (none of ours)
+[04:05:46] [7/7] Abdul Rahman A | https://www.linkedin.com/in/abdul-rahman94/
+[04:06:10]     certifications: (none of ours)
+[04:06:18]   row 117: Hari Kishore M -> PYTHON
+[04:06:18]   row 120: Madhavan R -> ANTHROPIC
+[04:06:19] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261119_040619.xlsx
+[04:06:23] Excel file saved - certifications written for 2 row(s) in sheet NOV
+[04:06:23] Certifications part done
+[04:06:23] Closed 1 Chrome tab(s) this step opened
+[04:06:23] ========== 18-Nov-2026  Step 5/6: Google reviews ==========
+[04:06:29] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:06:31] Waking up Chrome tabs
+[04:06:41] Google Maps: Reviews -> Sort -> Newest
+[04:06:47] 2 Google review(s) in the last 29 hours
+[04:06:47]   Madhuri Gopal | 5 star | 12 hours ago | Test started on time. Good ventilation , lighting overall excellent
+[04:06:47]   Aruna Nainappan | 5 star | Edited 17 hours ago | Technical glitch while submitting
+[04:06:49]   row 121 Madhuri Gopal (18-Nov) <- review by 'Madhuri Gopal': y | Test started on time. Good ventilation , lighting overall excellent
+[04:06:49]   row 116 Aruna N (18-Nov) <- review by 'Aruna Nainappan': y | Technical glitch while submitting
+[04:06:49] Google reviews for 18-Nov-2026: 2 of 9 candidate(s) (22%)
+[04:06:49] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261119_040649.xlsx
+[04:06:52] Excel file saved - Google Review filled for 2 row(s) in sheet NOV
+[04:06:52] Closed 1 Chrome tab(s) this step opened
+[04:06:52] ========== 18-Nov-2026  Step 6/6: Excel check ==========
+[04:06:54] Excel complete for 18-Nov-2026: 9 row(s) in sheet NOV, 9 on the roster
+[04:06:54] ========== Summary ==========
+[04:06:54]   Roster + feedback: OK
+[04:06:54]   LinkedIn: OK
+[04:06:54]   Our Student: OK
+[04:06:54]   Certifications: OK
+[04:06:54]   Google reviews: OK
+[04:06:54]   Excel check: OK
+[04:07:00] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[04:07:01] Pearson VUE extension turned on
+[04:07:01] Done

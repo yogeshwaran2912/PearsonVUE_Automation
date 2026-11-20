@@ -1,0 +1,27 @@
+===== Google Review report - 13-Nov-2026 (sheet NOV) =====
+                        Day   Month
+Total candidates         13      77
+Genuine reviews           1      11
+Pending                  12      66
+Reminder Sent             0       0
+Unable to Verify          0       0
+Review percentage        7%     14%
+New reviews received this run: 1
+   + Akshay J P (13-Nov) - 5 star - 5 star
+Reviews not matched to a candidate: 16
+   ? Subramaniam Ravishankar - 4 star - an hour ago
+   ? Bharath Krishna - 5 star - 13 hours ago
+   ? Madhuri Gopal - 5 star - a day ago
+   ? Aruna Nainappan - 5 star - Edited a day ago
+   ? Sadhan Kumar K - 5 star - 3 days ago
+   ? Deepika M - 5 star - 4 days ago
+   ? Harish S - 4 star - 4 days ago
+   ? G Nagalingam - 5 star - 4 days ago
+   ? Gowri S - 5 star - 5 days ago
+   ? Britto Louis - 5 star - a week ago
+   ? Aarthi Gopinath - 5 star - a week ago
+   ? Abhitha Dharmaraj - 5 star - a week ago
+   ? Santhoshraja Prakasam - 5 star - a week ago
+   ? Pavithra - 4 star - a week ago
+   ? Ancy Valiyaveettil - 5 star - a week ago
+   ? Guru Krishnamoorthy - 5 star - a week ago

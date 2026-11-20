@@ -1,0 +1,11 @@
+===== Google Review report - 19-Nov-2026 (sheet NOV) =====
+                        Day   Month
+Total candidates          7     127
+Genuine reviews           2      16
+Pending                   5     111
+Reminder Sent             0       0
+Unable to Verify          0       0
+Review percentage       28%     12%
+New reviews received this run: 0
+Reviews not matched to a candidate: 1
+   ? Aruna Nainappan - 5 star - Edited a day ago

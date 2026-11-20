@@ -1,0 +1,129 @@
+{
+  "roster": [
+    {
+      "name": "Evetta Rego",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Jayakumar Selvakani",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Yuvasree S",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "AKASH RAGHAVENDRAN",
+      "client": "Microsoft",
+      "code": "AZ-104",
+      "phone": "9629405273"
+    },
+    {
+      "name": "Sudharsana Ramasubbarayalu",
+      "client": "ServiceNow",
+      "code": "CIS.HR",
+      "phone": "555-555-5555"
+    },
+    {
+      "name": "Gokul Raghunath",
+      "client": "Microsoft",
+      "code": "AZ-104",
+      "phone": "9789848905"
+    },
+    {
+      "name": "Vikash Gupta",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "VEDANT ASHISH MEHTA",
+      "client": "Undergraduate Admissions Test UK (UAT UK)",
+      "code": "ESAT",
+      "phone": "9384031144"
+    },
+    {
+      "name": "Vaseem Khan",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Lokesh Raj R M",
+      "client": "UiPath",
+      "code": "UiPath-ADPv1",
+      "phone": "7904212490"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/14/2026 21:12:25",
+      "phone": "7904212490",
+      "email": "rmlokesh8@gmail.com",
+      "company": "Huron",
+      "designation": "Associate",
+      "experience": "Sure",
+      "name": "Lokesh Raj"
+    },
+    {
+      "ts": "10/14/2026 21:26:16",
+      "phone": "9940322278",
+      "email": "vaseem4731@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Team Lead",
+      "experience": "Very good",
+      "name": "Vaseem Khan"
+    },
+    {
+      "ts": "10/14/2026 13:27:35",
+      "phone": "9840354326",
+      "email": "jayakumar.ss@gmail.com",
+      "company": "Dxc technology",
+      "designation": "Manager",
+      "experience": "Good",
+      "name": "Jayakumar"
+    },
+    {
+      "ts": "10/14/2026 13:29:40",
+      "phone": "7092670372",
+      "email": "selvakumaryuva13@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "IT Analyst",
+      "experience": "Overall good experienxe taking exam here",
+      "name": "Yuvasree S"
+    },
+    {
+      "ts": "10/14/2026 14:54:59",
+      "phone": "9629405273",
+      "email": "akash.oct11@gmail.com",
+      "company": "Accenture",
+      "designation": "Analyst",
+      "experience": "Good Environment",
+      "name": "Akash"
+    },
+    {
+      "ts": "10/14/2026 18:08:05",
+      "phone": "9789848905",
+      "email": "gokulragh2001@gmail.com",
+      "company": "Cdw",
+      "designation": "Associate consultant",
+      "experience": "It was a nice experience taking the exam",
+      "name": "Gokul"
+    },
+    {
+      "ts": "10/14/2026 19:28:23",
+      "phone": "9884403205",
+      "email": "vikashis@gmail.com",
+      "company": "Infosys",
+      "designation": "Na",
+      "experience": "Na",
+      "name": "Vikash"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "roster": [
+    {
+      "name": "Sampath Kumar Muthukrishnan",
+      "client": "Microsoft",
+      "code": "AI-901",
+      "phone": "7667270127"
+    },
+    {
+      "name": "Nishanth Subrayalu",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Prasad Yedlapalli",
+      "client": "Salesforce",
+      "code": "Plat-Dev-201",
+      "phone": "7893209150"
+    },
+    {
+      "name": "L Lavanya",
+      "client": "Microsoft",
+      "code": "AZ-900",
+      "phone": "9150179226"
+    },
+    {
+      "name": "Dennis Maria Antony",
+      "client": "Anthropic",
+      "code": "CCAR-P",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "VIVEK CHENGALVA RAYAN",
+      "client": "Anthropic",
+      "code": "CCDV-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "ANAND GOPALAN",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Swetha Murarisetty",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Franklin T",
+      "client": "Anthropic",
+      "code": "CCAO-F",
+      "phone": "415-326-6303"
+    },
+    {
+      "name": "Senthilkumar K",
+      "client": "Anthropic",
+      "code": "CCAR-F",
+      "phone": "415-326-6303"
+    }
+  ],
+  "feedback": [
+    {
+      "ts": "10/20/2026 17:11:55",
+      "phone": "9444785621",
+      "email": "agopala@gmail.com",
+      "company": "Infosys",
+      "designation": "Principal consultant",
+      "experience": "Good testing experience",
+      "name": "Anand Gopalan"
+    },
+    {
+      "ts": "10/20/2026 14:09:57",
+      "phone": "9150179226",
+      "email": "la2484905@gmail.com",
+      "company": "Student",
+      "designation": "Student",
+      "experience": "Good",
+      "name": "L Lavanya"
+    },
+    {
+      "ts": "10/20/2026 10:50:30",
+      "phone": "7667270127",
+      "email": "sampathmuthu1@gmail.com",
+      "company": "Tata Consultancy Services (TCS)",
+      "designation": "Project Manager",
+      "experience": "All good",
+      "name": "Sampath Kumar"
+    },
+    {
+      "ts": "10/20/2026 9:38:03",
+      "phone": "9153999687",
+      "email": "aditya.ranjan2306@gmail.com",
+      "company": "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY KTR CAMPUS",
+      "designation": "Student",
+      "experience": "Very convenient",
+      "name": "Aditya Ranjan"
+    },
+    {
+      "ts": "10/20/2026 17:09:32",
+      "phone": "8695150858",
+      "email": "vivekrayan98@gmail.com",
+      "company": "Cognizant Technology Solutions",
+      "designation": "Associate",
+      "experience": "Good",
+      "name": "Vivek"
+    },
+    {
+      "ts": "10/20/2026 20:45:36",
+      "phone": "9789913815",
+      "email": "tsksenthilkumar@gmail.com",
+      "company": "LTIMindtree",
+      "designation": "SM",
+      "experience": "10",
+      "name": "Senthilkumar"
+    }
+  ]
+}

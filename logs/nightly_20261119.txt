@@ -1,0 +1,2371 @@
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[23:58:00] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:58:02] Pearson VUE extension turned off
+[23:58:02] ########## Catching up 12-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[23:58:02] ========== 12-Nov-2026  Step 1/6: Roster + feedback ==========
+[23:58:02] === Pearson VUE roster + feedback | Date: 12-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[23:58:06] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[23:58:07] Waking up Chrome tabs
+[23:58:11] Connected to Chrome
+[23:58:11] Opening Pearson VUE login page
+[23:58:13] Login submitted
+[23:58:34] Clicked Site Manager
+[23:58:36] Clicked Availability
+[23:58:40] Clicked Roster
+[23:58:45] Set roster date 2026-11-12
+[23:58:49] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[23:58:49] 11 exam(s) on the roster
+[23:58:52]   Aarthi G: 6382521771
+[23:58:56] Set roster date 2026-11-12
+[23:59:01]   M K Ashik Rahuman: 9025883202
+[23:59:05] Set roster date 2026-11-12
+[23:59:10]   Britto Nazarius Louis: 9901002135
+[23:59:14] Set roster date 2026-11-12
+[23:59:18]   Sripriya S: 415-326-6303
+[23:59:21] Set roster date 2026-11-12
+[23:59:26]   M Magesh: 415-326-6303
+[23:59:30] Set roster date 2026-11-12
+[23:59:35]   Premsagar Rao: 8369876492
+[23:59:39] Set roster date 2026-11-12
+[23:59:43]   Amrutha A: 8124065055
+[23:59:46] Set roster date 2026-11-12
+[23:59:52]   SATHYANARAYANAN THIRUVENGADAM: 919940055009
+[23:59:55] Set roster date 2026-11-12
+[00:00:01]   Bashyam Tirumalai Vinjamoor: 415-326-6303
+[00:00:05] Set roster date 2026-11-12
+[00:00:11]   Bharathwajan Sairam: 9944879770
+[00:00:16] Set roster date 2026-11-12
+[00:00:23]   Akshay Ravi: 9840880261
+[00:00:26] Set roster date 2026-11-12
+[00:00:58] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[00:01:01] Waking up Chrome tabs
+[00:01:46] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[00:01:46] Feedback timestamps are month/day
+[00:01:49] 8 feedback response(s) on 2026-11-12
+[00:01:55]   already in sheet: Aarthi G
+[00:01:55]   already in sheet: M K Ashik Rahuman
+[00:01:55]   already in sheet: Britto Nazarius Louis
+[00:01:55]   already in sheet: Sripriya S
+[00:01:55]   already in sheet: M Magesh
+[00:01:55]   already in sheet: Premsagar Rao
+[00:01:55]   already in sheet: Amrutha A
+[00:01:55]   already in sheet: SATHYANARAYANAN THIRUVENGADAM
+[00:01:55]   already in sheet: Bashyam Tirumalai Vinjamoor
+[00:01:55]   already in sheet: Bharathwajan Sairam
+[00:01:55]   already in sheet: Akshay Ravi
+[00:01:55]   feedback 'Aarthi' -> row 59: Aarthi G (matched by email) | phone 6382521771 | aarthigopinath08@gmail.com
+[00:01:55]   feedback 'M K Ashik Rahuman' -> row 60: M K Ashik Rahuman (matched by email) | phone 9025883202 | reachmkashik@gmail.com
+[00:01:55]   feedback 'Britto Louis' -> row 61: Britto Nazarius Louis (matched by email) | phone 9901002135 | britto.louis@gmail.com
+[00:01:55]   feedback 'Sripriya S' -> row 62: Sripriya S (matched by email) | phone 9994182557 | sriswt9@gmail.com
+[00:01:55]   feedback 'M Magesh' -> row 63: M Magesh (matched by email) | phone 9840646579 | magesh.manohar.1982@gmail.com
+[00:01:55]   feedback 'Bashyam Tirumalai Vinjamoor' -> row 67: Bashyam Tirumalai Vinjamoor (matched by email) | phone 7550165993 | btvforpm@gmail.com
+[00:01:55]   feedback 'Bharath' -> row 68: Bharathwajan Sairam (matched by email) | phone 9944879770 | bharath0290@gmail.com
+[00:01:55]   ! feedback not matched to any row (not on the roster?): Hema | 9597523527 | shemavathy2611@gmail.com
+[00:01:55] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[00:01:55] Nothing changed - Excel file not saved
+[00:01:55] Pearson VUE part done
+[00:01:56] Closed 3 Chrome tab(s) this step opened
+[00:01:56] ========== 12-Nov-2026  Step 2/6: LinkedIn ==========
+[00:01:56] === LinkedIn from Outlook
+[00:01:58] Sheet NOV: 3 person(s) without a LinkedIn Id on 12-Nov-2026
+[00:01:58]   row 64: Premsagar Rao | (no email) | (no company)
+[00:01:58]   row 65: Amrutha A | (no email) | (no company)
+[00:01:58]   row 66: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[00:02:04] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:02:08] Waking up Chrome tabs
+[00:02:19] Clicked New mail
+[00:02:23] [1/3] Premsagar Rao: no email - left for the Google search
+[00:02:23] [2/3] Amrutha A: no email - left for the Google search
+[00:02:23] [3/3] SATHYANARAYANAN THIRUVENGADAM: no email - left for the Google search
+[00:02:25] --- Google search for 3 person(s) still without a LinkedIn Id
+[00:02:25] [Google 1/3] Premsagar Rao: no usable company name in the sheet ('') - skipped
+[00:02:25] [Google 2/3] Amrutha A: no usable company name in the sheet ('') - skipped
+[00:02:25] [Google 3/3] SATHYANARAYANAN THIRUVENGADAM: no usable company name in the sheet ('') - skipped
+[00:02:29] Draft discarded
+[00:02:29] LinkedIn found for 0 of 3 person(s)
+[00:02:29]   ! not found: Premsagar Rao | (no email) | (no company)
+[00:02:29]   ! not found: Amrutha A | (no email) | (no company)
+[00:02:29]   ! not found: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[00:02:29] No LinkedIn URLs found - Excel file not changed
+[00:02:29] LinkedIn part done
+[00:02:29] Closed 1 Chrome tab(s) this step opened
+[00:02:29] ========== 12-Nov-2026  Step 3/6: Our Student ==========
+[00:02:29] === Our Student check in Adv Pro
+[00:02:37] Sheet NOV: 11 phone number(s) without 'Our Student Y/N' on 12-Nov-2026
+[00:02:41] Adv Pro is already open
+[00:02:41] No 'Our Student Y/N' to write - Excel file not changed
+[00:02:42] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[00:02:42]    details saved in logs\error_20261120_000241.txt
+[00:02:42] ========== 12-Nov-2026  Step 4/6: Certifications ==========
+[00:02:42] === Certifications from LinkedIn
+[00:02:44] Sheet NOV: 6 LinkedIn profile(s) not checked yet on 12-Nov-2026
+[00:02:54] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:02:56] Waking up Chrome tabs
+[00:04:06] [1/6] Aarthi G | https://www.linkedin.com/in/aarthi-g-8b048b369/
+[00:04:38]     certifications: (none of ours)
+[00:04:44] [2/6] M K Ashik Rahuman | https://www.linkedin.com/in/m-k-ashik-rahuman-25136728a/
+[00:05:48]     certifications: (none of ours)
+[00:05:54] [3/6] Britto Nazarius Louis | https://www.linkedin.com/in/brittolouis/
+[00:06:55]     certifications: (none of ours)
+[00:07:00] [4/6] Sripriya S | https://www.linkedin.com/in/sripriya-s-25997a73/
+[00:08:04]     certifications: (none of ours)
+[00:08:11] [5/6] M Magesh | https://www.linkedin.com/in/magesh-manohar-5b314b329/
+[00:08:43]     certifications: (none of ours)
+[00:08:49] [6/6] Akshay Ravi | https://www.linkedin.com/in/akshay-j-p/
+[00:09:10]     certifications: (none of ours)
+[00:09:16] No certifications to write - Excel file not changed
+[00:09:16] Certifications part done
+[00:09:16] Closed 1 Chrome tab(s) this step opened
+[00:09:16] ========== 12-Nov-2026  Step 5/6: Google reviews ==========
+[00:09:23] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:09:24] Waking up Chrome tabs
+[00:09:35] Google Maps: Reviews -> Sort -> Newest
+[00:09:47] 25 Google review(s) in the last 193 hours
+[00:09:47]   Subramaniam Ravishankar | 4 star | an hour ago | Testing was good and no distractions
+[00:09:47]   Bharath Krishna | 5 star | 13 hours ago | Excellent Facility. Professional Staffs
+[00:09:47]   Madhuri Gopal | 5 star | a day ago | Test started on time. Good ventilation , lighting overall excellent
+[00:09:47]   Aruna Nainappan | 5 star | Edited a day ago | Technical glitch while submitting
+[00:09:47]   Sadhan Kumar K | 5 star | 3 days ago | 
+[00:09:47]   Deepika M | 5 star | 4 days ago | 
+[00:09:47]   Harish S | 4 star | 4 days ago | 
+[00:09:47]   G Nagalingam | 5 star | 4 days ago | It is wonderful to attend the class in advantange pro.
+[00:09:47]   Gowri S | 5 star | 5 days ago | 
+[00:09:47]   Akshay J P | 5 star | 6 days ago | 
+[00:09:47]   Bharathwajan Sairam | 5 star | a week ago | 
+[00:09:47]   Britto Louis | 5 star | a week ago | 
+[00:09:47]   M.K. Ashik Rahuman | 5 star | a week ago | Good Centre with proper guidance
+[00:09:47]   Aarthi Gopinath | 5 star | a week ago | Good support for exam
+[00:09:47]   Sahl Baig | 5 star | a week ago | Good
+[00:09:47]   Shiva Kumar | 5 star | a week ago | Nice experience to write exam in the center
+[00:09:47]   Anand Thukkaram | 4 star | Edited a week ago | 
+[00:09:47]   Harini Karthikeyan | 4 star | a week ago | 
+[00:09:47]   Abhitha Dharmaraj | 5 star | a week ago | I attended my CIMA- MCS exam in this centre. This centre provides priv
+[00:09:47]   Santhoshraja Prakasam | 5 star | a week ago | I recently completed the DO280 course with Advantage Pro, conducted by
+[00:09:47]   Pavithra | 4 star | a week ago | Its good place to learn the Redhat concept. Trainer explained the conc
+[00:09:47]   Ancy Valiyaveettil | 5 star | a week ago | 
+[00:09:47]   rakhesh bowtham | 5 star | a week ago | 
+[00:09:47]   Guru Krishnamoorthy | 5 star | a week ago | Excellent
+[00:09:47]   Abilash S | 5 star | a week ago | Great
+[00:09:48]   row 68 Bharathwajan Sairam (12-Nov) <- review by 'Bharathwajan Sairam': Received | 5 star
+[00:09:48]   row 61 Britto Nazarius Louis (12-Nov) <- review by 'Britto Louis': Received | 5 star
+[00:09:48]   row 60 M K Ashik Rahuman (12-Nov) <- review by 'M.K. Ashik Rahuman': Received | Good Centre with proper guidance
+[00:09:48]   row 59 Aarthi G (12-Nov) <- review by 'Aarthi Gopinath': Received | Good support for exam
+[00:09:48]   row 57 Sahl Baig (11-Nov) <- review by 'Sahl Baig': Received | Good
+[00:09:48]   row 53 Shiva Kumar M (11-Nov) <- review by 'Shiva Kumar': Received | Nice experience to write exam in the center
+[00:09:48]   row 54 Anand Thukkaram (11-Nov) <- review by 'Anand Thukkaram': Received | 4 star
+[00:09:48]   row 52 HARINI K karthikeyan (11-Nov) <- review by 'Harini Karthikeyan': Received | 4 star
+[00:09:48]   row 43 Rakhesh Bowtham C R R (06-Nov) <- review by 'rakhesh bowtham': Received | 5 star
+[00:09:48]   row 36 Abilash S (06-Nov) <- review by 'Abilash S': Received | Great
+[00:09:48]   7 candidate(s) of 12-Nov with no Google review yet <- Pending
+[00:09:48] 15 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:09:48]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:09:48]     - Bharath Krishna | 5 star | 13 hours ago
+[00:09:48]     - Madhuri Gopal | 5 star | a day ago
+[00:09:48]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:09:48]     - Sadhan Kumar K | 5 star | 3 days ago
+[00:09:48]     - Deepika M | 5 star | 4 days ago
+[00:09:48]     - Harish S | 4 star | 4 days ago
+[00:09:48]     - G Nagalingam | 5 star | 4 days ago
+[00:09:48]     - Gowri S | 5 star | 5 days ago
+[00:09:48]     - Akshay J P | 5 star | 6 days ago
+[00:09:48]     - Abhitha Dharmaraj | 5 star | a week ago
+[00:09:48]     - Santhoshraja Prakasam | 5 star | a week ago
+[00:09:48]     - Pavithra | 4 star | a week ago
+[00:09:48]     - Ancy Valiyaveettil | 5 star | a week ago
+[00:09:48]     - Guru Krishnamoorthy | 5 star | a week ago
+[00:09:48] ===== Google Review report - 12-Nov-2026 (sheet NOV) =====
+[00:09:48]                         Day   Month
+[00:09:48] Total candidates         11      64
+[00:09:48] Genuine reviews           4      10
+[00:09:48] Pending                   7      54
+[00:09:48] Reminder Sent             0       0
+[00:09:48] Unable to Verify          0       0
+[00:09:48] Review percentage       36%     15%
+[00:09:48] New reviews received this run: 10
+[00:09:48]    + Bharathwajan Sairam (12-Nov) - 5 star - 5 star
+[00:09:48]    + Britto Nazarius Louis (12-Nov) - 5 star - 5 star
+[00:09:48]    + M K Ashik Rahuman (12-Nov) - 5 star - Good Centre with proper guidance
+[00:09:48]    + Aarthi G (12-Nov) - 5 star - Good support for exam
+[00:09:48]    + Sahl Baig (11-Nov) - 5 star - Good
+[00:09:48]    + Shiva Kumar M (11-Nov) - 5 star - Nice experience to write exam in the center
+[00:09:48]    + Anand Thukkaram (11-Nov) - 4 star - 4 star
+[00:09:48]    + HARINI K karthikeyan (11-Nov) - 4 star - 4 star
+[00:09:48]    + Rakhesh Bowtham C R R (06-Nov) - 5 star - 5 star
+[00:09:48]    + Abilash S (06-Nov) - 5 star - Great
+[00:09:48] Reviews not matched to a candidate: 15
+[00:09:48]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:09:48]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:09:48]    ? Madhuri Gopal - 5 star - a day ago
+[00:09:48]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:09:48]    ? Sadhan Kumar K - 5 star - 3 days ago
+[00:09:48]    ? Deepika M - 5 star - 4 days ago
+[00:09:48]    ? Harish S - 4 star - 4 days ago
+[00:09:48]    ? G Nagalingam - 5 star - 4 days ago
+[00:09:48]    ? Gowri S - 5 star - 5 days ago
+[00:09:48]    ? Akshay J P - 5 star - 6 days ago
+[00:09:48]    ? Abhitha Dharmaraj - 5 star - a week ago
+[00:09:48]    ? Santhoshraja Prakasam - 5 star - a week ago
+[00:09:48]    ? Pavithra - 4 star - a week ago
+[00:09:48]    ? Ancy Valiyaveettil - 5 star - a week ago
+[00:09:48]    ? Guru Krishnamoorthy - 5 star - a week ago
+[00:09:48] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_12-11-2026.txt
+[00:09:49] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_000948.xlsx
+[00:09:53] Excel file saved - 17 Google Review cell(s) changed in sheet NOV (history: logs\review_history.csv)
+[00:09:53] Closed 2 Chrome tab(s) this step opened
+[00:09:53] ========== 12-Nov-2026  Step 6/6: Excel check ==========
+[00:09:55] !! Step 6 failed: RuntimeError: Excel not complete for 12-Nov-2026 - no 'Our Student Y/N': Aarthi G, M K Ashik Rahuman, Britto Nazarius Louis, Sripriya S, M Magesh, Premsagar Rao, Amrutha A, SATHYANARAYANAN THIRUVENGADAM, Bashyam Tirumalai Vinjamoor, Bharathwajan Sairam, Akshay Ravi
+[00:09:55]    details saved in logs\error_20261120_000955.txt
+[00:09:55] ========== Summary ==========
+[00:09:55]   Roster + feedback: OK
+[00:09:55]   LinkedIn: OK
+[00:09:55]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[00:09:55]   Certifications: OK
+[00:09:55]   Google reviews: OK
+[00:09:55]   Excel check: FAILED: RuntimeError: Excel not complete for 12-Nov-2026 - no 'Our Student Y/N': Aarthi G, M K Ashik Rahuman, Britto Nazarius Louis, Sripriya S, M Magesh, Premsagar Rao, Am
+[00:09:55] ########## 12-Nov-2026: still not complete - tried again next time
+[00:09:55] ########## Catching up 13-Nov-2026: not finished - Google reviews
+[00:09:55] Step 1/6: Roster + feedback - already finished
+[00:09:55] Step 2/6: LinkedIn - already finished
+[00:09:55] Step 3/6: Our Student - already finished
+[00:09:55] Step 4/6: Certifications - already finished
+[00:09:55] ========== 13-Nov-2026  Step 5/6: Google reviews ==========
+[00:09:55] 25 Google review(s) in the last 169 hours (read earlier in this run)
+[00:09:56]   row 71 Akshay J P (13-Nov) <- review by 'Akshay J P': Received | 5 star
+[00:09:56]   row 68 Bharathwajan Sairam: Google Review already filled ('Received', review by Bharathwajan Sairam)
+[00:09:56]   row 60 M K Ashik Rahuman: Google Review already filled ('Received', review by M.K. Ashik Rahuman)
+[00:09:56]   row 57 Sahl Baig: Google Review already filled ('Received', review by Sahl Baig)
+[00:09:56]   row 53 Shiva Kumar M: Google Review already filled ('Received', review by Shiva Kumar)
+[00:09:56]   row 54 Anand Thukkaram: Google Review already filled ('Received', review by Anand Thukkaram)
+[00:09:56]   row 52 HARINI K karthikeyan: Google Review already filled ('Received', review by Harini Karthikeyan)
+[00:09:56]   row 43 Rakhesh Bowtham C R R: Google Review already filled ('Received', review by rakhesh bowtham)
+[00:09:56]   row 36 Abilash S: Google Review already filled ('Received', review by Abilash S)
+[00:09:56]   12 candidate(s) of 13-Nov with no Google review yet <- Pending
+[00:09:56] 16 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:09:56]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:09:56]     - Bharath Krishna | 5 star | 13 hours ago
+[00:09:56]     - Madhuri Gopal | 5 star | a day ago
+[00:09:56]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:09:56]     - Sadhan Kumar K | 5 star | 3 days ago
+[00:09:56]     - Deepika M | 5 star | 4 days ago
+[00:09:56]     - Harish S | 4 star | 4 days ago
+[00:09:56]     - G Nagalingam | 5 star | 4 days ago
+[00:09:56]     - Gowri S | 5 star | 5 days ago
+[00:09:56]     - Britto Louis | 5 star | a week ago
+[00:09:56]     - Aarthi Gopinath | 5 star | a week ago
+[00:09:56]     - Abhitha Dharmaraj | 5 star | a week ago
+[00:09:56]     - Santhoshraja Prakasam | 5 star | a week ago
+[00:09:56]     - Pavithra | 4 star | a week ago
+[00:09:56]     - Ancy Valiyaveettil | 5 star | a week ago
+[00:09:56]     - Guru Krishnamoorthy | 5 star | a week ago
+[00:09:56] ===== Google Review report - 13-Nov-2026 (sheet NOV) =====
+[00:09:56]                         Day   Month
+[00:09:56] Total candidates         13      77
+[00:09:56] Genuine reviews           1      11
+[00:09:56] Pending                  12      66
+[00:09:56] Reminder Sent             0       0
+[00:09:56] Unable to Verify          0       0
+[00:09:56] Review percentage        7%     14%
+[00:09:56] New reviews received this run: 1
+[00:09:56]    + Akshay J P (13-Nov) - 5 star - 5 star
+[00:09:56] Reviews not matched to a candidate: 16
+[00:09:56]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:09:56]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:09:56]    ? Madhuri Gopal - 5 star - a day ago
+[00:09:56]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:09:56]    ? Sadhan Kumar K - 5 star - 3 days ago
+[00:09:56]    ? Deepika M - 5 star - 4 days ago
+[00:09:56]    ? Harish S - 4 star - 4 days ago
+[00:09:56]    ? G Nagalingam - 5 star - 4 days ago
+[00:09:56]    ? Gowri S - 5 star - 5 days ago
+[00:09:56]    ? Britto Louis - 5 star - a week ago
+[00:09:56]    ? Aarthi Gopinath - 5 star - a week ago
+[00:09:56]    ? Abhitha Dharmaraj - 5 star - a week ago
+[00:09:56]    ? Santhoshraja Prakasam - 5 star - a week ago
+[00:09:56]    ? Pavithra - 4 star - a week ago
+[00:09:56]    ? Ancy Valiyaveettil - 5 star - a week ago
+[00:09:56]    ? Guru Krishnamoorthy - 5 star - a week ago
+[00:09:56] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_13-11-2026.txt
+[00:09:56] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_000956.xlsx
+[00:10:00] Excel file saved - 13 Google Review cell(s) changed in sheet NOV (history: logs\review_history.csv)
+[00:10:00] Step 6/6: Excel check - already finished
+[00:10:00] ========== Summary ==========
+[00:10:00]   Roster + feedback: already finished
+[00:10:00]   LinkedIn: already finished
+[00:10:00]   Our Student: already finished
+[00:10:00]   Certifications: already finished
+[00:10:00]   Google reviews: OK
+[00:10:00]   Excel check: already finished
+[00:10:00] ########## 13-Nov-2026: complete
+[00:10:00] ########## Catching up 14-Nov-2026: not finished - Google reviews
+[00:10:00] Step 1/6: Roster + feedback - already finished
+[00:10:00] Step 2/6: LinkedIn - already finished
+[00:10:00] Step 3/6: Our Student - already finished
+[00:10:00] Step 4/6: Certifications - already finished
+[00:10:00] ========== 14-Nov-2026  Step 5/6: Google reviews ==========
+[00:10:00] 10 Google review(s) in the last 145 hours (read earlier in this run)
+[00:10:02]   row 71 Akshay J P: Google Review already filled ('Received', review by Akshay J P)
+[00:10:02]   14 candidate(s) of 14-Nov with no Google review yet <- Pending
+[00:10:02] 9 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:10:02]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:10:02]     - Bharath Krishna | 5 star | 13 hours ago
+[00:10:02]     - Madhuri Gopal | 5 star | a day ago
+[00:10:02]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:10:02]     - Sadhan Kumar K | 5 star | 3 days ago
+[00:10:02]     - Deepika M | 5 star | 4 days ago
+[00:10:02]     - Harish S | 4 star | 4 days ago
+[00:10:02]     - G Nagalingam | 5 star | 4 days ago
+[00:10:02]     - Gowri S | 5 star | 5 days ago
+[00:10:02] ===== Google Review report - 14-Nov-2026 (sheet NOV) =====
+[00:10:02]                         Day   Month
+[00:10:02] Total candidates         14      91
+[00:10:02] Genuine reviews           0      11
+[00:10:02] Pending                  14      80
+[00:10:02] Reminder Sent             0       0
+[00:10:02] Unable to Verify          0       0
+[00:10:02] Review percentage        0%     12%
+[00:10:02] New reviews received this run: 0
+[00:10:02] Reviews not matched to a candidate: 9
+[00:10:02]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:10:02]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:10:02]    ? Madhuri Gopal - 5 star - a day ago
+[00:10:02]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:10:02]    ? Sadhan Kumar K - 5 star - 3 days ago
+[00:10:02]    ? Deepika M - 5 star - 4 days ago
+[00:10:02]    ? Harish S - 4 star - 4 days ago
+[00:10:02]    ? G Nagalingam - 5 star - 4 days ago
+[00:10:02]    ? Gowri S - 5 star - 5 days ago
+[00:10:02] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_14-11-2026.txt
+[00:10:02] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_001002.xlsx
+[00:10:06] Excel file saved - 14 Google Review cell(s) changed in sheet NOV (history: logs\review_history.csv)
+[00:10:06] Step 6/6: Excel check - already finished
+[00:10:06] ========== Summary ==========
+[00:10:06]   Roster + feedback: already finished
+[00:10:06]   LinkedIn: already finished
+[00:10:06]   Our Student: already finished
+[00:10:06]   Certifications: already finished
+[00:10:06]   Google reviews: OK
+[00:10:06]   Excel check: already finished
+[00:10:06] ########## 14-Nov-2026: complete
+[00:10:06] ########## Catching up 15-Nov-2026: not finished - Google reviews
+[00:10:06] Step 1/6: Roster + feedback - already finished
+[00:10:06] Step 2/6: LinkedIn - already finished
+[00:10:06] Step 3/6: Our Student - already finished
+[00:10:06] Step 4/6: Certifications - already finished
+[00:10:06] ========== 15-Nov-2026  Step 5/6: Google reviews ==========
+[00:10:06] 9 Google review(s) in the last 121 hours (read earlier in this run)
+[00:10:07] 9 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:10:07]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:10:07]     - Bharath Krishna | 5 star | 13 hours ago
+[00:10:07]     - Madhuri Gopal | 5 star | a day ago
+[00:10:07]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:10:07]     - Sadhan Kumar K | 5 star | 3 days ago
+[00:10:07]     - Deepika M | 5 star | 4 days ago
+[00:10:07]     - Harish S | 4 star | 4 days ago
+[00:10:07]     - G Nagalingam | 5 star | 4 days ago
+[00:10:07]     - Gowri S | 5 star | 5 days ago
+[00:10:07] ===== Google Review report - 15-Nov-2026 (sheet NOV) =====
+[00:10:07]                         Day   Month
+[00:10:07] Total candidates          0      91
+[00:10:07] Genuine reviews           0      11
+[00:10:07] Pending                   0      80
+[00:10:07] Reminder Sent             0       0
+[00:10:07] Unable to Verify          0       0
+[00:10:07] Review percentage         -     12%
+[00:10:07] New reviews received this run: 0
+[00:10:07] Reviews not matched to a candidate: 9
+[00:10:07]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:10:07]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:10:07]    ? Madhuri Gopal - 5 star - a day ago
+[00:10:07]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:10:07]    ? Sadhan Kumar K - 5 star - 3 days ago
+[00:10:07]    ? Deepika M - 5 star - 4 days ago
+[00:10:07]    ? Harish S - 4 star - 4 days ago
+[00:10:07]    ? G Nagalingam - 5 star - 4 days ago
+[00:10:07]    ? Gowri S - 5 star - 5 days ago
+[00:10:07] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_15-11-2026.txt
+[00:10:07] Nothing new to write - Excel file not changed
+[00:10:07] Step 6/6: Excel check - already finished
+[00:10:07] ========== Summary ==========
+[00:10:07]   Roster + feedback: already finished
+[00:10:07]   LinkedIn: already finished
+[00:10:07]   Our Student: already finished
+[00:10:07]   Certifications: already finished
+[00:10:07]   Google reviews: OK
+[00:10:07]   Excel check: already finished
+[00:10:07] ########## 15-Nov-2026: complete
+[00:10:07] ########## Catching up 16-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[00:10:07] ========== 16-Nov-2026  Step 1/6: Roster + feedback ==========
+[00:10:07] === Pearson VUE roster + feedback | Date: 16-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:10:12] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:10:13] Waking up Chrome tabs
+[00:10:14] Opening Pearson VUE login page
+[00:10:16] Login submitted
+[00:10:37] Clicked Site Manager
+[00:10:39] Clicked Availability
+[00:10:43] Clicked Roster
+[00:10:47] Set roster date 2026-11-16
+[00:10:53] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[00:10:53] 8 exam(s) on the roster
+[00:10:54]   Kavya D: 415-326-6303
+[00:10:58] Set roster date 2026-11-16
+[00:11:03]   Karthikeyan Rajan: 415-326-6303
+[00:11:06] Set roster date 2026-11-16
+[00:11:12]   Manoj Kumar B: 7299892570
+[00:11:15] Set roster date 2026-11-16
+[00:11:20]   Nithya R: 6381129951
+[00:11:24] Set roster date 2026-11-16
+[00:11:30]   Poornima Kannuchamy: 9566024347
+[00:11:33] Set roster date 2026-11-16
+[00:11:37]   Arun N: 9884980929
+[00:11:42] Set roster date 2026-11-16
+[00:11:46]   MONISHA PARAMASIVAM: 7402353712
+[00:11:50] Set roster date 2026-11-16
+[00:11:55]   Sadhan Kumar K: 415-326-6303
+[00:11:58] Set roster date 2026-11-16
+[00:12:10] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[00:12:12] Waking up Chrome tabs
+[00:13:49] Export link refused - reading the sheet another way (phone numbers typed with spaces come out blank; email and name still match)
+[00:13:56] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[00:13:56] Feedback timestamps are month/day
+[00:13:56] 5 feedback response(s) on 2026-11-16
+[00:14:36]   already in sheet: Kavya D
+[00:14:37]   already in sheet: Karthikeyan Rajan
+[00:14:37]   already in sheet: Manoj Kumar B
+[00:14:38]   added: Nithya R | Anthropic | CCAR-F | 6381129951
+[00:14:38]   already in sheet: Poornima Kannuchamy
+[00:14:38]   already in sheet: Arun N
+[00:14:38]   already in sheet: MONISHA PARAMASIVAM
+[00:14:38]   already in sheet: Sadhan Kumar K
+[00:14:38]   feedback 'Nithya.R' -> row 100: Nithya Ramanathan (matched by email) | phone 6381129951 | nithyaramanathan1133@gmail.com
+[00:14:38]   feedback 'Poornima Kannuchamy' -> row 101: Poornima Kannuchamy (matched by email) | phone 9566024347 | pooriuntamedbluemoon@gmail.com
+[00:14:38]   feedback 'Arun N' -> row 102: Arun N (matched by email) | phone 9884980929 | yournura@gmail.com
+[00:14:38]   feedback 'Sadhan Kumar K' -> row 104: Sadhan Kumar K (matched by email) | phone 9677247728 | sadhankkumar@gmail.com
+[00:14:38]   ! feedback not matched to any row (not on the roster?): Barty Srujan | 7879860107 | bartysrujan@gmail.com
+[00:14:38] Sheet NOV: 1 row(s) added, 0 row(s) updated with feedback
+[00:14:40] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_001439.xlsx
+[00:14:59] Excel file saved
+[00:14:59] Pearson VUE part done
+[00:14:59] Closed 3 Chrome tab(s) this step opened
+[00:14:59] ========== 16-Nov-2026  Step 2/6: LinkedIn ==========
+[00:14:59] === LinkedIn from Outlook
+[00:15:02] Sheet NOV: 5 person(s) without a LinkedIn Id on 16-Nov-2026
+[00:15:02]   row 97: Kavya D | (no email) | (no company)
+[00:15:02]   row 98: Karthikeyan Rajan | (no email) | (no company)
+[00:15:02]   row 99: Manoj Kumar B | (no email) | (no company)
+[00:15:02]   row 103: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[00:15:02]   row 125: Nithya R | (no email) | (no company)
+[00:15:31] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:15:34] Waking up Chrome tabs
+[00:15:46] Clicked New mail
+[00:15:50] [1/5] Kavya D: no email - left for the Google search
+[00:15:50] [2/5] Karthikeyan Rajan: no email - left for the Google search
+[00:15:50] [3/5] Manoj Kumar B: no email - left for the Google search
+[00:15:50] [4/5] MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com
+[00:16:01]     error: StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+[00:16:01]     LinkedIn: (not found)
+[00:16:10] [5/5] Nithya R: no email - left for the Google search
+[00:16:11] --- Google search for 5 person(s) still without a LinkedIn Id
+[00:16:11] [Google 1/5] Kavya D: no usable company name in the sheet ('') - skipped
+[00:16:11] [Google 2/5] Karthikeyan Rajan: no usable company name in the sheet ('') - skipped
+[00:16:11] [Google 3/5] Manoj Kumar B: no usable company name in the sheet ('') - skipped
+[00:16:11] [Google 4/5] MONISHA PARAMASIVAM: MONISHA PARAMASIVAM @ PSU linkedin profile
+[00:16:54]     not a match - profile 'Monisha Paramasivam': name ok, company not found - skipped
+[00:17:02] [Google 5/5] Nithya R: no usable company name in the sheet ('') - skipped
+[00:17:06] Draft discarded
+[00:17:06] LinkedIn found for 0 of 5 person(s)
+[00:17:06]   ! not found: Kavya D | (no email) | (no company)
+[00:17:06]   ! not found: Karthikeyan Rajan | (no email) | (no company)
+[00:17:06]   ! not found: Manoj Kumar B | (no email) | (no company)
+[00:17:06]   ! not found: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[00:17:06]   ! not found: Nithya R | (no email) | (no company)
+[00:17:06] No LinkedIn URLs found - Excel file not changed
+[00:17:06] !! Step 2 failed: RuntimeError: 1 email(s) could not be looked up
+[00:17:06]    details saved in logs\error_20261120_001706.txt
+[00:17:07] Closed 1 Chrome tab(s) this step opened
+[00:17:07] ========== 16-Nov-2026  Step 3/6: Our Student ==========
+[00:17:07] === Our Student check in Adv Pro
+[00:17:10] Sheet NOV: 9 phone number(s) without 'Our Student Y/N' on 16-Nov-2026
+[00:17:11] Adv Pro is already open
+[00:17:11] No 'Our Student Y/N' to write - Excel file not changed
+[00:17:11] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[00:17:11]    details saved in logs\error_20261120_001711.txt
+[00:17:11] ========== 16-Nov-2026  Step 4/6: Certifications ==========
+[00:17:11] === Certifications from LinkedIn
+[00:17:13] Sheet NOV: 1 LinkedIn profile(s) not checked yet on 16-Nov-2026
+[00:17:17] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:17:18] Waking up Chrome tabs
+[00:17:19] [1/1] Arun N | https://www.linkedin.com/in/narunops/
+[00:18:38]     certifications: AWS
+[00:18:47]   row 102: Arun N -> AWS
+[00:18:47] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_001847.xlsx
+[00:18:53] Excel file saved - certifications written for 1 row(s) in sheet NOV
+[00:18:53] Certifications part done
+[00:18:53] Closed 2 Chrome tab(s) this step opened
+[00:18:53] ========== 16-Nov-2026  Step 5/6: Google reviews ==========
+[00:18:53] 8 Google review(s) in the last 97 hours (read earlier in this run)
+[00:18:55]   row 104 Sadhan Kumar K: Google Review already filled ('y', review by Sadhan Kumar K)
+[00:18:55]   8 candidate(s) of 16-Nov with no Google review yet <- Pending
+[00:18:55] 7 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:18:55]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:18:55]     - Bharath Krishna | 5 star | 13 hours ago
+[00:18:55]     - Madhuri Gopal | 5 star | a day ago
+[00:18:55]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:18:55]     - Deepika M | 5 star | 4 days ago
+[00:18:55]     - Harish S | 4 star | 4 days ago
+[00:18:55]     - G Nagalingam | 5 star | 4 days ago
+[00:18:55] ===== Google Review report - 16-Nov-2026 (sheet NOV) =====
+[00:18:55]                         Day   Month
+[00:18:55] Total candidates          9     100
+[00:18:55] Genuine reviews           1      12
+[00:18:55] Pending                   8      88
+[00:18:55] Reminder Sent             0       0
+[00:18:55] Unable to Verify          0       0
+[00:18:55] Review percentage       11%     12%
+[00:18:55] New reviews received this run: 0
+[00:18:55] Reviews not matched to a candidate: 7
+[00:18:55]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:18:55]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:18:55]    ? Madhuri Gopal - 5 star - a day ago
+[00:18:55]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:18:55]    ? Deepika M - 5 star - 4 days ago
+[00:18:55]    ? Harish S - 4 star - 4 days ago
+[00:18:55]    ? G Nagalingam - 5 star - 4 days ago
+[00:18:55] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_16-11-2026.txt
+[00:18:55] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_001855.xlsx
+[00:18:59] Excel file saved - 8 Google Review cell(s) changed in sheet NOV (history: logs\review_history.csv)
+[00:18:59] ========== 16-Nov-2026  Step 6/6: Excel check ==========
+[00:19:01] !! Step 6 failed: RuntimeError: Excel not complete for 16-Nov-2026 - no 'Our Student Y/N': Kavya D, Karthikeyan Rajan, Manoj Kumar B, Nithya Ramanathan, Poornima Kannuchamy, Arun N, MONISHA PARAMASIVAM, Sadhan Kumar K, Nithya R
+[00:19:01]    details saved in logs\error_20261120_001901.txt
+[00:19:01] ========== Summary ==========
+[00:19:01]   Roster + feedback: OK
+[00:19:01]   LinkedIn: FAILED: RuntimeError: 1 email(s) could not be looked up
+[00:19:01]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[00:19:01]   Certifications: OK
+[00:19:01]   Google reviews: OK
+[00:19:01]   Excel check: FAILED: RuntimeError: Excel not complete for 16-Nov-2026 - no 'Our Student Y/N': Kavya D, Karthikeyan Rajan, Manoj Kumar B, Nithya Ramanathan, Poornima Kannuchamy, Arun N, 
+[00:19:01] ########## 16-Nov-2026: still not complete - tried again next time
+[00:19:01] ########## Catching up 17-Nov-2026: not finished - Certifications, Google reviews, Excel check
+[00:19:01] Step 1/6: Roster + feedback - already finished
+[00:19:01] Step 2/6: LinkedIn - already finished
+[00:19:01] Step 3/6: Our Student - already finished
+[00:19:01] ========== 17-Nov-2026  Step 4/6: Certifications ==========
+[00:19:01] === Certifications from LinkedIn
+[00:19:03] Sheet NOV: 3 LinkedIn profile(s) not checked yet on 17-Nov-2026
+[00:19:08] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:19:09] Waking up Chrome tabs
+[00:19:10] [1/3] SHUBASHINI THYAGARAJAN | https://www.linkedin.com/in/subhashini-sivasubramanian-9b8b17234/
+[00:19:45]     certifications: (none of ours)
+[00:19:50] [2/3] Gowsalya Ganesan | https://www.linkedin.com/in/igowsalya/
+[00:20:22]     certifications: (none of ours)
+[00:20:27] [3/3] Shyamkrishnan Balasubramanian | https://www.linkedin.com/in/shyamkrishnanb/
+[00:20:54]     certifications: ANTHROPIC
+[00:21:02]   row 114: Shyamkrishnan Balasubramanian -> ANTHROPIC
+[00:21:02] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_002102.xlsx
+[00:21:09] Excel file saved - certifications written for 1 row(s) in sheet NOV
+[00:21:09] Certifications part done
+[00:21:09] Closed 1 Chrome tab(s) this step opened
+[00:21:09] ========== 17-Nov-2026  Step 5/6: Google reviews ==========
+[00:21:09] 5 Google review(s) in the last 73 hours (read earlier in this run)
+[00:21:11]   row 104 Sadhan Kumar K: Google Review already filled ('y', review by Sadhan Kumar K)
+[00:21:11]   11 candidate(s) of 17-Nov with no Google review yet <- Pending
+[00:21:11] 4 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:21:11]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:21:11]     - Bharath Krishna | 5 star | 13 hours ago
+[00:21:11]     - Madhuri Gopal | 5 star | a day ago
+[00:21:11]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:21:11] ===== Google Review report - 17-Nov-2026 (sheet NOV) =====
+[00:21:11]                         Day   Month
+[00:21:11] Total candidates         11     111
+[00:21:11] Genuine reviews           0      12
+[00:21:11] Pending                  11      99
+[00:21:11] Reminder Sent             0       0
+[00:21:11] Unable to Verify          0       0
+[00:21:11] Review percentage        0%     10%
+[00:21:11] New reviews received this run: 0
+[00:21:11] Reviews not matched to a candidate: 4
+[00:21:11]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:21:11]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:21:11]    ? Madhuri Gopal - 5 star - a day ago
+[00:21:11]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:21:11] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_17-11-2026.txt
+[00:21:11] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_002111.xlsx
+[00:21:15] Excel file saved - 11 Google Review cell(s) changed in sheet NOV (history: logs\review_history.csv)
+[00:21:15] ========== 17-Nov-2026  Step 6/6: Excel check ==========
+[00:21:17] Excel complete for 17-Nov-2026: 11 row(s) in sheet NOV, 11 on the roster
+[00:21:18] ========== Summary ==========
+[00:21:18]   Roster + feedback: already finished
+[00:21:18]   LinkedIn: already finished
+[00:21:18]   Our Student: already finished
+[00:21:18]   Certifications: OK
+[00:21:18]   Google reviews: OK
+[00:21:18]   Excel check: OK
+[00:21:18] ########## 17-Nov-2026: complete
+[00:21:18] ========== 19-Nov-2026  Step 1/6: Roster + feedback ==========
+[00:21:18] === Pearson VUE roster + feedback | Date: 19-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:21:24] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:21:25] Waking up Chrome tabs
+[00:21:27] Opening Pearson VUE login page
+[00:21:29] Login submitted
+[00:21:49] Clicked Site Manager
+[00:21:51] Clicked Availability
+[00:21:56] Clicked Roster
+[00:22:02] Set roster date 2026-11-19
+[00:22:08] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[00:22:08] 7 exam(s) on the roster
+[00:22:11]   Mullai Arasu: 415-326-6303
+[00:22:17] Set roster date 2026-11-19
+[00:22:23]   Bharath Krishna: 9941556413
+[00:22:26] Set roster date 2026-11-19
+[00:22:32]   PARAMESHVARAN Chandran: 415-326-6303
+[00:22:37] Set roster date 2026-11-19
+[00:22:42]   Jubin James: 415-326-6303
+[00:22:48] Set roster date 2026-11-19
+[00:22:56]   Gunavazhagan B: 6381864628
+[00:23:01] Set roster date 2026-11-19
+[00:23:07]   Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: 9894505024
+[00:23:12] Set roster date 2026-11-19
+[00:23:17]   Subramaniam R: 9884349009
+[00:23:22] Set roster date 2026-11-19
+[00:23:30] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[00:23:31] Waking up Chrome tabs
+[00:24:08] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[00:24:08] Feedback timestamps are month/day
+[00:24:08] 6 feedback response(s) on 2026-11-19
+[00:24:17]   added: Mullai Arasu | Anthropic | CCAO-F | 415-326-6303
+[00:24:17]   added: Bharath Krishna | Salesforce | Plat-Dev-301 | 9941556413
+[00:24:17]   added: PARAMESHVARAN Chandran | Anthropic | CCAO-F | 415-326-6303
+[00:24:17]   added: Jubin James | Anthropic | CCAO-F | 415-326-6303
+[00:24:17]   added: Gunavazhagan B | Amazon Web Services | CLF-C02 | 6381864628
+[00:24:17]   added: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | Microsoft | MD-102 | 9894505024
+[00:24:17]   added: Subramaniam R | Anthropic | CCAO-F | 9884349009
+[00:24:17]   feedback 'Bharath Krishna' -> row 127: Bharath Krishna (matched by phone) | phone 9941556413 | barat.krishv@gmail.com
+[00:24:17]   feedback 'C Parameshvaran' -> row 128: PARAMESHVARAN Chandran (matched by name) | phone 9884495639 | paramesh.mba@gmail.com
+[00:24:17]   feedback 'Gunavazhagan B' -> row 130: Gunavazhagan B (matched by phone) | phone 6381864628 | bgunavazhagan3@gmail.com
+[00:24:17]   feedback 'Gnanaraj' -> row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL (matched by phone) | phone 9894505024 | md.gnanaraj@gmail.com
+[00:24:17]   feedback 'Subramaniam Ravishankar' -> row 132: Subramaniam R (matched by phone) | phone 9884349009 | subbunique39@gmail.com
+[00:24:17]   ! feedback not matched to any row (not on the roster?): Rajesh M | 9952026861 | rajeshm.it2003@gmail.com
+[00:24:17] Sheet NOV: 7 row(s) added, 5 row(s) updated with feedback
+[00:24:17] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_002417.xlsx
+[00:24:21] Excel file saved
+[00:24:21] Pearson VUE part done
+[00:24:21] Closed 4 Chrome tab(s) this step opened
+[00:24:21] ========== 19-Nov-2026  Step 2/6: LinkedIn ==========
+[00:24:21] === LinkedIn from Outlook
+[00:24:24] Sheet NOV: 7 person(s) without a LinkedIn Id on 19-Nov-2026
+[00:24:24]   row 126: Mullai Arasu | (no email) | (no company)
+[00:24:24]   row 127: Bharath Krishna | barat.krishv@gmail.com | Option AstraZeneca
+[00:24:24]   row 128: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[00:24:24]   row 129: Jubin James | (no email) | (no company)
+[00:24:24]   row 130: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[00:24:24]   row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[00:24:24]   row 132: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[00:24:27] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:24:28] Waking up Chrome tabs
+[00:24:37] Clicked New mail
+[00:24:41] [1/7] Mullai Arasu: no email - left for the Google search
+[00:24:41] [2/7] Bharath Krishna | barat.krishv@gmail.com
+[00:24:59]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:24:59]     LinkedIn: (not found)
+[00:25:01] [3/7] PARAMESHVARAN Chandran | paramesh.mba@gmail.com
+[00:25:19]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:25:19]     LinkedIn: (not found)
+[00:25:21] [4/7] Jubin James: no email - left for the Google search
+[00:25:21] [5/7] Gunavazhagan B | bgunavazhagan3@gmail.com
+[00:25:37]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:25:37]     LinkedIn: (not found)
+[00:25:39] [6/7] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com
+[00:25:55]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:25:55]     LinkedIn: (not found)
+[00:25:56] [7/7] Subramaniam R | subbunique39@gmail.com
+[00:26:13]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:26:13]     LinkedIn: (not found)
+[00:26:16] --- Google search for 7 person(s) still without a LinkedIn Id
+[00:26:16] [Google 1/7] Mullai Arasu: no usable company name in the sheet ('') - skipped
+[00:26:16] [Google 2/7] Bharath Krishna: Bharath Krishna @ Option AstraZeneca linkedin profile
+[00:27:05]     match: 'Bharath Krishna Venkitaraman' at Option AstraZeneca -> https://www.linkedin.com/in/bharath-krishna-venkitaraman-b6a4a179/
+[00:27:13] [Google 3/7] PARAMESHVARAN Chandran: PARAMESHVARAN Chandran @ Accenture linkedin profile
+[00:27:48]     not a match - profile 'Parameshwaran Ramachandran': name different, company found - skipped
+[00:27:56] [Google 4/7] Jubin James: no usable company name in the sheet ('') - skipped
+[00:27:56] [Google 5/7] Gunavazhagan B: no usable company name in the sheet ('Student') - skipped
+[00:27:56] [Google 6/7] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL @ BNP Parivar Bank linkedin profile
+[00:28:32]     not a match - profile 'Gnanaraj Dhanapal': name ok, company not found - skipped
+[00:28:40] [Google 7/7] Subramaniam R: Subramaniam R @ Tata Consultancy Services (TCS) linkedin profile
+[00:29:10]     not a match - profile 'Subramanyam R.': name different, company found - skipped
+[00:29:23] Draft discarded
+[00:29:23] LinkedIn found for 1 of 7 person(s) (1 by Google search)
+[00:29:23]   ! not found: Mullai Arasu | (no email) | (no company)
+[00:29:23]   ! not found: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[00:29:23]   ! not found: Jubin James | (no email) | (no company)
+[00:29:23]   ! not found: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[00:29:23]   ! not found: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[00:29:23]   ! not found: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[00:29:28]   row 127: Bharath Krishna -> https://www.linkedin.com/in/bharath-krishna-venkitaraman-b6a4a179/  (Google)
+[00:29:28] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_002928.xlsx
+[00:29:34] Excel file saved - 1 LinkedIn URL(s) written to sheet NOV
+[00:29:34] LinkedIn part done
+[00:29:34] Closed 2 Chrome tab(s) this step opened
+[00:29:34] ========== 19-Nov-2026  Step 3/6: Our Student ==========
+[00:29:34] === Our Student check in Adv Pro
+[00:29:36]   Mullai Arasu: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:29:36]   Jubin James: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:29:36] Sheet NOV: 5 phone number(s) without 'Our Student Y/N' on 19-Nov-2026
+[00:29:37] Adv Pro is already open
+[00:29:37] No 'Our Student Y/N' to write - Excel file not changed
+[00:29:37] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[00:29:37]    details saved in logs\error_20261120_002937.txt
+[00:29:37] ========== 19-Nov-2026  Step 4/6: Certifications ==========
+[00:29:37] === Certifications from LinkedIn
+[00:29:39] Sheet NOV: 1 LinkedIn profile(s) not checked yet on 19-Nov-2026
+[00:29:42] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:29:43] Waking up Chrome tabs
+[00:29:45] [1/1] Bharath Krishna | https://www.linkedin.com/in/bharath-krishna-venkitaraman-b6a4a179/
+[00:30:17]     certifications: (none of ours)
+[00:30:22] No certifications to write - Excel file not changed
+[00:30:22] Certifications part done
+[00:30:22] Closed 1 Chrome tab(s) this step opened
+[00:30:22] ========== 19-Nov-2026  Step 5/6: Google reviews ==========
+[00:30:22] 4 Google review(s) in the last 26 hours (read earlier in this run)
+[00:30:24]   row 132 Subramaniam R (19-Nov) <- review by 'Subramaniam Ravishankar': Received | Testing was good and no distractions
+[00:30:24]   row 127 Bharath Krishna (19-Nov) <- review by 'Bharath Krishna': Received | Excellent Facility. Professional Staffs
+[00:30:24]   row 121 Madhuri Gopal: Google Review already filled ('y', review by Madhuri Gopal)
+[00:30:24]   5 candidate(s) of 19-Nov with no Google review yet <- Pending
+[00:30:24] 1 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:30:24]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:30:24] ===== Google Review report - 19-Nov-2026 (sheet NOV) =====
+[00:30:24]                         Day   Month
+[00:30:24] Total candidates          7     127
+[00:30:24] Genuine reviews           2      16
+[00:30:24] Pending                   5     111
+[00:30:24] Reminder Sent             0       0
+[00:30:24] Unable to Verify          0       0
+[00:30:24] Review percentage       28%     12%
+[00:30:24] New reviews received this run: 2
+[00:30:24]    + Subramaniam R (19-Nov) - 4 star - Testing was good and no distractions
+[00:30:24]    + Bharath Krishna (19-Nov) - 5 star - Excellent Facility. Professional Staffs
+[00:30:24] Reviews not matched to a candidate: 1
+[00:30:24]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:30:24] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_19-11-2026.txt
+[00:30:25] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_003024.xlsx
+[00:30:28] Excel file saved - 7 Google Review cell(s) changed in sheet NOV (history: logs\review_history.csv)
+[00:30:28] ========== 19-Nov-2026  Step 6/6: Excel check ==========
+[00:30:30] !! Step 6 failed: RuntimeError: Excel not complete for 19-Nov-2026 - no 'Our Student Y/N': Bharath Krishna, PARAMESHVARAN Chandran, Gunavazhagan B, Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL, Subramaniam R
+[00:30:30]    details saved in logs\error_20261120_003030.txt
+[00:30:30] ========== Summary ==========
+[00:30:30]   Roster + feedback: OK
+[00:30:30]   LinkedIn: OK
+[00:30:30]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[00:30:30]   Certifications: OK
+[00:30:30]   Google reviews: OK
+[00:30:30]   Excel check: FAILED: RuntimeError: Excel not complete for 19-Nov-2026 - no 'Our Student Y/N': Bharath Krishna, PARAMESHVARAN Chandran, Gunavazhagan B, Gnanaraj DHANAPAL Gnanaraj DHANAPA
+[00:30:38] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:30:40] Pearson VUE extension turned on
+[00:30:40] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[00:37:34] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:37:36] Pearson VUE extension turned off
+[00:37:36] ########## Catching up 12-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[00:37:36] ========== 12-Nov-2026  Step 1/6: Roster + feedback ==========
+[00:37:37] === Pearson VUE roster + feedback | Date: 12-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:37:42] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:37:44] Waking up Chrome tabs
+[00:37:48] Connected to Chrome
+[00:37:48] Opening Pearson VUE login page
+[00:37:50] Login submitted
+[00:38:10] Clicked Site Manager
+[00:38:13] Clicked Availability
+[00:38:17] Clicked Roster
+[00:38:23] Set roster date 2026-11-12
+[00:38:27] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[00:38:27] 11 exam(s) on the roster
+[00:38:29]   Aarthi G: 6382521771
+[00:38:33] Set roster date 2026-11-12
+[00:38:37]   M K Ashik Rahuman: 9025883202
+[00:38:41] Set roster date 2026-11-12
+[00:38:45]   Britto Nazarius Louis: 9901002135
+[00:38:48] Set roster date 2026-11-12
+[00:38:53]   Sripriya S: 415-326-6303
+[00:38:56] Set roster date 2026-11-12
+[00:39:01]   M Magesh: 415-326-6303
+[00:39:05] Set roster date 2026-11-12
+[00:39:09]   Premsagar Rao: 8369876492
+[00:39:12] Set roster date 2026-11-12
+[00:39:17]   Amrutha A: 8124065055
+[00:39:19] Set roster date 2026-11-12
+[00:39:24]   SATHYANARAYANAN THIRUVENGADAM: 919940055009
+[00:39:27] Set roster date 2026-11-12
+[00:39:32]   Bashyam Tirumalai Vinjamoor: 415-326-6303
+[00:39:36] Set roster date 2026-11-12
+[00:39:42]   Bharathwajan Sairam: 9944879770
+[00:39:46] Set roster date 2026-11-12
+[00:39:52]   Akshay Ravi: 9840880261
+[00:39:56] Set roster date 2026-11-12
+[00:40:03] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[00:40:06] Waking up Chrome tabs
+[00:40:36] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[00:40:36] Feedback timestamps are month/day
+[00:40:37] 8 feedback response(s) on 2026-11-12
+[00:40:39]   already in sheet: Aarthi G
+[00:40:39]   already in sheet: M K Ashik Rahuman
+[00:40:39]   already in sheet: Britto Nazarius Louis
+[00:40:39]   already in sheet: Sripriya S
+[00:40:39]   already in sheet: M Magesh
+[00:40:39]   already in sheet: Premsagar Rao
+[00:40:39]   already in sheet: Amrutha A
+[00:40:39]   already in sheet: SATHYANARAYANAN THIRUVENGADAM
+[00:40:39]   already in sheet: Bashyam Tirumalai Vinjamoor
+[00:40:39]   already in sheet: Bharathwajan Sairam
+[00:40:39]   already in sheet: Akshay Ravi
+[00:40:39]   feedback 'Aarthi' -> row 59: Aarthi G (matched by email) | phone 6382521771 | aarthigopinath08@gmail.com
+[00:40:39]   feedback 'M K Ashik Rahuman' -> row 60: M K Ashik Rahuman (matched by email) | phone 9025883202 | reachmkashik@gmail.com
+[00:40:39]   feedback 'Britto Louis' -> row 61: Britto Nazarius Louis (matched by email) | phone 9901002135 | britto.louis@gmail.com
+[00:40:39]   feedback 'Sripriya S' -> row 62: Sripriya S (matched by email) | phone 9994182557 | sriswt9@gmail.com
+[00:40:39]   feedback 'M Magesh' -> row 63: M Magesh (matched by email) | phone 9840646579 | magesh.manohar.1982@gmail.com
+[00:40:39]   feedback 'Bashyam Tirumalai Vinjamoor' -> row 67: Bashyam Tirumalai Vinjamoor (matched by email) | phone 7550165993 | btvforpm@gmail.com
+[00:40:39]   feedback 'Bharath' -> row 68: Bharathwajan Sairam (matched by email) | phone 9944879770 | bharath0290@gmail.com
+[00:40:39]   ! feedback not matched to any row (not on the roster?): Hema | 9597523527 | shemavathy2611@gmail.com
+[00:40:39] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[00:40:39] Nothing changed - Excel file not saved
+[00:40:39] Pearson VUE part done
+[00:40:39] Closed 3 Chrome tab(s) this step opened
+[00:40:39] ========== 12-Nov-2026  Step 2/6: LinkedIn ==========
+[00:40:39] === LinkedIn from Outlook
+[00:40:40] Sheet NOV: 3 person(s) without a LinkedIn Id on 12-Nov-2026
+[00:40:40]   row 64: Premsagar Rao | (no email) | (no company)
+[00:40:40]   row 65: Amrutha A | (no email) | (no company)
+[00:40:40]   row 66: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[00:40:44] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:40:46] Waking up Chrome tabs
+[00:40:54] Clicked New mail
+[00:40:58] [1/3] Premsagar Rao: no email - left for the Google search
+[00:40:58] [2/3] Amrutha A: no email - left for the Google search
+[00:40:58] [3/3] SATHYANARAYANAN THIRUVENGADAM: no email - left for the Google search
+[00:40:59] --- Google search for 3 person(s) still without a LinkedIn Id
+[00:40:59] [Google 1/3] Premsagar Rao: no usable company name in the sheet ('') - skipped
+[00:40:59] [Google 2/3] Amrutha A: no usable company name in the sheet ('') - skipped
+[00:40:59] [Google 3/3] SATHYANARAYANAN THIRUVENGADAM: no usable company name in the sheet ('') - skipped
+[00:41:03] Draft discarded
+[00:41:03] LinkedIn found for 0 of 3 person(s)
+[00:41:03]   ! not found: Premsagar Rao | (no email) | (no company)
+[00:41:03]   ! not found: Amrutha A | (no email) | (no company)
+[00:41:03]   ! not found: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[00:41:03] No LinkedIn URLs found - Excel file not changed
+[00:41:03] LinkedIn part done
+[00:41:03] Closed 1 Chrome tab(s) this step opened
+[00:41:03] ========== 12-Nov-2026  Step 3/6: Our Student ==========
+[00:41:03] === Our Student check in Adv Pro
+[00:41:04] Sheet NOV: 11 phone number(s) without 'Our Student Y/N' on 12-Nov-2026
+[00:41:08] Adv Pro is already open
+[00:41:08] No 'Our Student Y/N' to write - Excel file not changed
+[00:41:08] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[00:41:08]    details saved in logs\error_20261120_004108.txt
+[00:41:08] ========== 12-Nov-2026  Step 4/6: Certifications ==========
+[00:41:08] === Certifications from LinkedIn
+[00:41:09] Sheet NOV: 6 LinkedIn profile(s) not checked yet on 12-Nov-2026
+[00:41:13] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:41:16] Waking up Chrome tabs
+[00:41:17] [1/6] Aarthi G | https://www.linkedin.com/in/aarthi-g-8b048b369/
+[00:41:53]     certifications: (none of ours)
+[00:41:58] [2/6] M K Ashik Rahuman | https://www.linkedin.com/in/m-k-ashik-rahuman-25136728a/
+[00:42:21]     certifications: (none of ours)
+[00:42:26] [3/6] Britto Nazarius Louis | https://www.linkedin.com/in/brittolouis/
+[00:42:55]     certifications: (none of ours)
+[00:43:01] [4/6] Sripriya S | https://www.linkedin.com/in/sripriya-s-25997a73/
+[00:43:27]     certifications: (none of ours)
+[00:43:33] [5/6] M Magesh | https://www.linkedin.com/in/magesh-manohar-5b314b329/
+[00:44:23]     certifications: (none of ours)
+[00:44:37] [6/6] Akshay Ravi | https://www.linkedin.com/in/akshay-j-p/
+[00:45:14]     certifications: (none of ours)
+[00:45:20] No certifications to write - Excel file not changed
+[00:45:20] Certifications part done
+[00:45:20] Closed 1 Chrome tab(s) this step opened
+[00:45:20] ========== 12-Nov-2026  Step 5/6: Google reviews ==========
+[00:45:30] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:45:32] Waking up Chrome tabs
+[00:45:44] Google Maps: Reviews -> Sort -> Newest
+[00:45:53] 25 Google review(s) in the last 194 hours
+[00:45:53]   Subramaniam Ravishankar | 4 star | an hour ago | Testing was good and no distractions
+[00:45:53]   Bharath Krishna | 5 star | 13 hours ago | Excellent Facility. Professional Staffs
+[00:45:53]   Madhuri Gopal | 5 star | a day ago | Test started on time. Good ventilation , lighting overall excellent
+[00:45:53]   Aruna Nainappan | 5 star | Edited a day ago | Technical glitch while submitting
+[00:45:53]   Sadhan Kumar K | 5 star | 3 days ago | 
+[00:45:53]   Deepika M | 5 star | 4 days ago | 
+[00:45:53]   Harish S | 4 star | 4 days ago | 
+[00:45:53]   G Nagalingam | 5 star | 4 days ago | It is wonderful to attend the class in advantange pro.
+[00:45:53]   Gowri S | 5 star | 5 days ago | 
+[00:45:53]   Akshay J P | 5 star | 6 days ago | 
+[00:45:53]   Bharathwajan Sairam | 5 star | a week ago | 
+[00:45:53]   Britto Louis | 5 star | a week ago | 
+[00:45:53]   M.K. Ashik Rahuman | 5 star | a week ago | Good Centre with proper guidance
+[00:45:53]   Aarthi Gopinath | 5 star | a week ago | Good support for exam
+[00:45:53]   Sahl Baig | 5 star | a week ago | Good
+[00:45:53]   Shiva Kumar | 5 star | a week ago | Nice experience to write exam in the center
+[00:45:53]   Anand Thukkaram | 4 star | Edited a week ago | 
+[00:45:53]   Harini Karthikeyan | 4 star | a week ago | 
+[00:45:53]   Abhitha Dharmaraj | 5 star | a week ago | I attended my CIMA- MCS exam in this centre. This centre provides priv
+[00:45:53]   Santhoshraja Prakasam | 5 star | a week ago | I recently completed the DO280 course with Advantage Pro, conducted by
+[00:45:53]   Pavithra | 4 star | a week ago | Its good place to learn the Redhat concept. Trainer explained the conc
+[00:45:53]   Ancy Valiyaveettil | 5 star | a week ago | 
+[00:45:53]   rakhesh bowtham | 5 star | a week ago | 
+[00:45:53]   Guru Krishnamoorthy | 5 star | a week ago | Excellent
+[00:45:53]   Abilash S | 5 star | a week ago | Great
+[00:45:55]   row 68 Bharathwajan Sairam: Google Review already filled ('Received', review by Bharathwajan Sairam)
+[00:45:55]   row 61 Britto Nazarius Louis: Google Review already filled ('Received', review by Britto Louis)
+[00:45:55]   row 60 M K Ashik Rahuman: Google Review already filled ('Received', review by M.K. Ashik Rahuman)
+[00:45:55]   row 59 Aarthi G: Google Review already filled ('Received', review by Aarthi Gopinath)
+[00:45:55]   row 57 Sahl Baig: Google Review already filled ('Received', review by Sahl Baig)
+[00:45:55]   row 53 Shiva Kumar M: Google Review already filled ('Received', review by Shiva Kumar)
+[00:45:55]   row 54 Anand Thukkaram: Google Review already filled ('Received', review by Anand Thukkaram)
+[00:45:55]   row 52 HARINI K karthikeyan: Google Review already filled ('Received', review by Harini Karthikeyan)
+[00:45:55]   row 43 Rakhesh Bowtham C R R: Google Review already filled ('Received', review by rakhesh bowtham)
+[00:45:55]   row 36 Abilash S: Google Review already filled ('Received', review by Abilash S)
+[00:45:55] 15 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:45:55]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:45:55]     - Bharath Krishna | 5 star | 13 hours ago
+[00:45:55]     - Madhuri Gopal | 5 star | a day ago
+[00:45:55]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:45:55]     - Sadhan Kumar K | 5 star | 3 days ago
+[00:45:55]     - Deepika M | 5 star | 4 days ago
+[00:45:55]     - Harish S | 4 star | 4 days ago
+[00:45:55]     - G Nagalingam | 5 star | 4 days ago
+[00:45:55]     - Gowri S | 5 star | 5 days ago
+[00:45:55]     - Akshay J P | 5 star | 6 days ago
+[00:45:55]     - Abhitha Dharmaraj | 5 star | a week ago
+[00:45:55]     - Santhoshraja Prakasam | 5 star | a week ago
+[00:45:55]     - Pavithra | 4 star | a week ago
+[00:45:55]     - Ancy Valiyaveettil | 5 star | a week ago
+[00:45:55]     - Guru Krishnamoorthy | 5 star | a week ago
+[00:45:55] ===== Google Review report - 12-Nov-2026 (sheet NOV) =====
+[00:45:55]                         Day   Month
+[00:45:55] Total candidates         11      64
+[00:45:55] Genuine reviews           4      10
+[00:45:55] Pending                   7      54
+[00:45:55] Reminder Sent             0       0
+[00:45:55] Unable to Verify          0       0
+[00:45:55] Review percentage       36%     15%
+[00:45:55] New reviews received this run: 0
+[00:45:55] Reviews not matched to a candidate: 15
+[00:45:55]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:45:55]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:45:55]    ? Madhuri Gopal - 5 star - a day ago
+[00:45:55]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:45:55]    ? Sadhan Kumar K - 5 star - 3 days ago
+[00:45:55]    ? Deepika M - 5 star - 4 days ago
+[00:45:55]    ? Harish S - 4 star - 4 days ago
+[00:45:55]    ? G Nagalingam - 5 star - 4 days ago
+[00:45:55]    ? Gowri S - 5 star - 5 days ago
+[00:45:55]    ? Akshay J P - 5 star - 6 days ago
+[00:45:55]    ? Abhitha Dharmaraj - 5 star - a week ago
+[00:45:55]    ? Santhoshraja Prakasam - 5 star - a week ago
+[00:45:55]    ? Pavithra - 4 star - a week ago
+[00:45:55]    ? Ancy Valiyaveettil - 5 star - a week ago
+[00:45:55]    ? Guru Krishnamoorthy - 5 star - a week ago
+[00:45:56] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_12-11-2026.txt
+[00:45:56] Nothing new to write - Excel file not changed
+[00:45:56] Closed 1 Chrome tab(s) this step opened
+[00:45:56] ========== 12-Nov-2026  Step 6/6: Excel check ==========
+[00:45:58] !! Step 6 failed: RuntimeError: Excel not complete for 12-Nov-2026 - no 'Our Student Y/N': Aarthi G, M K Ashik Rahuman, Britto Nazarius Louis, Sripriya S, M Magesh, Premsagar Rao, Amrutha A, SATHYANARAYANAN THIRUVENGADAM, Bashyam Tirumalai Vinjamoor, Bharathwajan Sairam, Akshay Ravi
+[00:45:58]    details saved in logs\error_20261120_004558.txt
+[00:45:58] ========== Summary ==========
+[00:45:58]   Roster + feedback: OK
+[00:45:58]   LinkedIn: OK
+[00:45:58]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[00:45:58]   Certifications: OK
+[00:45:58]   Google reviews: OK
+[00:45:58]   Excel check: FAILED: RuntimeError: Excel not complete for 12-Nov-2026 - no 'Our Student Y/N': Aarthi G, M K Ashik Rahuman, Britto Nazarius Louis, Sripriya S, M Magesh, Premsagar Rao, Am
+[00:45:58] ########## 12-Nov-2026: still not complete - tried again next time
+[00:45:58] ########## Catching up 16-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[00:45:58] ========== 16-Nov-2026  Step 1/6: Roster + feedback ==========
+[00:45:58] === Pearson VUE roster + feedback | Date: 16-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:46:02] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:46:03] Waking up Chrome tabs
+[00:46:04] Opening Pearson VUE login page
+[00:46:06] Login submitted
+[00:46:26] Clicked Site Manager
+[00:46:28] Clicked Availability
+[00:46:33] Clicked Roster
+[00:46:37] Set roster date 2026-11-16
+[00:46:41] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[00:46:41] 8 exam(s) on the roster
+[00:46:43]   Kavya D: 415-326-6303
+[00:46:47] Set roster date 2026-11-16
+[00:46:52]   Karthikeyan Rajan: 415-326-6303
+[00:46:56] Set roster date 2026-11-16
+[00:47:01]   Manoj Kumar B: 7299892570
+[00:47:05] Set roster date 2026-11-16
+[00:47:09]   Nithya R: 6381129951
+[00:47:13] Set roster date 2026-11-16
+[00:47:17]   Poornima Kannuchamy: 9566024347
+[00:47:20] Set roster date 2026-11-16
+[00:47:24]   Arun N: 9884980929
+[00:47:27] Set roster date 2026-11-16
+[00:47:33]   MONISHA PARAMASIVAM: 7402353712
+[00:47:36] Set roster date 2026-11-16
+[00:47:42]   Sadhan Kumar K: 415-326-6303
+[00:47:45] Set roster date 2026-11-16
+[00:47:52] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[00:47:53] Waking up Chrome tabs
+[00:48:13] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[00:48:13] Feedback timestamps are month/day
+[00:48:13] 5 feedback response(s) on 2026-11-16
+[00:48:18]   already in sheet: Kavya D
+[00:48:18]   already in sheet: Karthikeyan Rajan
+[00:48:18]   already in sheet: Manoj Kumar B
+[00:48:18]   already in sheet: Nithya R
+[00:48:18]   already in sheet: Poornima Kannuchamy
+[00:48:18]   already in sheet: Arun N
+[00:48:18]   already in sheet: MONISHA PARAMASIVAM
+[00:48:18]   already in sheet: Sadhan Kumar K
+[00:48:18]   feedback 'Nithya.R' -> row 100: Nithya Ramanathan (matched by email) | phone 6381129951 | nithyaramanathan1133@gmail.com
+[00:48:18]   feedback 'Poornima Kannuchamy' -> row 101: Poornima Kannuchamy (matched by email) | phone 9566024347 | pooriuntamedbluemoon@gmail.com
+[00:48:18]   feedback 'Arun N' -> row 102: Arun N (matched by email) | phone 9884980929 | yournura@gmail.com
+[00:48:18]   feedback 'Sadhan Kumar K' -> row 104: Sadhan Kumar K (matched by email) | phone 9677247728 | sadhankkumar@gmail.com
+[00:48:18]   ! feedback not matched to any row (not on the roster?): Barty Srujan | 7879860107 | bartysrujan@gmail.com
+[00:48:18] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[00:48:18] Nothing changed - Excel file not saved
+[00:48:18] Pearson VUE part done
+[00:48:18] Closed 4 Chrome tab(s) this step opened
+[00:48:18] ========== 16-Nov-2026  Step 2/6: LinkedIn ==========
+[00:48:19] === LinkedIn from Outlook
+[00:48:20] Sheet NOV: 5 person(s) without a LinkedIn Id on 16-Nov-2026
+[00:48:20]   row 97: Kavya D | (no email) | (no company)
+[00:48:20]   row 98: Karthikeyan Rajan | (no email) | (no company)
+[00:48:20]   row 99: Manoj Kumar B | (no email) | (no company)
+[00:48:20]   row 103: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[00:48:20]   row 125: Nithya R | (no email) | (no company)
+[00:48:24] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:48:26] Waking up Chrome tabs
+[00:48:33] Clicked New mail
+[00:48:37] [1/5] Kavya D: no email - left for the Google search
+[00:48:37] [2/5] Karthikeyan Rajan: no email - left for the Google search
+[00:48:37] [3/5] Manoj Kumar B: no email - left for the Google search
+[00:48:37] [4/5] MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com
+[00:48:55]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:48:55]     LinkedIn: (not found)
+[00:48:57] [5/5] Nithya R: no email - left for the Google search
+[00:48:58] --- Google search for 5 person(s) still without a LinkedIn Id
+[00:48:58] [Google 1/5] Kavya D: no usable company name in the sheet ('') - skipped
+[00:48:58] [Google 2/5] Karthikeyan Rajan: no usable company name in the sheet ('') - skipped
+[00:48:58] [Google 3/5] Manoj Kumar B: no usable company name in the sheet ('') - skipped
+[00:48:58] [Google 4/5] MONISHA PARAMASIVAM: MONISHA PARAMASIVAM @ PSU linkedin profile
+[00:49:53]     not a match - profile 'Monisha Paramasivam': name ok, company not found - skipped
+[00:50:01] [Google 5/5] Nithya R: no usable company name in the sheet ('') - skipped
+[00:50:06] Draft discarded
+[00:50:06] LinkedIn found for 0 of 5 person(s)
+[00:50:06]   ! not found: Kavya D | (no email) | (no company)
+[00:50:06]   ! not found: Karthikeyan Rajan | (no email) | (no company)
+[00:50:06]   ! not found: Manoj Kumar B | (no email) | (no company)
+[00:50:06]   ! not found: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[00:50:06]   ! not found: Nithya R | (no email) | (no company)
+[00:50:06] No LinkedIn URLs found - Excel file not changed
+[00:50:06] LinkedIn part done
+[00:50:06] Closed 1 Chrome tab(s) this step opened
+[00:50:06] ========== 16-Nov-2026  Step 3/6: Our Student ==========
+[00:50:07] === Our Student check in Adv Pro
+[00:50:09] Sheet NOV: 9 phone number(s) without 'Our Student Y/N' on 16-Nov-2026
+[00:50:11] Adv Pro is already open
+[00:50:11] No 'Our Student Y/N' to write - Excel file not changed
+[00:50:11] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[00:50:11]    details saved in logs\error_20261120_005011.txt
+[00:50:11] ========== 16-Nov-2026  Step 4/6: Certifications ==========
+[00:50:11] === Certifications from LinkedIn
+[00:50:13] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 16-Nov-2026
+[00:50:13] ========== 16-Nov-2026  Step 5/6: Google reviews ==========
+[00:50:13] 8 Google review(s) in the last 98 hours (read earlier in this run)
+[00:50:14]   row 104 Sadhan Kumar K: Google Review already filled ('y', review by Sadhan Kumar K)
+[00:50:14] 7 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:50:14]     - Subramaniam Ravishankar | 4 star | an hour ago
+[00:50:14]     - Bharath Krishna | 5 star | 13 hours ago
+[00:50:14]     - Madhuri Gopal | 5 star | a day ago
+[00:50:14]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:50:14]     - Deepika M | 5 star | 4 days ago
+[00:50:14]     - Harish S | 4 star | 4 days ago
+[00:50:14]     - G Nagalingam | 5 star | 4 days ago
+[00:50:14] ===== Google Review report - 16-Nov-2026 (sheet NOV) =====
+[00:50:14]                         Day   Month
+[00:50:14] Total candidates          9     100
+[00:50:14] Genuine reviews           1      12
+[00:50:14] Pending                   8      88
+[00:50:14] Reminder Sent             0       0
+[00:50:14] Unable to Verify          0       0
+[00:50:14] Review percentage       11%     12%
+[00:50:14] New reviews received this run: 0
+[00:50:14] Reviews not matched to a candidate: 7
+[00:50:14]    ? Subramaniam Ravishankar - 4 star - an hour ago
+[00:50:14]    ? Bharath Krishna - 5 star - 13 hours ago
+[00:50:14]    ? Madhuri Gopal - 5 star - a day ago
+[00:50:14]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:50:14]    ? Deepika M - 5 star - 4 days ago
+[00:50:14]    ? Harish S - 4 star - 4 days ago
+[00:50:14]    ? G Nagalingam - 5 star - 4 days ago
+[00:50:14] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_16-11-2026.txt
+[00:50:14] Nothing new to write - Excel file not changed
+[00:50:14] ========== 16-Nov-2026  Step 6/6: Excel check ==========
+[00:50:16] !! Step 6 failed: RuntimeError: Excel not complete for 16-Nov-2026 - no 'Our Student Y/N': Kavya D, Karthikeyan Rajan, Manoj Kumar B, Nithya Ramanathan, Poornima Kannuchamy, Arun N, MONISHA PARAMASIVAM, Sadhan Kumar K, Nithya R
+[00:50:16]    details saved in logs\error_20261120_005016.txt
+[00:50:16] ========== Summary ==========
+[00:50:16]   Roster + feedback: OK
+[00:50:16]   LinkedIn: OK
+[00:50:16]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[00:50:16]   Certifications: OK
+[00:50:16]   Google reviews: OK
+[00:50:16]   Excel check: FAILED: RuntimeError: Excel not complete for 16-Nov-2026 - no 'Our Student Y/N': Kavya D, Karthikeyan Rajan, Manoj Kumar B, Nithya Ramanathan, Poornima Kannuchamy, Arun N, 
+[00:50:16] ########## 16-Nov-2026: still not complete - tried again next time
+[00:50:16] ========== 19-Nov-2026  Step 1/6: Roster + feedback ==========
+[00:50:16] === Pearson VUE roster + feedback | Date: 19-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[00:50:21] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:50:22] Waking up Chrome tabs
+[00:50:23] Opening Pearson VUE login page
+[00:50:40] Login submitted
+[00:51:00] Clicked Site Manager
+[00:51:02] Clicked Availability
+[00:51:07] Clicked Roster
+[00:51:12] Set roster date 2026-11-19
+[00:51:16] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[00:51:16] 7 exam(s) on the roster
+[00:51:19]   Mullai Arasu: 415-326-6303
+[00:51:24] Set roster date 2026-11-19
+[00:51:29]   Bharath Krishna: 9941556413
+[00:51:32] Set roster date 2026-11-19
+[00:51:38]   PARAMESHVARAN Chandran: 415-326-6303
+[00:51:41] Set roster date 2026-11-19
+[00:51:47]   Jubin James: 415-326-6303
+[00:51:50] Set roster date 2026-11-19
+[00:51:54]   Gunavazhagan B: 6381864628
+[00:51:58] Set roster date 2026-11-19
+[00:52:03]   Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: 9894505024
+[00:52:09] Set roster date 2026-11-19
+[00:52:14]   Subramaniam R: 9884349009
+[00:52:19] Set roster date 2026-11-19
+[00:52:28] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[00:52:36] Waking up Chrome tabs
+[00:53:11] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[00:53:11] Feedback timestamps are month/day
+[00:53:11] 6 feedback response(s) on 2026-11-19
+[00:53:28]   already in sheet: Mullai Arasu
+[00:53:28]   already in sheet: Bharath Krishna
+[00:53:28]   already in sheet: PARAMESHVARAN Chandran
+[00:53:28]   already in sheet: Jubin James
+[00:53:28]   already in sheet: Gunavazhagan B
+[00:53:28]   already in sheet: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL
+[00:53:28]   already in sheet: Subramaniam R
+[00:53:28]   feedback 'Bharath Krishna' -> row 127: Bharath Krishna (matched by email) | phone 9941556413 | barat.krishv@gmail.com
+[00:53:28]   feedback 'C Parameshvaran' -> row 128: PARAMESHVARAN Chandran (matched by email) | phone 9884495639 | paramesh.mba@gmail.com
+[00:53:28]   feedback 'Gunavazhagan B' -> row 130: Gunavazhagan B (matched by email) | phone 6381864628 | bgunavazhagan3@gmail.com
+[00:53:28]   feedback 'Gnanaraj' -> row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL (matched by email) | phone 9894505024 | md.gnanaraj@gmail.com
+[00:53:28]   feedback 'Subramaniam Ravishankar' -> row 132: Subramaniam R (matched by email) | phone 9884349009 | subbunique39@gmail.com
+[00:53:28]   ! feedback not matched to any row (not on the roster?): Rajesh M | 9952026861 | rajeshm.it2003@gmail.com
+[00:53:28] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[00:53:28] Nothing changed - Excel file not saved
+[00:53:28] Pearson VUE part done
+[00:53:28] Closed 4 Chrome tab(s) this step opened
+[00:53:28] ========== 19-Nov-2026  Step 2/6: LinkedIn ==========
+[00:53:28] === LinkedIn from Outlook
+[00:53:30] Sheet NOV: 6 person(s) without a LinkedIn Id on 19-Nov-2026
+[00:53:30]   row 126: Mullai Arasu | (no email) | (no company)
+[00:53:30]   row 128: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[00:53:30]   row 129: Jubin James | (no email) | (no company)
+[00:53:30]   row 130: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[00:53:30]   row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[00:53:30]   row 132: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[00:53:34] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:53:35] Waking up Chrome tabs
+[00:53:46] Clicked New mail
+[00:53:50] [1/6] Mullai Arasu: no email - left for the Google search
+[00:53:50] [2/6] PARAMESHVARAN Chandran | paramesh.mba@gmail.com
+[00:54:08]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:54:08]     LinkedIn: (not found)
+[00:54:10] [3/6] Jubin James: no email - left for the Google search
+[00:54:10] [4/6] Gunavazhagan B | bgunavazhagan3@gmail.com
+[00:54:27]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:54:27]     LinkedIn: (not found)
+[00:54:29] [5/6] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com
+[00:54:46]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:54:46]     LinkedIn: (not found)
+[00:54:48] [6/6] Subramaniam R | subbunique39@gmail.com
+[00:55:04]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[00:55:04]     LinkedIn: (not found)
+[00:55:08] --- Google search for 6 person(s) still without a LinkedIn Id
+[00:55:08] [Google 1/6] Mullai Arasu: no usable company name in the sheet ('') - skipped
+[00:55:08] [Google 2/6] PARAMESHVARAN Chandran: PARAMESHVARAN Chandran @ Accenture linkedin profile
+[00:55:56]     not a match - profile 'Parameshwaran Ramachandran': name different, company found - skipped
+[00:56:04] [Google 3/6] Jubin James: no usable company name in the sheet ('') - skipped
+[00:56:04] [Google 4/6] Gunavazhagan B: no usable company name in the sheet ('Student') - skipped
+[00:56:04] [Google 5/6] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL @ BNP Parivar Bank linkedin profile
+[00:56:40]     not a match - profile 'Gnanaraj Dhanapal': name ok, company not found - skipped
+[00:56:48] [Google 6/6] Subramaniam R: Subramaniam R @ Tata Consultancy Services (TCS) linkedin profile
+[00:57:29]     not a match - profile 'Subramanyam R.': name different, company found - skipped
+[00:57:42] Draft discarded
+[00:57:42] LinkedIn found for 0 of 6 person(s)
+[00:57:42]   ! not found: Mullai Arasu | (no email) | (no company)
+[00:57:42]   ! not found: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[00:57:42]   ! not found: Jubin James | (no email) | (no company)
+[00:57:42]   ! not found: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[00:57:42]   ! not found: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[00:57:42]   ! not found: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[00:57:42] No LinkedIn URLs found - Excel file not changed
+[00:57:42] LinkedIn part done
+[00:57:43] Closed 1 Chrome tab(s) this step opened
+[00:57:43] ========== 19-Nov-2026  Step 3/6: Our Student ==========
+[00:57:43] === Our Student check in Adv Pro
+[00:57:46]   Mullai Arasu: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:57:46]   Jubin James: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[00:57:46] Sheet NOV: 5 phone number(s) without 'Our Student Y/N' on 19-Nov-2026
+[00:57:47] Adv Pro is already open
+[00:57:47] No 'Our Student Y/N' to write - Excel file not changed
+[00:57:47] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[00:57:47]    details saved in logs\error_20261120_005747.txt
+[00:57:47] ========== 19-Nov-2026  Step 4/6: Certifications ==========
+[00:57:47] === Certifications from LinkedIn
+[00:57:48] Sheet NOV: 1 LinkedIn profile(s) not checked yet on 19-Nov-2026
+[00:57:52] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[00:57:53] Waking up Chrome tabs
+[00:57:55] [1/1] Bharath Krishna | https://www.linkedin.com/in/bharath-krishna-venkitaraman-b6a4a179/
+[00:58:31]     certifications: (none of ours)
+[00:58:36] No certifications to write - Excel file not changed
+[00:58:36] Certifications part done
+[00:58:38] Closed 2 Chrome tab(s) this step opened
+[00:58:38] ========== 19-Nov-2026  Step 5/6: Google reviews ==========
+[00:58:38] 4 Google review(s) in the last 26 hours (read earlier in this run)
+[00:58:41]   row 132 Subramaniam R: Google Review already filled ('Received', review by Subramaniam Ravishankar)
+[00:58:41]   row 127 Bharath Krishna: Google Review already filled ('Received', review by Bharath Krishna)
+[00:58:41]   row 121 Madhuri Gopal: Google Review already filled ('y', review by Madhuri Gopal)
+[00:58:41] 1 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[00:58:41]     - Aruna Nainappan | 5 star | Edited a day ago
+[00:58:41] ===== Google Review report - 19-Nov-2026 (sheet NOV) =====
+[00:58:41]                         Day   Month
+[00:58:41] Total candidates          7     127
+[00:58:41] Genuine reviews           2      16
+[00:58:41] Pending                   5     111
+[00:58:41] Reminder Sent             0       0
+[00:58:41] Unable to Verify          0       0
+[00:58:41] Review percentage       28%     12%
+[00:58:41] New reviews received this run: 0
+[00:58:41] Reviews not matched to a candidate: 1
+[00:58:41]    ? Aruna Nainappan - 5 star - Edited a day ago
+[00:58:41] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_19-11-2026.txt
+[00:58:41] Nothing new to write - Excel file not changed
+[00:58:41] ========== 19-Nov-2026  Step 6/6: Excel check ==========
+[00:58:42] !! Step 6 failed: RuntimeError: Excel not complete for 19-Nov-2026 - no 'Our Student Y/N': Bharath Krishna, PARAMESHVARAN Chandran, Gunavazhagan B, Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL, Subramaniam R
+[00:58:42]    details saved in logs\error_20261120_005842.txt
+[00:58:42] ========== Summary ==========
+[00:58:42]   Roster + feedback: OK
+[00:58:42]   LinkedIn: OK
+[00:58:42]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[00:58:42]   Certifications: OK
+[00:58:42]   Google reviews: OK
+[00:58:42]   Excel check: FAILED: RuntimeError: Excel not complete for 19-Nov-2026 - no 'Our Student Y/N': Bharath Krishna, PARAMESHVARAN Chandran, Gunavazhagan B, Gnanaraj DHANAPAL Gnanaraj DHANAPA
+[00:58:51] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[00:58:53] Pearson VUE extension turned on
+[00:58:53] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:04:28] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:04:30] Pearson VUE extension turned off
+[01:04:30] ########## Catching up 12-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[01:04:30] ========== 12-Nov-2026  Step 1/6: Roster + feedback ==========
+[01:04:30] === Pearson VUE roster + feedback | Date: 12-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:04:34] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:04:35] Waking up Chrome tabs
+[01:04:37] Connected to Chrome
+[01:04:37] Opening Pearson VUE login page
+[01:04:39] Login submitted
+[01:04:59] Clicked Site Manager
+[01:05:01] Clicked Availability
+[01:05:06] Clicked Roster
+[01:05:13] Set roster date 2026-11-12
+[01:05:17] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[01:05:17] 11 exam(s) on the roster
+[01:05:20]   Aarthi G: 6382521771
+[01:05:23] Set roster date 2026-11-12
+[01:05:28]   M K Ashik Rahuman: 9025883202
+[01:05:32] Set roster date 2026-11-12
+[01:05:37]   Britto Nazarius Louis: 9901002135
+[01:05:41] Set roster date 2026-11-12
+[01:05:45]   Sripriya S: 415-326-6303
+[01:05:48] Set roster date 2026-11-12
+[01:05:53]   M Magesh: 415-326-6303
+[01:05:56] Set roster date 2026-11-12
+[01:06:00]   Premsagar Rao: 8369876492
+[01:06:04] Set roster date 2026-11-12
+[01:06:09]   Amrutha A: 8124065055
+[01:06:13] Set roster date 2026-11-12
+[01:06:18]   SATHYANARAYANAN THIRUVENGADAM: 919940055009
+[01:06:21] Set roster date 2026-11-12
+[01:06:27]   Bashyam Tirumalai Vinjamoor: 415-326-6303
+[01:06:30] Set roster date 2026-11-12
+[01:06:35]   Bharathwajan Sairam: 9944879770
+[01:06:39] Set roster date 2026-11-12
+[01:06:44]   Akshay Ravi: 9840880261
+[01:06:47] Set roster date 2026-11-12
+[01:06:54] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[01:06:56] Waking up Chrome tabs
+[01:07:14] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[01:07:14] Feedback timestamps are month/day
+[01:07:14] 8 feedback response(s) on 2026-11-12
+[01:07:17]   already in sheet: Aarthi G
+[01:07:17]   already in sheet: M K Ashik Rahuman
+[01:07:17]   already in sheet: Britto Nazarius Louis
+[01:07:17]   already in sheet: Sripriya S
+[01:07:17]   already in sheet: M Magesh
+[01:07:17]   already in sheet: Premsagar Rao
+[01:07:17]   already in sheet: Amrutha A
+[01:07:17]   already in sheet: SATHYANARAYANAN THIRUVENGADAM
+[01:07:17]   already in sheet: Bashyam Tirumalai Vinjamoor
+[01:07:17]   already in sheet: Bharathwajan Sairam
+[01:07:17]   already in sheet: Akshay Ravi
+[01:07:17]   feedback 'Aarthi' -> row 59: Aarthi G (matched by email) | phone 6382521771 | aarthigopinath08@gmail.com
+[01:07:17]   feedback 'M K Ashik Rahuman' -> row 60: M K Ashik Rahuman (matched by email) | phone 9025883202 | reachmkashik@gmail.com
+[01:07:17]   feedback 'Britto Louis' -> row 61: Britto Nazarius Louis (matched by email) | phone 9901002135 | britto.louis@gmail.com
+[01:07:17]   feedback 'Sripriya S' -> row 62: Sripriya S (matched by email) | phone 9994182557 | sriswt9@gmail.com
+[01:07:17]   feedback 'M Magesh' -> row 63: M Magesh (matched by email) | phone 9840646579 | magesh.manohar.1982@gmail.com
+[01:07:17]   feedback 'Bashyam Tirumalai Vinjamoor' -> row 67: Bashyam Tirumalai Vinjamoor (matched by email) | phone 7550165993 | btvforpm@gmail.com
+[01:07:17]   feedback 'Bharath' -> row 68: Bharathwajan Sairam (matched by email) | phone 9944879770 | bharath0290@gmail.com
+[01:07:17]   ! feedback not matched to any row (not on the roster?): Hema | 9597523527 | shemavathy2611@gmail.com
+[01:07:17] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[01:07:17] Nothing changed - Excel file not saved
+[01:07:17] Pearson VUE part done
+[01:07:17] Closed 3 Chrome tab(s) this step opened
+[01:07:17] ========== 12-Nov-2026  Step 2/6: LinkedIn ==========
+[01:07:17] === LinkedIn from Outlook
+[01:07:18] Sheet NOV: 3 person(s) without a LinkedIn Id on 12-Nov-2026
+[01:07:18]   row 64: Premsagar Rao | (no email) | (no company)
+[01:07:18]   row 65: Amrutha A | (no email) | (no company)
+[01:07:18]   row 66: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[01:07:23] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:07:24] Waking up Chrome tabs
+[01:07:32] Clicked New mail
+[01:07:41] [1/3] Premsagar Rao: no email - left for the Google search
+[01:07:41] [2/3] Amrutha A: no email - left for the Google search
+[01:07:41] [3/3] SATHYANARAYANAN THIRUVENGADAM: no email - left for the Google search
+[01:07:41] --- Google search for 3 person(s) still without a LinkedIn Id
+[01:07:41] [Google 1/3] Premsagar Rao: no usable company name in the sheet ('') - skipped
+[01:07:41] [Google 2/3] Amrutha A: no usable company name in the sheet ('') - skipped
+[01:07:41] [Google 3/3] SATHYANARAYANAN THIRUVENGADAM: no usable company name in the sheet ('') - skipped
+[01:07:45] Draft discarded
+[01:07:45] LinkedIn found for 0 of 3 person(s)
+[01:07:45]   ! not found: Premsagar Rao | (no email) | (no company)
+[01:07:45]   ! not found: Amrutha A | (no email) | (no company)
+[01:07:45]   ! not found: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[01:07:45] No LinkedIn URLs found - Excel file not changed
+[01:07:45] LinkedIn part done
+[01:07:45] Closed 1 Chrome tab(s) this step opened
+[01:07:45] ========== 12-Nov-2026  Step 3/6: Our Student ==========
+[01:07:45] === Our Student check in Adv Pro
+[01:07:47] Sheet NOV: 11 phone number(s) without 'Our Student Y/N' on 12-Nov-2026
+[01:07:50] Adv Pro is already open
+[01:07:50] No 'Our Student Y/N' to write - Excel file not changed
+[01:07:50] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[01:07:50]    details saved in logs\error_20261120_010750.txt
+[01:07:50] ========== 12-Nov-2026  Step 4/6: Certifications ==========
+[01:07:50] === Certifications from LinkedIn
+[01:07:51] Sheet NOV: 6 LinkedIn profile(s) not checked yet on 12-Nov-2026
+[01:07:56] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:07:57] Waking up Chrome tabs
+[01:08:01] [1/6] Aarthi G | https://www.linkedin.com/in/aarthi-g-8b048b369/
+[01:08:40]     certifications: (none of ours)
+[01:08:45] [2/6] M K Ashik Rahuman | https://www.linkedin.com/in/m-k-ashik-rahuman-25136728a/
+[01:09:20]     certifications: (none of ours)
+[01:09:25] [3/6] Britto Nazarius Louis | https://www.linkedin.com/in/brittolouis/
+[01:09:50]     certifications: (none of ours)
+[01:09:55] [4/6] Sripriya S | https://www.linkedin.com/in/sripriya-s-25997a73/
+[01:10:22]     certifications: (none of ours)
+[01:10:27] [5/6] M Magesh | https://www.linkedin.com/in/magesh-manohar-5b314b329/
+[01:10:46]     certifications: (none of ours)
+[01:10:51] [6/6] Akshay Ravi | https://www.linkedin.com/in/akshay-j-p/
+[01:11:10]     certifications: (none of ours)
+[01:11:17] No certifications to write - Excel file not changed
+[01:11:17] Certifications part done
+[01:11:18] Closed 1 Chrome tab(s) this step opened
+[01:11:18] ========== 12-Nov-2026  Step 5/6: Google reviews ==========
+[01:11:24] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:11:25] Waking up Chrome tabs
+[01:11:36] Google Maps: Reviews -> Sort -> Newest
+[01:11:45] 25 Google review(s) in the last 194 hours
+[01:11:45]   Subramaniam Ravishankar | 4 star | 2 hours ago | Testing was good and no distractions
+[01:11:45]   Bharath Krishna | 5 star | 14 hours ago | Excellent Facility. Professional Staffs
+[01:11:45]   Madhuri Gopal | 5 star | a day ago | Test started on time. Good ventilation , lighting overall excellent
+[01:11:45]   Aruna Nainappan | 5 star | Edited a day ago | Technical glitch while submitting
+[01:11:45]   Sadhan Kumar K | 5 star | 3 days ago | 
+[01:11:45]   Deepika M | 5 star | 4 days ago | 
+[01:11:45]   Harish S | 4 star | 4 days ago | 
+[01:11:45]   G Nagalingam | 5 star | 4 days ago | It is wonderful to attend the class in advantange pro.
+[01:11:45]   Gowri S | 5 star | 5 days ago | 
+[01:11:45]   Akshay J P | 5 star | 6 days ago | 
+[01:11:45]   Bharathwajan Sairam | 5 star | a week ago | 
+[01:11:45]   Britto Louis | 5 star | a week ago | 
+[01:11:45]   M.K. Ashik Rahuman | 5 star | a week ago | Good Centre with proper guidance
+[01:11:45]   Aarthi Gopinath | 5 star | a week ago | Good support for exam
+[01:11:45]   Sahl Baig | 5 star | a week ago | Good
+[01:11:45]   Shiva Kumar | 5 star | a week ago | Nice experience to write exam in the center
+[01:11:45]   Anand Thukkaram | 4 star | Edited a week ago | 
+[01:11:45]   Harini Karthikeyan | 4 star | a week ago | 
+[01:11:45]   Abhitha Dharmaraj | 5 star | a week ago | I attended my CIMA- MCS exam in this centre. This centre provides priv
+[01:11:45]   Santhoshraja Prakasam | 5 star | a week ago | I recently completed the DO280 course with Advantage Pro, conducted by
+[01:11:45]   Pavithra | 4 star | a week ago | Its good place to learn the Redhat concept. Trainer explained the conc
+[01:11:45]   Ancy Valiyaveettil | 5 star | a week ago | 
+[01:11:45]   rakhesh bowtham | 5 star | a week ago | 
+[01:11:45]   Guru Krishnamoorthy | 5 star | a week ago | Excellent
+[01:11:45]   Abilash S | 5 star | a week ago | Great
+[01:11:47]   row 68 Bharathwajan Sairam: Google Review already filled ('Received', review by Bharathwajan Sairam)
+[01:11:47]   row 61 Britto Nazarius Louis: Google Review already filled ('Received', review by Britto Louis)
+[01:11:47]   row 60 M K Ashik Rahuman: Google Review already filled ('Received', review by M.K. Ashik Rahuman)
+[01:11:47]   row 59 Aarthi G: Google Review already filled ('Received', review by Aarthi Gopinath)
+[01:11:47]   row 57 Sahl Baig: Google Review already filled ('Received', review by Sahl Baig)
+[01:11:47]   row 53 Shiva Kumar M: Google Review already filled ('Received', review by Shiva Kumar)
+[01:11:47]   row 54 Anand Thukkaram: Google Review already filled ('Received', review by Anand Thukkaram)
+[01:11:47]   row 52 HARINI K karthikeyan: Google Review already filled ('Received', review by Harini Karthikeyan)
+[01:11:47]   row 43 Rakhesh Bowtham C R R: Google Review already filled ('Received', review by rakhesh bowtham)
+[01:11:47]   row 36 Abilash S: Google Review already filled ('Received', review by Abilash S)
+[01:11:47] 15 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[01:11:47]     - Subramaniam Ravishankar | 4 star | 2 hours ago
+[01:11:47]     - Bharath Krishna | 5 star | 14 hours ago
+[01:11:47]     - Madhuri Gopal | 5 star | a day ago
+[01:11:47]     - Aruna Nainappan | 5 star | Edited a day ago
+[01:11:47]     - Sadhan Kumar K | 5 star | 3 days ago
+[01:11:47]     - Deepika M | 5 star | 4 days ago
+[01:11:47]     - Harish S | 4 star | 4 days ago
+[01:11:47]     - G Nagalingam | 5 star | 4 days ago
+[01:11:47]     - Gowri S | 5 star | 5 days ago
+[01:11:47]     - Akshay J P | 5 star | 6 days ago
+[01:11:47]     - Abhitha Dharmaraj | 5 star | a week ago
+[01:11:47]     - Santhoshraja Prakasam | 5 star | a week ago
+[01:11:47]     - Pavithra | 4 star | a week ago
+[01:11:47]     - Ancy Valiyaveettil | 5 star | a week ago
+[01:11:47]     - Guru Krishnamoorthy | 5 star | a week ago
+[01:11:47] ===== Google Review report - 12-Nov-2026 (sheet NOV) =====
+[01:11:47]                         Day   Month
+[01:11:47] Total candidates         11      64
+[01:11:47] Genuine reviews           4      10
+[01:11:47] Pending                   7      54
+[01:11:47] Reminder Sent             0       0
+[01:11:47] Unable to Verify          0       0
+[01:11:47] Review percentage       36%     15%
+[01:11:47] New reviews received this run: 0
+[01:11:47] Reviews not matched to a candidate: 15
+[01:11:47]    ? Subramaniam Ravishankar - 4 star - 2 hours ago
+[01:11:47]    ? Bharath Krishna - 5 star - 14 hours ago
+[01:11:47]    ? Madhuri Gopal - 5 star - a day ago
+[01:11:47]    ? Aruna Nainappan - 5 star - Edited a day ago
+[01:11:47]    ? Sadhan Kumar K - 5 star - 3 days ago
+[01:11:47]    ? Deepika M - 5 star - 4 days ago
+[01:11:47]    ? Harish S - 4 star - 4 days ago
+[01:11:47]    ? G Nagalingam - 5 star - 4 days ago
+[01:11:47]    ? Gowri S - 5 star - 5 days ago
+[01:11:47]    ? Akshay J P - 5 star - 6 days ago
+[01:11:47]    ? Abhitha Dharmaraj - 5 star - a week ago
+[01:11:47]    ? Santhoshraja Prakasam - 5 star - a week ago
+[01:11:47]    ? Pavithra - 4 star - a week ago
+[01:11:47]    ? Ancy Valiyaveettil - 5 star - a week ago
+[01:11:47]    ? Guru Krishnamoorthy - 5 star - a week ago
+[01:11:47] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_12-11-2026.txt
+[01:11:47] Nothing new to write - Excel file not changed
+[01:11:47] Closed 1 Chrome tab(s) this step opened
+[01:11:47] ========== 12-Nov-2026  Step 6/6: Excel check ==========
+[01:11:51] !! Step 6 failed: RuntimeError: Excel not complete for 12-Nov-2026 - no 'Our Student Y/N': Aarthi G, M K Ashik Rahuman, Britto Nazarius Louis, Sripriya S, M Magesh, Premsagar Rao, Amrutha A, SATHYANARAYANAN THIRUVENGADAM, Bashyam Tirumalai Vinjamoor, Bharathwajan Sairam, Akshay Ravi
+[01:11:51]    details saved in logs\error_20261120_011151.txt
+[01:11:51] ========== Summary ==========
+[01:11:51]   Roster + feedback: OK
+[01:11:51]   LinkedIn: OK
+[01:11:51]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[01:11:51]   Certifications: OK
+[01:11:51]   Google reviews: OK
+[01:11:51]   Excel check: FAILED: RuntimeError: Excel not complete for 12-Nov-2026 - no 'Our Student Y/N': Aarthi G, M K Ashik Rahuman, Britto Nazarius Louis, Sripriya S, M Magesh, Premsagar Rao, Am
+[01:11:51] ########## 12-Nov-2026: still not complete - tried again next time
+[01:11:51] ########## Catching up 16-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[01:11:51] ========== 16-Nov-2026  Step 1/6: Roster + feedback ==========
+[01:11:51] === Pearson VUE roster + feedback | Date: 16-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:11:56] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:11:57] Waking up Chrome tabs
+[01:11:58] Opening Pearson VUE login page
+[01:12:00] Login submitted
+[01:12:20] Clicked Site Manager
+[01:12:23] Clicked Availability
+[01:12:27] Clicked Roster
+[01:12:31] Set roster date 2026-11-16
+[01:12:36] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[01:12:36] 8 exam(s) on the roster
+[01:12:38]   Kavya D: 415-326-6303
+[01:12:41] Set roster date 2026-11-16
+[01:12:46]   Karthikeyan Rajan: 415-326-6303
+[01:12:50] Set roster date 2026-11-16
+[01:12:54]   Manoj Kumar B: 7299892570
+[01:12:57] Set roster date 2026-11-16
+[01:13:02]   Nithya R: 6381129951
+[01:13:05] Set roster date 2026-11-16
+[01:13:09]   Poornima Kannuchamy: 9566024347
+[01:13:12] Set roster date 2026-11-16
+[01:13:18]   Arun N: 9884980929
+[01:13:21] Set roster date 2026-11-16
+[01:13:26]   MONISHA PARAMASIVAM: 7402353712
+[01:13:30] Set roster date 2026-11-16
+[01:13:34]   Sadhan Kumar K: 415-326-6303
+[01:13:38] Set roster date 2026-11-16
+[01:13:45] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[01:13:47] Waking up Chrome tabs
+[01:14:08] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[01:14:08] Feedback timestamps are month/day
+[01:14:08] 5 feedback response(s) on 2026-11-16
+[01:14:16]   already in sheet: Kavya D
+[01:14:16]   already in sheet: Karthikeyan Rajan
+[01:14:16]   already in sheet: Manoj Kumar B
+[01:14:16]   already in sheet: Nithya R
+[01:14:16]   already in sheet: Poornima Kannuchamy
+[01:14:16]   already in sheet: Arun N
+[01:14:16]   already in sheet: MONISHA PARAMASIVAM
+[01:14:16]   already in sheet: Sadhan Kumar K
+[01:14:16]   feedback 'Nithya.R' -> row 100: Nithya Ramanathan (matched by email) | phone 6381129951 | nithyaramanathan1133@gmail.com
+[01:14:16]   feedback 'Poornima Kannuchamy' -> row 101: Poornima Kannuchamy (matched by email) | phone 9566024347 | pooriuntamedbluemoon@gmail.com
+[01:14:16]   feedback 'Arun N' -> row 102: Arun N (matched by email) | phone 9884980929 | yournura@gmail.com
+[01:14:16]   feedback 'Sadhan Kumar K' -> row 104: Sadhan Kumar K (matched by email) | phone 9677247728 | sadhankkumar@gmail.com
+[01:14:16]   ! feedback not matched to any row (not on the roster?): Barty Srujan | 7879860107 | bartysrujan@gmail.com
+[01:14:16] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[01:14:16] Nothing changed - Excel file not saved
+[01:14:16] Pearson VUE part done
+[01:14:16] Closed 4 Chrome tab(s) this step opened
+[01:14:16] ========== 16-Nov-2026  Step 2/6: LinkedIn ==========
+[01:14:17] === LinkedIn from Outlook
+[01:14:19] Sheet NOV: 5 person(s) without a LinkedIn Id on 16-Nov-2026
+[01:14:19]   row 97: Kavya D | (no email) | (no company)
+[01:14:19]   row 98: Karthikeyan Rajan | (no email) | (no company)
+[01:14:19]   row 99: Manoj Kumar B | (no email) | (no company)
+[01:14:19]   row 103: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[01:14:19]   row 125: Nithya R | (no email) | (no company)
+[01:14:22] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:14:25] Waking up Chrome tabs
+[01:14:32] Clicked New mail
+[01:14:36] [1/5] Kavya D: no email - left for the Google search
+[01:14:36] [2/5] Karthikeyan Rajan: no email - left for the Google search
+[01:14:36] [3/5] Manoj Kumar B: no email - left for the Google search
+[01:14:36] [4/5] MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com
+[01:14:43]     error: StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+[01:14:43]     LinkedIn: (not found)
+[01:14:45] [5/5] Nithya R: no email - left for the Google search
+[01:14:46] --- Google search for 5 person(s) still without a LinkedIn Id
+[01:14:46] [Google 1/5] Kavya D: no usable company name in the sheet ('') - skipped
+[01:14:46] [Google 2/5] Karthikeyan Rajan: no usable company name in the sheet ('') - skipped
+[01:14:46] [Google 3/5] Manoj Kumar B: no usable company name in the sheet ('') - skipped
+[01:14:46] [Google 4/5] MONISHA PARAMASIVAM: MONISHA PARAMASIVAM @ PSU linkedin profile
+[01:15:33]     not a match - profile 'Monisha Paramasivam': name ok, company not found - skipped
+[01:15:41] [Google 5/5] Nithya R: no usable company name in the sheet ('') - skipped
+[01:15:46] Draft discarded
+[01:15:46] LinkedIn found for 0 of 5 person(s)
+[01:15:46]   ! not found: Kavya D | (no email) | (no company)
+[01:15:46]   ! not found: Karthikeyan Rajan | (no email) | (no company)
+[01:15:46]   ! not found: Manoj Kumar B | (no email) | (no company)
+[01:15:46]   ! not found: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[01:15:46]   ! not found: Nithya R | (no email) | (no company)
+[01:15:46] No LinkedIn URLs found - Excel file not changed
+[01:15:47] !! Step 2 failed: RuntimeError: 1 email(s) could not be looked up
+[01:15:47]    details saved in logs\error_20261120_011546.txt
+[01:15:47] Closed 1 Chrome tab(s) this step opened
+[01:15:47] ========== 16-Nov-2026  Step 3/6: Our Student ==========
+[01:15:47] === Our Student check in Adv Pro
+[01:15:53] Sheet NOV: 9 phone number(s) without 'Our Student Y/N' on 16-Nov-2026
+[01:15:55] Adv Pro is already open
+[01:15:55] No 'Our Student Y/N' to write - Excel file not changed
+[01:15:55] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[01:15:55]    details saved in logs\error_20261120_011555.txt
+[01:15:55] ========== 16-Nov-2026  Step 4/6: Certifications ==========
+[01:15:55] === Certifications from LinkedIn
+[01:15:57] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 16-Nov-2026
+[01:15:57] ========== 16-Nov-2026  Step 5/6: Google reviews ==========
+[01:15:57] 8 Google review(s) in the last 98 hours (read earlier in this run)
+[01:15:59]   row 104 Sadhan Kumar K: Google Review already filled ('y', review by Sadhan Kumar K)
+[01:15:59] 7 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[01:15:59]     - Subramaniam Ravishankar | 4 star | 2 hours ago
+[01:15:59]     - Bharath Krishna | 5 star | 14 hours ago
+[01:15:59]     - Madhuri Gopal | 5 star | a day ago
+[01:15:59]     - Aruna Nainappan | 5 star | Edited a day ago
+[01:15:59]     - Deepika M | 5 star | 4 days ago
+[01:15:59]     - Harish S | 4 star | 4 days ago
+[01:15:59]     - G Nagalingam | 5 star | 4 days ago
+[01:15:59] ===== Google Review report - 16-Nov-2026 (sheet NOV) =====
+[01:15:59]                         Day   Month
+[01:15:59] Total candidates          9     100
+[01:15:59] Genuine reviews           1      12
+[01:15:59] Pending                   8      88
+[01:15:59] Reminder Sent             0       0
+[01:15:59] Unable to Verify          0       0
+[01:15:59] Review percentage       11%     12%
+[01:15:59] New reviews received this run: 0
+[01:15:59] Reviews not matched to a candidate: 7
+[01:15:59]    ? Subramaniam Ravishankar - 4 star - 2 hours ago
+[01:15:59]    ? Bharath Krishna - 5 star - 14 hours ago
+[01:15:59]    ? Madhuri Gopal - 5 star - a day ago
+[01:15:59]    ? Aruna Nainappan - 5 star - Edited a day ago
+[01:15:59]    ? Deepika M - 5 star - 4 days ago
+[01:15:59]    ? Harish S - 4 star - 4 days ago
+[01:15:59]    ? G Nagalingam - 5 star - 4 days ago
+[01:15:59] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_16-11-2026.txt
+[01:15:59] Nothing new to write - Excel file not changed
+[01:15:59] ========== 16-Nov-2026  Step 6/6: Excel check ==========
+[01:16:00] !! Step 6 failed: RuntimeError: Excel not complete for 16-Nov-2026 - no 'Our Student Y/N': Kavya D, Karthikeyan Rajan, Manoj Kumar B, Nithya Ramanathan, Poornima Kannuchamy, Arun N, MONISHA PARAMASIVAM, Sadhan Kumar K, Nithya R
+[01:16:00]    details saved in logs\error_20261120_011600.txt
+[01:16:00] ========== Summary ==========
+[01:16:00]   Roster + feedback: OK
+[01:16:00]   LinkedIn: FAILED: RuntimeError: 1 email(s) could not be looked up
+[01:16:00]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[01:16:00]   Certifications: OK
+[01:16:00]   Google reviews: OK
+[01:16:00]   Excel check: FAILED: RuntimeError: Excel not complete for 16-Nov-2026 - no 'Our Student Y/N': Kavya D, Karthikeyan Rajan, Manoj Kumar B, Nithya Ramanathan, Poornima Kannuchamy, Arun N, 
+[01:16:00] ########## 16-Nov-2026: still not complete - tried again next time
+[01:16:00] ========== 19-Nov-2026  Step 1/6: Roster + feedback ==========
+[01:16:00] === Pearson VUE roster + feedback | Date: 19-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:16:04] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:16:05] Waking up Chrome tabs
+[01:16:06] Opening Pearson VUE login page
+[01:16:07] Login submitted
+[01:16:28] Clicked Site Manager
+[01:16:30] Clicked Availability
+[01:16:34] Clicked Roster
+[01:16:39] Set roster date 2026-11-19
+[01:16:43] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[01:16:43] 7 exam(s) on the roster
+[01:16:45]   Mullai Arasu: 415-326-6303
+[01:16:48] Set roster date 2026-11-19
+[01:16:53]   Bharath Krishna: 9941556413
+[01:16:56] Set roster date 2026-11-19
+[01:17:00]   PARAMESHVARAN Chandran: 415-326-6303
+[01:17:04] Set roster date 2026-11-19
+[01:17:08]   Jubin James: 415-326-6303
+[01:17:11] Set roster date 2026-11-19
+[01:17:17]   Gunavazhagan B: 6381864628
+[01:17:20] Set roster date 2026-11-19
+[01:17:25]   Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: 9894505024
+[01:17:29] Set roster date 2026-11-19
+[01:17:34]   Subramaniam R: 9884349009
+[01:17:38] Set roster date 2026-11-19
+[01:17:45] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[01:17:48] Waking up Chrome tabs
+[01:18:14] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[01:18:14] Feedback timestamps are month/day
+[01:18:14] 6 feedback response(s) on 2026-11-19
+[01:18:21]   already in sheet: Mullai Arasu
+[01:18:21]   already in sheet: Bharath Krishna
+[01:18:21]   already in sheet: PARAMESHVARAN Chandran
+[01:18:21]   already in sheet: Jubin James
+[01:18:21]   already in sheet: Gunavazhagan B
+[01:18:21]   already in sheet: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL
+[01:18:21]   already in sheet: Subramaniam R
+[01:18:21]   feedback 'Bharath Krishna' -> row 127: Bharath Krishna (matched by email) | phone 9941556413 | barat.krishv@gmail.com
+[01:18:21]   feedback 'C Parameshvaran' -> row 128: PARAMESHVARAN Chandran (matched by email) | phone 9884495639 | paramesh.mba@gmail.com
+[01:18:21]   feedback 'Gunavazhagan B' -> row 130: Gunavazhagan B (matched by email) | phone 6381864628 | bgunavazhagan3@gmail.com
+[01:18:21]   feedback 'Gnanaraj' -> row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL (matched by email) | phone 9894505024 | md.gnanaraj@gmail.com
+[01:18:21]   feedback 'Subramaniam Ravishankar' -> row 132: Subramaniam R (matched by email) | phone 9884349009 | subbunique39@gmail.com
+[01:18:21]   ! feedback not matched to any row (not on the roster?): Rajesh M | 9952026861 | rajeshm.it2003@gmail.com
+[01:18:21] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[01:18:21] Nothing changed - Excel file not saved
+[01:18:21] Pearson VUE part done
+[01:18:21] Closed 4 Chrome tab(s) this step opened
+[01:18:21] ========== 19-Nov-2026  Step 2/6: LinkedIn ==========
+[01:18:21] === LinkedIn from Outlook
+[01:18:23] Sheet NOV: 6 person(s) without a LinkedIn Id on 19-Nov-2026
+[01:18:23]   row 126: Mullai Arasu | (no email) | (no company)
+[01:18:23]   row 128: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[01:18:23]   row 129: Jubin James | (no email) | (no company)
+[01:18:23]   row 130: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[01:18:23]   row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[01:18:23]   row 132: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[01:18:27] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:18:28] Waking up Chrome tabs
+[01:18:36] Clicked New mail
+[01:18:39] [1/6] Mullai Arasu: no email - left for the Google search
+[01:18:39] [2/6] PARAMESHVARAN Chandran | paramesh.mba@gmail.com
+[01:18:47]     error: StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+[01:18:47]     LinkedIn: (not found)
+[01:18:48] [3/6] Jubin James: no email - left for the Google search
+[01:18:48] [4/6] Gunavazhagan B | bgunavazhagan3@gmail.com
+[01:19:04]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:19:04]     LinkedIn: (not found)
+[01:19:06] [5/6] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com
+[01:19:22]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:19:22]     LinkedIn: (not found)
+[01:19:24] [6/6] Subramaniam R | subbunique39@gmail.com
+[01:19:40]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:19:40]     LinkedIn: (not found)
+[01:19:43] --- Google search for 6 person(s) still without a LinkedIn Id
+[01:19:43] [Google 1/6] Mullai Arasu: no usable company name in the sheet ('') - skipped
+[01:19:43] [Google 2/6] PARAMESHVARAN Chandran: PARAMESHVARAN Chandran @ Accenture linkedin profile
+[01:20:43]     not a match - profile 'Parameshwaran Ramachandran': name different, company found - skipped
+[01:20:51] [Google 3/6] Jubin James: no usable company name in the sheet ('') - skipped
+[01:20:51] [Google 4/6] Gunavazhagan B: no usable company name in the sheet ('Student') - skipped
+[01:20:51] [Google 5/6] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL @ BNP Parivar Bank linkedin profile
+[01:21:30]     not a match - profile 'Gnanaraj Dhanapal': name ok, company not found - skipped
+[01:21:38] [Google 6/6] Subramaniam R: Subramaniam R @ Tata Consultancy Services (TCS) linkedin profile
+[01:22:08]     not a match - profile 'Subramanyam R.': name different, company found - skipped
+[01:22:24] Draft discarded
+[01:22:24] LinkedIn found for 0 of 6 person(s)
+[01:22:24]   ! not found: Mullai Arasu | (no email) | (no company)
+[01:22:24]   ! not found: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[01:22:24]   ! not found: Jubin James | (no email) | (no company)
+[01:22:24]   ! not found: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[01:22:24]   ! not found: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[01:22:24]   ! not found: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[01:22:24] No LinkedIn URLs found - Excel file not changed
+[01:22:24] !! Step 2 failed: RuntimeError: 1 email(s) could not be looked up
+[01:22:24]    details saved in logs\error_20261120_012224.txt
+[01:22:25] Closed 1 Chrome tab(s) this step opened
+[01:22:25] ========== 19-Nov-2026  Step 3/6: Our Student ==========
+[01:22:25] === Our Student check in Adv Pro
+[01:22:27]   Mullai Arasu: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:22:27]   Jubin James: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:22:27] Sheet NOV: 5 phone number(s) without 'Our Student Y/N' on 19-Nov-2026
+[01:22:28] Adv Pro is already open
+[01:22:28] No 'Our Student Y/N' to write - Excel file not changed
+[01:22:28] !! Step 3 failed: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInfo - '', ThunderRT6FormDC, 2624564>, 'backend': 'win32'}
+[01:22:28]    details saved in logs\error_20261120_012228.txt
+[01:22:28] ========== 19-Nov-2026  Step 4/6: Certifications ==========
+[01:22:28] === Certifications from LinkedIn
+[01:22:30] Sheet NOV: 1 LinkedIn profile(s) not checked yet on 19-Nov-2026
+[01:22:34] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:22:35] Waking up Chrome tabs
+[01:22:36] [1/1] Bharath Krishna | https://www.linkedin.com/in/bharath-krishna-venkitaraman-b6a4a179/
+[01:23:14]     certifications: (none of ours)
+[01:23:19] No certifications to write - Excel file not changed
+[01:23:19] Certifications part done
+[01:23:19] Closed 2 Chrome tab(s) this step opened
+[01:23:19] ========== 19-Nov-2026  Step 5/6: Google reviews ==========
+[01:23:21] 4 Google review(s) in the last 26 hours (read earlier in this run)
+[01:23:23]   row 132 Subramaniam R: Google Review already filled ('Received', review by Subramaniam Ravishankar)
+[01:23:23]   row 127 Bharath Krishna: Google Review already filled ('Received', review by Bharath Krishna)
+[01:23:23]   row 121 Madhuri Gopal: Google Review already filled ('y', review by Madhuri Gopal)
+[01:23:23] 1 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[01:23:23]     - Aruna Nainappan | 5 star | Edited a day ago
+[01:23:23] ===== Google Review report - 19-Nov-2026 (sheet NOV) =====
+[01:23:23]                         Day   Month
+[01:23:23] Total candidates          7     127
+[01:23:23] Genuine reviews           2      16
+[01:23:23] Pending                   5     111
+[01:23:23] Reminder Sent             0       0
+[01:23:23] Unable to Verify          0       0
+[01:23:23] Review percentage       28%     12%
+[01:23:23] New reviews received this run: 0
+[01:23:23] Reviews not matched to a candidate: 1
+[01:23:23]    ? Aruna Nainappan - 5 star - Edited a day ago
+[01:23:23] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_19-11-2026.txt
+[01:23:23] Nothing new to write - Excel file not changed
+[01:23:23] ========== 19-Nov-2026  Step 6/6: Excel check ==========
+[01:23:24] !! Step 6 failed: RuntimeError: Excel not complete for 19-Nov-2026 - no 'Our Student Y/N': Bharath Krishna, PARAMESHVARAN Chandran, Gunavazhagan B, Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL, Subramaniam R
+[01:23:24]    details saved in logs\error_20261120_012324.txt
+[01:23:24] ========== Summary ==========
+[01:23:24]   Roster + feedback: OK
+[01:23:24]   LinkedIn: FAILED: RuntimeError: 1 email(s) could not be looked up
+[01:23:24]   Our Student: FAILED: ElementAmbiguousError: There are 10 elements that match the criteria {'class_name': 'DataGridWndClass', 'top_level_only': False, 'parent': <win32_element_info.HwndElementInf
+[01:23:24]   Certifications: OK
+[01:23:24]   Google reviews: OK
+[01:23:24]   Excel check: FAILED: RuntimeError: Excel not complete for 19-Nov-2026 - no 'Our Student Y/N': Bharath Krishna, PARAMESHVARAN Chandran, Gunavazhagan B, Gnanaraj DHANAPAL Gnanaraj DHANAPA
+[01:23:32] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:23:34] Pearson VUE extension turned on
+[01:23:34] Done
+
+ ____   _____     _     ____   ____    ___   _   _    __     __ _   _  _____
+|  _ \ | ____|   / \   |  _ \ / ___|  / _ \ | \ | |   \ \   / /| | | || ____|
+| |_) ||  _|    / _ \  | |_) |\___ \ | | | ||  \| |    \ \ / / | | | ||  _|
+|  __/ | |___  / ___ \ |  _ <  ___) || |_| || |\  |     \ V /  | |_| || |___
+|_|    |_____|/_/   \_\|_| \_\|____/  \___/ |_| \_|      \_/    \___/ |_____|
+      _     _   _  _____   ___   __  __     _     _____  ___   ___   _   _
+     / \   | | | ||_   _| / _ \ |  \/  |   / \   |_   _||_ _| / _ \ | \ | |
+    / _ \  | | | |  | |  | | | || |\/| |  / _ \    | |   | | | | | ||  \| |
+   / ___ \ | |_| |  | |  | |_| || |  | | / ___ \   | |   | | | |_| || |\  |
+  /_/   \_\ \___/   |_|   \___/ |_|  |_|/_/   \_\  |_|  |___| \___/ |_| \_|
+
+==============================================================================
+                              By YOGESHWARAN TL                               
+                                 Version 0.1                                  
+==============================================================================
+[01:33:42] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:33:46] Pearson VUE extension turned off
+[01:33:46] ########## Catching up 12-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[01:33:46] ========== 12-Nov-2026  Step 1/6: Roster + feedback ==========
+[01:33:46] === Pearson VUE roster + feedback | Date: 12-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:33:56] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:33:57] Waking up Chrome tabs
+[01:34:03] Connected to Chrome
+[01:34:03] Opening Pearson VUE login page
+[01:34:04] Login submitted
+[01:34:25] Clicked Site Manager
+[01:34:27] Clicked Availability
+[01:34:32] Clicked Roster
+[01:34:36] Set roster date 2026-11-12
+[01:34:41] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[01:34:41] 11 exam(s) on the roster
+[01:34:43]   Aarthi G: 6382521771
+[01:34:46] Set roster date 2026-11-12
+[01:34:51]   M K Ashik Rahuman: 9025883202
+[01:34:55] Set roster date 2026-11-12
+[01:35:00]   Britto Nazarius Louis: 9901002135
+[01:35:04] Set roster date 2026-11-12
+[01:35:10]   Sripriya S: 415-326-6303
+[01:35:15] Set roster date 2026-11-12
+[01:35:20]   M Magesh: 415-326-6303
+[01:35:24] Set roster date 2026-11-12
+[01:35:39]   Premsagar Rao: 8369876492
+[01:35:53] Set roster date 2026-11-12
+[01:36:07]   Amrutha A: 8124065055
+[01:36:12] Set roster date 2026-11-12
+[01:36:17]   SATHYANARAYANAN THIRUVENGADAM: 919940055009
+[01:36:21] Set roster date 2026-11-12
+[01:36:25]   Bashyam Tirumalai Vinjamoor: 415-326-6303
+[01:36:29] Set roster date 2026-11-12
+[01:36:35]   Bharathwajan Sairam: 9944879770
+[01:36:39] Set roster date 2026-11-12
+[01:36:45]   Akshay Ravi: 9840880261
+[01:36:49] Set roster date 2026-11-12
+[01:36:56] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[01:37:00] Waking up Chrome tabs
+[01:37:33] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[01:37:33] Feedback timestamps are month/day
+[01:37:35] 8 feedback response(s) on 2026-11-12
+[01:37:48]   already in sheet: Aarthi G
+[01:37:48]   already in sheet: M K Ashik Rahuman
+[01:37:48]   already in sheet: Britto Nazarius Louis
+[01:37:48]   already in sheet: Sripriya S
+[01:37:48]   already in sheet: M Magesh
+[01:37:48]   already in sheet: Premsagar Rao
+[01:37:48]   already in sheet: Amrutha A
+[01:37:48]   already in sheet: SATHYANARAYANAN THIRUVENGADAM
+[01:37:48]   already in sheet: Bashyam Tirumalai Vinjamoor
+[01:37:48]   already in sheet: Bharathwajan Sairam
+[01:37:48]   already in sheet: Akshay Ravi
+[01:37:48]   feedback 'Aarthi' -> row 59: Aarthi G (matched by email) | phone 6382521771 | aarthigopinath08@gmail.com
+[01:37:48]   feedback 'M K Ashik Rahuman' -> row 60: M K Ashik Rahuman (matched by email) | phone 9025883202 | reachmkashik@gmail.com
+[01:37:48]   feedback 'Britto Louis' -> row 61: Britto Nazarius Louis (matched by email) | phone 9901002135 | britto.louis@gmail.com
+[01:37:48]   feedback 'Sripriya S' -> row 62: Sripriya S (matched by email) | phone 9994182557 | sriswt9@gmail.com
+[01:37:48]   feedback 'M Magesh' -> row 63: M Magesh (matched by email) | phone 9840646579 | magesh.manohar.1982@gmail.com
+[01:37:48]   feedback 'Bashyam Tirumalai Vinjamoor' -> row 67: Bashyam Tirumalai Vinjamoor (matched by email) | phone 7550165993 | btvforpm@gmail.com
+[01:37:48]   feedback 'Bharath' -> row 68: Bharathwajan Sairam (matched by email) | phone 9944879770 | bharath0290@gmail.com
+[01:37:48]   ! feedback not matched to any row (not on the roster?): Hema | 9597523527 | shemavathy2611@gmail.com
+[01:37:48] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[01:37:48] Nothing changed - Excel file not saved
+[01:37:48] Pearson VUE part done
+[01:37:48] Closed 3 Chrome tab(s) this step opened
+[01:37:48] ========== 12-Nov-2026  Step 2/6: LinkedIn ==========
+[01:37:49] === LinkedIn from Outlook
+[01:37:52] Sheet NOV: 3 person(s) without a LinkedIn Id on 12-Nov-2026
+[01:37:52]   row 64: Premsagar Rao | (no email) | (no company)
+[01:37:52]   row 65: Amrutha A | (no email) | (no company)
+[01:37:52]   row 66: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[01:37:57] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:37:58] Waking up Chrome tabs
+[01:38:17] Clicked New mail
+[01:38:20] [1/3] Premsagar Rao: no email - left for the Google search
+[01:38:20] [2/3] Amrutha A: no email - left for the Google search
+[01:38:20] [3/3] SATHYANARAYANAN THIRUVENGADAM: no email - left for the Google search
+[01:38:21] --- Google search for 3 person(s) still without a LinkedIn Id
+[01:38:22] [Google 1/3] Premsagar Rao: no usable company name in the sheet ('') - skipped
+[01:38:22] [Google 2/3] Amrutha A: no usable company name in the sheet ('') - skipped
+[01:38:22] [Google 3/3] SATHYANARAYANAN THIRUVENGADAM: no usable company name in the sheet ('') - skipped
+[01:38:26] Draft discarded
+[01:38:26] LinkedIn found for 0 of 3 person(s)
+[01:38:26]   ! not found: Premsagar Rao | (no email) | (no company)
+[01:38:26]   ! not found: Amrutha A | (no email) | (no company)
+[01:38:26]   ! not found: SATHYANARAYANAN THIRUVENGADAM | (no email) | (no company)
+[01:38:26] No LinkedIn URLs found - Excel file not changed
+[01:38:26] LinkedIn part done
+[01:38:26] Closed 2 Chrome tab(s) this step opened
+[01:38:27] ========== 12-Nov-2026  Step 3/6: Our Student ==========
+[01:38:27] === Our Student check in Adv Pro
+[01:38:32] Sheet NOV: 11 phone number(s) without 'Our Student Y/N' on 12-Nov-2026
+[01:38:35] Adv Pro is already open
+[01:38:38] Adv Pro: Master > Registration > Display
+[01:38:41] Adv Pro: Filter By = PresentPhoneNo
+[01:38:44] [1/11] 6382521771 Aarthi G: n
+[01:38:47] [2/11] 9025883202 M K Ashik Rahuman: n
+[01:38:50] [3/11] 9901002135 Britto Nazarius Louis: n
+[01:38:53] [4/11] 9994182557 Sripriya S: n
+[01:38:56] [5/11] 9840646579 M Magesh: n
+[01:38:59] [6/11] 8369876492 Premsagar Rao: n
+[01:39:02] [7/11] 8124065055 Amrutha A: n
+[01:39:05] [8/11] 9940055009 SATHYANARAYANAN THIRUVENGADAM: n
+[01:39:07] [9/11] 7550165993 Bashyam Tirumalai Vinjamoor: n
+[01:39:10] [10/11] 9944879770 Bharathwajan Sairam: n
+[01:39:13] [11/11] 9884679445 Akshay Ravi: n
+[01:39:13] Adv Pro was already open before - left open
+[01:39:15]   row 59: Aarthi G | 6382521771 -> n
+[01:39:15]   row 60: M K Ashik Rahuman | 9025883202 -> n
+[01:39:15]   row 61: Britto Nazarius Louis | 9901002135 -> n
+[01:39:15]   row 62: Sripriya S | 9994182557 -> n
+[01:39:15]   row 63: M Magesh | 9840646579 -> n
+[01:39:15]   row 64: Premsagar Rao | 8369876492 -> n
+[01:39:15]   row 65: Amrutha A | 8124065055 -> n
+[01:39:15]   row 66: SATHYANARAYANAN THIRUVENGADAM | 9940055009 -> n
+[01:39:15]   row 67: Bashyam Tirumalai Vinjamoor | 7550165993 -> n
+[01:39:15]   row 68: Bharathwajan Sairam | 9944879770 -> n
+[01:39:15]   row 69: Akshay Ravi | 9884679445 -> n
+[01:39:16] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_013915.xlsx
+[01:39:20] Excel file saved - 'Our Student Y/N' written for 11 row(s) in sheet NOV
+[01:39:20] Our Student part done
+[01:39:20] Closed 1 Chrome tab(s) this step opened
+[01:39:20] ========== 12-Nov-2026  Step 4/6: Certifications ==========
+[01:39:20] === Certifications from LinkedIn
+[01:39:21] Sheet NOV: 6 LinkedIn profile(s) not checked yet on 12-Nov-2026
+[01:39:27] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:39:28] Waking up Chrome tabs
+[01:39:32] [1/6] Aarthi G | https://www.linkedin.com/in/aarthi-g-8b048b369/
+[01:40:08]     certifications: (none of ours)
+[01:40:13] [2/6] M K Ashik Rahuman | https://www.linkedin.com/in/m-k-ashik-rahuman-25136728a/
+[01:40:41]     certifications: (none of ours)
+[01:40:46] [3/6] Britto Nazarius Louis | https://www.linkedin.com/in/brittolouis/
+[01:41:17]     certifications: (none of ours)
+[01:41:23] [4/6] Sripriya S | https://www.linkedin.com/in/sripriya-s-25997a73/
+[01:41:56]     certifications: (none of ours)
+[01:42:01] [5/6] M Magesh | https://www.linkedin.com/in/magesh-manohar-5b314b329/
+[01:42:58]     certifications: (none of ours)
+[01:43:03] [6/6] Akshay Ravi | https://www.linkedin.com/in/akshay-j-p/
+[01:43:31]     certifications: (none of ours)
+[01:43:37] No certifications to write - Excel file not changed
+[01:43:37] Certifications part done
+[01:43:37] Closed 2 Chrome tab(s) this step opened
+[01:43:37] ========== 12-Nov-2026  Step 5/6: Google reviews ==========
+[01:43:44] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:43:46] Waking up Chrome tabs
+[01:44:04] Google Maps: Reviews -> Sort -> Newest
+[01:44:13] 25 Google review(s) in the last 195 hours
+[01:44:13]   Subramaniam Ravishankar | 4 star | 2 hours ago | Testing was good and no distractions
+[01:44:13]   Bharath Krishna | 5 star | 14 hours ago | Excellent Facility. Professional Staffs
+[01:44:13]   Madhuri Gopal | 5 star | a day ago | Test started on time. Good ventilation , lighting overall excellent
+[01:44:13]   Aruna Nainappan | 5 star | Edited a day ago | Technical glitch while submitting
+[01:44:13]   Sadhan Kumar K | 5 star | 3 days ago | 
+[01:44:13]   Deepika M | 5 star | 4 days ago | 
+[01:44:13]   Harish S | 4 star | 4 days ago | 
+[01:44:13]   G Nagalingam | 5 star | 4 days ago | It is wonderful to attend the class in advantange pro.
+[01:44:13]   Gowri S | 5 star | 5 days ago | 
+[01:44:13]   Akshay J P | 5 star | 6 days ago | 
+[01:44:13]   Bharathwajan Sairam | 5 star | a week ago | 
+[01:44:13]   Britto Louis | 5 star | a week ago | 
+[01:44:13]   M.K. Ashik Rahuman | 5 star | a week ago | Good Centre with proper guidance
+[01:44:13]   Aarthi Gopinath | 5 star | a week ago | Good support for exam
+[01:44:13]   Sahl Baig | 5 star | a week ago | Good
+[01:44:13]   Shiva Kumar | 5 star | a week ago | Nice experience to write exam in the center
+[01:44:13]   Anand Thukkaram | 4 star | Edited a week ago | 
+[01:44:13]   Harini Karthikeyan | 4 star | a week ago | 
+[01:44:13]   Abhitha Dharmaraj | 5 star | a week ago | I attended my CIMA- MCS exam in this centre. This centre provides priv
+[01:44:13]   Santhoshraja Prakasam | 5 star | a week ago | I recently completed the DO280 course with Advantage Pro, conducted by
+[01:44:13]   Pavithra | 4 star | a week ago | Its good place to learn the Redhat concept. Trainer explained the conc
+[01:44:13]   Ancy Valiyaveettil | 5 star | a week ago | 
+[01:44:13]   rakhesh bowtham | 5 star | a week ago | 
+[01:44:13]   Guru Krishnamoorthy | 5 star | a week ago | Excellent
+[01:44:13]   Abilash S | 5 star | a week ago | Great
+[01:44:20]   row 68 Bharathwajan Sairam: Google Review already filled ('Received', review by Bharathwajan Sairam)
+[01:44:20]   row 61 Britto Nazarius Louis: Google Review already filled ('Received', review by Britto Louis)
+[01:44:20]   row 60 M K Ashik Rahuman: Google Review already filled ('Received', review by M.K. Ashik Rahuman)
+[01:44:20]   row 59 Aarthi G: Google Review already filled ('Received', review by Aarthi Gopinath)
+[01:44:20]   row 57 Sahl Baig: Google Review already filled ('Received', review by Sahl Baig)
+[01:44:20]   row 53 Shiva Kumar M: Google Review already filled ('Received', review by Shiva Kumar)
+[01:44:20]   row 54 Anand Thukkaram: Google Review already filled ('Received', review by Anand Thukkaram)
+[01:44:20]   row 52 HARINI K karthikeyan: Google Review already filled ('Received', review by Harini Karthikeyan)
+[01:44:20]   row 43 Rakhesh Bowtham C R R: Google Review already filled ('Received', review by rakhesh bowtham)
+[01:44:20]   row 36 Abilash S: Google Review already filled ('Received', review by Abilash S)
+[01:44:20] 15 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[01:44:20]     - Subramaniam Ravishankar | 4 star | 2 hours ago
+[01:44:20]     - Bharath Krishna | 5 star | 14 hours ago
+[01:44:20]     - Madhuri Gopal | 5 star | a day ago
+[01:44:20]     - Aruna Nainappan | 5 star | Edited a day ago
+[01:44:20]     - Sadhan Kumar K | 5 star | 3 days ago
+[01:44:20]     - Deepika M | 5 star | 4 days ago
+[01:44:20]     - Harish S | 4 star | 4 days ago
+[01:44:20]     - G Nagalingam | 5 star | 4 days ago
+[01:44:20]     - Gowri S | 5 star | 5 days ago
+[01:44:20]     - Akshay J P | 5 star | 6 days ago
+[01:44:20]     - Abhitha Dharmaraj | 5 star | a week ago
+[01:44:20]     - Santhoshraja Prakasam | 5 star | a week ago
+[01:44:20]     - Pavithra | 4 star | a week ago
+[01:44:20]     - Ancy Valiyaveettil | 5 star | a week ago
+[01:44:20]     - Guru Krishnamoorthy | 5 star | a week ago
+[01:44:20] ===== Google Review report - 12-Nov-2026 (sheet NOV) =====
+[01:44:20]                         Day   Month
+[01:44:20] Total candidates         11      64
+[01:44:20] Genuine reviews           4      10
+[01:44:20] Pending                   7      54
+[01:44:20] Reminder Sent             0       0
+[01:44:20] Unable to Verify          0       0
+[01:44:20] Review percentage       36%     15%
+[01:44:20] New reviews received this run: 0
+[01:44:20] Reviews not matched to a candidate: 15
+[01:44:20]    ? Subramaniam Ravishankar - 4 star - 2 hours ago
+[01:44:20]    ? Bharath Krishna - 5 star - 14 hours ago
+[01:44:20]    ? Madhuri Gopal - 5 star - a day ago
+[01:44:20]    ? Aruna Nainappan - 5 star - Edited a day ago
+[01:44:20]    ? Sadhan Kumar K - 5 star - 3 days ago
+[01:44:20]    ? Deepika M - 5 star - 4 days ago
+[01:44:20]    ? Harish S - 4 star - 4 days ago
+[01:44:20]    ? G Nagalingam - 5 star - 4 days ago
+[01:44:20]    ? Gowri S - 5 star - 5 days ago
+[01:44:20]    ? Akshay J P - 5 star - 6 days ago
+[01:44:20]    ? Abhitha Dharmaraj - 5 star - a week ago
+[01:44:20]    ? Santhoshraja Prakasam - 5 star - a week ago
+[01:44:20]    ? Pavithra - 4 star - a week ago
+[01:44:20]    ? Ancy Valiyaveettil - 5 star - a week ago
+[01:44:20]    ? Guru Krishnamoorthy - 5 star - a week ago
+[01:44:20] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_12-11-2026.txt
+[01:44:20] Nothing new to write - Excel file not changed
+[01:44:20] Closed 2 Chrome tab(s) this step opened
+[01:44:20] ========== 12-Nov-2026  Step 6/6: Excel check ==========
+[01:44:24] Excel complete for 12-Nov-2026: 11 row(s) in sheet NOV, 11 on the roster
+[01:44:24] ========== Summary ==========
+[01:44:24]   Roster + feedback: OK
+[01:44:24]   LinkedIn: OK
+[01:44:24]   Our Student: OK
+[01:44:24]   Certifications: OK
+[01:44:24]   Google reviews: OK
+[01:44:24]   Excel check: OK
+[01:44:24] ########## 12-Nov-2026: complete
+[01:44:24] ########## Catching up 16-Nov-2026: not finished - Roster + feedback, LinkedIn, Our Student, Certifications, Google reviews, Excel check
+[01:44:24] ========== 16-Nov-2026  Step 1/6: Roster + feedback ==========
+[01:44:24] === Pearson VUE roster + feedback | Date: 16-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:44:29] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:44:30] Waking up Chrome tabs
+[01:44:31] Opening Pearson VUE login page
+[01:44:33] Login submitted
+[01:44:54] Clicked Site Manager
+[01:44:56] Clicked Availability
+[01:45:01] Clicked Roster
+[01:45:07] Set roster date 2026-11-16
+[01:45:11] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[01:45:11] 8 exam(s) on the roster
+[01:45:13]   Kavya D: 415-326-6303
+[01:45:18] Set roster date 2026-11-16
+[01:45:22]   Karthikeyan Rajan: 415-326-6303
+[01:45:29] Set roster date 2026-11-16
+[01:45:35]   Manoj Kumar B: 7299892570
+[01:45:38] Set roster date 2026-11-16
+[01:45:43]   Nithya R: 6381129951
+[01:45:47] Set roster date 2026-11-16
+[01:45:51]   Poornima Kannuchamy: 9566024347
+[01:45:55] Set roster date 2026-11-16
+[01:45:59]   Arun N: 9884980929
+[01:46:02] Set roster date 2026-11-16
+[01:46:07]   MONISHA PARAMASIVAM: 7402353712
+[01:46:10] Set roster date 2026-11-16
+[01:46:15]   Sadhan Kumar K: 415-326-6303
+[01:46:19] Set roster date 2026-11-16
+[01:46:26] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[01:46:28] Waking up Chrome tabs
+[01:46:48] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[01:46:48] Feedback timestamps are month/day
+[01:46:48] 5 feedback response(s) on 2026-11-16
+[01:46:52]   already in sheet: Kavya D
+[01:46:52]   already in sheet: Karthikeyan Rajan
+[01:46:52]   already in sheet: Manoj Kumar B
+[01:46:52]   already in sheet: Nithya R
+[01:46:52]   already in sheet: Poornima Kannuchamy
+[01:46:52]   already in sheet: Arun N
+[01:46:52]   already in sheet: MONISHA PARAMASIVAM
+[01:46:52]   already in sheet: Sadhan Kumar K
+[01:46:52]   feedback 'Nithya.R' -> row 100: Nithya Ramanathan (matched by email) | phone 6381129951 | nithyaramanathan1133@gmail.com
+[01:46:52]   feedback 'Poornima Kannuchamy' -> row 101: Poornima Kannuchamy (matched by email) | phone 9566024347 | pooriuntamedbluemoon@gmail.com
+[01:46:52]   feedback 'Arun N' -> row 102: Arun N (matched by email) | phone 9884980929 | yournura@gmail.com
+[01:46:52]   feedback 'Sadhan Kumar K' -> row 104: Sadhan Kumar K (matched by email) | phone 9677247728 | sadhankkumar@gmail.com
+[01:46:52]   ! feedback not matched to any row (not on the roster?): Barty Srujan | 7879860107 | bartysrujan@gmail.com
+[01:46:52] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[01:46:52] Nothing changed - Excel file not saved
+[01:46:52] Pearson VUE part done
+[01:46:53] Closed 3 Chrome tab(s) this step opened
+[01:46:53] ========== 16-Nov-2026  Step 2/6: LinkedIn ==========
+[01:46:53] === LinkedIn from Outlook
+[01:46:55] Sheet NOV: 5 person(s) without a LinkedIn Id on 16-Nov-2026
+[01:46:55]   row 97: Kavya D | (no email) | (no company)
+[01:46:55]   row 98: Karthikeyan Rajan | (no email) | (no company)
+[01:46:55]   row 99: Manoj Kumar B | (no email) | (no company)
+[01:46:55]   row 103: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[01:46:55]   row 125: Nithya R | (no email) | (no company)
+[01:46:59] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:47:03] Waking up Chrome tabs
+[01:47:20] Clicked New mail
+[01:47:23] [1/5] Kavya D: no email - left for the Google search
+[01:47:23] [2/5] Karthikeyan Rajan: no email - left for the Google search
+[01:47:23] [3/5] Manoj Kumar B: no email - left for the Google search
+[01:47:23] [4/5] MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com
+[01:47:42]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:47:42]     LinkedIn: (not found)
+[01:47:44] [5/5] Nithya R: no email - left for the Google search
+[01:47:45] --- Google search for 5 person(s) still without a LinkedIn Id
+[01:47:45] [Google 1/5] Kavya D: no usable company name in the sheet ('') - skipped
+[01:47:45] [Google 2/5] Karthikeyan Rajan: no usable company name in the sheet ('') - skipped
+[01:47:45] [Google 3/5] Manoj Kumar B: no usable company name in the sheet ('') - skipped
+[01:47:45] [Google 4/5] MONISHA PARAMASIVAM: MONISHA PARAMASIVAM @ PSU linkedin profile
+[01:48:43]     not a match - profile 'Monisha Paramasivam': name ok, company not found - skipped
+[01:48:51] [Google 5/5] Nithya R: no usable company name in the sheet ('') - skipped
+[01:48:57] Draft discarded
+[01:48:57] LinkedIn found for 0 of 5 person(s)
+[01:48:58]   ! not found: Kavya D | (no email) | (no company)
+[01:48:58]   ! not found: Karthikeyan Rajan | (no email) | (no company)
+[01:48:58]   ! not found: Manoj Kumar B | (no email) | (no company)
+[01:48:58]   ! not found: MONISHA PARAMASIVAM | monishaparamasivam95@gmail.com | PSU
+[01:48:58]   ! not found: Nithya R | (no email) | (no company)
+[01:48:58] No LinkedIn URLs found - Excel file not changed
+[01:48:58] LinkedIn part done
+[01:48:58] Closed 1 Chrome tab(s) this step opened
+[01:48:58] ========== 16-Nov-2026  Step 3/6: Our Student ==========
+[01:48:58] === Our Student check in Adv Pro
+[01:49:06] Sheet NOV: 9 phone number(s) without 'Our Student Y/N' on 16-Nov-2026
+[01:49:07] Adv Pro is already open
+[01:49:08] Adv Pro: Filter By = PresentPhoneNo
+[01:49:20] [1/9] 4153266304 Kavya D: n
+[01:49:23] [2/9] 4153266305 Karthikeyan Rajan: n
+[01:49:26] [3/9] 4153266306 Manoj Kumar B: n
+[01:49:29] [4/9] 6381129951 Nithya Ramanathan: n
+[01:49:32] [5/9] 9566024347 Poornima Kannuchamy: n
+[01:49:35] [6/9] 9884980929 Arun N: n
+[01:49:38] [7/9] 7402353712 MONISHA PARAMASIVAM: n
+[01:49:40] [8/9] 9677247728 Sadhan Kumar K: n
+[01:49:43] [9/9] 6381129951 Nithya R: n
+[01:49:43] Adv Pro was already open before - left open
+[01:49:45]   row 97: Kavya D | 4153266304 -> n
+[01:49:45]   row 98: Karthikeyan Rajan | 4153266305 -> n
+[01:49:45]   row 99: Manoj Kumar B | 4153266306 -> n
+[01:49:45]   row 100: Nithya Ramanathan | 6381129951 -> n
+[01:49:45]   row 101: Poornima Kannuchamy | 9566024347 -> n
+[01:49:45]   row 102: Arun N | 9884980929 -> n
+[01:49:45]   row 103: MONISHA PARAMASIVAM | 7402353712 -> n
+[01:49:45]   row 104: Sadhan Kumar K | 9677247728 -> n
+[01:49:45]   row 125: Nithya R | 6381129951 -> n
+[01:49:45] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_014945.xlsx
+[01:49:49] Excel file saved - 'Our Student Y/N' written for 9 row(s) in sheet NOV
+[01:49:49] Our Student part done
+[01:49:49] Closed 1 Chrome tab(s) this step opened
+[01:49:49] ========== 16-Nov-2026  Step 4/6: Certifications ==========
+[01:49:49] === Certifications from LinkedIn
+[01:49:50] Sheet NOV: 0 LinkedIn profile(s) not checked yet on 16-Nov-2026
+[01:49:50] ========== 16-Nov-2026  Step 5/6: Google reviews ==========
+[01:49:51] 8 Google review(s) in the last 99 hours (read earlier in this run)
+[01:49:53]   row 104 Sadhan Kumar K: Google Review already filled ('y', review by Sadhan Kumar K)
+[01:49:53] 7 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[01:49:53]     - Subramaniam Ravishankar | 4 star | 2 hours ago
+[01:49:53]     - Bharath Krishna | 5 star | 14 hours ago
+[01:49:53]     - Madhuri Gopal | 5 star | a day ago
+[01:49:53]     - Aruna Nainappan | 5 star | Edited a day ago
+[01:49:53]     - Deepika M | 5 star | 4 days ago
+[01:49:53]     - Harish S | 4 star | 4 days ago
+[01:49:53]     - G Nagalingam | 5 star | 4 days ago
+[01:49:53] ===== Google Review report - 16-Nov-2026 (sheet NOV) =====
+[01:49:53]                         Day   Month
+[01:49:53] Total candidates          9     100
+[01:49:53] Genuine reviews           1      12
+[01:49:53] Pending                   8      88
+[01:49:53] Reminder Sent             0       0
+[01:49:53] Unable to Verify          0       0
+[01:49:53] Review percentage       11%     12%
+[01:49:53] New reviews received this run: 0
+[01:49:53] Reviews not matched to a candidate: 7
+[01:49:53]    ? Subramaniam Ravishankar - 4 star - 2 hours ago
+[01:49:53]    ? Bharath Krishna - 5 star - 14 hours ago
+[01:49:53]    ? Madhuri Gopal - 5 star - a day ago
+[01:49:53]    ? Aruna Nainappan - 5 star - Edited a day ago
+[01:49:53]    ? Deepika M - 5 star - 4 days ago
+[01:49:53]    ? Harish S - 4 star - 4 days ago
+[01:49:53]    ? G Nagalingam - 5 star - 4 days ago
+[01:49:53] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_16-11-2026.txt
+[01:49:53] Nothing new to write - Excel file not changed
+[01:49:53] ========== 16-Nov-2026  Step 6/6: Excel check ==========
+[01:49:55] Excel complete for 16-Nov-2026: 9 row(s) in sheet NOV, 8 on the roster
+[01:49:55] ========== Summary ==========
+[01:49:55]   Roster + feedback: OK
+[01:49:55]   LinkedIn: OK
+[01:49:55]   Our Student: OK
+[01:49:55]   Certifications: OK
+[01:49:55]   Google reviews: OK
+[01:49:55]   Excel check: OK
+[01:49:55] ########## 16-Nov-2026: complete
+[01:49:55] ========== 19-Nov-2026  Step 1/6: Roster + feedback ==========
+[01:49:55] === Pearson VUE roster + feedback | Date: 19-Nov-2026   Excel: \\192.168.0.129\Test\Exam count\Pearson VUE Exam new 2026.xlsx
+[01:49:59] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:50:00] Waking up Chrome tabs
+[01:50:01] Opening Pearson VUE login page
+[01:50:03] Login submitted
+[01:50:23] Clicked Site Manager
+[01:50:25] Clicked Availability
+[01:50:30] Clicked Roster
+[01:50:36] Set roster date 2026-11-19
+[01:50:40] Roster columns: ['Start time', 'First/Middle name', 'Last name', 'Client', 'Exam code', 'Accommodations', 'Row actions']
+[01:50:40] 7 exam(s) on the roster
+[01:50:42]   Mullai Arasu: 415-326-6303
+[01:50:46] Set roster date 2026-11-19
+[01:50:52]   Bharath Krishna: 9941556413
+[01:50:55] Set roster date 2026-11-19
+[01:51:00]   PARAMESHVARAN Chandran: 415-326-6303
+[01:51:04] Set roster date 2026-11-19
+[01:51:09]   Jubin James: 415-326-6303
+[01:51:12] Set roster date 2026-11-19
+[01:51:16]   Gunavazhagan B: 6381864628
+[01:51:19] Set roster date 2026-11-19
+[01:51:24]   Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: 9894505024
+[01:51:27] Set roster date 2026-11-19
+[01:51:32]   Subramaniam R: 9884349009
+[01:51:36] Set roster date 2026-11-19
+[01:51:51] Opening Chrome profile 'Profile 5' (Ranjit - Chrome.lnk)
+[01:51:55] Waking up Chrome tabs
+[01:52:20] Feedback sheet columns found: {'ts': 'Timestamp', 'phone': 'Phone number', 'email': 'Email Address', 'company': 'Your Company name', 'designation': 'Your Designation ', 'experience': 'Let others know about your experience by leaving a Advantage Pro review', 'name': 'Name'}
+[01:52:20] Feedback timestamps are month/day
+[01:52:20] 6 feedback response(s) on 2026-11-19
+[01:52:34]   already in sheet: Mullai Arasu
+[01:52:34]   already in sheet: Bharath Krishna
+[01:52:34]   already in sheet: PARAMESHVARAN Chandran
+[01:52:34]   already in sheet: Jubin James
+[01:52:34]   already in sheet: Gunavazhagan B
+[01:52:34]   already in sheet: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL
+[01:52:34]   already in sheet: Subramaniam R
+[01:52:34]   feedback 'Bharath Krishna' -> row 127: Bharath Krishna (matched by email) | phone 9941556413 | barat.krishv@gmail.com
+[01:52:34]   feedback 'C Parameshvaran' -> row 128: PARAMESHVARAN Chandran (matched by email) | phone 9884495639 | paramesh.mba@gmail.com
+[01:52:34]   feedback 'Gunavazhagan B' -> row 130: Gunavazhagan B (matched by email) | phone 6381864628 | bgunavazhagan3@gmail.com
+[01:52:34]   feedback 'Gnanaraj' -> row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL (matched by email) | phone 9894505024 | md.gnanaraj@gmail.com
+[01:52:34]   feedback 'Subramaniam Ravishankar' -> row 132: Subramaniam R (matched by email) | phone 9884349009 | subbunique39@gmail.com
+[01:52:34]   ! feedback not matched to any row (not on the roster?): Rajesh M | 9952026861 | rajeshm.it2003@gmail.com
+[01:52:34] Sheet NOV: 0 row(s) added, 0 row(s) updated with feedback
+[01:52:34] Nothing changed - Excel file not saved
+[01:52:34] Pearson VUE part done
+[01:52:34] Closed 3 Chrome tab(s) this step opened
+[01:52:34] ========== 19-Nov-2026  Step 2/6: LinkedIn ==========
+[01:52:34] === LinkedIn from Outlook
+[01:52:37] Sheet NOV: 6 person(s) without a LinkedIn Id on 19-Nov-2026
+[01:52:37]   row 126: Mullai Arasu | (no email) | (no company)
+[01:52:37]   row 128: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[01:52:37]   row 129: Jubin James | (no email) | (no company)
+[01:52:37]   row 130: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[01:52:37]   row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[01:52:37]   row 132: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[01:52:42] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:52:44] Waking up Chrome tabs
+[01:52:52] Clicked New mail
+[01:52:55] [1/6] Mullai Arasu: no email - left for the Google search
+[01:52:55] [2/6] PARAMESHVARAN Chandran | paramesh.mba@gmail.com
+[01:53:14]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:53:14]     LinkedIn: (not found)
+[01:53:26] [3/6] Jubin James: no email - left for the Google search
+[01:53:26] [4/6] Gunavazhagan B | bgunavazhagan3@gmail.com
+[01:53:43]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:53:43]     LinkedIn: (not found)
+[01:53:45] [5/6] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com
+[01:54:01]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:54:01]     LinkedIn: (not found)
+[01:54:03] [6/6] Subramaniam R | subbunique39@gmail.com
+[01:54:20]     no 'See profile on LinkedIn' (no LinkedIn match for this email?)
+[01:54:20]     LinkedIn: (not found)
+[01:54:24] --- Google search for 6 person(s) still without a LinkedIn Id
+[01:54:24] [Google 1/6] Mullai Arasu: no usable company name in the sheet ('') - skipped
+[01:54:24] [Google 2/6] PARAMESHVARAN Chandran: PARAMESHVARAN Chandran @ Accenture linkedin profile
+[01:55:05]     not a match - profile 'Parameshwaran Ramachandran': name different, company found - skipped
+[01:55:14] [Google 3/6] Jubin James: no usable company name in the sheet ('') - skipped
+[01:55:14] [Google 4/6] Gunavazhagan B: no usable company name in the sheet ('Student') - skipped
+[01:55:14] [Google 5/6] Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL @ BNP Parivar Bank linkedin profile
+[01:55:59]     not a match - profile 'Gnanaraj Dhanapal': name ok, company not found - skipped
+[01:56:07] [Google 6/6] Subramaniam R: Subramaniam R @ Tata Consultancy Services (TCS) linkedin profile
+[01:56:52]     not a match - profile 'Subramanyam R.': name different, company found - skipped
+[01:57:05] Draft discarded
+[01:57:05] LinkedIn found for 0 of 6 person(s)
+[01:57:05]   ! not found: Mullai Arasu | (no email) | (no company)
+[01:57:05]   ! not found: PARAMESHVARAN Chandran | paramesh.mba@gmail.com | Accenture
+[01:57:05]   ! not found: Jubin James | (no email) | (no company)
+[01:57:05]   ! not found: Gunavazhagan B | bgunavazhagan3@gmail.com | Student
+[01:57:05]   ! not found: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | md.gnanaraj@gmail.com | BNP Parivar Bank
+[01:57:05]   ! not found: Subramaniam R | subbunique39@gmail.com | Tata Consultancy Services (TCS)
+[01:57:05] No LinkedIn URLs found - Excel file not changed
+[01:57:05] LinkedIn part done
+[01:57:06] Closed 1 Chrome tab(s) this step opened
+[01:57:06] ========== 19-Nov-2026  Step 3/6: Our Student ==========
+[01:57:06] === Our Student check in Adv Pro
+[01:57:11]   Mullai Arasu: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:57:11]   Jubin James: the roster has no real phone number - 'Our Student' left blank until feedback gives one
+[01:57:11] Sheet NOV: 5 phone number(s) without 'Our Student Y/N' on 19-Nov-2026
+[01:57:13] Adv Pro is already open
+[01:57:14] Adv Pro: Filter By = PresentPhoneNo
+[01:57:17] [1/5] 9941556413 Bharath Krishna: n
+[01:57:20] [2/5] 9884495639 PARAMESHVARAN Chandran: n
+[01:57:23] [3/5] 6381864628 Gunavazhagan B: n
+[01:57:26] [4/5] 9894505024 Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL: n
+[01:57:29] [5/5] 9884349009 Subramaniam R: n
+[01:57:29] Adv Pro was already open before - left open
+[01:57:31]   row 127: Bharath Krishna | 9941556413 -> n
+[01:57:31]   row 128: PARAMESHVARAN Chandran | 9884495639 -> n
+[01:57:31]   row 130: Gunavazhagan B | 6381864628 -> n
+[01:57:31]   row 131: Gnanaraj DHANAPAL Gnanaraj DHANAPAL Gnanaraj DHANAPAL | 9894505024 -> n
+[01:57:31]   row 132: Subramaniam R | 9884349009 -> n
+[01:57:31] Backup saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\backups\Pearson VUE Exam new 2026_20261120_015731.xlsx
+[01:57:36] Excel file saved - 'Our Student Y/N' written for 5 row(s) in sheet NOV
+[01:57:36] Our Student part done
+[01:57:36] ========== 19-Nov-2026  Step 4/6: Certifications ==========
+[01:57:36] === Certifications from LinkedIn
+[01:57:38] Sheet NOV: 1 LinkedIn profile(s) not checked yet on 19-Nov-2026
+[01:57:41] Opening Chrome profile 'Profile 38' (Arish - Chrome.lnk)
+[01:57:42] Waking up Chrome tabs
+[01:57:44] [1/1] Bharath Krishna | https://www.linkedin.com/in/bharath-krishna-venkitaraman-b6a4a179/
+[01:58:20]     certifications: (none of ours)
+[01:58:25] No certifications to write - Excel file not changed
+[01:58:25] Certifications part done
+[01:58:25] Closed 2 Chrome tab(s) this step opened
+[01:58:25] ========== 19-Nov-2026  Step 5/6: Google reviews ==========
+[01:58:26] 4 Google review(s) in the last 27 hours (read earlier in this run)
+[01:58:28]   row 132 Subramaniam R: Google Review already filled ('Received', review by Subramaniam Ravishankar)
+[01:58:28]   row 127 Bharath Krishna: Google Review already filled ('Received', review by Bharath Krishna)
+[01:58:28]   row 121 Madhuri Gopal: Google Review already filled ('y', review by Madhuri Gopal)
+[01:58:28] 1 review(s) did not match a candidate (other courses/exams, or a different name on Google):
+[01:58:28]     - Aruna Nainappan | 5 star | Edited a day ago
+[01:58:28] ===== Google Review report - 19-Nov-2026 (sheet NOV) =====
+[01:58:28]                         Day   Month
+[01:58:28] Total candidates          7     127
+[01:58:28] Genuine reviews           2      16
+[01:58:28] Pending                   5     111
+[01:58:28] Reminder Sent             0       0
+[01:58:28] Unable to Verify          0       0
+[01:58:28] Review percentage       28%     12%
+[01:58:28] New reviews received this run: 0
+[01:58:28] Reviews not matched to a candidate: 1
+[01:58:28]    ? Aruna Nainappan - 5 star - Edited a day ago
+[01:58:29] Report saved: C:\Users\ADV PRO\Desktop\Automation\PearsonVUE_Automation\reports\Google_Reviews_19-11-2026.txt
+[01:58:29] Nothing new to write - Excel file not changed
+[01:58:29] ========== 19-Nov-2026  Step 6/6: Excel check ==========
+[01:58:30] Excel complete for 19-Nov-2026: 7 row(s) in sheet NOV, 7 on the roster
+[01:58:30] ========== Summary ==========
+[01:58:30]   Roster + feedback: OK
+[01:58:30]   LinkedIn: OK
+[01:58:30]   Our Student: OK
+[01:58:30]   Certifications: OK
+[01:58:30]   Google reviews: OK
+[01:58:30]   Excel check: OK
+[01:58:38] Opening Chrome profile 'Profile 37' (Advantage pro - Chrome.lnk)
+[01:58:39] Pearson VUE extension turned on
+[01:58:39] Done

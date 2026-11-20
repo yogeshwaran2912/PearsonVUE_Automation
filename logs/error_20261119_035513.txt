@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2204, in run_all
+    if not args.dry_run:
+            ^^^^^^
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2190, in <lambda>
+    tmp = path.with_suffix(".tmp")
+    
+  File "C:\Users\ADV PRO\Desktop\automation\PearsonVUE_Automation\main.py", line 2159, in check_day_complete
+    excel = cfg.get("excel", "path")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Excel not complete for 18-Nov-2026 - not on the sheet: Aruna N, Hari Kishore M, Banupriya R, Jeevitha Gajendran, Madhavan R, Madhuri Gopal, Duvvuri Avinash, Saicharan P B, Abdul Rahman A
